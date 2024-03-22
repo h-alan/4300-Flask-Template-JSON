@@ -1,0 +1,2048 @@
+{
+  "data": [
+    {
+      "id": "0f199104-f55b-4364-b801-2ef2e9bc8ee2",
+      "userName": "Rich M",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjVDTwIUgYqQ1ojhbi1FRj90hUBLiK62HHT9aZ3A0MdZXDw",
+      "date": "2024-03-17T15:54:09.350Z",
+      "score": 2,
+      "scoreText": "2",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=0f199104-f55b-4364-b801-2ef2e9bc8ee2",
+      "title": null,
+      "text": "I'm just not impressed. The app could be much more user-friendly but instead makes it very difficult to use in some areas, especially access sharing and security. The file structure is also a bit wonky. The paid storage is way too expensive! There should be more options available so you don't have to make the leap from free to $200 a year! That's ridiculous! Dropbox has been around for years and I expect more from this company, but they have simply failed to deliver!",
+      "replyDate": null,
+      "replyText": null,
+      "version": "368.2.2",
+      "thumbsUp": 5,
+      "criterias": []
+    },
+    {
+      "id": "77c0b1ab-4735-4193-a14d-8f5323ab2677",
+      "userName": "Jason Baker",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjXWaleAIeai829wamvxdWq7V5ls452tZCyOWhYI69ufGHk",
+      "date": "2024-03-07T20:51:22.570Z",
+      "score": 2,
+      "scoreText": "2",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=77c0b1ab-4735-4193-a14d-8f5323ab2677",
+      "title": null,
+      "text": "This app was pretty good at its job for a long time, but in the past couple weeks it's suddenly gone very downhill. Files upload to the wrong folder and refuse to be moved, downloads are hit-or-miss, and the new visuals take up way too much space on the screen. If the uploads and downloads aren't sorted soon, I will be looking for an alternative.",
+      "replyDate": "2024-03-15T16:23:25.380Z",
+      "replyText": "Hey there, we’re sorry to hear that you’re experiencing an issue with our app.\nWe would like to get some additional information about this, and help in any way we can. Please reach out to our teams on Twitter at @DropboxSupport or on our Official Online Community https://www.dropboxforum.com/ so we can have a look with you.\nThanks!",
+      "version": "366.2.2",
+      "thumbsUp": 44,
+      "criterias": [
+        {
+          "criteria": "vaf_phase1_messaging",
+          "rating": 2
+        },
+        {
+          "criteria": "vaf_phase1_collaboration",
+          "rating": 3
+        },
+        {
+          "criteria": "vaf_phase1_file_sharing",
+          "rating": 1
+        }
+      ]
+    },
+    {
+      "id": "70571736-2753-4f5a-89bd-cb47ad7fbbea",
+      "userName": "Kent Ernst",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocIexZVsby16bRQSz9QD8HE7MEEVnHraKcjhT3Zehdeo=mo",
+      "date": "2024-03-06T22:09:29.383Z",
+      "score": 3,
+      "scoreText": "3",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=70571736-2753-4f5a-89bd-cb47ad7fbbea",
+      "title": null,
+      "text": "Latest update has changed the appearance of the file folders and added features. Might be good but the problem is the picture thumbnails now disappear, reappear and disappear randomly. If I'm selecting pictures to download, the first picture that I select makes all the thumbnails disappear. Still no file duplicate software and moving more than 50 pictures from one folder to another often fails or causes the application to freeze up. About ready to give up paying for Dropbox.",
+      "replyDate": "2024-03-14T15:44:51.415Z",
+      "replyText": "Hey there, sorry to hear about that. We encourage you to reach out to our teams on Twitter at @DropboxSupport or on our Official Online Community https://www.dropboxforum.com/ where you can provide some additional details, and allow us to check on this with you.\nThanks!",
+      "version": "366.2.2",
+      "thumbsUp": 61,
+      "criterias": []
+    },
+    {
+      "id": "7e41937c-ecf3-4239-8a8a-0553229e9047",
+      "userName": "TourguideStan O'Connor",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjXNLZToo0n9Tmn-E7bBn09Il8Evu6RI2co827uJSDL7v5g",
+      "date": "2024-03-05T01:56:45.112Z",
+      "score": 2,
+      "scoreText": "2",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=7e41937c-ecf3-4239-8a8a-0553229e9047",
+      "title": null,
+      "text": "Today is March 4. Since March 1, Dropbox on my Samsung phone has been very difficult to use. On March 1, I opened it and the files appeared different. Pathways have changed. Photos appear and disappear from their frames. When I gather some photos for transfer to another folder, get asked TO WHICH FOLDER?, choose the 'transfer to' folder... and then Dropbox disappears! I reopen it and have to start over, again and again. Do I need to change something? Dropbox worked great until 2/29.",
+      "replyDate": "2024-03-14T00:40:08.467Z",
+      "replyText": "Hey there, sorry to hear that. We’d like to look into this with you. If you’d like that too, please post on our community https://www.dropboxforum.com/, or contact our team on Twitter at @DropboxSupport or Facebook at facebook.com/Dropbox, so we can gather more details. Thanks!",
+      "version": "366.2.2",
+      "thumbsUp": 55,
+      "criterias": [
+        {
+          "criteria": "vaf_phase1_messaging",
+          "rating": 3
+        },
+        {
+          "criteria": "vaf_phase1_collaboration",
+          "rating": 3
+        },
+        {
+          "criteria": "vaf_phase1_file_sharing",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "id": "e60b21a6-0aa2-4615-9a35-cbaadd48af9b",
+      "userName": "Rick Leach",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjUoC6k77n77AjBUczrEZMH1GY5fz0tZZTKPYCgq6ImPHShI",
+      "date": "2024-03-16T01:05:05.415Z",
+      "score": 5,
+      "scoreText": "5",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=e60b21a6-0aa2-4615-9a35-cbaadd48af9b",
+      "title": null,
+      "text": "Use this app almost everyday, it isneasy and definitely comes in handy. Because I can share pictures with anybody. Or I can build an album and give them the link for them. Open pictures and view them themselves. In the best part, no memory sticks to lose. No, I forgot my memory stick at home, or the dreaded my memory stick just failed. Recommend for anyone who stores a lot of pictures, or documents.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "368.2.2",
+      "thumbsUp": 4,
+      "criterias": [
+        {
+          "criteria": "vaf_phase1_file_sharing",
+          "rating": 1
+        },
+        {
+          "criteria": "vaf_phase1_messaging",
+          "rating": 2
+        },
+        {
+          "criteria": "vaf_phase1_collaborative_editing",
+          "rating": 1
+        }
+      ]
+    },
+    {
+      "id": "b9f06d38-9f78-42d4-a787-8f5d3c5ca5b6",
+      "userName": "Marcus Fuchs",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjXu7uh4D2wzTTpxaeUtNQZCmiKvz5SZTNaf35dYAyGtT5wo",
+      "date": "2024-03-11T09:45:32.972Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=b9f06d38-9f78-42d4-a787-8f5d3c5ca5b6",
+      "title": null,
+      "text": "I have a 2TB account at Dropbox. They don't have any options to let you transfer your data or pictures over to another provider (i.e. drive). You have to manually do it which essentially makes it very hard to leave them. I want to migrate my data over to drive as they software for managing pictures is so much better and with Google photos you can easily search by name of people linked in your contacts. After 8 years with Dropbox I leaving, once I migrate (manually) to better services platform!",
+      "replyDate": null,
+      "replyText": null,
+      "version": "366.2.2",
+      "thumbsUp": 15,
+      "criterias": []
+    },
+    {
+      "id": "ec401813-8658-484f-80e8-cd992ea4d267",
+      "userName": "Mtn 37",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocIhTCvTNA6hyUmaqmHgeta2sIfiw_xmVdLZFgh22Ids2w=mo",
+      "date": "2024-01-26T22:04:13.954Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=ec401813-8658-484f-80e8-cd992ea4d267",
+      "title": null,
+      "text": "I've been a user of PC's & Macs for decades, and Dropbox intermittently during that time. I have NEVER encountered anything less intuitively navigable, even with devoted time and effort, than Dropbox. It's atrocious! I've hardly EVER been more frustrated. Perhaps this has something to do with why more people don't subscribe to their expensive service.!? It may have a lot of great functionality, but if a reasonably computer-savvy person can't figure it out, what the Hell use is it!?",
+      "replyDate": null,
+      "replyText": null,
+      "version": "360.2.2",
+      "thumbsUp": 186,
+      "criterias": []
+    },
+    {
+      "id": "1c92ef9f-258d-4067-b66c-99f838c12398",
+      "userName": "Doug Norton",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjXgH_8WvY6X1nyu_paN-hc-cqlhx1-J9eCuiIo6TiDXSg",
+      "date": "2024-01-26T16:32:43.408Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=1c92ef9f-258d-4067-b66c-99f838c12398",
+      "title": null,
+      "text": "Even with all the settings proper, the photos in my gallery from the past couple weeks won't upload / synchronize to the cloud. I know everything's working because if I put something on my computer in that folder. It shows up on my phone. But it's supposed to go the other way and make sure all the latest photos have been synchronized and that is not working. Days later after my review, the missing phone camera photos synchronized / appeared on my computer. I did NOT delete and re-install app.",
+      "replyDate": "2024-01-26T16:01:43.465Z",
+      "replyText": "Hi there. If you haven’t already, please uninstall our app, restart your device, and install it again from the Play store. If you’re still experiencing the issue, please post on our community https://www.dropboxforum.com/, or contact our team on Twitter at @DropboxSupport or Facebook at facebook.com/Dropbox, and we’ll have a closer look. Thanks!",
+      "version": "360.2.2",
+      "thumbsUp": 78,
+      "criterias": [
+        {
+          "criteria": "vaf_phase1_messaging",
+          "rating": 2
+        },
+        {
+          "criteria": "vaf_phase1_file_sharing",
+          "rating": 1
+        },
+        {
+          "criteria": "vaf_phase1_collaboration",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "id": "ce3023e3-fc6c-4339-96fb-4c3373bb14c4",
+      "userName": "Katianna Hebden",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjXbB6gOCJSg29ktbsOwJt0hFKu3IpRGgpJDlqDA6bSPAes",
+      "date": "2024-02-02T20:11:03.157Z",
+      "score": 4,
+      "scoreText": "4",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=ce3023e3-fc6c-4339-96fb-4c3373bb14c4",
+      "title": null,
+      "text": "I've been using Dropbox for a long while. I've enjoyed working with the app for many years. The simple interface is easy to use, and sharing with friends and partners is a copy/pasted url away. The middling rating, however, is due to a strange bug resurfacing since the last patch (jan/16/2024) where while editing a text file results in the screen constantly jumping to the end of the page while typing. Edit: scrolling issue solved, it was Grammarly in Samsung Keyboard doing this.",
+      "replyDate": "2024-01-26T15:05:13.812Z",
+      "replyText": "Hey there, sorry to hear that. Try uninstalling our app, restarting your device, and installing again from the Play store. If you continue to experience the issue, we encourage you to reach out to our teams on Twitter at @DropboxSupport or on our Official Online Community https://www.dropboxforum.com/ for further assistance. Thanks!",
+      "version": "360.2.2",
+      "thumbsUp": 75,
+      "criterias": []
+    },
+    {
+      "id": "86ae295f-c5e6-4dab-aab4-d5b416c57afc",
+      "userName": "Treyshaun Daniels",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjX33Se6O0o5uFo32OlQXWqRZNLvRc80xV498YFg48TgpbsQ",
+      "date": "2024-02-17T05:24:05.303Z",
+      "score": 3,
+      "scoreText": "3",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=86ae295f-c5e6-4dab-aab4-d5b416c57afc",
+      "title": null,
+      "text": "The app literally keeps crashing every time I attempt to play a video in it. This seems to only happen for videos that I've downloaded to make available offline. Although the video seems to be able to be downloaded to my device without a problem, it's inconvenient that I have to continuously download a video just to play it back. Besides this major issue, the quality of the videos and pictures is great, and the app works pretty effectively.",
+      "replyDate": "2024-02-23T14:54:45.702Z",
+      "replyText": "Hey there, sorry to hear that. Try uninstalling our app, restarting your device, and installing again from the Play store. If you continue to experience the issue, we encourage you to reach out to our teams on Twitter at @DropboxSupport or on our Official Online Community https://www.dropboxforum.com/ for further assistance. Thanks!",
+      "version": "364.2.2",
+      "thumbsUp": 117,
+      "criterias": []
+    },
+    {
+      "id": "0c949ce2-0260-4e68-8f95-5a09d09ec4cc",
+      "userName": "Janie Thurman",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjVzawNAI3JxZkEO7kUXcPVrqvp3sJYKlhl9GtMYS8jxxg",
+      "date": "2024-01-21T00:00:42.277Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=0c949ce2-0260-4e68-8f95-5a09d09ec4cc",
+      "title": null,
+      "text": "Dropbox has become so complex and useless. Figuring out how to arrange the main page that comes up when I open the app or website is IMPOSSIBLE and there is no easily discoverable menu or \"help\" link that can tell me how to do this most basic task. Back to searching for non-iCloud, non-GoogleDrive and now non-Dropbox online storage. And I was so happy with them that I upgraded to Dropbox Plus last year. :(",
+      "replyDate": null,
+      "replyText": null,
+      "version": "360.2.2",
+      "thumbsUp": 10,
+      "criterias": []
+    },
+    {
+      "id": "4ed8c264-a703-431d-bb6a-4c6f649d7eca",
+      "userName": "Apostolos",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjW9oDChdi-6ilQ2NZoLfRC34llXjKBLe7sxU_F0lmOv_vQ0",
+      "date": "2024-01-18T02:28:45.830Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=4ed8c264-a703-431d-bb6a-4c6f649d7eca",
+      "title": null,
+      "text": "As a paying customer for almost a decade, I've watched silly \"new features\" totally bring down the app's basic functionality. The latest flop: can't transfer pics anymore from Google photos..actually I can't upload anything (which is the main reason I initially bought Dropbox). Suuuper disappointing, to the point where I'm seriously considering moving to Apple's ecosystem. You can do better Dropbox. And pls don't respond here with a generic gag reflex to \"reach out to your forums\"",
+      "replyDate": "2024-01-24T14:29:14.814Z",
+      "replyText": "Hey there, we’re sorry to hear that you’re experiencing an issue with our app.\nWe would like to get some additional information about this, and help in any way we can. Please reach out to our teams on Twitter at @DropboxSupport or on our Official Online Community https://www.dropboxforum.com/ so we can have a look with you.\nThanks!",
+      "version": "358.2.4",
+      "thumbsUp": 73,
+      "criterias": []
+    },
+    {
+      "id": "f00cd566-a74c-4c7c-83a6-e38060b3c9a4",
+      "userName": "Yolanda Wilkerson",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjUsB2dutnvG1of4wUv6dbqGRY46u_0iEnC7EhCTjKKK4fk",
+      "date": "2024-03-04T19:48:46.628Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=f00cd566-a74c-4c7c-83a6-e38060b3c9a4",
+      "title": null,
+      "text": "Im about a click away from deleting this mess. A friend who uses it told me to try it. You really don't have \"clear instructions\" for people not familiar with the app. All I get is annoying emails to upgrade. I haven't really put anything in the dropbox to even need an upgrade!!!",
+      "replyDate": "2024-03-12T18:23:48.802Z",
+      "replyText": "Hi there, thanks for reviewing our app. To learn more about the ways you can use your Dropbox account, please have a look here: https://learn.dropbox.com/self-guided-learning/dropbox-fundamentals-course/how-to-use-dropbox. For any assistance, feel free to contact our team on Twitter at @DropboxSupport or Facebook at facebook.com/Dropbox. Thanks!",
+      "version": "366.2.2",
+      "thumbsUp": 17,
+      "criterias": []
+    },
+    {
+      "id": "412be691-08b8-4c86-9ba7-dc3d5e2b12e6",
+      "userName": "bizzy izzy",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjV-2IkXy3pbO3WyCN7qEnl09-v2Ca3mZjLdY5WlCoBf6h0",
+      "date": "2024-02-14T08:47:18.414Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=412be691-08b8-4c86-9ba7-dc3d5e2b12e6",
+      "title": null,
+      "text": "I used dropbox for years and never really could understand it . The app its self is a nightmare for anyone new to it and very frustrating to say the least for vetran users . I'm down loading the app again because a new set of security cameras uses drop box as a video storage platform but does not state that dropbox is required . One last thing there is 2 different apps , which is what ?",
+      "replyDate": "2024-02-23T13:48:52.318Z",
+      "replyText": "Hey there, thanks for taking the time to share your thoughts. Now, if you haven’t already, please get in touch with our support team on any of the following platforms so you can share more details:\na. X: https://twitter.com/DropboxSupport/\nb. Facebook: https://www.facebook.com/Dropbox/\nc. Community: https://www.dropboxforum.com/\nThanks again!",
+      "version": "362.2.2",
+      "thumbsUp": 22,
+      "criterias": []
+    },
+    {
+      "id": "a997e96b-7147-43ea-b9e1-dbcf3a2d2736",
+      "userName": "Ahmed Menerd",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocKWCLBOlVaHrGMIKJTMd0jXOU1iDWWOkXB_YRQK5Fm6=mo",
+      "date": "2024-02-03T03:19:51.900Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=a997e96b-7147-43ea-b9e1-dbcf3a2d2736",
+      "title": null,
+      "text": "Horrifically bad. I stored some photos from my old phone on Dropbox. Recently I got an external hardrive and just needed to move about 1.3 gigs of photos from my Dropbox to my HDD. Nope! The Dropbox website refuses to download them. I tried downloading the desktop app. Nope! There is an unexplained sign in error. My last ditch effort is to download them on my phone using the mobile app. Unnacceptable. It should not take 2+ hours just to download MY FILES that I OWN on to MY OWN device!",
+      "replyDate": "2024-02-09T10:08:32.246Z",
+      "replyText": "Hey, Ahmed, we’re sorry to hear about that, and we’d like to know more about your experience. If you’d like to reach out to us with more details on Twitter at @DropboxSupport, Facebook at facebook.com/Dropbox, or on our Official Online Community https://www.dropboxforum.com, it would be great!",
+      "version": "362.2.2",
+      "thumbsUp": 76,
+      "criterias": []
+    },
+    {
+      "id": "0fb0c684-0dde-4e3e-83d0-856ac85b3a05",
+      "userName": "J Miller",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjXGlMqbFMdQWkaj5cOSt8L2B-_MvaWGWhhtFGSbhVN_684",
+      "date": "2023-12-14T05:18:53.904Z",
+      "score": 4,
+      "scoreText": "4",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=0fb0c684-0dde-4e3e-83d0-856ac85b3a05",
+      "title": null,
+      "text": "Dropbox is still a great service and ones of the few that can be trusted to do cross platform consistently. But I wish they'd stay focused on their core product instead of constantly branching out in weird and confusing directions. The app's UI is kind of a mess these days when 99.9% of the time I only ever want to sync, upload, or download files, or share them with others.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "358.2.2",
+      "thumbsUp": 452,
+      "criterias": [
+        {
+          "criteria": "vaf_phase1_file_sharing",
+          "rating": 1
+        },
+        {
+          "criteria": "vaf_phase1_collaboration",
+          "rating": 3
+        },
+        {
+          "criteria": "vaf_phase1_messaging",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "id": "d16e1467-5d8f-41e4-8073-f99dc4550519",
+      "userName": "Kalo",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocLLiPVTmvkp9BYs_Al58veKhVebXNLT5bfHgr8GczCX=mo",
+      "date": "2023-10-25T03:00:30.320Z",
+      "score": 2,
+      "scoreText": "2",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=d16e1467-5d8f-41e4-8073-f99dc4550519",
+      "title": null,
+      "text": "Recent update caused issues. File paths that were integrated with other apps are now corrupt. Mobile devices can no longer access folders properly. All issues are left the the customer to sort out. Very poor (none) notice of updates occurring. I can see this update working for some, but to totally disrupt the file and folder structure without notice or the ability to revert it back is a wild. I can't image a larger company having to deal with this internally.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "350.2.4",
+      "thumbsUp": 488,
+      "criterias": []
+    },
+    {
+      "id": "47e492df-169a-4054-a62f-07770db1a096",
+      "userName": "Rene Whitaker",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocKBnCYr8XbtI8cK2qXv1OZ-Q5vWyleJr5PblX4XVqqG=mo",
+      "date": "2023-10-30T16:35:53.404Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=47e492df-169a-4054-a62f-07770db1a096",
+      "title": null,
+      "text": "I would really like to give Dropbox 0 stars. The more Dropbox \"make improvements\" the less user friendly it is! I can no longer get my files to sync. I have waisted hours over the last few months trying to get it to work. If this continues, I will remove this app from my devices. Not worth the headaches! Received an email from Dropbox today offering me the option to pay for Dropbox as a solution to the problem. Paying for something that does not work is not fixing the problem!",
+      "replyDate": "2023-11-02T15:48:28.909Z",
+      "replyText": "Hi there. We’d like to hear more about your experience, and see if we can help. If you'd like that too, please post on our online Community https://www.dropboxforum.com/, or contact our team on Twitter at @DropboxSupport or Facebook at facebook.com/Dropbox, so we can gather more information. Thanks!",
+      "version": "352.2.2",
+      "thumbsUp": 338,
+      "criterias": []
+    },
+    {
+      "id": "7313978a-9bee-43eb-916c-710994a03721",
+      "userName": "Eric Steele",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjUhMds05zqVVLI_VFCbmoUYYtIgI8IU25bZ8Mskg5M-Zw",
+      "date": "2023-10-23T15:14:24.385Z",
+      "score": 2,
+      "scoreText": "2",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=7313978a-9bee-43eb-916c-710994a03721",
+      "title": null,
+      "text": "I like having access to my files on my phone, but the file viewer is complete trash. No search capability. If I open a file for viewing, I don't want it swapping to another file. If you swipe even a little off of perfectly vertical, it switches the file you are looking at and loses your place in the previous one.",
+      "replyDate": "2023-10-31T13:56:09.813Z",
+      "replyText": "Hey there, we’re sorry to hear that you’re experiencing an issue with our app.\nWe would like to get some additional information about this, and help in any way we can. Please reach out to our teams on Twitter at @DropboxSupport or on our Official Online Community https://www.dropboxforum.com/ so we can have a look with you.\nThanks!",
+      "version": "348.2.4",
+      "thumbsUp": 84,
+      "criterias": [
+        {
+          "criteria": "vaf_phase1_collaboration",
+          "rating": 3
+        },
+        {
+          "criteria": "vaf_phase1_messaging",
+          "rating": 3
+        },
+        {
+          "criteria": "vaf_phase1_collaborative_editing",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "id": "fe4f70c7-fa6c-48ba-b1e4-97b785699c71",
+      "userName": "Justin Ramage",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjXINSBpisLZto78v6HXhOHely7yptAD_DjgfJ2YLu-nlijm",
+      "date": "2023-11-25T21:13:39.254Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=fe4f70c7-fa6c-48ba-b1e4-97b785699c71",
+      "title": null,
+      "text": "HAHAHAHA. I pay for dropbox. This is ridiculous, yet haha. I almost just paid for an upgrade hoping that since I am a (super loosely used) \"professional\" musician, yall were messing with me cause I was being cheap and only paying for the cheaper one. I'm so glad YOUR app effed up when I was trying to upgrade to the top version. 🤣Then I came to see if i could upgrade in the Google store and saw the 2 reviews showing,so I kept going..so glad you messed up when I just tried giving you more money.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "354.2.2",
+      "thumbsUp": 78,
+      "criterias": [
+        {
+          "criteria": "vaf_phase1_file_sharing",
+          "rating": 3
+        },
+        {
+          "criteria": "vaf_phase1_collaboration",
+          "rating": 3
+        },
+        {
+          "criteria": "vaf_phase1_collaborative_editing",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "id": "2fbae365-cb43-43ad-a6db-1193f0d6ef4f",
+      "userName": "Raymond F Jensen",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjXKzQZ99QdlJ8Gr3yiQOM3K49691h-cPZgYaXyqtPKsEs4Z",
+      "date": "2023-11-22T09:38:53.604Z",
+      "score": 2,
+      "scoreText": "2",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=2fbae365-cb43-43ad-a6db-1193f0d6ef4f",
+      "title": null,
+      "text": "I've been here before Maybe a couple years ago. I tried it out I didn't like it then and I don't like it now. Probably because nothing has changed Absolutely nothing. In all that time, (vrs.+).You would think they would have at least made it look a little more secure or defensible or something. Nope looks the same, functions the same.It's basic storage with a lock on it. If that's all you want you found it.It is effective and safe. $$$! IMHO",
+      "replyDate": null,
+      "replyText": null,
+      "version": "354.2.2",
+      "thumbsUp": 109,
+      "criterias": []
+    },
+    {
+      "id": "1ce794ff-dfc1-4354-9234-042aa8bc2a49",
+      "userName": "Debra Barber",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjVHw6Fp54yyYjsYrh0iDnk3RFdJ6Af1mT3i2i8OJLEsKD0",
+      "date": "2023-12-04T03:13:10.605Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=1ce794ff-dfc1-4354-9234-042aa8bc2a49",
+      "title": null,
+      "text": "I've been trying to cancel since I signed up for a trial. I've been bounced from website to app until I'm dizzy w/ frustration. The trial subscription didn't show up in Google so I couldn't cancel. Also, there is no way to contact the company directly if needed. FYI, none of the handy 'cancel' links lead to anything even remotely resembling cancellation, nor do the help instructions really help. :( IMO the owners of the service are crooks whose main purpose is to collect money they don't earn.",
+      "replyDate": "2023-12-12T23:57:30.972Z",
+      "replyText": "Hey there, sorry to hear about that. Cancelling a subscription must be done through the platform it was started on. That said, we suggest that you reach out to our teams on our Official Online Community https://www.dropboxforum.com/, or on social media on Twitter at @DropboxSupport, so we can take a look at this from our end. Thanks!",
+      "version": "354.2.2",
+      "thumbsUp": 69,
+      "criterias": [
+        {
+          "criteria": "vaf_phase1_file_sharing",
+          "rating": 1
+        },
+        {
+          "criteria": "vaf_phase1_messaging",
+          "rating": 2
+        },
+        {
+          "criteria": "vaf_phase1_collaborative_editing",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "id": "a0b4bdd8-c356-447d-b71a-11b000db2d65",
+      "userName": "Stina",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjUdHVJTrQ5l81h_rKn4Ftu9S3K_o3-XR_UrkCbP85HrZ1SS",
+      "date": "2023-11-19T22:12:59.365Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=a0b4bdd8-c356-447d-b71a-11b000db2d65",
+      "title": null,
+      "text": "I am so tired of this app 😔 I think this past update sucks. I use to be able to watch a full video without interruption or anything. Now I get a third of the way in and the sound is playing but the video goes dark and go back to the beginning 😫 then you have to make sure you close the app fully cause if not the sound will continue playing. Why do I have to freaking download the video to play it seamless? It's not like I choose it. Can you fix it? Even tried to play vids on your website 🙅🏻‍♀️",
+      "replyDate": null,
+      "replyText": null,
+      "version": "354.2.2",
+      "thumbsUp": 63,
+      "criterias": [
+        {
+          "criteria": "vaf_phase1_file_sharing",
+          "rating": 1
+        },
+        {
+          "criteria": "vaf_phase1_messaging",
+          "rating": 2
+        },
+        {
+          "criteria": "vaf_phase1_collaborative_editing",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "id": "7575f826-0ee7-4100-bab6-bb1d1a863dd1",
+      "userName": "Eddie",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjUZSEQsH6HzpHO0gdBxLTD8-kLO2y4mDgDD0cD0UWY2TO8D",
+      "date": "2023-12-17T14:59:56.154Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=7575f826-0ee7-4100-bab6-bb1d1a863dd1",
+      "title": null,
+      "text": "I've used Dropbox for over a decade. I installed this app to find a file. I'd much rather delete this app than deal with a service sending multiple repetitive SPAM notifications and emails about upgrading. That's just a garbage way to annoy your users. There are more effective ways to advertise, try something else and be a better service",
+      "replyDate": null,
+      "replyText": null,
+      "version": "358.2.2",
+      "thumbsUp": 87,
+      "criterias": []
+    },
+    {
+      "id": "43c2df0a-98b9-4a65-9b90-7b71438e32d6",
+      "userName": "Matt Heck",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjWOhmQW1d2y4bWoIIVcdD23OOa3-5G4TMtsXnojbIeVbA",
+      "date": "2024-03-06T02:24:41.996Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=43c2df0a-98b9-4a65-9b90-7b71438e32d6",
+      "title": null,
+      "text": "Ever start feeling that every bug in any app on Android seems to end in cache corruption, data loss, and eventually a factory reset? This app strongly reinforces that. Thanks for being part of the problem, Dropbox. If you're convinced it's Android, it's time to sue them-- very publicly. Otherwise we are forced to conclude that NEITHER product has any QA that is worth a damn any more.",
+      "replyDate": "2024-03-14T00:53:57.228Z",
+      "replyText": "Hi there. We’d like to hear more about your experience, and see if there is something we can help with. If you'd like that too, please post on our online Community https://www.dropboxforum.com/, or contact our team on Twitter at @DropboxSupport or Facebook at facebook.com/Dropbox, so we can gather more information. Thanks!",
+      "version": "340.2.4",
+      "thumbsUp": 4,
+      "criterias": []
+    },
+    {
+      "id": "c8a8cbbf-c797-4c66-925f-7be7a85133c3",
+      "userName": "David Armes",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocJXnvaKc50Vgi66nu60QnSKKDSYADw9CULSqtQ4dATj=mo",
+      "date": "2024-01-26T02:59:54.937Z",
+      "score": 3,
+      "scoreText": "3",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=c8a8cbbf-c797-4c66-925f-7be7a85133c3",
+      "title": null,
+      "text": "Good app to sync across devices. They've removed features over the last few years to push people toward paid plans. The app bugs you constantly if you get to 80% full. Only 3 devices allowed. Unfortunate that they can't provide an outstanding product for free users anymore. I may need a paid cloud app soon for business purposes, and I'll be shopping around because of their recent actions left a bad taste. It's especially sad since I've been using Dropbox for 15+ years.",
+      "replyDate": null,
+      "replyText": null,
+      "version": null,
+      "thumbsUp": 3,
+      "criterias": [
+        {
+          "criteria": "vaf_phase1_file_sharing",
+          "rating": 1
+        },
+        {
+          "criteria": "vaf_phase1_collaboration",
+          "rating": 3
+        },
+        {
+          "criteria": "vaf_phase1_collaborative_editing",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "id": "6ed631ae-1bf8-446d-9e16-a04f400823f8",
+      "userName": "rod",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocIS4Pq1_TAtw9CP4B4o4qWSI0BurzKAI29smeUmZi2J=mo",
+      "date": "2023-09-26T19:43:39.570Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=6ed631ae-1bf8-446d-9e16-a04f400823f8",
+      "title": null,
+      "text": "One year later. Same. This app is awful and unreliable. Today I needed to access a file. I didn't have my computer so I figured I grab the file from my phone. File not there and no easy way to see why it was syncing. Then I went to the browser verison. Surely it will be there. Nope. And no easy way to sort by date (seriously Dropbox are you run by infants?) Somehow my photo sync was turned off (which I never did). Way too many options for me to stick with this POC. Eg Google drive and one drive",
+      "replyDate": "2023-10-09T09:57:10.992Z",
+      "replyText": "Hi there, we're sorry to hear that. If the Dropbox desktop app is not syncing, we suggest checking that the app is actively running on the device, in order to sync the changes. Please go ahead and contact our team on Twitter at @DropboxSupport, so we can gather more details, and see how we can help. Thanks!",
+      "version": "336.2.2",
+      "thumbsUp": 192,
+      "criterias": [
+        {
+          "criteria": "vaf_never_display_considerate_of_time",
+          "rating": 2
+        },
+        {
+          "criteria": "vaf_phase1_predictive_typing",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "id": "ae4c4124-9aa9-468a-99c2-fcb4a4538bd9",
+      "userName": "Matthew Barlow",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjXSZGSsiq-Dw00W3hIDvl6laGND0YxsjghtBpQzifKU5w_q",
+      "date": "2023-09-24T17:17:55.483Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=ae4c4124-9aa9-468a-99c2-fcb4a4538bd9",
+      "title": null,
+      "text": "Used to be amazing but the past yrs it keeps getting it worse. Dropbox won't fix these issues. OMG it's so frustratingly slow, just to create a new folder takes forever, but mostly when using a Wi-Fi connection. So I'm constantly having to use my data. If I save a PDF file to Dropbox from an email it saves it as \"VIEW\" without the PDF extension at the end of the file name, so I'm forced to go back and rename that file every time. Google drive doesn't have these issues ever.",
+      "replyDate": "2022-09-07T09:46:15.636Z",
+      "replyText": "Hey, Matthew, we’d like to check into these issues with you. If you’d like to, go ahead and contact us on Twitter at @DropboxSupport, Facebook at facebook.com/Dropbox, or on our Official Online Community https://www.dropboxforum.com, so we can have a look. Thanks!",
+      "version": "346.2.6",
+      "thumbsUp": 523,
+      "criterias": []
+    },
+    {
+      "id": "dd1f162c-5515-4395-9cd9-e400b6c609ae",
+      "userName": "natasha carter",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjWjCNgccsM1TfLYGAqSveAanHfG3fXX7LoFl0B4dG1wyCs",
+      "date": "2023-11-18T02:41:36.734Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=dd1f162c-5515-4395-9cd9-e400b6c609ae",
+      "title": null,
+      "text": "Absolutely the worst cloud based system. Half my folders don't connect like my Instagram folder...the one that is auto created by Instagram. It doesn't matter if the folder location is on my SD card or my internal storage. Only half my photos get uploaded. Anything with a .gif doesn't get uploaded. And the file name on my phone doesn't correspond to the Dropbox file name. Dropbox changes the name",
+      "replyDate": "2023-12-01T21:44:25.169Z",
+      "replyText": "Hi there. We’d like to hear more about your experience, and see if we can help. If you'd like that too, please post on our online Community https://www.dropboxforum.com/, or contact our team on Twitter at @DropboxSupport or Facebook at facebook.com/Dropbox, so we can gather more information. Thanks!",
+      "version": "320.2.10",
+      "thumbsUp": 10,
+      "criterias": []
+    },
+    {
+      "id": "92c171c8-a868-4414-a3fa-cc09f3ecbd56",
+      "userName": "A Woods",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjWegIEOryNRLvT-thMoN2iF4ezxyeem842vgRi77kv2Txs",
+      "date": "2021-08-06T00:31:57.109Z",
+      "score": 2,
+      "scoreText": "2",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=92c171c8-a868-4414-a3fa-cc09f3ecbd56",
+      "title": null,
+      "text": "Everyday I find something irksome with this app. The Dropbox service is great, but this app is full of problems. It takes years to upload things - if they upload at all, spontaneous \"storage full or unavailable\" errors when trying to download, syncing issues, issues moving files, issues renaming files, issues exporting files. It never ends. You're better off just going to the website and working with your files there.",
+      "replyDate": "2021-08-06T09:37:28.558Z",
+      "replyText": "Hey there, we’re sorry to hear that. We encourage you to reach out to our teams on Twitter at @DropboxSupport, Facebook at facebook.com/Dropbox, or on our Official Online Community https://www.dropboxforum.com, and we’ll be happy to help troubleshoot. Thanks!",
+      "version": "244.2.2",
+      "thumbsUp": 169,
+      "criterias": [
+        {
+          "criteria": "vaf_never_display_ease_of_use",
+          "rating": null
+        },
+        {
+          "criteria": "vaf_never_display_ads_experience",
+          "rating": null
+        }
+      ]
+    },
+    {
+      "id": "9c2391e9-72bc-4f85-a933-e2d0a95d56dc",
+      "userName": "Larry McClements",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjVa7IGpVX-FvIa0H4QSAzuBY4vZ8yX1kEzJVBZwWNjR0Q",
+      "date": "2023-07-18T21:22:06.131Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=9c2391e9-72bc-4f85-a933-e2d0a95d56dc",
+      "title": null,
+      "text": "Horrible! Got this for our business to transfer large files between devices. Subscribed to an upgraded account. The interface is clunky and very problematic. In the app we don't even have the ability to 'select all' within a folder to download. You have to click on each file individually. Had many problems trying to get this to work on an Apple even via the app. Errors and stalled downloads. Support was absolutely no help. Canceled and now are seeking a refund.",
+      "replyDate": "2023-07-27T09:25:58.432Z",
+      "replyText": "Hey, Larry, we’re sorry to hear about that. The ability to Select All is indeed an option in our app, so we’d like to get a closer look at this with you. If you’d like to reach out to us on Twitter at @DropboxSupport, Facebook at facebook.com/Dropbox, or on our Official Online Community https://www.dropboxforum.com, it would be great. Thanks!",
+      "version": "336.2.2",
+      "thumbsUp": 321,
+      "criterias": [
+        {
+          "criteria": "vaf_phase1_works_offline",
+          "rating": 2
+        },
+        {
+          "criteria": "vaf_never_display_spend_more_time",
+          "rating": 1
+        },
+        {
+          "criteria": "vaf_never_display_disruptive_ads",
+          "rating": 1
+        }
+      ]
+    },
+    {
+      "id": "d2243d16-0b8b-4d44-a614-b7c684e48ee2",
+      "userName": "A Google user",
+      "userImage": "https://play-lh.googleusercontent.com/EGemoI2NTXmTsBVtJqk8jxF9rh8ApRWfsIMQSt2uE4OcpQqbFu7f7NbTK05lx80nuSijCz7sc3a277R67g",
+      "date": "2019-05-16T00:49:59.830Z",
+      "score": 3,
+      "scoreText": "3",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=d2243d16-0b8b-4d44-a614-b7c684e48ee2",
+      "title": null,
+      "text": "I like the convenience of being able to have my files available to me no matter where I'm at.  What I do NOT like is the following: (1) have to download files separately, no ability to download an entire folder (or folder structure with subfolders); (2) no automatic sync, I have to MANUALLY go in and download files.  The app should be smart enough to automatically sync files and folders in the background, just like the desktop version does, without having to do everything manually.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "140.2.6",
+      "thumbsUp": 35,
+      "criterias": []
+    },
+    {
+      "id": "775b115d-2aef-414e-8e45-19f442284d3b",
+      "userName": "S. Jaye",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocLslzgAtu9NkxPr6oHBsE4OejTS8tdYUO_VXDT9KfTB=mo",
+      "date": "2020-09-21T02:35:00.606Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=775b115d-2aef-414e-8e45-19f442284d3b",
+      "title": null,
+      "text": "There's no way to download folders, only files. If I want to download a folder containing an artist's mp3s, with each album in its own folder, I have to download the individual songs and recreate the folders on my device. Infuriating. Edit: I can't actually download anything. The app says that the files have downloaded, but none of it can be found on my phone. I'm downgrading my rating to one star.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "206.2.2",
+      "thumbsUp": 55,
+      "criterias": [
+        {
+          "criteria": "vaf_phase1_taking_notes",
+          "rating": 2
+        },
+        {
+          "criteria": "vaf_never_display_negative_ads_impact",
+          "rating": 2
+        },
+        {
+          "criteria": "vaf_never_display_considerate_of_time",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "id": "01bfc67f-987e-42e4-8692-f9536d7a7eba",
+      "userName": "A Google user",
+      "userImage": "https://play-lh.googleusercontent.com/EGemoI2NTXmTsBVtJqk8jxF9rh8ApRWfsIMQSt2uE4OcpQqbFu7f7NbTK05lx80nuSijCz7sc3a277R67g",
+      "date": "2019-10-09T11:26:56.846Z",
+      "score": 2,
+      "scoreText": "2",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=01bfc67f-987e-42e4-8692-f9536d7a7eba",
+      "title": null,
+      "text": "I use to love Dropbox, but over the past 6 months or so not, so much. It will not auto upload my photos or videos anymore. I have to open the app on my phone, goto settings, and then it might start. Been using Dropbox for years, I never had these issues before. I have not changed my settings or anything in years. I almost want to stop using it all together. ☹🙁",
+      "replyDate": null,
+      "replyText": null,
+      "version": "160.2.4",
+      "thumbsUp": 80,
+      "criterias": []
+    },
+    {
+      "id": "00c7ac09-e5c4-4d66-89c3-82a6f6e6259f",
+      "userName": "A Google user",
+      "userImage": "https://play-lh.googleusercontent.com/EGemoI2NTXmTsBVtJqk8jxF9rh8ApRWfsIMQSt2uE4OcpQqbFu7f7NbTK05lx80nuSijCz7sc3a277R67g",
+      "date": "2020-02-29T16:30:41.809Z",
+      "score": 3,
+      "scoreText": "3",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=00c7ac09-e5c4-4d66-89c3-82a6f6e6259f",
+      "title": null,
+      "text": "I use it mostly for backing up photos from my phone. I have a samsung and the automatic backup only saves the camera roll, not downloaded pics, or whatsapp pics/videos. So you have to manually upload those to dropbox. And then they don't integrate smoothly. They don't show up in the main photos tab, and when you find your photos, they appear out of order. Using the app is fine, moving to folders is fine, but the backup feature isn't great",
+      "replyDate": null,
+      "replyText": null,
+      "version": "178.2.6",
+      "thumbsUp": 290,
+      "criterias": []
+    },
+    {
+      "id": "be1b401c-0b38-4dd9-a55e-20d763ca7e9f",
+      "userName": "Charles “J Charles” Seemion Jr",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjVDm2Cu6fHGAR0x2Gf6cp9Osn8_EUJJjE8gsPDYGHKaq-EJ",
+      "date": "2020-06-07T23:20:22.611Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=be1b401c-0b38-4dd9-a55e-20d763ca7e9f",
+      "title": null,
+      "text": "Y'all trippin... This don't make no sense Been using Dropbox reliably and without fail for YEARS...Now all of a sudden Dropbox won't connect even though I've got data and WiFi internet access. Signing out and in again didn't work and if this uninstall to reinstall doesn't fix the problem that's a wrap for this app. It don't matter to me if it works as it's supposed to on my laptop when I can't access my stuff when on my cell. That completely defeats the purpose. FIX THIS!!!!!",
+      "replyDate": null,
+      "replyText": null,
+      "version": "192.2.2",
+      "thumbsUp": 135,
+      "criterias": []
+    },
+    {
+      "id": "1ecf63c1-4925-427a-bce4-fd6381b067bc",
+      "userName": "Christian Avelallemant",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjWoV44lZjICMjVCPUdmbPJGIREwZcApQyKqiCRIvIZn_Ek",
+      "date": "2021-09-26T15:42:06.140Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=1ecf63c1-4925-427a-bce4-fd6381b067bc",
+      "title": null,
+      "text": "Works fine on iOS. Can download files/folders, move files around within folders and my app will automatically fix the problem within my folder. On Android, this app is a piece of garbage. I'm a paying customer like many others and all I see is the same problem: 'storage full or unavailable' when I try to access my files. I can't even view them! Much less download them. I'm an artist and dropbox has always been my cloud service of choice, but if this bug isn't fixed I'll have to reconsider.",
+      "replyDate": "2021-09-28T21:03:03.288Z",
+      "replyText": "Hi Christian.\n\nIf you're having issues with the Dropbox app on your Android device, and you'd like our team to further look into this, you may reach out to us via Facebook facebook.com/Dropbox, Twitter @DropboxSupport or our Official Online Community https://www.dropboxforum.com.\n\nThanks!",
+      "version": "252.2.2",
+      "thumbsUp": 241,
+      "criterias": [
+        {
+          "criteria": "vaf_never_display_ease_of_use",
+          "rating": null
+        }
+      ]
+    },
+    {
+      "id": "7e32d3e2-77f9-407b-bbd7-c792e6a63a3c",
+      "userName": "R M",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocLssP0kGMt_BjFWPgp8-c5Qw0BBu0VPQvVb78wZsRVg=mo",
+      "date": "2022-09-13T18:58:11.524Z",
+      "score": 2,
+      "scoreText": "2",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=7e32d3e2-77f9-407b-bbd7-c792e6a63a3c",
+      "title": null,
+      "text": "Used to be great. The original intent was great, but in the never ending quest for more money they keep adding all these useless features no one cares about. I'd love to be able go back to the original. Love to be able to clear out storage without deleting, and put things on my end. SO Instead I will one day delete drop box and move to something more manual, I will also have all my employees do the same. Attn big tech, no one wants all this automation.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "296.2.2",
+      "thumbsUp": 203,
+      "criterias": []
+    },
+    {
+      "id": "2459f9eb-36a2-4fb9-ae0d-fb3512b5c608",
+      "userName": "A Google user",
+      "userImage": "https://play-lh.googleusercontent.com/EGemoI2NTXmTsBVtJqk8jxF9rh8ApRWfsIMQSt2uE4OcpQqbFu7f7NbTK05lx80nuSijCz7sc3a277R67g",
+      "date": "2019-11-26T13:50:25.240Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=2459f9eb-36a2-4fb9-ae0d-fb3512b5c608",
+      "title": null,
+      "text": "I'm really disappointed in this company. I've been a Dropbox user since the very beginning. Suddenly, they've introduced an arbitrary three device limit that makes this all but useless unless you pay $120+ a year. I have no problem paying for valuable services, but the fact that you they want longstanding customers to pay over $120 just to sync four devices instead of three is absurd. This is the writing on the wall, time to jump ship because going forward, Dropbox is going to be looking for every arbitrary way it can to extort money out of longtime users. What's next, caps on how many times you can access a file unless you pay for a new $300 a year \"Elite\" tier of service?",
+      "replyDate": null,
+      "replyText": null,
+      "version": "168.2.2",
+      "thumbsUp": 603,
+      "criterias": []
+    },
+    {
+      "id": "1c723f0e-0059-45ff-aa8e-0f8471502ab1",
+      "userName": "Ian Blackwell Rogers",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjXvpbGUgrI-igf9dOCY_VCCojJpXyHU59FKSFtplRNjy-ng",
+      "date": "2020-09-29T22:24:46.249Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=1c723f0e-0059-45ff-aa8e-0f8471502ab1",
+      "title": null,
+      "text": "Really didn't help me. I was sent a link by email to add a file to a Dropbox, and couldn't see any way to do it. I added the app, hoping that would help, but got a notification that was too many devices and I'd have to subscribe. Working with Dropbox on my desktop didn't give me any more success, even when I enabled \"Dropbox for Gmail,\" so I have no incentive to pay for this app. Maybe it only works if you're a paying subscriber. I find this very opaque on any device.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "206.2.4",
+      "thumbsUp": 129,
+      "criterias": []
+    },
+    {
+      "id": "29936b98-146b-4ef4-8c29-9691568dc48b",
+      "userName": "Eric Chow",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjWmpGMexC14BHeJ_lqsRL4YJmJ_93Ak1bvntvhwnCquHm-5",
+      "date": "2023-06-02T13:10:00.800Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=29936b98-146b-4ef4-8c29-9691568dc48b",
+      "title": null,
+      "text": "Major changes puts all your files on the cloud!!! Now I can't access my files while I have spotty access to wifi in a coffee shop, it's exceedingly frustrating. It takes forever to d/l a simple file. It slows down my entire workflow, when I'm organizing files, I have to sit there and watch the finder \"preparing to move files\" bar bounce back and forth. I'd rather just have my files on my hard-drive and NOT use Dropbox. This defeats the entire purpose of Dropbox, I have no reason to use it anymor",
+      "replyDate": "2023-06-08T15:38:37.702Z",
+      "replyText": "Hey there, sorry to hear about that. We encourage you to reach out to our teams on Twitter at @DropboxSupport or on our Official Online Community https://www.dropboxforum.com/ so you can tell us more about this, and allow us to help. Thanks!",
+      "version": "330.2.2",
+      "thumbsUp": 253,
+      "criterias": []
+    },
+    {
+      "id": "43e0c05f-4fde-4600-9194-84026629c602",
+      "userName": "A Google user",
+      "userImage": "https://play-lh.googleusercontent.com/EGemoI2NTXmTsBVtJqk8jxF9rh8ApRWfsIMQSt2uE4OcpQqbFu7f7NbTK05lx80nuSijCz7sc3a277R67g",
+      "date": "2019-01-08T00:32:26.880Z",
+      "score": 2,
+      "scoreText": "2",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=43e0c05f-4fde-4600-9194-84026629c602",
+      "title": null,
+      "text": "The app has become increasingly NOT user friendly. It's OK for storage only, thus the two stars. Used to be albums for picture sharing were easily made. Some jpg files I'm unable to share for some reason. Ie., I added jpg files from elsewhere to the 'camera' folder. From there, while creating an album for sharing, those jpg files are not available. Moved to Google Drive, easily done there.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "124.2.4",
+      "thumbsUp": 33,
+      "criterias": [
+        {
+          "criteria": "vaf_never_display_easy_to_use",
+          "rating": 2
+        },
+        {
+          "criteria": "vaf_never_display_useful_notifications",
+          "rating": 2
+        },
+        {
+          "criteria": "vaf_multi_device_sync",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "id": "0a9489dc-b212-4e22-9c0a-945c3bd5e250",
+      "userName": "A Google user",
+      "userImage": "https://play-lh.googleusercontent.com/EGemoI2NTXmTsBVtJqk8jxF9rh8ApRWfsIMQSt2uE4OcpQqbFu7f7NbTK05lx80nuSijCz7sc3a277R67g",
+      "date": "2019-05-25T19:31:02.820Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=0a9489dc-b212-4e22-9c0a-945c3bd5e250",
+      "title": null,
+      "text": "I have been a thrilled user of Dropbox for years. But now, only 3 linked devices with free plan. I guess they need to make more money. Goodbye Dropbox! Edit: I should add that the entry level option past free is $10/month for 1TB which is way beyond my needs. I really only used Dropbox for sharing a few files among two desktops, a laptop, a phone, and a tablet. Once in a while I used it to share photos with friends. Offer a cheaper option and maybe I will come back.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "142.2.8",
+      "thumbsUp": 151,
+      "criterias": []
+    },
+    {
+      "id": "e993becd-a790-4fb6-8185-d0f481dd24d8",
+      "userName": "Ken Burling",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocJmIDS3DSi6E1uBCI2mw9c1FA7jJ8BR8p3187ndBVkG=mo",
+      "date": "2022-10-31T08:00:42.594Z",
+      "score": 2,
+      "scoreText": "2",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=e993becd-a790-4fb6-8185-d0f481dd24d8",
+      "title": null,
+      "text": "Dropbox the service is awesome. I've been using it since it was new. The mobile app however leaves a bit to be desired. I should NEVER lose access to offline files because the app got a network connection for a few seconds. That is honestly the entire reason for the low rating. If the program gets connectivity long enough to access the server, but it's a poor connection or just doesn't have time to sync fully, I lose access to my offline files.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "302.2.2",
+      "thumbsUp": 334,
+      "criterias": []
+    },
+    {
+      "id": "7ed4ee5e-503e-4e26-a7b1-97d506e4f5d7",
+      "userName": "A Google user",
+      "userImage": "https://play-lh.googleusercontent.com/EGemoI2NTXmTsBVtJqk8jxF9rh8ApRWfsIMQSt2uE4OcpQqbFu7f7NbTK05lx80nuSijCz7sc3a277R67g",
+      "date": "2019-08-19T18:31:37.862Z",
+      "score": 2,
+      "scoreText": "2",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=7ed4ee5e-503e-4e26-a7b1-97d506e4f5d7",
+      "title": null,
+      "text": "Less than stellar. Paid $200 for 3T of storage and some collaboration features. Both the app and the website buffer videos constantly. Doesnt make a difference if I'm on a PC or my phone, and LTE or wifi. Best of all, when the video stops to buffer, the clock continues to run without the video recovering to match the time. You can sit through a whole 30 second clip and not actually see anything. When I export to my phone, occasionally the videos will download with no sound. $200 dumpster fire.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "154.2.2",
+      "thumbsUp": 40,
+      "criterias": []
+    },
+    {
+      "id": "ff810af6-f77b-4211-90ce-df7555517bee",
+      "userName": "A Google user",
+      "userImage": "https://play-lh.googleusercontent.com/EGemoI2NTXmTsBVtJqk8jxF9rh8ApRWfsIMQSt2uE4OcpQqbFu7f7NbTK05lx80nuSijCz7sc3a277R67g",
+      "date": "2019-02-04T01:53:33.400Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=ff810af6-f77b-4211-90ce-df7555517bee",
+      "title": null,
+      "text": "Can't figure it out. Can't get downloads off line. Takes forever and repeatedly \"fails\". It is automatically opening this and saving them to Dropbox when that is not where I want it to go. Have spent hours trying to figure out how to change permissions but nothing works. Also very complex to uninstall... multiple places to seek out on computer to get rid of it. Maybe I'm just daft, but it is way beyond me and not user friendly from my view point. Baffeling ☹️",
+      "replyDate": null,
+      "replyText": null,
+      "version": "126.2.2",
+      "thumbsUp": 21,
+      "criterias": []
+    },
+    {
+      "id": "a56af7f4-bab4-49c9-8e32-5a3f2eef96e5",
+      "userName": "Karissa Skirmont",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjW3zo0VLVyV37jYZvZiD7vXPuDSU4Ve6oq1gJ2gkSB4fkp2",
+      "date": "2023-03-26T23:15:10.654Z",
+      "score": 5,
+      "scoreText": "5",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=a56af7f4-bab4-49c9-8e32-5a3f2eef96e5",
+      "title": null,
+      "text": "Yesterday my computer was taken over by ransomware and I lost thousands of photos and files. It also encrypted all my Dropbox and Google Drive files. I was told by the later that I just have to download, rename and reload each one individually! So heartbreaking and incredibly tedious time consuming task it will be. Once I started researching what it would take to restore prior versions to Dropbox, I found the Rewind functionality if I upgraded. I did so and now I have all those files back!",
+      "replyDate": null,
+      "replyText": null,
+      "version": "320.2.10",
+      "thumbsUp": 380,
+      "criterias": []
+    },
+    {
+      "id": "f388d6c6-70ef-40b4-9eec-c9dc9ea0fb32",
+      "userName": "S Salway",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjWhAkJE2VxOJg2JZ7co6eJI91KS0v99R5e-V2-CIo93Vw",
+      "date": "2023-01-06T22:19:45.140Z",
+      "score": 2,
+      "scoreText": "2",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=f388d6c6-70ef-40b4-9eec-c9dc9ea0fb32",
+      "title": null,
+      "text": "Doesn't do it's only job: Synching files. It's just an app for accessing files from the dropbox servers while connected to the internet, but fails to keep offline files or directory trees, and doesn't cache files locally where you could browse/edit them with the app you actually want to use. The interface is also utterly dumb, eg re-opening itself all the way back at its root when you just want to move a file into an adjacent subdirectory. At least you can access your txt files while online.",
+      "replyDate": "2023-01-18T01:54:11.944Z",
+      "replyText": "Hi there. We’d like to hear more about your experience. If you'd like that too, please go ahead and reach out to our online Community https://www.dropboxforum.com/, and on social media on Twitter at @DropboxSupport or Facebook at facebook.com/Dropbox, so we can gather more information. Thanks!",
+      "version": "310.2.2",
+      "thumbsUp": 103,
+      "criterias": [
+        {
+          "criteria": "vaf_never_display_useful_notifications",
+          "rating": 2
+        },
+        {
+          "criteria": "vaf_phase1_online_storage",
+          "rating": 1
+        }
+      ]
+    },
+    {
+      "id": "0f78a51b-14ad-4eff-9502-476659912174",
+      "userName": "Tytan C Anidawehi",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjU1Nt5GFqVq6448Li27zu6_F-bHMMHyXyFn4nwCJulSCbk",
+      "date": "2022-09-04T13:23:01.353Z",
+      "score": 2,
+      "scoreText": "2",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=0f78a51b-14ad-4eff-9502-476659912174",
+      "title": null,
+      "text": "Free version allows you to use very little storage space. Fine, whatever, pay for the full version- app crashes, still have certain features locked for higher payment, the ui is very clunky and difficult to navigate, its constantly struggling to keep up with the most basic actions ie. moving files from one folder to another, uploading a bulk amount of files into folders, renaming folders, the list goes on. its very frustrating to work with",
+      "replyDate": "2022-09-07T09:41:24.988Z",
+      "replyText": "Hey, Angelo, thanks for your review. If you’d like to contact us on Twitter at @DropboxSupport, Facebook at facebook.com/Dropbox, or on our Official Online Community https://www.dropboxforum.com, we’d like to get more details about your experience, and assist in any way we can. Thanks!",
+      "version": "294.2.2",
+      "thumbsUp": 322,
+      "criterias": []
+    },
+    {
+      "id": "1ef82ad9-95a4-4b6a-92a4-4cad78eb931c",
+      "userName": "A Google user",
+      "userImage": "https://play-lh.googleusercontent.com/EGemoI2NTXmTsBVtJqk8jxF9rh8ApRWfsIMQSt2uE4OcpQqbFu7f7NbTK05lx80nuSijCz7sc3a277R67g",
+      "date": "2019-06-17T02:27:27.914Z",
+      "score": 2,
+      "scoreText": "2",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=1ef82ad9-95a4-4b6a-92a4-4cad78eb931c",
+      "title": null,
+      "text": "I feel that dropbox lags behind as a storage option for visual media. Whether photography or graphic art, as a user, I want to be able to view my content as an automatic Slideshow with presentation options (speed/transition effect between each item). This kind of feature would make dropbox a valuable tool for me as a photographer and designer. However, I also see bugs in the app on my phone. For one, every file I view now automatically shows me a comment field overlaying the screen (and my art).",
+      "replyDate": null,
+      "replyText": null,
+      "version": "146.2.6",
+      "thumbsUp": 98,
+      "criterias": [
+        {
+          "criteria": "vaf_phase1_online_storage",
+          "rating": 1
+        },
+        {
+          "criteria": "vaf_phase1_screensharing",
+          "rating": 3
+        },
+        {
+          "criteria": "vaf_file_sharing",
+          "rating": 1
+        }
+      ]
+    },
+    {
+      "id": "5b40ce54-e214-47d5-8c94-3c0c3c4d7aa3",
+      "userName": "A J",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocJO4fhqQFsWspYQ4eyJruTkOA_xPMQWyoyJJghO1uE=mo",
+      "date": "2023-01-01T07:19:58.698Z",
+      "score": 3,
+      "scoreText": "3",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=5b40ce54-e214-47d5-8c94-3c0c3c4d7aa3",
+      "title": null,
+      "text": "Video playback used to look like complete garbage. They made it look better for a little while, and that was nice while it lasted, but now it's unusable because any time I play a video, it has a frozen frame stuck in front of it and I can't watch the video, which is playing behind it. I tried uninstalling & reinstalling it. Seemed like maybe that worked, because the first videos I tested didn't do the glitch, but I tested more videos and they did it. Seems to be more of a problem w/portrait vids",
+      "replyDate": "2022-12-29T11:59:40.808Z",
+      "replyText": "Hey there, if you’re still experiencing this, try uninstalling our app, restarting your device, and installing again from the Play Store. If the issue persists, go ahead and reach out to us on Twitter at @DropboxSupport, Facebook at facebook.com/Dropbox, or on our Official Online Community https://www.dropboxforum.com, for a closer look. Thanks!",
+      "version": "310.2.2",
+      "thumbsUp": 193,
+      "criterias": []
+    },
+    {
+      "id": "5ba8760a-2383-4fce-9024-c548fa54169e",
+      "userName": "A Google user",
+      "userImage": "https://play-lh.googleusercontent.com/EGemoI2NTXmTsBVtJqk8jxF9rh8ApRWfsIMQSt2uE4OcpQqbFu7f7NbTK05lx80nuSijCz7sc3a277R67g",
+      "date": "2019-05-28T13:50:19.848Z",
+      "score": 2,
+      "scoreText": "2",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=5ba8760a-2383-4fce-9024-c548fa54169e",
+      "title": null,
+      "text": "I've had it for years and used it periodically but never exclusively. Recently, I've needed it for a little project or mine and I noticed something that driving me completely bonkers. When downloading, anything really, there's NO PROGRESS BAR! Nothing! 😡 So I have no idea when the process will finish. I can't even tell if for some reason the process froze or got hung up. Im having to go in and out of the destination folder and watch the folders item count to see when it stops increasing. 😐😐😐",
+      "replyDate": null,
+      "replyText": null,
+      "version": "142.2.8",
+      "thumbsUp": 50,
+      "criterias": []
+    },
+    {
+      "id": "f30396f8-16bb-4a26-97ab-f6192defc100",
+      "userName": "Matt Voegtli",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjXJ2tID9SkuU4GL20QtY4VQwOLTz0iYfCU4Yi3liaup3GJr",
+      "date": "2020-06-21T07:52:59.931Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=f30396f8-16bb-4a26-97ab-f6192defc100",
+      "title": null,
+      "text": "I've been using drop box for around 8 years. I've never had an issue with it. Now it's constantly crashing, disconnecting or just not loading. Hopefully they fix it, because this is crazy. Just roll back to the last version. The update on the PC sucks too, but at least you can still access it there through file explorer, which is great.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "194.2.4",
+      "thumbsUp": 413,
+      "criterias": []
+    },
+    {
+      "id": "59cc46c1-b60a-4938-9ab6-449c24fe45ad",
+      "userName": "Chasity Holmes",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocK0dtfMYSBgWq5yZICB617p_OLvbkMD9hqumpNvVFFs=mo",
+      "date": "2022-02-05T14:04:00.643Z",
+      "score": 2,
+      "scoreText": "2",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=59cc46c1-b60a-4938-9ab6-449c24fe45ad",
+      "title": null,
+      "text": "I use dropbox all the time to share albums. Since the update, you can't preview the images (says the file is too large to preview...it NEVER said that before) and now it's a whole process to download the files. Let's not get started on finding the files once they've downloaded. Definitely not worth $12/month anymore and definitely looking for a new, better way to share files.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "264.2.6",
+      "thumbsUp": 233,
+      "criterias": []
+    },
+    {
+      "id": "0e6c873b-0893-44b2-b91e-7d60799545eb",
+      "userName": "A Google user",
+      "userImage": "https://play-lh.googleusercontent.com/EGemoI2NTXmTsBVtJqk8jxF9rh8ApRWfsIMQSt2uE4OcpQqbFu7f7NbTK05lx80nuSijCz7sc3a277R67g",
+      "date": "2018-09-23T12:37:45.326Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=0e6c873b-0893-44b2-b91e-7d60799545eb",
+      "title": null,
+      "text": "Signed up for the 30 free trial.  Meh.  Tried to cancel the next day, but there was no button for that in Dropbox.  I had to search for it, and discovered that I had to go to My Subscriptions in Google Play, but COULDN'T.  There's nothing there regarding Dropbox.  Now I'm having a hard time finding the Contact Us link.    Don't sign up for this nuisance.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "112.2.8",
+      "thumbsUp": 58,
+      "criterias": []
+    },
+    {
+      "id": "93b8d123-d42a-4204-9bac-2ca23f18404c",
+      "userName": "Nita Ngo",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjXZkHc53PRvM7WSHNti0KpcwdRfKpBNcIAOgI_-Rj_9ypg",
+      "date": "2023-03-02T12:59:29.388Z",
+      "score": 2,
+      "scoreText": "2",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=93b8d123-d42a-4204-9bac-2ca23f18404c",
+      "title": null,
+      "text": "This used to be a great app. In the past, it was so easy to export files to different apps. But now, the export function is only visible when you select the file, then click on the options under the 3 dots. Even then, files always fail to export so I end up having to download the file onto my phone first. Before, you had the export option while viewing the file. Why would you change that when it was so convenient before? Tired of the inconveniences and non functional features.",
+      "replyDate": "2023-03-11T01:53:28.520Z",
+      "replyText": "Hey there, we’re sorry to hear that you’re experiencing an issue with our app.\nWe would like to get some additional information about this, and help in any way we can. Please reach out to our teams on Twitter at @DropboxSupport or on our Official Online Community https://www.dropboxforum.com/ so we can have a look with you.\nThanks!",
+      "version": "306.2.2",
+      "thumbsUp": 22,
+      "criterias": []
+    },
+    {
+      "id": "c9bd5af5-88e3-4086-acd1-d373c21a52e8",
+      "userName": "Michelle “Mic” Kelly",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjUH4MC8wQHjTQQAlD4xCrf6V2NwjRh68kV5c7yhkZ5KMx77",
+      "date": "2021-11-16T00:08:47.311Z",
+      "score": 3,
+      "scoreText": "3",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=c9bd5af5-88e3-4086-acd1-d373c21a52e8",
+      "title": null,
+      "text": "Good storage option but the mobile version needs some work to be more user-friendly. Users cannot export multiple files in bulk to another location (i.e., Google Drive). They must be moved one item at a time which is ridiculous; please fix this. There is NO vertical scroll bar to \"grab and drag\"; if you have a Dropbox folder with a lot of files you have to scroll and scroll to get to the bottom. This is VERY annoying and again, ridiculous that this feature isn't already there; please fix this.",
+      "replyDate": "2021-11-17T15:05:29.814Z",
+      "replyText": "Hi Michelle. Thanks for your feedback. As a future reference, if you wish to share thoughts / ideas, you're welcome to post them via our Official Community page, here: https://www.dropboxforum.com/t5/Share-an-idea/ct-p/101002000 If it gets the support of other community users, our team will be able to prioritize the work. Thanks!",
+      "version": "258.2.2",
+      "thumbsUp": 208,
+      "criterias": []
+    },
+    {
+      "id": "d9b8b8fe-a34f-47ce-adf1-6f70fa3915fc",
+      "userName": "A Google user",
+      "userImage": "https://play-lh.googleusercontent.com/EGemoI2NTXmTsBVtJqk8jxF9rh8ApRWfsIMQSt2uE4OcpQqbFu7f7NbTK05lx80nuSijCz7sc3a277R67g",
+      "date": "2019-09-22T22:40:50.485Z",
+      "score": 3,
+      "scoreText": "3",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=d9b8b8fe-a34f-47ce-adf1-6f70fa3915fc",
+      "title": null,
+      "text": "It works ok, but a couple problems with it are real head scratchers. It doesn't work the way the IOS version does. 1) it doesn't remember the last folder you saved a scanned doc, so you have to pick it again every time you go to save and 2) there isn't an option to save as a PNG format file. IOS doesn't have an option to save as JPG option. Why the inconsistency? Lazy propramming? Other apps like this don't have this problem.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "158.2.2",
+      "thumbsUp": 58,
+      "criterias": []
+    },
+    {
+      "id": "f58f97b6-140f-4476-b669-15f972c81abd",
+      "userName": "A Google user",
+      "userImage": "https://play-lh.googleusercontent.com/EGemoI2NTXmTsBVtJqk8jxF9rh8ApRWfsIMQSt2uE4OcpQqbFu7f7NbTK05lx80nuSijCz7sc3a277R67g",
+      "date": "2018-12-09T15:53:25.828Z",
+      "score": 2,
+      "scoreText": "2",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=f58f97b6-140f-4476-b669-15f972c81abd",
+      "title": null,
+      "text": "Personally, I don't really like it. I find it confusing and couldn't figure out how to log out to make a different account (Mines kinda went bad and I had to remove all of my backed up pictures). Though I may just find it confusing from how little I use it. I also think you're given too little space (While I do have a lot of photos, I still think 2GB is too little for standard plans).",
+      "replyDate": null,
+      "replyText": null,
+      "version": "122.2.2",
+      "thumbsUp": 96,
+      "criterias": [
+        {
+          "criteria": "vaf_phase1_organizational_tools",
+          "rating": 3
+        },
+        {
+          "criteria": "vaf_phase1_whiteboarding",
+          "rating": 3
+        },
+        {
+          "criteria": "vaf_phase1_calendar_support",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "id": "6a855803-4587-4e11-a22b-a617ce496f0b",
+      "userName": "A Google user",
+      "userImage": "https://play-lh.googleusercontent.com/EGemoI2NTXmTsBVtJqk8jxF9rh8ApRWfsIMQSt2uE4OcpQqbFu7f7NbTK05lx80nuSijCz7sc3a277R67g",
+      "date": "2018-12-31T23:12:24.161Z",
+      "score": 2,
+      "scoreText": "2",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=6a855803-4587-4e11-a22b-a617ce496f0b",
+      "title": null,
+      "text": "Dropbox would be great if the app functioned reasonably well. I have had the same problem with downloading files for years now. Whenever I go into a fullscreen view of a photo, and scroll through them to download them individually, many times what will happen is it will download two copies of the same photo as opposed to downloading the two DIFFERENT photos that I individually selected. I've had this issue for about four or five years now on many 📞's, and it's making me consider an alternative",
+      "replyDate": null,
+      "replyText": null,
+      "version": "124.2.4",
+      "thumbsUp": 49,
+      "criterias": []
+    },
+    {
+      "id": "cc2ffa3c-1a25-4776-bffa-d713fb742583",
+      "userName": "Max Wilke",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocLmHAQ6kDVmWBEPcpzFB5Z3dbVxLfukDhBfrV_E3D2x=mo",
+      "date": "2020-11-24T20:45:30.526Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=cc2ffa3c-1a25-4776-bffa-d713fb742583",
+      "title": null,
+      "text": "Dropbox used to be a simple, reliable service to keep extra files and photos. Now it's INCREDIBLY annoying to view photos on the app because several popups to \"comment\" \"copy a link\" or \"share\" a photo come up EVERY SINGLE TIME YOU TRY VIEWING A PHOTO. If I wanted to do any of those options, I'd just access those options on the side of the photo before opening it. Now it's incredibly obnoxious to show pictures to someone because you can't open a full photo directly.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "214.2.6",
+      "thumbsUp": 228,
+      "criterias": []
+    },
+    {
+      "id": "696e30bf-6f89-4077-90af-e8b35b88456c",
+      "userName": "Julie Watson",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocIzTom9wyYZdZ379vz2tj7IQ7mndzQ-HOd8mP7wk7_b=mo",
+      "date": "2020-06-07T15:08:06.849Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=696e30bf-6f89-4077-90af-e8b35b88456c",
+      "title": null,
+      "text": "Over the years, GREAT! With the latest update, TERRIBLE. I've used Dropbox for 10 years. I've never had a problem. It would sync with my mobile devices and my laptops and my desktop computers. The update on June 3 screwed up my mobile app & I am unable to access my files. The error message is \"Can't connect to Dropbox. Make sure you're online, or try again later.\" WHAT??!!! Um, my phone is connected via cell service & wifi. Customer Service was NOT HELPFUL. I am very frustrated.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "192.2.2",
+      "thumbsUp": 509,
+      "criterias": []
+    },
+    {
+      "id": "2d697254-a015-450c-838d-3898c6af786b",
+      "userName": "Llux Diesl",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjUa-NfrN4UnNy4ddEBeewpY7YRcJOw6yVduzIWL1R80-To",
+      "date": "2023-07-03T20:14:32.528Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=2d697254-a015-450c-838d-3898c6af786b",
+      "title": null,
+      "text": "WHAT IS THIS INSANE UI? First, everything I save to DB is going to Public, and I can't choose. I can delete a folder, but I can't move the files?? The option exists but the gymnastics I have to go through to find it is CRAZY! Why is it missing in the list of options? I get \"manage preferences.\" And now I can't see all my files because the order is defaulting to Modified when I had it set to Name, IF I can even get out of the Public folder, and can't scroll. This is a disaster.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "334.2.2",
+      "thumbsUp": 510,
+      "criterias": [
+        {
+          "criteria": "vaf_phase1_calendar_support",
+          "rating": 3
+        },
+        {
+          "criteria": "vaf_phase1_whiteboarding",
+          "rating": 2
+        },
+        {
+          "criteria": "vaf_phase1_file_sharing",
+          "rating": 1
+        }
+      ]
+    },
+    {
+      "id": "01624e70-5e2e-4a55-a695-5cd2e41decf5",
+      "userName": "A Google user",
+      "userImage": "https://play-lh.googleusercontent.com/EGemoI2NTXmTsBVtJqk8jxF9rh8ApRWfsIMQSt2uE4OcpQqbFu7f7NbTK05lx80nuSijCz7sc3a277R67g",
+      "date": "2020-01-01T19:22:15.755Z",
+      "score": 3,
+      "scoreText": "3",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=01624e70-5e2e-4a55-a695-5cd2e41decf5",
+      "title": null,
+      "text": "This is usually a great app, but lately I've been having an issue where even when the document is saved to Dropbox on computer, the mobile version doesn't update, and there's no longer a manual way to get the app to check and update. Also, the formatting could be better and display document pages at an appropriate size for a phone screen instead of just shrinking.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "170.2.8",
+      "thumbsUp": 54,
+      "criterias": [
+        {
+          "criteria": "vaf_never_display_inappropriate_ads",
+          "rating": 2
+        },
+        {
+          "criteria": "vaf_phase1_setting_reminders",
+          "rating": 2
+        },
+        {
+          "criteria": "vaf_phase1_collaborative_editing",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "id": "892f73f6-67be-4fa3-92be-705e8fd30429",
+      "userName": "Daniel Moretti",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocIm3B2-IibIhJytfU0XeTsENMXu4N-2sfp7MaxK320c=mo",
+      "date": "2023-05-23T01:56:03.433Z",
+      "score": 2,
+      "scoreText": "2",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=892f73f6-67be-4fa3-92be-705e8fd30429",
+      "title": null,
+      "text": "Almost unusable! It does not display file names when uploading media files, so you have to guess at the correct file by the thumbnail and duration. When renaming files it wipesout the original name, so you better remember it exactly if you just want to make a minor change to it. And it sometimes erroneously appends a \"-1\" to the end of renamed file even if a duplicate name does not exist. The web interface is kludgely but manageable. The app flat out sucks and amazing that these flaws exist.",
+      "replyDate": "2023-05-31T15:48:50.930Z",
+      "replyText": "Hi Daniel,\n\nPlease feel free to have a look into this with our team, so that they can check any issues you may be having with the Dropbox app not working properly. You can find them on our online Community https://www.dropboxforum.com/, and on social media on Twitter at @DropboxSupport or Facebook at facebook.com/Dropbox.\n\nWe hope this helps!",
+      "version": "328.2.4",
+      "thumbsUp": 132,
+      "criterias": [
+        {
+          "criteria": "vaf_never_display_disruptive_ads",
+          "rating": 2
+        },
+        {
+          "criteria": "vaf_never_display_meet_expectations",
+          "rating": 2
+        },
+        {
+          "criteria": "vaf_phase1_predictive_typing",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "id": "ea565261-b0f4-4728-b4ba-ccbf50843c86",
+      "userName": "matthew obrien",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjWxxM9ITMQE1qXcYOYYIZODS7YEpQ1Pqw0R4Y9rrzDVkDM",
+      "date": "2020-06-10T01:53:29.478Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=ea565261-b0f4-4728-b4ba-ccbf50843c86",
+      "title": null,
+      "text": "Dropbox worked great for many years (5 star worthy), but over the past few weeks the app keeps telling me \"cannot connect to dropbox, make sure you are online and try again later\". I am online and my device can connect to any other app just not dropbox. All docs, files, photos are hidden from view. I can only find the desired file if I search for the specific file. I cannot save files to specific folders nor can I move files from one folder to another. It is now very difficult to use the app.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "192.2.2",
+      "thumbsUp": 255,
+      "criterias": [
+        {
+          "criteria": "vaf_never_display_difficult_to_use",
+          "rating": 1
+        },
+        {
+          "criteria": "vaf_never_display_negative_ads_impact",
+          "rating": 2
+        },
+        {
+          "criteria": "vaf_never_display_visually_bad",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "id": "9c1679ee-c0d2-4794-a90c-f02adb221616",
+      "userName": "Elyes LOUCIF",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjX92PBGB5UZTCIEUse_wmym5sFV-Z4TuDj3GkpzSZL8lnw",
+      "date": "2022-01-03T11:40:46.510Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=9c1679ee-c0d2-4794-a90c-f02adb221616",
+      "title": null,
+      "text": "How do I use it if I can't sign in? I can sign in just fine through the browser. However the app doesn't work. With the same password... I can't even reauest an email sign in, or to change the password through the app (by sending an email). Absolutely major flaw.. no cloud storage service could compromise the mobile experience in this way. I have never been a fan of dropbox and this just confirms it. I will be switchint soon.",
+      "replyDate": "2022-01-04T07:41:50.545Z",
+      "replyText": "Hey there, we’re sorry to hear that you’re experiencing an issue with our app.\nWe would like to get some additional information about this, and help in any way we can. Please reach out to our teams on Twitter at @DropboxSupport or on our Official Online Community https://www.dropboxforum.com/ so we can have a look with you.\nThanks!",
+      "version": "262.2.2",
+      "thumbsUp": 29,
+      "criterias": []
+    },
+    {
+      "id": "2ff1e525-8ea6-407b-9d3c-5404c476cfc3",
+      "userName": "Dustin Matheny",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjWxHYPukOymNv0ZPQYyRoPupd60uKqh7Jj4FujgfR1-T9JM",
+      "date": "2022-09-23T07:00:03.331Z",
+      "score": 5,
+      "scoreText": "5",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=2ff1e525-8ea6-407b-9d3c-5404c476cfc3",
+      "title": null,
+      "text": "User since 2012 - I recently did a factory reset and instead of installing from my list of apps under management I just typed in Dropbox. I'm writing after seeing the negative reviews. I've never been disappointed with my free account. I believe 14 devices later and still happy. I can easily share a single file or multiple folders to a single person, or group of people. I use on our PC and it keeps everything nice and synced. I'm not sure about the space they offer now, I've referred a lot.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "298.2.2",
+      "thumbsUp": 269,
+      "criterias": [
+        {
+          "criteria": "vaf_never_display_ads_experience",
+          "rating": null
+        },
+        {
+          "criteria": "vaf_never_display_ease_of_use",
+          "rating": null
+        }
+      ]
+    },
+    {
+      "id": "8a944ce4-695f-498a-9abd-255d26b4716f",
+      "userName": "Kenna W",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjXE1q-XOln1c7mwnYqL2Vf35SSeLHe2Z9tk_2i6lPeBBvE",
+      "date": "2020-12-23T07:07:01.912Z",
+      "score": 2,
+      "scoreText": "2",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=8a944ce4-695f-498a-9abd-255d26b4716f",
+      "title": null,
+      "text": "Im not sure where my music files went. Been using the app for years to sync my music files between devices. Now all of my playlists are broken on my phone because the music has disappeared from my phones storage. Hopefully they'll fix this soon. UPDATE: They have changed how their service works and it is no longer the service I paid for, which is really a shame, since it was very convenient as a sync tool. It's just a backup tool now.",
+      "replyDate": "2020-12-24T18:52:30.195Z",
+      "replyText": "Hi Kenna, we're sorry to hear about this.\n\nWe'd like to know more about the issue you've experienced, so please feel free to reach out to us via Twitter @DropboxSupport or our Official Online Community https://www.dropboxforum.com for further assistance.\n\nThanks!",
+      "version": "218.2.2",
+      "thumbsUp": 302,
+      "criterias": []
+    },
+    {
+      "id": "ae1256dd-d29e-4256-bfe6-3d9d7e43f097",
+      "userName": "Jared Apodaca",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocKH8CvEVHoK5npAXt4abu3R9OyjgWuQnUnVc9Hi32Ws=mo",
+      "date": "2022-03-04T21:11:08.386Z",
+      "score": 2,
+      "scoreText": "2",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=ae1256dd-d29e-4256-bfe6-3d9d7e43f097",
+      "title": null,
+      "text": "This app sucks. Sure you can allow it to upload pictures from your phone and view them, but that's it. It always has issues with the connection suddenly every time I try to download photos back on my phone or upload documents or try to manage and organize anything stored in it. It can't even move one file to another folder within the app. Better have access to a PC if you want full use of this service. I don't and now I stand to lose everything stored on it if I stop paying for it. USELESS!",
+      "replyDate": "2022-03-10T08:29:45.702Z",
+      "replyText": "Hey, Jared, we’re sorry to hear about that. Please reach out to us on Twitter at @DropboxSupport, Facebook at facebook.com/Dropbox, or on our Official Online Community https://www.dropboxforum.com so we can have a look with you, and help troubleshoot. Thanks!",
+      "version": "268.2.4",
+      "thumbsUp": 259,
+      "criterias": [
+        {
+          "criteria": "vaf_never_display_positive_impact",
+          "rating": 2
+        },
+        {
+          "criteria": "vaf_phase1_calendar_support",
+          "rating": 3
+        },
+        {
+          "criteria": "vaf_never_display_inappropriate_ads",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "id": "e64679a3-d089-4939-ac36-1deb042394ad",
+      "userName": "Kella Johnson",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocIEvHcqcxv0fXH9LN_HU5BZHrtN7DQRF358uHjK_2QI=mo",
+      "date": "2020-05-02T01:56:41.210Z",
+      "score": 2,
+      "scoreText": "2",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=e64679a3-d089-4939-ac36-1deb042394ad",
+      "title": null,
+      "text": "Used to be amazing. Only use the mobile I tend to ignore it on my PC and I loved the ease of finding files. I only really use it for word files. Lately though it has taken to corrupting my files. One would only open in flow.....witch is an app for tracking periods and as I didn't change the file extension and was only trying to rename the file I have no idea how that even happened. As it has happened more than once in the same month though I will likely check out a few different apps.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "186.2.6",
+      "thumbsUp": 213,
+      "criterias": []
+    },
+    {
+      "id": "0bbbbf47-bcec-4ea5-8714-81e0656171ed",
+      "userName": "A Google user",
+      "userImage": "https://play-lh.googleusercontent.com/EGemoI2NTXmTsBVtJqk8jxF9rh8ApRWfsIMQSt2uE4OcpQqbFu7f7NbTK05lx80nuSijCz7sc3a277R67g",
+      "date": "2019-09-16T04:20:07.364Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=0bbbbf47-bcec-4ea5-8714-81e0656171ed",
+      "title": null,
+      "text": "So. Dropbox raises their price above the competition. Yet, for almost 3 years. Yes. 3. They have not fixed a BIG bug with backup. If your roming. Your out of luck with Dropbox. They won't listen or fix the problem. They just don't get it. I have been using them 8 years. I suggest to everyone to change to Google. It's cheaper and does not have a bug issue with camera uploads.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "158.2.2",
+      "thumbsUp": 77,
+      "criterias": [
+        {
+          "criteria": "vaf_never_display_app_description",
+          "rating": 2
+        },
+        {
+          "criteria": "vaf_phase1_managing_events",
+          "rating": 2
+        },
+        {
+          "criteria": "vaf_multi_device_sync",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "id": "13836d88-3cec-469d-a7e0-b3a528c4d879",
+      "userName": "Sam Vimes",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocIXyf5ixmF_obvUZzR0vawFNEJdrpNZYD7vQNEQ9Tc3=mo",
+      "date": "2022-08-31T23:58:32.670Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=13836d88-3cec-469d-a7e0-b3a528c4d879",
+      "title": null,
+      "text": "When I start off trying to upload it gives me many options and one of the options is \"my drive\". There's an option for files documents and photos, but as soon as you upload one photo it automatically decides for you that you can't go back to \"my drive\" and you can only upload from your photos. It's frustrating and cumbersome. Also, until I turned off camera uploads, it would upload everything in the world that I didn't want to and nothing that I wanted to.",
+      "replyDate": "2022-09-07T09:16:21.645Z",
+      "replyText": "Hey there, we’re sorry to hear about that. Go ahead and reach out to our teams on Twitter at @DropboxSupport or on our Official Online Community https://www.dropboxforum.com/ so we can have a look, and see what we can do to help.\nThanks!",
+      "version": "294.2.2",
+      "thumbsUp": 67,
+      "criterias": []
+    },
+    {
+      "id": "851c4a27-2cbe-4b64-9e8b-869e121fce21",
+      "userName": "Bryan Bierbaum",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjWildf3T6xzaAa0FFDcEp3dw2SbO3MG5lEJ1JG-0uL2Zb0U",
+      "date": "2020-05-19T03:02:29.885Z",
+      "score": 2,
+      "scoreText": "2",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=851c4a27-2cbe-4b64-9e8b-869e121fce21",
+      "title": null,
+      "text": "I have been using Dropbox for many years....even pay for extra storage. I record a lot of music videos and for the last few weeks when selecting any video, audio from a different video plays at the same time. It seems to be completely random and it doesn't matter which video I select...it always happens on my Android device. The issue doesn't exist on the iPad or PC apps.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "188.2.6",
+      "thumbsUp": 178,
+      "criterias": []
+    },
+    {
+      "id": "33e7817b-8cc8-436e-b8e9-81d9238a0515",
+      "userName": "Lauren Parsch",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocIwxBLvbvBhSbikxNrlWzmnSKiCIKT855GbwZyF1Gxc=mo",
+      "date": "2023-02-08T19:57:24.364Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=33e7817b-8cc8-436e-b8e9-81d9238a0515",
+      "title": null,
+      "text": "The app and the website are buggy and have been for a while. While watching a video, the thumbnail from another video will overlap it. Sometimes I can rectify this on my phone by swiping just slightly, but it'll come back. On the computer it's terrible, and basically useless. Extremely disappointing considering I pay like $13 a month for these issues. I'll be looking for something else that works better and is actually maintained well.",
+      "replyDate": "2023-02-16T12:21:01.569Z",
+      "replyText": "Hey, Lauren, we’re sorry to hear about that. Please reach out to our support agents so they can gather more details, and assist. You can submit a help request to them directly from this page https://www.dropbox.com/support, while signed into your account in your browser. Thanks!",
+      "version": "314.2.4",
+      "thumbsUp": 189,
+      "criterias": []
+    },
+    {
+      "id": "c1a81a05-1ca4-452e-97ae-08bfee2e0ca4",
+      "userName": "Victor Kaplan",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocKOqQj5CXE7L44rozVxrVFRabnwc1lCcrcoUeG4Ds8s=mo",
+      "date": "2023-05-01T05:15:22.811Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=c1a81a05-1ca4-452e-97ae-08bfee2e0ca4",
+      "title": null,
+      "text": "I recently started to get an error when attempting to open a document with Word or Excel from the Dropbox app. The error message reads, \"To open this file, please update your Dropbox app\" and I can't open the file. But if I open Word or Excel and navigate to the same files, I am able to open them. I have the latest version of Dropbox. I even cleared cache, then deleted data, removed the app, and reinstalled it, but the behavior continues.",
+      "replyDate": "2023-05-04T17:35:50.576Z",
+      "replyText": "Hi there, we’re sorry to hear that. Please post on our community https://www.dropboxforum.com/, or contact our team on Twitter at @DropboxSupport or Facebook at facebook.com/Dropbox, so we can gather more details, look into this further with you. Thanks!",
+      "version": "326.2.4",
+      "thumbsUp": 239,
+      "criterias": [
+        {
+          "criteria": "vaf_never_display_negative_ads_impact",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "id": "664507df-cf4c-42af-af17-158ffb821009",
+      "userName": "FirstName LastName",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjWWPJ0APFbgzFxbLihQbPqQVfnsefZOUbh_dTuI9Ygi__Y",
+      "date": "2021-09-20T02:35:41.559Z",
+      "score": 2,
+      "scoreText": "2",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=664507df-cf4c-42af-af17-158ffb821009",
+      "title": null,
+      "text": "File browser is incredibly unintuitive. There's not an obvious way to navigate up a directory. Or get to the root and see my folders once I've navigated down into a directory without completely closing the app. The \"Home\" screen feels like a complete waste of space. Like it was one of those \"Other apps have home screens so we will too.\" If you want a \"Home\" screen so bad, remove the \"Home\" screen and rename the \"Files\" screen to home.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "250.2.2",
+      "thumbsUp": 80,
+      "criterias": []
+    },
+    {
+      "id": "77bc0073-f015-481d-8b8e-1db2436a783b",
+      "userName": "Win Biernacki",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjXWJ4U-gvqMQKeHzHu-N68Y6P-hXfVE85RAt_GydJcpLt4",
+      "date": "2020-07-10T18:23:30.253Z",
+      "score": 3,
+      "scoreText": "3",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=77bc0073-f015-481d-8b8e-1db2436a783b",
+      "title": null,
+      "text": "I have been a dropbox user for many years and absolutely loved it! So disappointed with the 'new' version, however. Syncing and updating is a struggle; cannot easily access from my new pc, not sure how to download or attach doc to email. People with whom I share docs dislike that feature and just want the doc attached for printing, etc. I have had folders shared with me that I suddenly can no longer access. I'm sure it is disappointing to hear as it takes mountains of time and energy to roll out a new version of anything, but...",
+      "replyDate": null,
+      "replyText": null,
+      "version": "196.2.6",
+      "thumbsUp": 187,
+      "criterias": []
+    },
+    {
+      "id": "7aa41eda-d6a7-4f23-b7a6-9013e8634fd7",
+      "userName": "A Google user",
+      "userImage": "https://play-lh.googleusercontent.com/EGemoI2NTXmTsBVtJqk8jxF9rh8ApRWfsIMQSt2uE4OcpQqbFu7f7NbTK05lx80nuSijCz7sc3a277R67g",
+      "date": "2019-07-05T23:08:28.183Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=7aa41eda-d6a7-4f23-b7a6-9013e8634fd7",
+      "title": null,
+      "text": "A miserable experience. Joined when the app was free. Used it for long-term photo storage. At some point, they must have decided to shrink the storage amount offered by the trial. My account is now missing the vast majority of the photos in it before, with apparently no way to recover them. Too many other good storage options to even consider this one. What an utter disaster...",
+      "replyDate": null,
+      "replyText": null,
+      "version": "146.2.6",
+      "thumbsUp": 31,
+      "criterias": []
+    },
+    {
+      "id": "bd9657de-d91b-418f-81ad-5f79e1707a5f",
+      "userName": "A Google user",
+      "userImage": "https://play-lh.googleusercontent.com/EGemoI2NTXmTsBVtJqk8jxF9rh8ApRWfsIMQSt2uE4OcpQqbFu7f7NbTK05lx80nuSijCz7sc3a277R67g",
+      "date": "2019-09-23T07:09:31.695Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=bd9657de-d91b-418f-81ad-5f79e1707a5f",
+      "title": null,
+      "text": "Editor is SO BAD at context/ data loss, you have to \"save\" essentially every sentence. It would be bad enough if it merely crashed every time you switch over to another app for 5 seconds, but it will revert to home directory and drop your editor at random times (you will see the blue logo screen paint, followed by revert to home directory... For NO DAMN REASON). I have had irreplaceable data loss because of this and now use only Microsoft Onedrive, which has exhibited no such problems.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "152.2.4",
+      "thumbsUp": 19,
+      "criterias": [
+        {
+          "criteria": "vaf_phase1_multi_device_sync",
+          "rating": 1
+        },
+        {
+          "criteria": "vaf_online_storage",
+          "rating": 2
+        },
+        {
+          "criteria": "vaf_organizational_tools",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "id": "1ea26390-e380-47a1-9d7c-41872e4b4932",
+      "userName": "Infradragon",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjWF-NOvM-2-NfKbyABRQg-lcS2B-LEZvRpwRKg1XXUhS_4",
+      "date": "2023-01-16T06:28:05.215Z",
+      "score": 2,
+      "scoreText": "2",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=1ea26390-e380-47a1-9d7c-41872e4b4932",
+      "title": null,
+      "text": "I used to use Dropbox as my main way of syncing my KeePass database between devices, but I no longer see Dropbox as a viable option. Dropbox has become infested with marketing, trying to get you to purchase their subscription model. In addition, their desktop programs and apps have become unstable. I will instead use Google Drive for it's increased accessibility, stability, and the fact that it allows for infinite connected devices instead of dropbox's limit of 5.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "310.2.2",
+      "thumbsUp": 198,
+      "criterias": [
+        {
+          "criteria": "vaf_never_display_ease_of_use",
+          "rating": null
+        },
+        {
+          "criteria": "vaf_never_display_ads_experience",
+          "rating": null
+        }
+      ]
+    },
+    {
+      "id": "1aa445bb-befd-418d-9476-914f06367975",
+      "userName": "A Google user",
+      "userImage": "https://play-lh.googleusercontent.com/EGemoI2NTXmTsBVtJqk8jxF9rh8ApRWfsIMQSt2uE4OcpQqbFu7f7NbTK05lx80nuSijCz7sc3a277R67g",
+      "date": "2019-04-13T18:41:27.388Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=1aa445bb-befd-418d-9476-914f06367975",
+      "title": null,
+      "text": "Dropbox changed agreement to three devices only, but said you can keep it installed on existing devices.  I replaced my phone with a new one and tried to install Dropbox on it.  You might think, so what, just uninstall it from the old phone then install it on the new.  But no, you have to uninstall it from all other devices to get down to the three device limit.  Works for me, until I find another app, even if I have to pay for the new one.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "136.2.2",
+      "thumbsUp": 92,
+      "criterias": []
+    },
+    {
+      "id": "2c3994be-eacd-4fd4-a153-50fe76cbf7a9",
+      "userName": "Taylor Swan",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjXKPYwaPSw9580ZN8_xNFQI8sKfuY6sfsZ6KDQ_hY-rHCpw",
+      "date": "2020-05-15T14:13:30.691Z",
+      "score": 5,
+      "scoreText": "5",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=2c3994be-eacd-4fd4-a153-50fe76cbf7a9",
+      "title": null,
+      "text": "I don't like keeping a lot of pictures on my phone. Dropbox is an easy solution for that. Downloading the few pictures I do want to keep onto the app is easy and quick. I also really like that you can then access the pictures on your computer. I like Google photo, but the amount of pictures you can save on there is much less than dropbox.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "188.2.6",
+      "thumbsUp": 397,
+      "criterias": []
+    },
+    {
+      "id": "45c9dbbf-06ad-4169-b208-88ceea70b23a",
+      "userName": "Isaiah kinchen (Soul Evans)",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjX7jA3S87cV4SXX2xrM8t-HZ5m0_z026Q5sPbDi41EZwe8",
+      "date": "2022-08-09T11:53:47.380Z",
+      "score": 5,
+      "scoreText": "5",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=45c9dbbf-06ad-4169-b208-88ceea70b23a",
+      "title": null,
+      "text": "App works well, but could use some adjustments to the ui. For instance, downloading a file requires you to click on the three dots on the right of a file, and then scroll down to the export button. I didnt find this out till recently when I was contacted by the developers, so I originally just assumed that there wasn't a download button. Other than that, good app 👍",
+      "replyDate": "2022-08-09T11:42:27.587Z",
+      "replyText": "Hi there, thanks for reviewing our app. To export a file from the Dropbox mobile app, please tap on the ellipsis \"...\", and scroll down to see the \"Export\" option. For further assistance, please reach out to our teams on Twitter at @DropboxSupport or on our Community at https://www.dropboxforum.com/ so we can gather more details. Thanks!",
+      "version": "290.2.2",
+      "thumbsUp": 166,
+      "criterias": [
+        {
+          "criteria": "vaf_phase1_screensharing",
+          "rating": 2
+        },
+        {
+          "criteria": "vaf_never_display_positive_impact",
+          "rating": 1
+        },
+        {
+          "criteria": "vaf_phase1_making_lists",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "id": "b4c975e1-24ec-449b-bf09-30208021d1e3",
+      "userName": "A Google user",
+      "userImage": "https://play-lh.googleusercontent.com/EGemoI2NTXmTsBVtJqk8jxF9rh8ApRWfsIMQSt2uE4OcpQqbFu7f7NbTK05lx80nuSijCz7sc3a277R67g",
+      "date": "2019-07-14T16:22:06.198Z",
+      "score": 2,
+      "scoreText": "2",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=b4c975e1-24ec-449b-bf09-30208021d1e3",
+      "title": null,
+      "text": "This app used to be golden, but they keep ratcheting down services. The latest is that now, without a subscription (i.e. recurring fee), you are limited to 3 devices. I hope apps that use Dropbox for sync will drop them & broaden support for other cloud storage services. Just like other formerly great apps/services, Dropbox is one more example of how the Golden Age of mobile computing is sadly coming to an end. :-(",
+      "replyDate": null,
+      "replyText": null,
+      "version": "150.2.4",
+      "thumbsUp": 64,
+      "criterias": [
+        {
+          "criteria": "vaf_never_display_make_you_happy",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "id": "9e525324-48fa-4930-9a0f-dd2ee28d5ca9",
+      "userName": "Zero the Hero",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjXAIE6ftV8C1doz5QMKxkSlh1ZU-FLuO2BZzR3I9yp6djO_",
+      "date": "2021-05-21T16:04:36.336Z",
+      "score": 5,
+      "scoreText": "5",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=9e525324-48fa-4930-9a0f-dd2ee28d5ca9",
+      "title": null,
+      "text": "Dropbox provides seamless, real-time access and upload. I've used it regularly (phone and PC) for years with my personal files as well as file sharing in a small business and had 0 issues. It looks, feels, and operates like a local folder. It's secured with PIN access. The features and services have expanded over the years staying in step with a growing market. The only deterrent may be the cost. IMHO Dropbox is the best and I recommend hands-on to help make that decision.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "236.2.10",
+      "thumbsUp": 313,
+      "criterias": []
+    },
+    {
+      "id": "640f69de-c33f-4ccc-816b-ada72f183c4e",
+      "userName": "Sabrina Jenkins",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocIBcAhN3vgbqSsW3biU2gFoJ8ABAbJ3y3qugKXUx9mW=mo",
+      "date": "2021-01-21T20:40:02.219Z",
+      "score": 4,
+      "scoreText": "4",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=640f69de-c33f-4ccc-816b-ada72f183c4e",
+      "title": null,
+      "text": "This app works well, and I've used Dropbox to store and manage my files on several devices since 2017, but lately, it's developed this issue where sometimes, when you attempt to open the app, it will show the logo for a moment, as usual, but then switch to black and close the app. No amount of restarting or re-installing has fixed this, and I often find myself having to navigate the Dropbox website on mobile instead in order to see and manage files. I love this app, but wish I could use it more.",
+      "replyDate": "2021-01-26T13:11:26.811Z",
+      "replyText": "Hi, we’re sorry to hear that you’re experiencing an issue with our app.\n\nPlease try to clear the cache on your app & then sign out and back into your Dropbox account. Also, we encourage you to reach out to our teams on Twitter at @DropboxSupport or on our Official Community https://www.dropboxforum.com so you can tell us more about this. Thanks!",
+      "version": "194.2.4",
+      "thumbsUp": 28,
+      "criterias": [
+        {
+          "criteria": "vaf_phase1_autocorrect_feature",
+          "rating": 3
+        },
+        {
+          "criteria": "vaf_never_display_inappropriate_ads",
+          "rating": 2
+        },
+        {
+          "criteria": "vaf_never_display_meet_expectations",
+          "rating": 1
+        }
+      ]
+    },
+    {
+      "id": "caa3c6e6-9608-45e3-8deb-364232817c21",
+      "userName": "A Google user",
+      "userImage": "https://play-lh.googleusercontent.com/EGemoI2NTXmTsBVtJqk8jxF9rh8ApRWfsIMQSt2uE4OcpQqbFu7f7NbTK05lx80nuSijCz7sc3a277R67g",
+      "date": "2019-08-23T06:12:14.914Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=caa3c6e6-9608-45e3-8deb-364232817c21",
+      "title": null,
+      "text": "Was working fine with auto uploads from my laptop. Then last week (Aug 16) Windows updated latest version of Windows 10. Now Dropbox no longer works. Have deleted, then reinstalled, etc. No icon on screen, no auto uploads, nothing. Have had to discontinue using it. Luckily, almost everything I had on it was still on my hard drive. The main purpose of using Dropbox was to prevent loss of data. Now, here I have essentially lost everything I had on it. Ironic - huh?",
+      "replyDate": null,
+      "replyText": null,
+      "version": "156.2.2",
+      "thumbsUp": 52,
+      "criterias": [
+        {
+          "criteria": "vaf_phase1_making_lists",
+          "rating": 2
+        },
+        {
+          "criteria": "vaf_never_display_easy_to_use",
+          "rating": 2
+        },
+        {
+          "criteria": "vaf_phase1_screensharing",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "id": "e26654b4-6381-4f09-8b22-59afec934faa",
+      "userName": "A Google user",
+      "userImage": "https://play-lh.googleusercontent.com/EGemoI2NTXmTsBVtJqk8jxF9rh8ApRWfsIMQSt2uE4OcpQqbFu7f7NbTK05lx80nuSijCz7sc3a277R67g",
+      "date": "2019-04-28T13:32:14.940Z",
+      "score": 2,
+      "scoreText": "2",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=e26654b4-6381-4f09-8b22-59afec934faa",
+      "title": null,
+      "text": "I dislike being forced to sign up for the new Dropbox. You are given no choice in the matter, but to sign up, even though the app log in clearly states at the top choose your Dropbox options. And even though it says I can cancel at anytime, what will happen to my original dropbox. Will it go back to normal? I don't know. I'm not happy, but I had to sign up so I could access what photos I had stored.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "138.2.2",
+      "thumbsUp": 191,
+      "criterias": [
+        {
+          "criteria": "vaf_never_display_make_you_happy",
+          "rating": 2
+        },
+        {
+          "criteria": "vaf_phase1_multi_device_sync",
+          "rating": 1
+        },
+        {
+          "criteria": "vaf_never_display_inappropriate_ads",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "id": "c35e7dda-6d08-4cc4-9a2a-4f7186450f8d",
+      "userName": "Lifestyle",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjWdk_PNkWLzHbFQr619lm20LooBElgCqTskprIEV6QmNcw",
+      "date": "2023-03-08T18:23:36.642Z",
+      "score": 2,
+      "scoreText": "2",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=c35e7dda-6d08-4cc4-9a2a-4f7186450f8d",
+      "title": null,
+      "text": "I love being able to open my files anywhere i may be. It's great for work and personal use.. but lately, when i try to upload a batch of files, only a few go through and the rest stay stuck in limbo... my wifi is stro g and if I'm using my phone data, my signal is just as good if not better typically.. i have no reason why this is happening at this point and its frustrating.. especially when I pay to have 2TB of storage and can't use it..",
+      "replyDate": "2023-03-17T23:28:49.640Z",
+      "replyText": "Hey there, sorry to hear that. Try uninstalling our app, restarting your device, and installing again from the Play store. If you continue to experience the issue, we encourage you to reach out to our teams on Twitter at @DropboxSupport or on our Official Online Community https://www.dropboxforum.com/ for further assistance. Thanks!",
+      "version": "318.2.2",
+      "thumbsUp": 110,
+      "criterias": []
+    },
+    {
+      "id": "d9233cc1-b0cb-40f8-8733-b9006c9d4edf",
+      "userName": "Steven Rubio",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjUVyrcLIH1lj1UnrV36Koum-YBP0qVyijFXfOBncd8bXmU",
+      "date": "2023-09-02T07:39:53.405Z",
+      "score": 3,
+      "scoreText": "3",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=d9233cc1-b0cb-40f8-8733-b9006c9d4edf",
+      "title": null,
+      "text": "As much as I love Dropbox and have used it for years, I think this app could be improved. The media player interface is difficult to use, with a tiny \"play\" button and an even smaller \"repeat\" control. I wish the app defaulted to the most recent repeat selection, but it resets back to repeat off. My biggest complaint is that you can't lock your phone screen during playback, or the media stops playing. How annoying!! It'd be really nice if you could switch between apps while playing audio/video.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "342.2.2",
+      "thumbsUp": 416,
+      "criterias": []
+    },
+    {
+      "id": "50370245-6764-4893-a3af-3af39d8d58d8",
+      "userName": "RDB π",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjWr3CbOwat8L4VrQazynFcLUC05sWeFsYejdRosawzrVdTw",
+      "date": "2020-12-14T18:06:03.700Z",
+      "score": 2,
+      "scoreText": "2",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=50370245-6764-4893-a3af-3af39d8d58d8",
+      "title": null,
+      "text": "I can't stand Dropbox, the only reason I'm using it is for an app. It's not user-friendly, if you want to delete photos you have to pick them one by one. and I can't stand how much they push the premium version all throughout the whole app everywhere you go. As soon as I'm finished with the work that I need to do with this app I am going to uninstall Dropbox as soon as I possibly can. Google drive is superior in always.",
+      "replyDate": "2020-12-16T13:11:28.989Z",
+      "replyText": "Rebecca, we’re sorry to hear that.\n\nYou can select multiple photos or files, and then delete them from the option in the ellipsis menu. For further assistance, we encourage you to reach out to our teams on Twitter at @DropboxSupport, or on our Official Online Community https://www.dropboxforum.com/.\n\nThanks!",
+      "version": "218.2.2",
+      "thumbsUp": 193,
+      "criterias": [
+        {
+          "criteria": "vaf_never_display_negative_ads_impact",
+          "rating": 1
+        },
+        {
+          "criteria": "vaf_file_sharing",
+          "rating": 2
+        },
+        {
+          "criteria": "vaf_never_display_meet_expectations",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "id": "8abf5155-70e1-4df9-bfe7-d37d2110d8bd",
+      "userName": "A Google user",
+      "userImage": "https://play-lh.googleusercontent.com/EGemoI2NTXmTsBVtJqk8jxF9rh8ApRWfsIMQSt2uE4OcpQqbFu7f7NbTK05lx80nuSijCz7sc3a277R67g",
+      "date": "2019-07-12T22:24:45.923Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=8abf5155-70e1-4df9-bfe7-d37d2110d8bd",
+      "title": null,
+      "text": "I signed up for a Dropbox account out of desperation when I was buying a new phone unexpectedly and hadn’t backed up any of my photos.  Things were fine for a while, until I was forced to purchase a Dropbox Plus account, which I did not want. I deleted my Dropbox account shortly after that, and for three months, I was still getting billed for a subscription that I did not have anymore. Reaching out to customer service was incredibly difficult, and when a man named Ron did finally email me back, he asked for a lot of credit card information that I was not comfortable giving out. I shortly after got an email that my subscription had been renewed and I had not given ANY CONSENT to activate or renew any subscription I once had.  I got curious and downloaded the Dropbox app to my phone, and when I tried to sign in, it showed no account with their service for my email address. I decided to go through my bank instead and placed a stop payment on any payments that they try to take out of my account in the future. I will be taking further action to receive a refund for the months that they billed me for unethically, and I do not recommend this service to anyone.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "128.2.4",
+      "thumbsUp": 26,
+      "criterias": []
+    },
+    {
+      "id": "4d44c4e9-fe04-473d-ad4b-df176da3886d",
+      "userName": "Max Kelley",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjWy6vuOAJJCqluOoVc9bX9f5jLLef0wVK59MDegJd2blA",
+      "date": "2021-10-11T14:13:50.389Z",
+      "score": 2,
+      "scoreText": "2",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=4d44c4e9-fe04-473d-ad4b-df176da3886d",
+      "title": null,
+      "text": "Most of the time, I can't get this app to sync files for offline use. It just says an unknown error has occurred and won't let me access any of my files. When I do get it to sync, it will sometimes try to update the files later in the background and fail, then I'm back to not being able to access any files. Very unhelpful when trying to access drawings on-site with no service or wifi. Most issues on Galaxy Tab S7, but also on LG V60.",
+      "replyDate": "2021-10-12T16:56:53.718Z",
+      "replyText": "Hey there, we’re sorry to hear that you’re experiencing an issue with our app.\nWe would like to get some additional information about this, and help in any way we can. Please reach out to our teams on Twitter at @DropboxSupport or on our Official Online Community https://www.dropboxforum.com/ so we can have a look with you.\nThanks!",
+      "version": "254.2.2",
+      "thumbsUp": 286,
+      "criterias": []
+    },
+    {
+      "id": "79069fca-41ea-4031-a769-1e37132e05ef",
+      "userName": "A Google user",
+      "userImage": "https://play-lh.googleusercontent.com/EGemoI2NTXmTsBVtJqk8jxF9rh8ApRWfsIMQSt2uE4OcpQqbFu7f7NbTK05lx80nuSijCz7sc3a277R67g",
+      "date": "2020-01-20T17:12:19.933Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=79069fca-41ea-4031-a769-1e37132e05ef",
+      "title": null,
+      "text": "Not so excited anymore. I've been using Dropbox for about 6 years to backup pics from my phone. I had earned additional storage space to the point of having 8GBs available to me. Lately, I've been having issues with my files and pictures staying synched between devices. Instead of being able to file my pics and documents away, I write this while I wait for my past week's images to be available to me. I'm off to research other services while I wait for synching to complete.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "172.2.2",
+      "thumbsUp": 71,
+      "criterias": [
+        {
+          "criteria": "vaf_never_display_considerate_of_time",
+          "rating": 2
+        },
+        {
+          "criteria": "vaf_phase1_whiteboarding",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "id": "98559ccd-51a1-4807-879a-29b4beb91720",
+      "userName": "Tim Wilson",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocLVA-h6GchClPlR6T1wtqdBTRIKPlyNng7mCgqB6lun=mo",
+      "date": "2022-03-23T20:22:39.330Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=98559ccd-51a1-4807-879a-29b4beb91720",
+      "title": null,
+      "text": "I'm very unhappy with Dropbox deleting the album feature from the app. They replied that I can access my pics through the photo button, no kidding. The problem was I had several pics out of thousands added to albums for easy access but it was changed without notice. I'm now more unhappy with what appears to be an insensitive auto generated response. Looks like it's time to find an alternative solution.",
+      "replyDate": "2022-03-23T20:08:34.697Z",
+      "replyText": "Hey there; in December 2021, we deleted the albums feature from the Android app. You can still find your uploaded photos and videos in the Photos tab or at dropbox.com/photos. For further assistance, please reach out to our teams on Twitter at @DropboxSupport or on our Official Online Community https://www.dropboxforum.com/. Cheers!",
+      "version": "272.2.4",
+      "thumbsUp": 677,
+      "criterias": []
+    },
+    {
+      "id": "ac2f8844-f131-4577-a1a8-d8b43f899198",
+      "userName": "Ed Sweitzer",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjWp6o83uIT7qIHHygoRUPusG8tHPowXE4SLIcP4QL_Esmg",
+      "date": "2023-03-24T19:21:22.132Z",
+      "score": 2,
+      "scoreText": "2",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=ac2f8844-f131-4577-a1a8-d8b43f899198",
+      "title": null,
+      "text": "I pay for this app, and I mainly use it to back up my photos. But, I just got a random notification asking me to scan docs for tax season. I clicked the notification, it proceeded to open my camera and start scanning photos. Why? There's not even an option to turn just that type of notification off, so I just turned off all notifications for Dropbox. Annoying.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "320.2.10",
+      "thumbsUp": 100,
+      "criterias": [
+        {
+          "criteria": "vaf_never_display_ads_experience",
+          "rating": null
+        }
+      ]
+    },
+    {
+      "id": "df5ad7e7-718a-45d0-bfa3-076e98c89954",
+      "userName": "A Google user",
+      "userImage": "https://play-lh.googleusercontent.com/EGemoI2NTXmTsBVtJqk8jxF9rh8ApRWfsIMQSt2uE4OcpQqbFu7f7NbTK05lx80nuSijCz7sc3a277R67g",
+      "date": "2020-04-13T17:23:47.810Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=df5ad7e7-718a-45d0-bfa3-076e98c89954",
+      "title": null,
+      "text": "Incredibly irritating layout...what is the point of enormous panels on left & right sides of screen??? Too many useless options open up when simply navigating files. Persons who designed this software never had to actually work with files... incredible redundancy. I accidentally signed up for a year of plus..a struggle to even make sure it won't automatically renew..Then I am out of here!!!!",
+      "replyDate": null,
+      "replyText": null,
+      "version": "184.2.8",
+      "thumbsUp": 122,
+      "criterias": [
+        {
+          "criteria": "vaf_never_display_disruptive_ads",
+          "rating": 1
+        }
+      ]
+    },
+    {
+      "id": "c50718f8-407c-49ac-ae96-26030cec6252",
+      "userName": "Erin Mawhirter",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjXI5lpK5aIUx8NY93dilkNu9wn9vVWPjbRNdg4aWRObb48a",
+      "date": "2022-02-22T01:21:58.657Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=c50718f8-407c-49ac-ae96-26030cec6252",
+      "title": null,
+      "text": "Very difficult!! I signed up for the free trial to see if this would be a good app to send large picture files to family. It has been the opposite of user friendly. Canceling the subscription is way too difficult for a regular person. It says it is sending you to options for cancelling that then don't exist. Just finding out what type of account one has is difficult. I use a lot of apps. I found this one to be frustrating with support fairly unavailable.",
+      "replyDate": "2022-02-24T23:35:19.771Z",
+      "replyText": "Hey there, sorry to hear about that. Cancelling a subscription must be done through the platform it was started on. That said, we suggest that you reach out to our teams on our Official Online Community https://www.dropboxforum.com/, or on social media on Twitter at @DropboxSupport, so we can take a look at this from our end. Thanks!",
+      "version": "266.2.2",
+      "thumbsUp": 243,
+      "criterias": []
+    },
+    {
+      "id": "c608ae55-a747-40f9-ab34-58c0f7734bd4",
+      "userName": "Justin Reynolds",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjWVD3Ez4sW58gva7RqxSQD93nkTkkn7iCjVatJ1-ZWhAfM",
+      "date": "2021-03-29T23:14:11.296Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.dropbox.android&reviewId=c608ae55-a747-40f9-ab34-58c0f7734bd4",
+      "title": null,
+      "text": "This app is truly terrible , i have been a dropbox user for some time and just realized how terrible they were after switching to one drive, much easier and well organized so if you are reading this make the switch dont worry. If you try dropbox on your computer expect everything to be deleted. All my info and music was \"synced\" so basiclly it all disappeared. So 5 years of work is gone. And no way of getting it back, will be moving my whole family away from dropbox.",
+      "replyDate": "2021-03-31T11:29:48.698Z",
+      "replyText": "Hey, Justin, we’re sorry to hear that. If you haven’t already done so, we encourage you to reach out to us using the options you’ll find available at https://www.dropbox.com/support, so we can have a look. Thanks!",
+      "version": "228.2.2",
+      "thumbsUp": 132,
+      "criterias": [
+        {
+          "criteria": "vaf_phase1_autocorrect_feature",
+          "rating": 2
+        },
+        {
+          "criteria": "vaf_phase1_whiteboarding",
+          "rating": 2
+        },
+        {
+          "criteria": "vaf_phase1_making_lists",
+          "rating": 2
+        }
+      ]
+    }
+  ],
+  "nextPaginationToken": "Cm0KawppMCwxMDAxMDAwLjQ1NzU1NzIzMTIsOTQ1NTY1MTg3MTIxLCJodHRwOi8vbWFya2V0LmFuZHJvaWQuY29tL2RldGFpbHM_aWQ9djI6Y29tLmRyb3Bib3guYW5kcm9pZDoxIiwxLGZhbHNl"
+}

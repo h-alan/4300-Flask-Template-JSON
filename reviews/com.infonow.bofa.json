@@ -1,0 +1,1885 @@
+{
+  "data": [
+    {
+      "id": "c9e21601-840e-476b-97ed-23c65d65895a",
+      "userName": "Be Informed",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjW3ivS_5ejIyeMQ-AYYqPay3btFPWWxQ2sHHBuBEBV1Lo0M",
+      "date": "2024-03-15T12:39:16.344Z",
+      "score": 3,
+      "scoreText": "3",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=c9e21601-840e-476b-97ed-23c65d65895a",
+      "title": null,
+      "text": "I have used B of A Banking for years, it was always very intuitive and easy to use. Reciently, they have lost sight of that design, making it try to do more, and yes, sell more to the user. It still banks, but the new software is harder to use. Messing with anything that is classic can make it no better than all the others. The person responsible only knows then need to change it, so they do just that. Thinking you can't lose the number one rating is wrong! For the new layout you get 3 stars",
+      "replyDate": null,
+      "replyText": null,
+      "version": "24.02.52",
+      "thumbsUp": 4,
+      "criterias": []
+    },
+    {
+      "id": "aeb93a6c-c0d6-4b42-a035-10d93ffbe4c9",
+      "userName": "Victoria C",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocL-u1jAKLQfVPljEZPpDYEKWV3QD8HHtFneE8GiIb-l=mo",
+      "date": "2024-03-07T17:36:21.743Z",
+      "score": 5,
+      "scoreText": "5",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=aeb93a6c-c0d6-4b42-a035-10d93ffbe4c9",
+      "title": null,
+      "text": "The BoA app is really user friendly. There's a few things that are a little hard to find but after some searching, you can find your way. That's layout discrepancies, not functional. I find it helpful and easy to deposit checks too. And, if there's funny activity, it's laid out well to get you on track and secure. Security is not an issue as you are alerted if they find anything suspicious starting. Really is a friendly and useful app.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "24.02.50",
+      "thumbsUp": 204,
+      "criterias": []
+    },
+    {
+      "id": "e0b42103-ed21-43fe-bbd2-88aa0d7e4e65",
+      "userName": "Aaron Newman",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjX13g5FK-uFx-fqW4APov9bj3OzxvFMvV4U88GYoEMDoA",
+      "date": "2024-03-14T11:10:48.400Z",
+      "score": 3,
+      "scoreText": "3",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=e0b42103-ed21-43fe-bbd2-88aa0d7e4e65",
+      "title": null,
+      "text": "Taking it down a star or two as the app seems to digress with each update. Notable degradations include worse check-deposit imaging/reliability and deteriorated navigation/site architecture making it more difficult to find and execute tasks like Start ATM withdrawal. It has been a great app up until recently. No real technical issues or crashes.",
+      "replyDate": "2020-04-16T18:53:33.448Z",
+      "replyText": "Hello Aaron, We appreciate the feedback! Please let us know how we can earn your 5 star rating! -Ashlyn",
+      "version": "24.02.52",
+      "thumbsUp": 50,
+      "criterias": [
+        {
+          "criteria": "vaf_phase1_tax_preparation",
+          "rating": 2
+        },
+        {
+          "criteria": "vaf_never_display_visually_bad",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "id": "0bf96c79-4319-48a0-8d1a-3bab051c0a14",
+      "userName": "Cassie Whyte",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocKhOiw0R1KJoPgTiOeOsTZv-ogaRLOqjg1vbwlvIgzj=mo",
+      "date": "2024-03-14T17:12:43.134Z",
+      "score": 3,
+      "scoreText": "3",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=0bf96c79-4319-48a0-8d1a-3bab051c0a14",
+      "title": null,
+      "text": "Normally I would rate this one of five. But today I find that on my tablet and my phone, both android, I have wasted time to find out that I can't just easily look at the check images anymore. They are supposedly now in my gallery, and I checked my Google photos, but they're not there. Tried to edit the description of one check. It would not save. Strange note about a missing token for that transaction. Why did you change something that was working just fine before?",
+      "replyDate": null,
+      "replyText": null,
+      "version": "24.02.52",
+      "thumbsUp": 50,
+      "criterias": []
+    },
+    {
+      "id": "2c9bddaf-85ed-454e-930a-e0c40ad1dcd5",
+      "userName": "Fabian Gutierrez",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjXku8zcoFFX7gIC70mJMJe9Py_kIb7dtQH0nZsE05QA70s",
+      "date": "2024-03-11T00:06:57.123Z",
+      "score": 3,
+      "scoreText": "3",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=2c9bddaf-85ed-454e-930a-e0c40ad1dcd5",
+      "title": null,
+      "text": "Used to be better. I only had to select a single option to pay off a credit card in the statements page from my checking account. They now make you jump through an ever more increasing number of hoops to do it. You now have to go to Pay & Transfer > Pay Bills > Add Payee > Add a Company, and then put in the credit account number and full amount to pay (you'll have to remember from memory or else it erases). This can eventually lead to some people being late in their credit card payments.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "24.02.50",
+      "thumbsUp": 57,
+      "criterias": []
+    },
+    {
+      "id": "b47c58ca-929a-4287-a481-a16c2c0705e5",
+      "userName": "Shannon Lee",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjWCzbLJKp3S6bvhNHhAv4_5xbvrfh8cMC2X2zKrrJQsGVdf",
+      "date": "2024-03-12T16:47:46.548Z",
+      "score": 2,
+      "scoreText": "2",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=b47c58ca-929a-4287-a481-a16c2c0705e5",
+      "title": null,
+      "text": "The \"Mark As Paid“ button on Bill Pay doesn't work well. It's too close to the \"Pay\" button so unless you have a stylus, which I don't it it keeps wanting to default to Pay button and going that route. I have a very hard getting it to mark as paid. Existing problem for years. This section needs to be reworked. Hoping the dev team sees this!",
+      "replyDate": null,
+      "replyText": null,
+      "version": "24.02.52",
+      "thumbsUp": 55,
+      "criterias": []
+    },
+    {
+      "id": "0e679c72-2949-410f-90ed-b7017abe632f",
+      "userName": "Meredith Metcalfe",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocIH_JxIBaVnxzwCnlEUd_5UZkMSHGEZZk0NNNNVI1aS=mo",
+      "date": "2024-03-09T18:11:54.673Z",
+      "score": 3,
+      "scoreText": "3",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=0e679c72-2949-410f-90ed-b7017abe632f",
+      "title": null,
+      "text": "If I can figure out how to navigate this app, anyone can. Overall pleased with everything at Bank of America, from customer service to the app. Easy and helpful banking. EDIT- downgrading to 3 stars. I don't like the update as much. I used to be able to see my accounts and pay one just by clicking, but it asks me to enroll in bill pay constantly and then getting back to home is not as easy. Font is smaller and not easy to pay between accounts!",
+      "replyDate": null,
+      "replyText": null,
+      "version": "24.02.02",
+      "thumbsUp": 54,
+      "criterias": []
+    },
+    {
+      "id": "7a03446c-a26b-4528-83d0-0ee8d7333261",
+      "userName": "Lourdes Maria Palomares Salgado",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjVCllxJQ-Nw-_HmSzXlnOsp2FoRVe5OWGSB2GCWhKCk",
+      "date": "2024-02-28T18:30:31.179Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=7a03446c-a26b-4528-83d0-0ee8d7333261",
+      "title": null,
+      "text": "This used to be a really good app. After the last update when you open the app it says wifi not connected even if it is. After trying a second time it connects. Also check deposit is not working! It says it can't read the picture. Edit: They fixed the wifi connection issue. Still not able to deposit checks, that's why I'm not changing the one star review.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "24.02.02",
+      "thumbsUp": 259,
+      "criterias": []
+    },
+    {
+      "id": "786a31ee-a9c7-4b5d-a8dc-134d89bb6285",
+      "userName": "Patrick Biela",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjWb207klfChef0kCqJn2HdbJUenYgMBMvuBcZqrpMYSqLCK",
+      "date": "2024-03-03T20:57:32.846Z",
+      "score": 3,
+      "scoreText": "3",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=786a31ee-a9c7-4b5d-a8dc-134d89bb6285",
+      "title": null,
+      "text": "It's good, does the job, maybe could make it a little easier to schedule transfers but it does the job. The notifications don't work correctly, you can turn off certain options but still get notifications on the app. The text message alert about a direct deposit being put into your account does not work correctly on Android, I never had an issue before until an update maybe a year or so ago and have not gotten a text message notification about direct deposit",
+      "replyDate": "2022-03-04T19:51:20.223Z",
+      "replyText": "Hi Patrick, thanks for reaching out, we are aware of this issue, please keep an eye out for an update that will address this issue. -Ashlyn\n",
+      "version": "24.02.02",
+      "thumbsUp": 138,
+      "criterias": [
+        {
+          "criteria": "vaf_phase1_investing",
+          "rating": 3
+        },
+        {
+          "criteria": "vaf_phase1_tax_preparation",
+          "rating": 3
+        },
+        {
+          "criteria": "vaf_never_display_deceptive_ads",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "id": "b60c4816-3f55-4727-874a-1677b97d08df",
+      "userName": "Dref Mann",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocI88TEGxW79OoMsP5-Aki8dYRgsBOcItM72u5IDP1M4=mo",
+      "date": "2024-02-21T12:16:42.956Z",
+      "score": 5,
+      "scoreText": "5",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=b60c4816-3f55-4727-874a-1677b97d08df",
+      "title": null,
+      "text": "Stable, easy to use, has all functions that can be done in person except for safe deposit box use. Updated app has added security \"layer\" that the user can \"set-up\". The only \"ads\" are actually the users' \"rewards\" that have to be clicked on to view, they are not distracting. The new ( 2024 ) layout makes navigation and using functions easier.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "24.02.02",
+      "thumbsUp": 302,
+      "criterias": [
+        {
+          "criteria": "vaf_never_display_ease_of_use",
+          "rating": null
+        },
+        {
+          "criteria": "vaf_never_display_ads_experience",
+          "rating": null
+        }
+      ]
+    },
+    {
+      "id": "60e48a2b-b1cb-4f49-aeee-e4990eff2bd8",
+      "userName": "Evan D'Orazio",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjXXQ-vaCojMbUkt6_uxqkxkMmLCMDDSR1VwH2RJ6CYPolKV",
+      "date": "2024-02-29T13:44:47.504Z",
+      "score": 3,
+      "scoreText": "3",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=60e48a2b-b1cb-4f49-aeee-e4990eff2bd8",
+      "title": null,
+      "text": "Usually a great banking app to use, I'm now having to jump through identity verification every time I log in to the app. This makes absolutely no sense, because I login with biometrics using my thumbprint. Searching transactions doesn't work, and never finds the actual transaction I'm searching for. Even though it's right there on my list of transactions; using a key word doesn't yield any results.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "24.02.02",
+      "thumbsUp": 15,
+      "criterias": []
+    },
+    {
+      "id": "6f83c6a9-1a61-4f29-9008-878c40867ed5",
+      "userName": "Christon",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjWw6LV4LkphQgmCN2YT8AatLogv8gs1hZLoi26W8A3lDSU",
+      "date": "2024-02-29T02:13:50.771Z",
+      "score": 5,
+      "scoreText": "5",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=6f83c6a9-1a61-4f29-9008-878c40867ed5",
+      "title": null,
+      "text": "Really one of my favorite apps. I find it to be extremely effective and useful. One of the features I like most is the two party authentication being automatic and the bioscan enabling you to log in almost effortlessly. And the menus and screens are all easily navigated. I have to stay, I find most convenient the ease with which you are able to authenticate your identity when signing in using the app on your phone.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "24.02.02",
+      "thumbsUp": 14,
+      "criterias": []
+    },
+    {
+      "id": "34736b60-a051-4a5b-add5-b10f623d2dbe",
+      "userName": "Satish Kalra",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjWjnbVKyOKJELwvd41bPhjCJ9iIoZ9hYPrZUMvTlgoArE4",
+      "date": "2024-01-30T16:10:31.603Z",
+      "score": 5,
+      "scoreText": "5",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=34736b60-a051-4a5b-add5-b10f623d2dbe",
+      "title": null,
+      "text": "I have been using the app for quite some time. It is easy to navigate and allows you to do most of the things without disruption including check deposits etc. Keep up the good work. The recent changes (Jan 24) in the App have improved the interaction with individual accounts. However the recipient search in Zelle is quite slow and needs improvement. Bank app does not allow a customer to initiate any message back to the bank. Overall it is a friendly and useful app.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "24.01.02",
+      "thumbsUp": 236,
+      "criterias": [
+        {
+          "criteria": "vaf_never_display_content_language",
+          "rating": 1
+        },
+        {
+          "criteria": "vaf_never_display_considerate_of_time",
+          "rating": 1
+        },
+        {
+          "criteria": "vaf_phase1_auto_investing",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "id": "f96b9f58-ece8-434a-97dc-4f55e0df26bc",
+      "userName": "Fred Moyini",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjXOc3iEwJB39tS_0u-2WGacl_zOHOU7ub-nYfLfRzw1B18",
+      "date": "2024-02-06T06:51:47.364Z",
+      "score": 5,
+      "scoreText": "5",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=f96b9f58-ece8-434a-97dc-4f55e0df26bc",
+      "title": null,
+      "text": "It is always up and running. It is easy to navigate around, and the app has so many useful features. For instance, alerts, I just recently notified thru one of my checking account alerts that someone tried to use my debit card about 10 or 12 times to buy stuff at a tune of $1600 BUT Bank of America didn't approve any of the transactions and I was notified in a few minutes by text and email.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "24.01.02",
+      "thumbsUp": 25,
+      "criterias": []
+    },
+    {
+      "id": "a2786e40-9dbe-4a88-b138-44e41b53468f",
+      "userName": "Carrie Calgaro",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjU6ZDxkrF8r8PvMeAXZ18U4loh8knzdrJ47KZClZI06rYY",
+      "date": "2024-02-11T04:05:20.850Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=a2786e40-9dbe-4a88-b138-44e41b53468f",
+      "title": null,
+      "text": "Ever since the update I can't deposit a check -- it takes the front picture, but won't take the back one. It's just a black screen. So now the app is forcing me to go to an ATM or branch, the opposite of what an app is supposed to do. Also, now it doesn't always show my transactions -- I have to open/close it multiple times just to get a list. Terrible!",
+      "replyDate": null,
+      "replyText": null,
+      "version": "24.02.0",
+      "thumbsUp": 442,
+      "criterias": []
+    },
+    {
+      "id": "4eee27f7-7072-4984-a027-a72472dfe6ca",
+      "userName": "R. L.",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocKoMLtrDybza_xF48E4lj4jTiIy0T9m6Axee-9ireAJ=mo",
+      "date": "2024-02-16T15:39:40.644Z",
+      "score": 3,
+      "scoreText": "3",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=4eee27f7-7072-4984-a027-a72472dfe6ca",
+      "title": null,
+      "text": "Automatic Notification of Card Usage would be a great tool. Also, being able to see transactions as they process, from pending to paid, in the app would be very helpful for managing all bill payments. Waiting for a statement sometimes takes too long & being on the phone is monotonous, time consuming. If these were on the menu the app would be worth having on my phone and more efficient for customers. Thank you for listening.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "24.02.0",
+      "thumbsUp": 397,
+      "criterias": []
+    },
+    {
+      "id": "1fe8ffb4-ad97-4543-86a7-dae40fe55df7",
+      "userName": "Amanda K Boyd",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocLMFRtRIFZMat5cu4XwohofGwYa1VL6_CL2btiMlGti=mo",
+      "date": "2024-03-15T14:04:59.125Z",
+      "score": 2,
+      "scoreText": "2",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=1fe8ffb4-ad97-4543-86a7-dae40fe55df7",
+      "title": null,
+      "text": "Loved this app until the most recent layout update - very visually confusing now and much smaller fonts than before. Everything is in boxes and grouped with extra lines on page, where before it was easy to see all acounts on one page without scrolling. Wish they would give us an option to revert back to previous layout.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "24.02.52",
+      "thumbsUp": 5,
+      "criterias": []
+    },
+    {
+      "id": "ce5c9929-348b-4682-994d-a34b04ad1cea",
+      "userName": "mary cadahia",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocL-5KPtDehvd5eTMTMS6lmy-VsJUc-JFdD17ic4UcZ6=mo",
+      "date": "2024-03-18T02:33:13.463Z",
+      "score": 2,
+      "scoreText": "2",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=ce5c9929-348b-4682-994d-a34b04ad1cea",
+      "title": null,
+      "text": "Not great. The app would not allow me to deposit a check, took 4 attempts to get app to do the front and back of check another 2 times to get the account to deposit to then even after 9 attempts it NEVER NEVER allowed me to put in amount of check. This is in no way convenient. By the way it worked before the update, if this is an example of you listening and your idea of improvement then please stop improving and listening, sorry but you aren't good at it. Ridiculous situation. Erica is a joke",
+      "replyDate": null,
+      "replyText": null,
+      "version": "24.02.52",
+      "thumbsUp": 3,
+      "criterias": []
+    },
+    {
+      "id": "ca84dfb4-1b68-41bf-a8d1-8941305cb311",
+      "userName": "Judith Raske",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocIVhKgKBWILvZG1dWcat-6yfbMHGHr_jJ05xrxd5Pad=mo",
+      "date": "2024-03-06T16:01:43.578Z",
+      "score": 5,
+      "scoreText": "5",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=ca84dfb4-1b68-41bf-a8d1-8941305cb311",
+      "title": null,
+      "text": "1. Log out should be more prominent. Currently it's gray on white and barely noticeable. Used to be red 2. I like bill pay better when I can see my pay-to and scheduled payments on the same page. As it is now I have to jump back and forth between the two. Not very efficient. 3. Getting better at this new app. Now pass the learning curve and can appreciate the changes.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "24.02.02",
+      "thumbsUp": 4,
+      "criterias": []
+    },
+    {
+      "id": "e90691d6-cc1d-4b15-9ffe-c745025fbeec",
+      "userName": "Vina Nabil",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocII1McVcKvmpYjpPOyKjO-nQZ-OlEQk8Z4XeDstyxjp=mo",
+      "date": "2024-02-07T09:03:52.920Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=e90691d6-cc1d-4b15-9ffe-c745025fbeec",
+      "title": null,
+      "text": "New layout is pretty bad, extra small letters that look confusing. Moreover, added a lot of unnecessary steps when paying credit card/transferring funds between accounts. Why the hell do I have to click \"different amount\" to put in the amount I'm paying out of 3 useless options? And why do I have to go through another step to confirm the amount? I'm not blind, I know the amount I put in!",
+      "replyDate": null,
+      "replyText": null,
+      "version": "24.01.02",
+      "thumbsUp": 138,
+      "criterias": []
+    },
+    {
+      "id": "fc2bf64e-6f2d-4a57-a918-c78d78808c2d",
+      "userName": "Victor Urias",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocJe4qn9XAPl73B2ix0Svtie7MJ1AUbZj2C4z4qYkEfz=mo",
+      "date": "2024-02-05T23:03:21.591Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=fc2bf64e-6f2d-4a57-a918-c78d78808c2d",
+      "title": null,
+      "text": "When I open the app it says I don't have Internet when I always have Internet. I press retry and it opens the app. Later when scrolling through transactions and moving further back towards the beginning of the month, everything disappears and it says it's having trouble finding information. I won't let me see recent transactions from earlier in the month. Very frustrating.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "24.01.02",
+      "thumbsUp": 136,
+      "criterias": []
+    },
+    {
+      "id": "492d1455-f619-4f24-858a-5e9672a5c63f",
+      "userName": "Sergio Meneses",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocLKJpMh9obzo1cvT9DjTg3cg5_JhFPbicECG1Yb2BVe=mo",
+      "date": "2024-03-08T23:27:10.427Z",
+      "score": 2,
+      "scoreText": "2",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=492d1455-f619-4f24-858a-5e9672a5c63f",
+      "title": null,
+      "text": "Scheduling automatic payments is more complicated that it should be I still haven't been able to set it up. Even when I ask the AI within the app it crashed when taking me to a screen. I ultimately had to call and talk to someone on the phone to get it done... hope the devs read this and make this more user friendly",
+      "replyDate": null,
+      "replyText": null,
+      "version": "24.02.50",
+      "thumbsUp": 2,
+      "criterias": []
+    },
+    {
+      "id": "2e79df8f-e1e5-47c1-9205-a67bd977b21a",
+      "userName": "Steve douglas",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocK9OsZZ7xLI2buvgnsWtmN8-sgdlbJQOWkW8T6Xv3Zi=mo",
+      "date": "2024-03-16T14:07:15.219Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=2e79df8f-e1e5-47c1-9205-a67bd977b21a",
+      "title": null,
+      "text": "Getting worse. Takes 3 clicks to find bill pay and slow to load. After paying bills, I go to log out, and logout is missing from the top and now have to go back to home page to log out. Why cant i just click one button to find payment window or quickly log out? Update: Now they added a floating window in bill pay that doesnt have all your payees on it. So yea, still getting worse.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "24.02.52",
+      "thumbsUp": 4,
+      "criterias": []
+    },
+    {
+      "id": "82301143-5714-4e0e-bb2f-d6525f0ce4db",
+      "userName": "Ragoku Eod",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocKUoHJ2tMg6ongErhCXh9Rx097UeEz8-hYKxqEfJJU7=mo",
+      "date": "2024-02-01T20:39:36.420Z",
+      "score": 2,
+      "scoreText": "2",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=82301143-5714-4e0e-bb2f-d6525f0ce4db",
+      "title": null,
+      "text": "First, I do love using this app, which is why I'm giving 2 stars instead of one, BUT I DON'T LIKE that the app crashes multiple times while I'm trying to use it. I don't like that the app crashes twice EVERY TIME before I can even log in. I also don't like that the app usually crashes 5-10 minutes after I'm able to log in. Never mind the fact I clear my cache, it DOESN'T make a difference. Neither does updating the app, if anything, it makes it more unstable. Please fix so I can give this app 5☆",
+      "replyDate": null,
+      "replyText": null,
+      "version": "24.01.02",
+      "thumbsUp": 73,
+      "criterias": []
+    },
+    {
+      "id": "36d3cd23-a622-4727-9bce-c2cc9922996b",
+      "userName": "Mireya King",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocIi8Nid3Nm0YhM3gw0qFKDvc5Lc7VPbf-gmcbspR7Zl=mo",
+      "date": "2024-02-23T02:17:43.863Z",
+      "score": 5,
+      "scoreText": "5",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=36d3cd23-a622-4727-9bce-c2cc9922996b",
+      "title": null,
+      "text": "This app is very convenient. The features it provides, such as expenditures and transactions made by checks and ATM withdrawals, help manage the account more effectively. Also, it provides total monthly expenditures and copies of checks, and it allows me to transfer funds from one account to another account online, all from home. This is great. Love it!",
+      "replyDate": null,
+      "replyText": null,
+      "version": "24.02.02",
+      "thumbsUp": 20,
+      "criterias": []
+    },
+    {
+      "id": "a258dbf8-ab51-4279-a035-abfd3fcf5845",
+      "userName": "Edana Battaglia",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocI4QozrWXywaBSJArtOFOjrnANJWaaUrYD6OkTgvxve=mo",
+      "date": "2024-02-08T12:03:19.635Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=a258dbf8-ab51-4279-a035-abfd3fcf5845",
+      "title": null,
+      "text": "After the update the business account is now located on top of checking and saving accounts on the home screen. There needs to be a way to reorder or move around the accounts you see. You should be able to customize the home screen. Also I don't understand why business credit cards show up as two separate accounts with different balances depending on how you spend. The app kept crashing when I was trying to look at check images. Please fix!",
+      "replyDate": null,
+      "replyText": null,
+      "version": "24.02.0",
+      "thumbsUp": 80,
+      "criterias": []
+    },
+    {
+      "id": "01f5f99f-6f26-4db4-ae80-48ac679d4173",
+      "userName": "David Woollett",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocKa27aRRrt1LkUM2QKWVEFZzgYg_ZaHQsAWeagIFhNt=mo",
+      "date": "2024-02-03T15:55:08.382Z",
+      "score": 2,
+      "scoreText": "2",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=01f5f99f-6f26-4db4-ae80-48ac679d4173",
+      "title": null,
+      "text": "The app is easy enough to use and it is convenient but when i have problems like i did the other night(and it's still a problem because it has yet to be resolved) it makes the app seem really bad which in turn makes you, Bank of America seem bad. I made a transfer the other night and the app thought it would be a good idea or hilarious to double my transfer, I fail to see the value or humor in this and it has caused me a great deal of stress and time trying to get it corrected.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "24.01.02",
+      "thumbsUp": 45,
+      "criterias": []
+    },
+    {
+      "id": "2251b6a3-3325-4de8-8c99-fa2902f46938",
+      "userName": "L P",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjWQ4KTMrfpIoT9Pcq2igLjtnXrgVEB4CdHQPX1n2VKII2w",
+      "date": "2024-03-01T17:12:08.889Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=2251b6a3-3325-4de8-8c99-fa2902f46938",
+      "title": null,
+      "text": "User interface and experience is a joke. Want to see your credit card transactions via the app like a normal person? Forget about it. Their interface is garbage and doesnt allow you to search your transaction history. Find something better. Edit: been trying to get logged into my account for hours. Reset my password and then everytime I try to log in with my new password it keeps asking me to reset my password. I am dumping ALL of my boa accounts. It's absolutely a garbage system",
+      "replyDate": null,
+      "replyText": null,
+      "version": "24.02.02",
+      "thumbsUp": 12,
+      "criterias": [
+        {
+          "criteria": "vaf_never_display_visually_good",
+          "rating": 2
+        },
+        {
+          "criteria": "vaf_phase1_see_multiple_accounts",
+          "rating": 3
+        },
+        {
+          "criteria": "vaf_never_display_make_you_happy",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "id": "a6e68a30-91d2-419d-bd5e-e1c7830799bd",
+      "userName": "Juaben Greenfield",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocIASiyNHA_tMnxn2qI_ibLletsDHkSe5kAoHuvYJcgk=mo",
+      "date": "2024-03-07T20:18:20.696Z",
+      "score": 5,
+      "scoreText": "5",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=a6e68a30-91d2-419d-bd5e-e1c7830799bd",
+      "title": null,
+      "text": "The app is really good for me because it is easy to check your balance and also know what is going on with your account. The bank also alerts me if there is a fraud activity. For example, someone hijacked my whatsapp account last year, November, and immediately wanted to take my money from this account. The bank immediately alerts me on that and doesn't allow it.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "24.02.02",
+      "thumbsUp": 3,
+      "criterias": []
+    },
+    {
+      "id": "cc9bf452-ac9b-49a4-aad5-208bd0f82e66",
+      "userName": "Pàtricia Barnes",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocI2OTds1C4JDbFZHwSr9ENzWTYYZ4gNDgSCt3aT_5h9=mo",
+      "date": "2024-03-06T16:46:19.663Z",
+      "score": 5,
+      "scoreText": "5",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=cc9bf452-ac9b-49a4-aad5-208bd0f82e66",
+      "title": null,
+      "text": "I like this app. I can check my account with out a computer. I have paid bills, transferred money ,made a deposit, and checked my spending. I know what is happening at all times.I can follow my spending track and view my credit score. Have not had any problems. Thanks. Still very happy with this app and with Bank of America for all the assistance with any problems I have. Again thanks",
+      "replyDate": null,
+      "replyText": null,
+      "version": "24.02.02",
+      "thumbsUp": 23,
+      "criterias": [
+        {
+          "criteria": "vaf_managing_credit_cards",
+          "rating": 1
+        },
+        {
+          "criteria": "vaf_phase1_depositing_checks",
+          "rating": 1
+        },
+        {
+          "criteria": "vaf_linking_bank_accounts",
+          "rating": 1
+        }
+      ]
+    },
+    {
+      "id": "f18e0ae8-4c66-475f-8548-840b4b2bea3b",
+      "userName": "Daniel",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocK5ERiUa5c2TKc1BsMU01KOGud0R2QYau-8GWRLT5jh=mo",
+      "date": "2024-02-03T12:54:17.344Z",
+      "score": 2,
+      "scoreText": "2",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=f18e0ae8-4c66-475f-8548-840b4b2bea3b",
+      "title": null,
+      "text": "Annoying that they change the app constantly. There's no capability for reading messages, and the number of click throughs for some simple functions is ridiculous. Yes, I'm aware of what I'm doing or I wouldn't be doing it. And it's beyond stupid that I can't turn off the \"assistant\" that I have zero use for.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "24.01.02",
+      "thumbsUp": 25,
+      "criterias": []
+    },
+    {
+      "id": "d9f35ffa-3368-466c-9197-be564498ea13",
+      "userName": "Debra Beech",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjXFcBBYNo_dMitSkAtQOQ2a-CofRSEmcB1K_kfuLX1LImA",
+      "date": "2024-03-04T23:09:31.683Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=d9f35ffa-3368-466c-9197-be564498ea13",
+      "title": null,
+      "text": "Like others since update, it has trouble detecting internet connection when first opened. Issues persist with mobile deposit, not able to read pictures and excessive time for camera to come up for back of check. Sometimes say mobile deposit unavailable. These issues are especially prominent on tablet which happens to be my preferred method of using the app.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "24.02.02",
+      "thumbsUp": 8,
+      "criterias": []
+    },
+    {
+      "id": "a27345c1-45ba-43fc-95dd-44d0b1afef06",
+      "userName": "Julie Davis-Raley",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjWoifRMYhwBoGtTuSZRK14WrUpL6jelSdfL0i65K3o3F-E",
+      "date": "2024-02-11T13:32:52.900Z",
+      "score": 5,
+      "scoreText": "5",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=a27345c1-45ba-43fc-95dd-44d0b1afef06",
+      "title": null,
+      "text": "I pay a BofA credit card bill and two other bills each month. I have never had a problem, except when I forgot a second large check i had written on the acct that had not cleared yet when I paid a CC in full. Caught the error in time and now I get sent a text when my large CHARGES /checks are processed. I also have automatic transfers of funds set up for three transfers a month, with estimation of spending . Months I don't spend I can easily cancel a transfer,which helped during covid lockdown",
+      "replyDate": "2020-05-13T17:12:17.217Z",
+      "replyText": "Hello Julie, Thanks for the feedback. We'll pass this along to our design team. Keep an eye out for future releases as we continue to enhance the app. Regards -Ashlyn",
+      "version": "24.02.0",
+      "thumbsUp": 29,
+      "criterias": [
+        {
+          "criteria": "vaf_phase1_auto_insurance",
+          "rating": 1
+        },
+        {
+          "criteria": "vaf_phase1_managing_mortgages",
+          "rating": 1
+        },
+        {
+          "criteria": "vaf_never_display_positive_impact",
+          "rating": 1
+        }
+      ]
+    },
+    {
+      "id": "111efba7-55b4-4e9e-bb52-aa95f62ec1d7",
+      "userName": "Bryan Shaw",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjXw7CcQaMyz158o_r6CfuexsgfBDCsRT3wmTo-KdnXy2Ok",
+      "date": "2024-03-04T20:10:15.878Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=111efba7-55b4-4e9e-bb52-aa95f62ec1d7",
+      "title": null,
+      "text": "Why is it difficult to pay accounts within BofA? We used to be able to do this and for some reason the functionality has changed. Example: if you have to pay a BofA credit card using your BofA checking account, you need to back out of a dead end \"pay\" button on your CC page, remember the last 4 digits of the account you want to pay, then remember the exact amount you have to pay. It isn't this difficult with other CC companies. Also, Erica is unnecessary garbage. Stop it.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "24.02.02",
+      "thumbsUp": 6,
+      "criterias": []
+    },
+    {
+      "id": "90eeb30b-be15-43b4-b4b3-a039bd50deb3",
+      "userName": "K Soule",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjUGx1-wrUidA_VzP5OVF-_dSDx7uq6zTSF3Lqj-XnqeLg",
+      "date": "2024-02-06T00:58:59.913Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=90eeb30b-be15-43b4-b4b3-a039bd50deb3",
+      "title": null,
+      "text": "Are you ready to be frustrated by trying to do something that should be easy? Are you prepared to endure 2-3 different ads every time you want to check your account balance? Maybe you're just here because you like pop ups in your apps. You're definitely in the right place. If however, you would like to easily set up a recurring payment between two accounts at this bank, or to easily use a different payment method... you are working with the wrong bank.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "24.01.02",
+      "thumbsUp": 21,
+      "criterias": []
+    },
+    {
+      "id": "aa6db937-39f2-443a-9554-08d1eda5ad90",
+      "userName": "Sic Infit",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocJT42sJKTsp0PAKHgNGkmk7cY2fKAmRCCGS1VDZSChG=mo",
+      "date": "2024-01-27T22:36:51.137Z",
+      "score": 4,
+      "scoreText": "4",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=aa6db937-39f2-443a-9554-08d1eda5ad90",
+      "title": null,
+      "text": "If a user taps Deposit Check, it would be more efficient if the \"Front of the Check\" element opened automatically instead of user having to tap it to open. 2nd Rec. While using the B of A online on a computer, the user has to request an OTP code on their phone. Once the code arrives on their phone, the user has to drag the cursor into the 1st square on the PC to enter the code. Would be better if, once the user has requested the OTP code that the cursor auto goes to the square. Amazon does it!",
+      "replyDate": null,
+      "replyText": null,
+      "version": "24.01.02",
+      "thumbsUp": 105,
+      "criterias": []
+    },
+    {
+      "id": "ac87a6ae-c165-4ee5-9e8a-da94763fd682",
+      "userName": "ML Howard",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjV-ULX0N1PtXpKui4ZaS7mY9FDnMYOj08Z_gYU4jrpfNw",
+      "date": "2024-02-06T09:05:13.694Z",
+      "score": 2,
+      "scoreText": "2",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=ac87a6ae-c165-4ee5-9e8a-da94763fd682",
+      "title": null,
+      "text": "I HOPE BOA WILL FIX THE PROBLEM, BALLS IN THEIR COURT. Feature, which makes available account balance without login QUIT WORKING AND WE CAN NOT GET IT FIXED BY OURSELVES. The app is in many ways ahead of other apps, but not in our case. It is lacking in areas that are needed. We need balance without login working for us, we are elderly, it needs to be fixed. When the app improves, our star rating will go way up.",
+      "replyDate": "2020-06-04T17:05:08.358Z",
+      "replyText": "Hi ML, Please assure the check is flat on a dark background, with good lighting,  all 4 corners are clearly visible – detach the check (if applicable), hold the device steady, directly above the check. We continually work to enhance the mobile check deposit functionality in the app, so please watch for future updates. Thanks -Ashlyn",
+      "version": "24.01.02",
+      "thumbsUp": 19,
+      "criterias": [
+        {
+          "criteria": "vaf_phase1_linking_bank_accounts",
+          "rating": 3
+        },
+        {
+          "criteria": "vaf_never_display_spend_more_time",
+          "rating": 2
+        },
+        {
+          "criteria": "vaf_never_display_disruptive_ads",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "id": "7861aaaf-5d8c-435b-b499-01482abe2e04",
+      "userName": "Chad Ledford",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjX34SRlfnbgE9kq20T8vnh9gq-LzWxHGZSlsXTvTpo8HUp7",
+      "date": "2024-02-01T21:35:35.766Z",
+      "score": 2,
+      "scoreText": "2",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=7861aaaf-5d8c-435b-b499-01482abe2e04",
+      "title": null,
+      "text": "After scanning the biometrics the app just closes and has to be relaunched. What is going on?! This should be one of the most stable banking apps on the planet. Also why cannot just click pay on my credit card. Why in the world do I have to go through the atrocious bill pay setup or transfer between accounts? What kind of archaic stuff is going on here.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "24.01.02",
+      "thumbsUp": 37,
+      "criterias": []
+    },
+    {
+      "id": "4a96cec9-1699-42eb-89c7-616eb199c33d",
+      "userName": "Lynette Carothers",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjWGrZI8YKpHxqMC_XMnJWuTNbF8aRgYbGzs0za4b-I0Q5M",
+      "date": "2024-02-17T16:21:48.731Z",
+      "score": 5,
+      "scoreText": "5",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=4a96cec9-1699-42eb-89c7-616eb199c33d",
+      "title": null,
+      "text": "It's still a great option when you do not have an office. Mobile banking is the only option near my new home. The mobile is great. It is very easy to use. But I can't say that about the ATM. The ATM in my area is an open machine. No access from vehicle, a walk up. It is in a dangerous parking lot at the end with no one around except for parking spaces and trees. I have brought it to the banks attention with no response. So, mobile, great, banking in person not available. Non-existent.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "24.02.02",
+      "thumbsUp": 9,
+      "criterias": [
+        {
+          "criteria": "vaf_never_display_easy_to_use",
+          "rating": 1
+        },
+        {
+          "criteria": "vaf_phase1_home_insurance",
+          "rating": 3
+        },
+        {
+          "criteria": "vaf_phase1_depositing_checks",
+          "rating": 1
+        }
+      ]
+    },
+    {
+      "id": "c3d91c52-03f7-414f-bedf-b808518c2cab",
+      "userName": "Cynthia Smith",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjXMtEm5NyVQGoPTZ_fhXBYK0Ks6XhGxfgr72VUquK-Zzpk",
+      "date": "2024-03-03T15:33:09.262Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=c3d91c52-03f7-414f-bedf-b808518c2cab",
+      "title": null,
+      "text": "I hate this change update hard to navigate too. I'll be at the bank to see someone and show you what it does now. Totally disappointed now. Still having problems updating app and collected rewards still showing as available. So bad this change is as it's made it very difficult to do things I could in the old app. Not getting any notifications like before. I flat out do not like this new app.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "24.02.02",
+      "thumbsUp": 7,
+      "criterias": []
+    },
+    {
+      "id": "7628ffba-8584-4b42-901e-d2c6f48bbff6",
+      "userName": "Diana Kersh",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjWBMroCktEaLdg0t3Eld99bS4xtjDOQzJ73DBUQUK3mH6A",
+      "date": "2024-02-28T19:19:56.448Z",
+      "score": 3,
+      "scoreText": "3",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=7628ffba-8584-4b42-901e-d2c6f48bbff6",
+      "title": null,
+      "text": "This app and the phone automation is worthless on some problems. So there's not even one person I can talk to right now and I need help now As long as you don't count on getting your money right back after you deposit it it's a fine app they used to be more sensitive to customers but it's obvious computers are running everything. I really wish I had time to change banks. Even cash app let's you transfere larger amounts. Contacting with the app you use frequently asked questions that don't help.",
+      "replyDate": "2022-07-08T15:07:37.592Z",
+      "replyText": "Hi Diana, I suggest contacting us through the app. Once signed in, select the account you need assistance with and scroll to the very bottom and select Speak with a specialist. Then select the intent of your need and you will be connected with an appropriate agent for assistance. Thanks! -Ashlyn\n",
+      "version": "24.02.02",
+      "thumbsUp": 22,
+      "criterias": [
+        {
+          "criteria": "vaf_phase1_tax_preparation",
+          "rating": 3
+        },
+        {
+          "criteria": "vaf_never_display_content_language",
+          "rating": 1
+        },
+        {
+          "criteria": "vaf_phase1_tracking_finances",
+          "rating": 1
+        }
+      ]
+    },
+    {
+      "id": "4e291cf1-dd69-4883-8e94-e48648af1bcf",
+      "userName": "Geb Sierra",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjW8ViksfS15hlaqvEyb-BN4LlsS7jxI9KyKj-WdVGV9g0jK",
+      "date": "2024-02-12T14:39:55.146Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=4e291cf1-dd69-4883-8e94-e48648af1bcf",
+      "title": null,
+      "text": "Why is it so hard to set up automatic payments on my credit card that avoid any interest or fees? Chase is so much easier in this area. I've called. \"set it up\" on my computer. Made sure it was correct and I've still been falsely charged (that what the customer service rep confirmed) and it's still not functioning as it should.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "24.02.0",
+      "thumbsUp": 14,
+      "criterias": []
+    },
+    {
+      "id": "a117ab46-e36c-4ae3-a899-c6633e323d41",
+      "userName": "Di Es",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocJezWD8S7NgkKtYnlEAS_hBbPqVfkrry-JLAPvlB5ed=mo",
+      "date": "2024-02-08T13:30:29.762Z",
+      "score": 4,
+      "scoreText": "4",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=a117ab46-e36c-4ae3-a899-c6633e323d41",
+      "title": null,
+      "text": "its convenient for quick things but its not as informative as I'd like. No history, not much transfer options. Two years after I can use my phone for access code and the inbox history is now fixed. I love that I can see my balance after each transaction. True banking on hand!👌🏾",
+      "replyDate": "2021-04-13T16:41:15.585Z",
+      "replyText": "Hi Di Es, thanks for your review. Which history are you referring to? We understand not having certain features, can be an inconvenience, please keep an eye out as we continue to enhance the app and add new features. Thanks -Ashlyn",
+      "version": "24.02.0",
+      "thumbsUp": 9,
+      "criterias": [
+        {
+          "criteria": "vaf_never_display_ease_of_use",
+          "rating": null
+        }
+      ]
+    },
+    {
+      "id": "f61b37a4-fb46-4577-bebf-2204ec6a0d25",
+      "userName": "Saad Qureshi",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocI9Qj3XsOvMa8deeceQoGht_hYpaqBS_MK0qf8sMDfi=mo",
+      "date": "2024-01-31T15:32:01.165Z",
+      "score": 4,
+      "scoreText": "4",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=f61b37a4-fb46-4577-bebf-2204ec6a0d25",
+      "title": null,
+      "text": "Recent user interface update categorized the main screen account types better but the overall font is smaller. The Bill Pay section, transfers, and Zelle are still lumped together for some reason - I would prefer Zelle and Transfers be separate from Bill Pay. Life plan and My Rewards waste space on the home screen, need to have the option to remove that.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "24.01.02",
+      "thumbsUp": 13,
+      "criterias": [
+        {
+          "criteria": "vaf_apps_category_food_and_drink_v2",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "id": "a2b2e35b-8e3f-4ade-9ae4-d620c398e980",
+      "userName": "Louis",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjWLkBog3BUZAG0qsBJrXtpKVOLTIWv34V2M4Eewvfm5HM0",
+      "date": "2024-01-24T17:12:28.982Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=a2b2e35b-8e3f-4ade-9ae4-d620c398e980",
+      "title": null,
+      "text": "Paid off a car loan of a considerable amount through the app. No confirmation email, text, or anything on the app that shows that the payment was made. Waited until the next day, the amount is still showing as unpaid, no activity of payment whatsoever. I have to click to make another payment in order to get to any sort of view that shows that I made a payment. I went to support, they couldn't help, and couldn't connect me to anyone in the vehicle loan department. Never using BOA for anything.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "23.08.50",
+      "thumbsUp": 13,
+      "criterias": []
+    },
+    {
+      "id": "f9fcd715-e007-4233-9078-72b0e6e75a33",
+      "userName": "Jacqueline Okemwa",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocKW_CMLg-dcTjlpU2n4aeP_SEeHoUIBihCLiENMVpM6=mo",
+      "date": "2023-12-24T23:19:19.434Z",
+      "score": 4,
+      "scoreText": "4",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=f9fcd715-e007-4233-9078-72b0e6e75a33",
+      "title": null,
+      "text": "The App is easy and seamless to navigate. However, I am displeased with the credit card portion use of the App as it does not allow for full view of transactions,i.e., purchases and payment history. It only allows for a partial view which can be quite frustrating, especially during those periods when one ha made multiple transactions.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "23.09.04",
+      "thumbsUp": 458,
+      "criterias": []
+    },
+    {
+      "id": "aae60b5c-7584-4281-b380-c918ef2cc309",
+      "userName": "Dr Rad Dan",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjWP2CoKYBcMguUrtNh2IFY6WlylteUioTBwojRoGH27aQ",
+      "date": "2024-01-12T11:45:13.665Z",
+      "score": 4,
+      "scoreText": "4",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=aae60b5c-7584-4281-b380-c918ef2cc309",
+      "title": null,
+      "text": "If it had an ATM function it would be perfect. I find it easy to use from clear icons and menus. If BOA is smart, they will not alter this to \" make it easier\" anytime in the foreseeable future. 01/24 update. The features that employ their bot or AI functionality are lacking. The machine learning of the AI function really needs to be worked on as typical it doesn't understand a person. For instance when asking for a phone number it referreds back to the ask me a question page.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "23.11.06",
+      "thumbsUp": 258,
+      "criterias": []
+    },
+    {
+      "id": "4076b4d4-9b24-45f5-930d-fcde97202f2f",
+      "userName": "George McKelvey",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjWRos3hjy13i5Eh0vUeSP5NwWCZOUTaMFPHiH0YTSuR6w",
+      "date": "2024-01-12T13:01:13.225Z",
+      "score": 2,
+      "scoreText": "2",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=4076b4d4-9b24-45f5-930d-fcde97202f2f",
+      "title": null,
+      "text": "Here's what it's like depositing checks through the app: \"Use a darker background\" when the background is dark brown or black. \"Less light is needed\", followed by \"More light is needed\"; \"Hold your device steady\"; too close, too far.... Take The Damn Picture Already! And whether I successfully navigate the requests from the app and it takes the picture, or if I take it manually, the pictures look the same, all clear, focused, and apparently good enough for the money to be deposited.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "23.11.06",
+      "thumbsUp": 213,
+      "criterias": []
+    },
+    {
+      "id": "31173eb2-3631-4641-90f7-8d4e6f7ca047",
+      "userName": "Mabel Zhang",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjXnNB1O38oCADJ4XsqURSJnMMlWqJkxQl5Dcd3HKUjqRlk",
+      "date": "2024-01-28T16:56:47.600Z",
+      "score": 4,
+      "scoreText": "4",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=31173eb2-3631-4641-90f7-8d4e6f7ca047",
+      "title": null,
+      "text": "In the last couple months, the app exits immediately after I put in a username and password. This happens regularly now, unclear why. It never used to do this. I've changed phones and the same thing happens on the new phone. My credentials are correct, because if I reopen the app and reenter them, it logs me in correctly. Maybe it has to do with how the app exits due to inactivity, and something isn't cleared for the next login.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "23.08.50",
+      "thumbsUp": 7,
+      "criterias": []
+    },
+    {
+      "id": "fa30f2e2-9a5e-4605-b26e-91696749ec74",
+      "userName": "E H (Drakosnah)",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjX83YvNE8Cxc1D_MdnzBiCuYmSEd9ZCLcDcoGw1pgeBTd8",
+      "date": "2024-01-10T08:07:25.856Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=fa30f2e2-9a5e-4605-b26e-91696749ec74",
+      "title": null,
+      "text": "Latest update makes navigation more difficult. I used to be able to access bill pay from the first screen now it is buried 3 layers deep and requires clicking a menu that pops up. Go back to the old interface. Will update my review if they fix this. Why not make it easier to use? I won't be using Bill payer through Bank of America until they change this. Other bank apps are far easier to use.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "23.09.04",
+      "thumbsUp": 457,
+      "criterias": [
+        {
+          "criteria": "vaf_phase1_life_insurance",
+          "rating": 2
+        },
+        {
+          "criteria": "vaf_never_display_visually_good",
+          "rating": 2
+        },
+        {
+          "criteria": "vaf_phase1_managing_mortgages",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "id": "aef638d6-a1ac-466a-93e4-9974402a454a",
+      "userName": "Kevin Hourie",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocJFtTX_bbPlWQ5NnLGDOrwS3_nbRaM1Wo1iqxxdEYhc=mo",
+      "date": "2024-01-08T08:22:06.731Z",
+      "score": 3,
+      "scoreText": "3",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=aef638d6-a1ac-466a-93e4-9974402a454a",
+      "title": null,
+      "text": "Good app. Other than it keeps asking me to reset my biometrics every week or so. So in turn I need to enter my password. But you guys won't allow certain characters in passwords for whatever reason, I keep forgetting mine.. so I've had to change my password once a week for the last month and a half. I use biometrics for a reason... My finger print is not changing. Someone is not going to forge my finger print. Please stop making me reset it!",
+      "replyDate": null,
+      "replyText": null,
+      "version": "23.09.04",
+      "thumbsUp": 46,
+      "criterias": []
+    },
+    {
+      "id": "eaeff023-5da1-4659-a0c8-e147d94a3a70",
+      "userName": "Kristine Hamilton",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjUgdqLcWq4obUo7w2e0h6g9dUyY33PbTU1XDeKYRHkvhA",
+      "date": "2024-01-04T03:21:58.891Z",
+      "score": 5,
+      "scoreText": "5",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=eaeff023-5da1-4659-a0c8-e147d94a3a70",
+      "title": null,
+      "text": "On my all of my Samsung androids; this app is great. It allows you to do most things you can do on the computer. You can check your balance, deposit checks electronically; great feature. You can view transactions download statements, manage bill pay, manage alerts and transfer money, send money and more. It even allows you to log in with your finger print and more. It's easy to use.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "23.08.50",
+      "thumbsUp": 126,
+      "criterias": []
+    },
+    {
+      "id": "3710a458-8fe8-42d5-a262-754c1f74e6ab",
+      "userName": "TG",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjXVJAHYFTMM2LvFMj7OsuDvDKZQN_GHchjQpfq8hQscpbk",
+      "date": "2024-01-10T11:35:39.830Z",
+      "score": 3,
+      "scoreText": "3",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=3710a458-8fe8-42d5-a262-754c1f74e6ab",
+      "title": null,
+      "text": "The app seems to have a weak side of not showing real-time balance when transferring money to a different credit card. B/se of this, I've received a number of notifications for \"available balance below the minimum\"! I hope you can fix it! Again and again, the issue of not showing the real-time actual balance has caused me to get my account balance below minimum. I'm not sure if there's any penalties for such mishaps. However, the app has to fix this problem.",
+      "replyDate": "2022-09-30T17:04:11.700Z",
+      "replyText": "Hi TG, we apologize for the inconvenience. We do our best to provide account updates in a timely manner with accurate information. Updates may be delayed by a variety of factors. With that being said, we are always looking to improve the mobile banking experience. We've forwarded your feedback to our developers. Regards, Ashlyn",
+      "version": "23.09.04",
+      "thumbsUp": 43,
+      "criterias": [
+        {
+          "criteria": "vaf_linking_bank_accounts",
+          "rating": 1
+        },
+        {
+          "criteria": "vaf_tracking_finances",
+          "rating": 2
+        },
+        {
+          "criteria": "vaf_managing_credit_cards",
+          "rating": 1
+        }
+      ]
+    },
+    {
+      "id": "d9a75812-b260-4e46-9c58-d07e1b24ab1a",
+      "userName": "Wayne Lewis",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjXyhZJZIk7eYUMZushPJG2tWpWrSBjRlxOc37esP1NMlBIr",
+      "date": "2024-01-14T02:06:30.275Z",
+      "score": 3,
+      "scoreText": "3",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=d9a75812-b260-4e46-9c58-d07e1b24ab1a",
+      "title": null,
+      "text": "Been a BOA customer for 25yrs and using online banking since its start. The last 5yrs or so, there's really been a lack of innovation in the app and it's taken a step back. Examples: It used to take literally 2 clicks to pay my CC bill. Nowadays it takes many more. Simple things like picking the source of funds to pay with are not defaulted in. The payment amount used to default to the CC balance, but now I have to type it in. These small things save time and reduce errors but are long gone.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "23.08.50",
+      "thumbsUp": 7,
+      "criterias": []
+    },
+    {
+      "id": "fa5c9ff4-5ee5-4b73-b00b-65b43539b1ec",
+      "userName": "S. Saunders",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjW_8JnWQSAs-WIYYtq8jXT-s4llXgDFwaDODQJjP0V6cw",
+      "date": "2024-01-08T22:35:44.268Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=fa5c9ff4-5ee5-4b73-b00b-65b43539b1ec",
+      "title": null,
+      "text": "They took away the ability to change autopay in the app. Now if you want to change autopay from the app you have to go to the chat helper and type \"full\" and have it open a window that takes you to the full website (within the app) and view a tiny screen version of the full website to make the change. This was customer service's workaround. Makes no sense and they are clearly trying to scam/overcharge you by making it difficult to set up or change autopay.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "23.09.04",
+      "thumbsUp": 49,
+      "criterias": []
+    },
+    {
+      "id": "8c101b15-0d65-4203-a0bf-59b9cffc2124",
+      "userName": "Elevation Durango",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjV7Rd-OlTuf2iIEUoBqWrdHbCPOXcYCfdZ04r3OvCgAQ-Q",
+      "date": "2023-10-22T05:01:25.194Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=8c101b15-0d65-4203-a0bf-59b9cffc2124",
+      "title": null,
+      "text": "I have had this app for over a year and it continues to be user unfriendly and basically useless for managing payments. BOA makes it very difficult to manage any accounts, in the app or the website. Try to figure out something simple like Autopay. Good luck. The screen comes up, but the option for recurring payments won't open. Their account verification system is insanely complicated and can't be done within the app. Skip BOA cards if you can.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "23.08.50",
+      "thumbsUp": 884,
+      "criterias": []
+    },
+    {
+      "id": "6b0f5325-2327-42b9-8170-8bcae1140cd1",
+      "userName": "Kayona",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjVTvAl2js7EMF76Rio8lKiJePryXpglFWceWzL3DPMRmy0",
+      "date": "2023-10-21T01:13:07.960Z",
+      "score": 5,
+      "scoreText": "5",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=6b0f5325-2327-42b9-8170-8bcae1140cd1",
+      "title": null,
+      "text": "I use this app pretty much daily and have for years. I don't really have any issues. It saves me from having to ever go to the bank and it is user friendly. It's pretty rare I have issues. I don't do tricky bank stuff though so some features may suck, but checking balances, losing credit cards, bill pay, zelle, budgeting tools and Bankiamerideals (or whatever that's called) work good. Love the deals thing!",
+      "replyDate": null,
+      "replyText": null,
+      "version": "23.08.50",
+      "thumbsUp": 73,
+      "criterias": []
+    },
+    {
+      "id": "67938b9e-c2ae-4ce7-ba4d-b6d1e265e565",
+      "userName": "david chapman",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjVh-7nNYiFikLNv36XbqYKlVkCdoTqKp9GD9jJnEn5EPOND",
+      "date": "2023-11-06T17:13:03.219Z",
+      "score": 3,
+      "scoreText": "3",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=67938b9e-c2ae-4ce7-ba4d-b6d1e265e565",
+      "title": null,
+      "text": "08/10/2019 Easily the best online billpay experience of any bank I've been with, and the app is awesome too! Love being able to deposit checks with the app!!! UPDATE 11/06/2023 App loses 2 stars because of the changes to billpay! Used to be super simple, easy to get to, easy to use. Now it's 3 or 4 clicks just to get there, and navigating is not intuitive at all. One star lost for the (horrible & unnecessary) change, and one because it's upsetting they'd make a change for the sake of change!!",
+      "replyDate": null,
+      "replyText": null,
+      "version": "23.09.0",
+      "thumbsUp": 372,
+      "criterias": [
+        {
+          "criteria": "vaf_tracking_finances",
+          "rating": 1
+        },
+        {
+          "criteria": "vaf_phase1_home_insurance",
+          "rating": 3
+        },
+        {
+          "criteria": "vaf_never_display_deceptive_ads",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "id": "21b0ab06-347d-48de-a961-41b60ad3ba22",
+      "userName": "John Bolling",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocIl4SqAdCgjb5xUHENjAAxK7wgRc_lD3qCNgKOK-EQ1=mo",
+      "date": "2024-01-15T23:31:44.296Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=21b0ab06-347d-48de-a961-41b60ad3ba22",
+      "title": null,
+      "text": "One step away from actually go to the bank. While you can check your balance and transfer, if you have to deposit a check, you have to close all other apps on your phone, even the alarms. With all the updates, you'd think they'd figure out how to have the app take a picture without red lining processing power on phones that are a year old. They refuse to fix problems with the app.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "23.08.50",
+      "thumbsUp": 18,
+      "criterias": []
+    },
+    {
+      "id": "af5fa0d9-28c9-406b-b0fa-1b40376b1885",
+      "userName": "Richard Powell",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjVKUX9KVenrzxheBn_TwHpbxI8DNeznY8SSQox-IrcZew",
+      "date": "2023-12-05T23:23:11.290Z",
+      "score": 2,
+      "scoreText": "2",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=af5fa0d9-28c9-406b-b0fa-1b40376b1885",
+      "title": null,
+      "text": "Every update of this app is a step backward. They made paying bills a painful click fest. They made checking balances more frustrating as well. Net Worth should be a Dashboard item where it can be accessed easily when needed. Not a hurdle to checking my other balances. App integration? It won't even let me transfer money between my banking and investment accounts. This used to be a really good app. It's now in the \"somewhat usable\" category and fading with each update..",
+      "replyDate": null,
+      "replyText": null,
+      "version": "23.11.04",
+      "thumbsUp": 557,
+      "criterias": []
+    },
+    {
+      "id": "644dcbb4-fa1d-4b0a-8c6d-b1c6f074e83d",
+      "userName": "John Howard",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocI4ObjA9PpZPT8hT3LJx6aG7Tl7-LMS_44CMSCEcHKA=mo",
+      "date": "2023-11-28T00:34:33.754Z",
+      "score": 3,
+      "scoreText": "3",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=644dcbb4-fa1d-4b0a-8c6d-b1c6f074e83d",
+      "title": null,
+      "text": "(From 2020:) Does what I need so far, but it sure is slow to start up. EDIT 11-27-23: It still remains slow, though I close all other apps and run a memory cleaner every time before starting up the BoA app. Today it wouldn't let me log in, despite repeated attempts, using the correct user name and password. I had to uninstall and reinstall the app before it would let me log in. If it weren't for the ability to deposit checks remotely, I'd stop using the app altogether. It's slow and buggy.",
+      "replyDate": "2020-08-17T20:02:46.224Z",
+      "replyText": "Hello John, Thanks for your review! Please assure all running apps are closed and that you have an established connection before logging in, for the best app speed! We are constantly enhancing the app to provide a better service. Keep an eye out for future releases! -Ashlyn",
+      "version": "23.08.50",
+      "thumbsUp": 200,
+      "criterias": []
+    },
+    {
+      "id": "b690aee9-870c-435b-bf6d-5b82decf7741",
+      "userName": "Francisco Santiago",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjVFfj1kpOxN2Jl_V2xPArmn7_kxDC2n6X96pzb34dg3Iw",
+      "date": "2024-01-18T20:20:57.567Z",
+      "score": 3,
+      "scoreText": "3",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=b690aee9-870c-435b-bf6d-5b82decf7741",
+      "title": null,
+      "text": "Great app for banking, been using it since I became a BoA member in 2021. This past year, it has been crashing the first time I try signing in, requiring me to sign in twice before the app stays open for me to check my account. It's a sleek app, but does get frustrating having to sign in twice each time I want to look at my account.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "23.09.04",
+      "thumbsUp": 10,
+      "criterias": []
+    },
+    {
+      "id": "58a11e88-cbee-405d-aa14-ab426336180f",
+      "userName": "Connor Leigh",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocJi7dPXknBVMyGAyc7eT7S4KZxtmMZJh8RDZ0uy0kez=mo",
+      "date": "2024-01-23T15:30:23.426Z",
+      "score": 2,
+      "scoreText": "2",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=58a11e88-cbee-405d-aa14-ab426336180f",
+      "title": null,
+      "text": "Bill payment from an account other than BoA is impossible to set up in the app. The payment and transfer menu has not been updated in multiple years and takes multiple steps to get done. Overall a mediocre experience at best. All the other major banking apps (including some smaller banks) are decades ahead of BoA's ancient system.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "23.09.04",
+      "thumbsUp": 12,
+      "criterias": []
+    },
+    {
+      "id": "4240ec3b-9b90-47ee-8761-09ff917bbc14",
+      "userName": "Sushi Bear",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjXiTgBu7mkRVjYXfGXhI0TZshXWMcPjY_q12kHFGwU6pOZ3",
+      "date": "2023-11-04T13:53:02.717Z",
+      "score": 2,
+      "scoreText": "2",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=4240ec3b-9b90-47ee-8761-09ff917bbc14",
+      "title": null,
+      "text": "it's super annoying and slow when you click to add the individual rewards and the stupid screen slowly shoots up to block the whole screen to show information about the reward you clicked. Update: now the rewards you add completely clear and you have to add again and again and again because it doesn't seem to save if you move on to something else within the app.",
+      "replyDate": "2021-10-12T17:49:03.578Z",
+      "replyText": "Hello, thanks for taking the time to share your feedback on our latest app version! We deeply respect your advice, and we will combine your feedback with our Research and Development , in order to provide better products. Thanks -Ashlyn\n",
+      "version": "23.08.50",
+      "thumbsUp": 134,
+      "criterias": [
+        {
+          "criteria": "vaf_phase1_making_payments",
+          "rating": 3
+        },
+        {
+          "criteria": "vaf_phase1_international_transfers",
+          "rating": 3
+        },
+        {
+          "criteria": "vaf_never_display_spend_more_time",
+          "rating": 1
+        }
+      ]
+    },
+    {
+      "id": "bb1cf97d-9195-4374-9a58-60b45ac0f093",
+      "userName": "Marc Luhrsen",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjWS6FBI4DQSpCPockZ9zGwWS5D0Coc5SoQc_jrVc8HEaZM",
+      "date": "2023-12-27T00:30:42.391Z",
+      "score": 5,
+      "scoreText": "5",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=bb1cf97d-9195-4374-9a58-60b45ac0f093",
+      "title": null,
+      "text": "I always have a good experience when I speak with an associate. For 30 yrs now I've been a BOA client, with the many ups and downs of the life experience, sometimes high and at other times the lows.. I had applied over a year ago fora BOA credit card and had it approved several months later its was cancelled, for what reason I'm not clearly sure.. but I very recently reapplied again.. and not to my surprise I was refused. I'm still a loyal BOA client and will probably continue to be. Thank you.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "23.09.04",
+      "thumbsUp": 53,
+      "criterias": []
+    },
+    {
+      "id": "23ba405e-dfde-4104-949d-a590012d2c12",
+      "userName": "Briana Cheney",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjUg-XXNLSpB--HN3eZiDVPpRaeQM0w8_j5OJpj33MwxhsTh",
+      "date": "2023-10-21T21:29:35.717Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=23ba405e-dfde-4104-949d-a590012d2c12",
+      "title": null,
+      "text": "Not a user friendly app. Would like to see something more like Chase banking. It does not show all transactions in one place, you have to dig to find pending transactions vs final transactions vs payments. When I click on activity I want to see all of that, not just payments I've made. Some sections look like drop downs but are actually links to other pages. Urges you to use their app help which wouldn't be necessary if they had more options in their menu selection.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "23.08.50",
+      "thumbsUp": 139,
+      "criterias": []
+    },
+    {
+      "id": "22fbeee4-72f7-4785-b9dc-716dc9b0c679",
+      "userName": "Mary D",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocJmPPfnR-jw9dNSDW8uGfA2qQOriWg8NO0Ttk6i5CWI=mo",
+      "date": "2024-01-29T00:42:12.280Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=22fbeee4-72f7-4785-b9dc-716dc9b0c679",
+      "title": null,
+      "text": "Very very bad experience with this online app. I have to put account and routing number to pay the card inside the account. Can you make like the other bank app that we could just choose from the account to pay credit card...... For a credit card, there has another account to confuse me. ...... So difficult... So complicated... I am very mad . Make it simple and clean please. By the way, difficult to find transitions...",
+      "replyDate": null,
+      "replyText": null,
+      "version": "23.09.04",
+      "thumbsUp": 8,
+      "criterias": []
+    },
+    {
+      "id": "cce094ac-9f3b-4ca7-96d8-0d371ade3770",
+      "userName": "Adam Stryker",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjXOAOp6_kutZOKLh6bhrcO-xvzIHIg3hNX8ZQcil_CzDbc",
+      "date": "2023-10-14T12:45:35.858Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=cce094ac-9f3b-4ca7-96d8-0d371ade3770",
+      "title": null,
+      "text": "This recent update has made this BOA go from bad to worse. I paid a fixed amount over the minimum (double of min) and took a screenshot of the confirmation and everything. 12 hours later, it still didn't process. I called customer service, still not showing. I go back in to the app, there's no record, so I pay the minimum. Now it shows two SCHEDULED payments for today but still not processed. So annoying. Now I have to navigate the horrible phone tree just to talk with a human again. ASININE!",
+      "replyDate": null,
+      "replyText": null,
+      "version": "23.08.50",
+      "thumbsUp": 183,
+      "criterias": []
+    },
+    {
+      "id": "e4425b9f-47d2-4b30-abc1-9a46d720eba7",
+      "userName": "Sinead Montoya",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjV2tj0jlZ4OW7BXd8VmCPQTfVpZDZ6Z80qXTrIOReTV2UGR",
+      "date": "2023-12-30T00:25:16.691Z",
+      "score": 3,
+      "scoreText": "3",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=e4425b9f-47d2-4b30-abc1-9a46d720eba7",
+      "title": null,
+      "text": "It's a great app although buggy. I am getting really tired of trying and trying and trying to log in just for it to repeatedly shut down and knock me back to my phones home screen. I go through this with the app at least once a week. I've been trying to log in for the last almost 2 hours and still haven't been able to access my account. It's extremely irritating. It's now been 2 days since I've been able to view my account. Other than that, it's pretty convenient and easy to navigate.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "23.08.50",
+      "thumbsUp": 7,
+      "criterias": []
+    },
+    {
+      "id": "f001dcb3-da35-4d3b-9908-2b08842fa03a",
+      "userName": "James Cammon",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocIFoR4KHCD0oqHe7s1QW-Pq7wE_OTvF-eVp8_Y7i3Wz=mo",
+      "date": "2023-11-19T19:54:32.834Z",
+      "score": 4,
+      "scoreText": "4",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=f001dcb3-da35-4d3b-9908-2b08842fa03a",
+      "title": null,
+      "text": "Could be clearer, where you're navigating, but it's unlikely you'll end up in the completely wrong area. Could be in better sync with a general discouragement from ever entering a bank ever again, such as a much more robust q/a area, but if you're willing to give in and talk to the customer service AI or faceless customer service person it's mostly alright. Accept the future.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "23.08.50",
+      "thumbsUp": 44,
+      "criterias": []
+    },
+    {
+      "id": "aeabd9fe-13c9-4d5b-88be-4595251b0988",
+      "userName": "chuks aniebue",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocJh3sIcRM2rkG_YDSceKKPotM6BFYjqk6Bg1ljqXfAR=mo",
+      "date": "2024-01-06T22:42:30.750Z",
+      "score": 3,
+      "scoreText": "3",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=aeabd9fe-13c9-4d5b-88be-4595251b0988",
+      "title": null,
+      "text": "Great app. Makes my banking really easy and convenient. No unnecessary protocols. However, a recent update removed my access to my Fico score, which used to feature under the life plan section. For foreign clients, this makes it impossible to follow how well we are doing with the management of our credits since we don't have social security numbers and can't use our Itin's to gain access. I think this should be looked into. Thanks.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "23.11.06",
+      "thumbsUp": 18,
+      "criterias": [
+        {
+          "criteria": "vaf_never_display_deceptive_ads",
+          "rating": 2
+        },
+        {
+          "criteria": "vaf_phase1_tracking_finances",
+          "rating": 3
+        },
+        {
+          "criteria": "vaf_never_display_positive_impact",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "id": "87c072d4-75fc-4ebc-9263-bea004a7d1e8",
+      "userName": "Navin Mahabir",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjWDF6m79ZT1tV8Y8QpXI18kg5yggCQFW63ia0SbqwjDW40e",
+      "date": "2024-01-02T23:54:58.464Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=87c072d4-75fc-4ebc-9263-bea004a7d1e8",
+      "title": null,
+      "text": "This is my first experience with BoA and it's not been good. I ordered a card and it never arrived, so I tried chat on the app. I was told that I needed to call the 800 number. It took five tries, after navigating dead menus, incorrectly labeled options, and deceptive phrasing of options to still never get to a person. I'll have to try a sixth time and hope to schedule a callback (by the way, I was told wait times would be between 56 and 104 minutes). Just get simple things right.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "23.08.50",
+      "thumbsUp": 8,
+      "criterias": []
+    },
+    {
+      "id": "6ae29d81-25f9-44b6-8f7b-5e3e6fe4122b",
+      "userName": "Thomas Bonse",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocIVCy9MXvELLcA11JPFOm4xI73uxlO0Owvc98nueTs0=mo",
+      "date": "2023-11-01T04:47:10.519Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=6ae29d81-25f9-44b6-8f7b-5e3e6fe4122b",
+      "title": null,
+      "text": "Random crashing at various points, while using the app. As of 11/01/2023, this has not changed. Already cleared cache after one crash before relaunching and logging in again. Then, while clicking through Deals, the app crashed again. This is the same type of poor app behavior that caused me to generally stick to using a computer to access my account, as opposed to this poorly maintained app.",
+      "replyDate": "2018-10-09T15:27:45.961Z",
+      "replyText": "Hi Thomas, thanks for bringing this to our attention and we apologize for the inconvenience. Please try to force close the BofA app by swiping it up. After you restart the app please let me know if you are still experiencing any issues. ~Rachel",
+      "version": "23.08.50",
+      "thumbsUp": 55,
+      "criterias": [
+        {
+          "criteria": "vaf_never_display_deceptive_ads",
+          "rating": 2
+        },
+        {
+          "criteria": "vaf_tracking_finances",
+          "rating": 2
+        },
+        {
+          "criteria": "vaf_phase1_life_insurance",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "id": "bdf6f7f2-dd03-4424-a018-5903e6e73b32",
+      "userName": "david sutton",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocLF0KVJK6Zn98h-UxJQPxxPh4l4QrnQ_PjMS43H6wRB=mo",
+      "date": "2023-10-18T05:02:35.800Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=bdf6f7f2-dd03-4424-a018-5903e6e73b32",
+      "title": null,
+      "text": "Absolutely the worst interface of any bank app I have ever used, especially since the latest upgrade. Just terrible. You cannot simply pay bills anymore with a click. 4 clicks required, even more if you're paying a BofA credit card, which requires you to transfer funds, enter the amount, and doesn't give you any confirmation. Please, BofA, go back to the app the way it was before you hired JPow as a programmer. He's done as much damage to your app as he has to the American economy.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "23.08.50",
+      "thumbsUp": 38,
+      "criterias": []
+    },
+    {
+      "id": "8df479ed-d19f-4549-a1c4-dd5e82e8da46",
+      "userName": "Herick Gainey",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjW311M_Wni8imQv5QKex7_VTp0nhRuybcQHikQ3dMC--A",
+      "date": "2024-02-09T13:44:00.118Z",
+      "score": 2,
+      "scoreText": "2",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=8df479ed-d19f-4549-a1c4-dd5e82e8da46",
+      "title": null,
+      "text": "The app cumbersome, difficult to use, no assurances when conducting bill pays etc. What I mean is, when you say pay a bill, it will have to more functions and still no indication it actually went through. I have one other credit card, and once you say pay and swipe right, the app generates a message saying complete.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "23.08.50",
+      "thumbsUp": 5,
+      "criterias": []
+    },
+    {
+      "id": "8cf817b8-dc6c-47c5-b5f0-902f789513a6",
+      "userName": "Bethany Christophel",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjUuPsAtHhwBsOXzGS6JlSyM0OGBaVjuJElGSHRCX-nWDG5N",
+      "date": "2023-10-13T10:39:02.393Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=8cf817b8-dc6c-47c5-b5f0-902f789513a6",
+      "title": null,
+      "text": "I have been using the bank of America app for years. However within the last 3 months I have been getting this message. \"Make sure your device is connected to the Internet. Go to your device settings to enable WiFi or mobile data.\" So I cleared the cache and still the message. I deleted the app and reinstalled, and still the message. So basically the app is unusable and I sign into the computer.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "23.08.50",
+      "thumbsUp": 30,
+      "criterias": []
+    },
+    {
+      "id": "9f38854d-815b-4277-a90c-ae15e7f1ac49",
+      "userName": "David Williams",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjUZ6XbBfPwrBJWozvQmdradrjpDZcsxxnn28qXWYDBDkvY",
+      "date": "2023-11-07T12:33:56.668Z",
+      "score": 5,
+      "scoreText": "5",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=9f38854d-815b-4277-a90c-ae15e7f1ac49",
+      "title": null,
+      "text": "I really like this App. I can usually do just about anything that I want to do on the App like, deposit a check, transfer money to others, or between accounts, even set alerts on accounts, or let the bank know when I am traveling, and where, so that my debit card always goes through on purchases no matter where I travel, and much more. This App does it all.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "23.08.50",
+      "thumbsUp": 26,
+      "criterias": []
+    },
+    {
+      "id": "ebde3fae-a987-4443-90ca-95fe2731d3fe",
+      "userName": "Donna Hopper",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocL3i73NaTrs9_2_b8a1NorQH9XANfGvNfrOOSItuk3-=mo",
+      "date": "2024-01-01T23:02:21.883Z",
+      "score": 5,
+      "scoreText": "5",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=ebde3fae-a987-4443-90ca-95fe2731d3fe",
+      "title": null,
+      "text": "I love Bank of America. I never have had any problems with them,, and I've been banking with them for over 20 years. They were on top of all the scammer tricks and they notify me. I feel safe. As the times change Bank of America changes to support safe keeping of money I trust in them and they are always up on the latest scamming issues.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "23.08.50",
+      "thumbsUp": 7,
+      "criterias": [
+        {
+          "criteria": "vaf_never_display_ads_experience",
+          "rating": null
+        },
+        {
+          "criteria": "vaf_never_display_ease_of_use",
+          "rating": null
+        }
+      ]
+    },
+    {
+      "id": "9f6abb57-b3c8-47f2-9de5-7711b3e84c89",
+      "userName": "Tushar Sathe",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjXssia356GsNoDD9l6fQGfa6MhJ8Bu29h3S_oESWncABMQ",
+      "date": "2023-12-25T05:30:00.486Z",
+      "score": 2,
+      "scoreText": "2",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=9f6abb57-b3c8-47f2-9de5-7711b3e84c89",
+      "title": null,
+      "text": "The payment section is not user-friendly in a way that you have to include the amount you want to pay. There should be an option to select statment balance if someone wants to pay off the entire balance. Also, if you by mistake add the amount and date and not select the account to transfer from, the selection gets cleared after you select the account, and you have to repeat the process.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "23.08.50",
+      "thumbsUp": 8,
+      "criterias": []
+    },
+    {
+      "id": "fc055450-9154-4354-bd66-176488ce3b64",
+      "userName": "Jessica Kimball",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjVcS_cNDVnDDXsQf_00marQW1PoqA7N9BIMJmfTovPHYukM",
+      "date": "2023-10-27T22:11:18.167Z",
+      "score": 4,
+      "scoreText": "4",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=fc055450-9154-4354-bd66-176488ce3b64",
+      "title": null,
+      "text": "Works pretty well for the most part. The check cashing part sometimes is buggy and you need to back out and restart it to have it work correctly. Other then that and few small bugs it's a pretty darn good app and I also like the bank. I don't particularly care for the apr finance charge of my credit card with this bank though. It's the highest APR I have on any of my credit cards so I barely use it.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "23.08.50",
+      "thumbsUp": 35,
+      "criterias": []
+    },
+    {
+      "id": "45af4bab-2c8b-4d7f-ba88-6cda9849b445",
+      "userName": "Sheila A. Duggan",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjU3JpYm_CTGvo1MTMC10BGUwCxSBWKYigsr918lKRdj6Go",
+      "date": "2023-10-18T15:59:06.946Z",
+      "score": 5,
+      "scoreText": "5",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=45af4bab-2c8b-4d7f-ba88-6cda9849b445",
+      "title": null,
+      "text": "My experiences with Bank of America have always been excellent. My review in 2022 has not changed! I love my bank. They have caught frauds quickly and and charges that seemed suspicious! This is all very important to me. Their overall business with me, with their different alerts that you can program , make banking with Bank of America an enjoyable experience. The BOA App is excellent! It is the only thing I use when I am on line. It make Banking so much easier!",
+      "replyDate": null,
+      "replyText": null,
+      "version": "23.08.50",
+      "thumbsUp": 30,
+      "criterias": [
+        {
+          "criteria": "vaf_phase1_life_insurance",
+          "rating": 1
+        },
+        {
+          "criteria": "vaf_phase1_investing",
+          "rating": 1
+        },
+        {
+          "criteria": "vaf_phase1_managing_mortgages",
+          "rating": 1
+        }
+      ]
+    },
+    {
+      "id": "5e0670d4-8590-49ff-b15a-4b5767f8bb6e",
+      "userName": "JC Benken",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocITbLM5GpOc2se98lRDLX6znOHuiQu4k8JwxP0tNo1D=mo",
+      "date": "2023-12-04T00:01:12.702Z",
+      "score": 4,
+      "scoreText": "4",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=5e0670d4-8590-49ff-b15a-4b5767f8bb6e",
+      "title": null,
+      "text": "Since the last update in NOV, a cleared check (NOV 22) will not edit normally. After editing the vendor's name, it goes right back to the default. Same is true for the category. After a call to customer service, I was able to edit the check description and view the check images, but before that call, neither of those functions worked either. C'mon IT Dept! Fix this thing!",
+      "replyDate": null,
+      "replyText": null,
+      "version": "23.09.04",
+      "thumbsUp": 77,
+      "criterias": []
+    },
+    {
+      "id": "19bd8f5b-fb30-4dc1-bb78-ce112d6e6f0b",
+      "userName": "Lorenzo",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocIxWtJ83A-jAAIPmxD-KSRAGM-i3EHOWRT_9qnIjUMgxw=mo",
+      "date": "2023-12-09T17:52:13.860Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=19bd8f5b-fb30-4dc1-bb78-ce112d6e6f0b",
+      "title": null,
+      "text": "The app keeps saying NO CONNECTION TO INTERNET! Would be great to speak with someone to troubleshoot. I'm connected to all my apps on my phone, even to my Merrill Lynch. Just this app doesn't connect. I removed the app and reinstalled it. It's not even the new recent release (the one that shows your Merrill Lynch information). I'm glad I did not uninstall that app. I'm going to move all my Merrill Lynch retirement, BOA checking, and savings to another bank.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "23.09.04",
+      "thumbsUp": 31,
+      "criterias": []
+    },
+    {
+      "id": "1cdf0fc0-a632-4fbb-a45a-135c5cf5142b",
+      "userName": "James Zahourek",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjXUYEehY_rUDK8MiwGCtCNnGODvuygCdIxUKY_bdQ5e4o0",
+      "date": "2023-11-26T15:43:29.504Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=1cdf0fc0-a632-4fbb-a45a-135c5cf5142b",
+      "title": null,
+      "text": "This could be a decent app, but the Bank of America thinks they should use their app to attempt to force customers into using electronic documentation. The app has ceased to function unless I choose to opt in to paperless statements in a dialog box at startup. I know bankers are cheap ******** but I have dealt with enough identity theft, and lost or stolen device issues to know that no physical paper trail is a complete nightmare. Change this or lose customers. (At least one)",
+      "replyDate": null,
+      "replyText": null,
+      "version": "23.08.50",
+      "thumbsUp": 29,
+      "criterias": []
+    },
+    {
+      "id": "4156d86d-575f-4981-bf2b-6f2bdb2e04ac",
+      "userName": "Josh Goldberg",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjXCpnN0EvNtaBIDNlqHY83WnatmNmYfQ6rgXs0ESDRAo1Cv",
+      "date": "2024-01-11T23:09:40.464Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=4156d86d-575f-4981-bf2b-6f2bdb2e04ac",
+      "title": null,
+      "text": "Update 1/11/2024 still crashes every time I try to take a check photo to do a deposit. Now it fails if I turn off the flash too. App crashes when trying to deposit checks if the camera flash is on. The app always turns on the flash. If you turn it off before each photo it works fine. How the devs missed this after so long is beyond me...unless nobody there cares about quality which is the likely answer.",
+      "replyDate": "2019-07-01T20:30:39.376Z",
+      "replyText": "Hi Josh, we are always looking to improve the mobile banking experience. We've forwarded your feedback to our developers. Please keep an eye out for future app updates. Thank you for taking out the time to send us your suggestions! -Rachel",
+      "version": "23.09.04",
+      "thumbsUp": 15,
+      "criterias": [
+        {
+          "criteria": "vaf_phase1_auto_insurance",
+          "rating": 3
+        },
+        {
+          "criteria": "vaf_phase1_linking_bank_accounts",
+          "rating": 3
+        },
+        {
+          "criteria": "vaf_phase1_fdic_insured",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "id": "ed8d8bb2-edd1-48d0-91d3-a440d8adfaaf",
+      "userName": "N M",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjXZ0QKSGdUf_L6bw4JtAHMuNcA_KH6NStm_gB0tMXaNmCzB",
+      "date": "2023-11-08T17:39:09.461Z",
+      "score": 3,
+      "scoreText": "3",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=ed8d8bb2-edd1-48d0-91d3-a440d8adfaaf",
+      "title": null,
+      "text": "30-year customer here. The app is easy to access but lacks a truly interactive experience. I wish that the app provided real-time notifications like the other financial institutions I use, instead of SMS messages that BOA sends. I am also unable to edit my personal information, even after being prompted to do so.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "23.08.50",
+      "thumbsUp": 7,
+      "criterias": [
+        {
+          "criteria": "vaf_depositing_checks",
+          "rating": 1
+        },
+        {
+          "criteria": "vaf_phase1_backing_up_your_data",
+          "rating": 3
+        },
+        {
+          "criteria": "vaf_phase1_managing_mortgages",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "id": "2271395b-80c7-4ade-afa6-785a1a47614e",
+      "userName": "Charlie Kittridge",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocL1Lzbfgt3T4NvyEaMqNvDNyhQnaXW4_avfyVz-tSF_=mo",
+      "date": "2023-12-11T01:15:34.973Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=2271395b-80c7-4ade-afa6-785a1a47614e",
+      "title": null,
+      "text": "Can't pay bills from non BOA accounts anymore. I have to go on the desktop website to pay my credit card bill from the account that I've been paying it from for years. They probably changed that on purpose to encourage late fees and interest. BOA is scummy, their app sucks and they make things difficult and unhelpful seemingly on purpose. I would give them 0 stars if possible.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "23.08.50",
+      "thumbsUp": 35,
+      "criterias": []
+    },
+    {
+      "id": "33a0d95e-3f1e-4be8-8223-ab17b0b65d69",
+      "userName": "Bill Norris",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjX8CxEnJZWDpS_6s5-inqqCChOZAi2rHj7w7hL_Vlqteg",
+      "date": "2023-10-20T23:33:17.675Z",
+      "score": 5,
+      "scoreText": "5",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=33a0d95e-3f1e-4be8-8223-ab17b0b65d69",
+      "title": null,
+      "text": "A great app for our modern on-the-go lifestyle. The most convenient features include check deposit by taking pictures of the check and instant transfer from savings, when you have that embarrassing moment in the checkout line when your debit card is denied. New edit 10/12/23: There were some Quicken update issues at this point, possibly related to Quicken Classic rollout. New edit 10/20/23: Those issues appear to be resolved. Back to great.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "23.08.50",
+      "thumbsUp": 10,
+      "criterias": [
+        {
+          "criteria": "vaf_phase1_tax_preparation",
+          "rating": 3
+        },
+        {
+          "criteria": "vaf_never_display_inappropriate_ads",
+          "rating": 2
+        },
+        {
+          "criteria": "vaf_phase1_managing_mortgages",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "id": "7bc4067b-dc89-4293-9f92-ced2b64ed37d",
+      "userName": "Carol Karels",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocK4ADlU_Yf5Zndmc9ex9IY1XQ2PWIUu7Z41KBa2k8dL=mo",
+      "date": "2023-11-25T19:22:28.193Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=7bc4067b-dc89-4293-9f92-ced2b64ed37d",
+      "title": null,
+      "text": "Your customer service SUCKS! I've been waiting for an associate for an hour! Your virtual assistant gives you a few options but if you don't fit for one of her options it is like you don't matter there is no live person to talk to! I need help I had a mobile app to look at my credit cards only but had to factory reset my phone and can not get my app back, the only one is bank of America mobile banking app I already had the app and is was very convenient but why can't I get it back!",
+      "replyDate": null,
+      "replyText": null,
+      "version": "23.08.50",
+      "thumbsUp": 17,
+      "criterias": []
+    },
+    {
+      "id": "74bbc2da-2afe-497a-965f-dec8268646ba",
+      "userName": "Jacqui Zink",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjWq3H4e4jtUggTd801Pk-XTnmqxbxicG3jN0jQtblft2C4",
+      "date": "2023-12-06T19:12:51.958Z",
+      "score": 3,
+      "scoreText": "3",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=74bbc2da-2afe-497a-965f-dec8268646ba",
+      "title": null,
+      "text": "I'm adding comments because I have been unable to make mobile deposits for weeks; the check photos will not download. the only help I got was reload the app, which didn't work. I have gotten zero help on fixing this problem. I need the mobile deposit! I also find it difficult to get to billpay on my app and look at the list of payments going out like you can on a computer. I would like a response to these issues.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "23.09.04",
+      "thumbsUp": 34,
+      "criterias": []
+    },
+    {
+      "id": "4489721e-0fbc-4548-8f0c-9e570e00a491",
+      "userName": "Cody Adams",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocJ6hklVBo-A1kzDYbdppLYVuq47ck4IGUO7LWpomGso=mo",
+      "date": "2023-11-15T19:59:54.527Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=4489721e-0fbc-4548-8f0c-9e570e00a491",
+      "title": null,
+      "text": "You want all your info compromised? Download this app! You want to waste a couple hrs on the phone trying to regain access to your acct? Download this app! All for them to tell you that you gotta bring ID and go to a bank location, 100mi from your house before they'll let you pay your bill.. THEY are the scammers, don't fall for it.. brand new card btw, used it once just to make sure I had everything setup and linked with my bank. found out I made a big mistake trying BOA..",
+      "replyDate": null,
+      "replyText": null,
+      "version": "23.08.50",
+      "thumbsUp": 23,
+      "criterias": []
+    },
+    {
+      "id": "a1fbe24d-9ba2-4714-b84e-c0f0abeea773",
+      "userName": "Olga Landa",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjUd9TbZle-UJ60MT3WS9VAVauj_8OGG1lpUXYV6khdxZas",
+      "date": "2023-12-15T18:11:16.460Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=a1fbe24d-9ba2-4714-b84e-c0f0abeea773",
+      "title": null,
+      "text": "I'm not sure why it was decided to make everything so small. It's impossible to see an account and credit card amounts. Also, it never loads account details from a first click. You have to go back and click again. It was a good app, and the person responsible for change should be fired. I had a BOA account for 15 years, really considering just moving everything to Chase.",
+      "replyDate": "2019-05-23T20:31:40.585Z",
+      "replyText": "Please make sure you have the most recent app version (8.1.20).  With this version you will be able to log-in to the mobile app without issues.  We appreciate your patience as we worked to resolve this matter. -Rachel",
+      "version": "23.09.04",
+      "thumbsUp": 30,
+      "criterias": []
+    },
+    {
+      "id": "933f6e22-35f3-4534-9af5-0f0865f0d1f7",
+      "userName": "Mari Jordan",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjU-EPR_oBbmV8viwTm2jMH0dTaa38sRcMKtmuyrnTQojJs",
+      "date": "2023-11-24T13:21:50.478Z",
+      "score": 4,
+      "scoreText": "4",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=933f6e22-35f3-4534-9af5-0f0865f0d1f7",
+      "title": null,
+      "text": "Only 2 problems. 1) There is no way to see the password once typed in. Very difficult for the visually impaired. 2) I liked having the check boxes for account reconciliation. The activity display revision was a step back because now I need to scan the account names repeatedly for comparison with the check register.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "23.08.50",
+      "thumbsUp": 10,
+      "criterias": []
+    },
+    {
+      "id": "964d1354-de86-460c-b391-98467888102a",
+      "userName": "Max K.",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocLSES1h3ROJtFnRVg51g3xhrhBlOwufIvsJmMxuomvn=mo",
+      "date": "2023-11-14T08:14:38.435Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=964d1354-de86-460c-b391-98467888102a",
+      "title": null,
+      "text": "Terrible app, it crashes when I try to make payment for my credit card. Numbers that are shown for payment is confusing: the graph shows one things, the statement balance shows another information. You shouldn't use contractors, be like Capital One with FTE devs. Better to have them within their own independent union. PS Nov 14 update: sometimes it crashes on start 😂",
+      "replyDate": null,
+      "replyText": null,
+      "version": "23.08.50",
+      "thumbsUp": 12,
+      "criterias": []
+    },
+    {
+      "id": "2d86f2fe-79aa-4a9b-b126-45f0a7b5fbf6",
+      "userName": "Dale S",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocLkKznYgORrMN6BoJ9jlK1b_bHabu_so71LuzXazy7v=mo",
+      "date": "2023-10-25T01:49:27.184Z",
+      "score": 4,
+      "scoreText": "4",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=2d86f2fe-79aa-4a9b-b126-45f0a7b5fbf6",
+      "title": null,
+      "text": "My only problem with this app is the ability to use the \"Mark as Paid\" function on any of the screens (I think it is available in 2 different locations). It seems the stress area to activate it is too small... even using just my fingernail won't activate it. I eventually need to use the website version to mark it.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "23.08.50",
+      "thumbsUp": 67,
+      "criterias": []
+    },
+    {
+      "id": "548a08e4-e0c5-4184-a495-cf8fe2929025",
+      "userName": "ncjamison1",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjUDbbXFFQ-HdrqTSpUqqoGGtY3mARybozmOpt8HQpaGrUc",
+      "date": "2023-12-05T10:42:29.888Z",
+      "score": 2,
+      "scoreText": "2",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=548a08e4-e0c5-4184-a495-cf8fe2929025",
+      "title": null,
+      "text": "Seems to have gone downhill. Everyone I open the app I use my fingerprint, it logs me in, then the app closes & I have this do it a second time. Every single time. Why??? It's updated. I uninstalled & reinstalled it. Update: The app doesn't crash as much as it used to. I don't recall that it has done that in a while. However, this is the only app that gives me a hard time with fingerprint recognition. I don't understand why. I use print recognition on several apps, this one sucks.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "23.08.50",
+      "thumbsUp": 14,
+      "criterias": []
+    },
+    {
+      "id": "10069512-2fd6-4a8a-b426-5fc724ed53b3",
+      "userName": "Joseph Roark",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocIDbR9bmYIkTTvknJQA2grablkPjmP-VsWrgXazL11jlw=mo",
+      "date": "2023-11-12T12:44:09.110Z",
+      "score": 3,
+      "scoreText": "3",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=10069512-2fd6-4a8a-b426-5fc724ed53b3",
+      "title": null,
+      "text": "Overall, good app. It's secure and easy to use for most needs. Lowered rating due to change on bill pay access. I like previous 1 click access. I want to pay bills. Not transfer money, then ask if I want to pay BOA accounts or go to bill pay. I want to go directly to billpay like previous version of app.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "23.08.50",
+      "thumbsUp": 11,
+      "criterias": []
+    },
+    {
+      "id": "00586c03-dc6b-489d-b222-ffef03c3a6ad",
+      "userName": "Richard McCrae",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocKFuGkVBssd4l3gJDmVj_D0fGsgBClFwf92ThpVxzhE=mo",
+      "date": "2023-11-01T19:54:48.347Z",
+      "score": 5,
+      "scoreText": "5",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=00586c03-dc6b-489d-b222-ffef03c3a6ad",
+      "title": null,
+      "text": "At first it seemed a lil clunky meaning I didnt like the layout of certain options. After a while I realized I was just use to a different banking app and this one was fine. I.e. some options like external account transfers/wires etc are available in other mobile apps where as BOA has them exclusively on the website for security I guess. After some time I came to the conclusion that I shouldn't hold things like that against the BOA app, whose functionality otherwise is more than decent. So meh.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "23.08.50",
+      "thumbsUp": 6,
+      "criterias": []
+    },
+    {
+      "id": "69700fe1-5bee-4851-ba41-05a027e6f37e",
+      "userName": "Jennie Brown",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjVAmy1h3_vUgFbxmupRBF7WizYSnPWOrzpc3WXZY4GwH0A",
+      "date": "2023-10-15T18:28:20.998Z",
+      "score": 3,
+      "scoreText": "3",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=69700fe1-5bee-4851-ba41-05a027e6f37e",
+      "title": null,
+      "text": "I haven't had problems with this app until recently. When I try to deposit a check, I get this strange red exclamation points over the picture and I can't proceed. The first time it wouldn't take either side as an image. The second time, the front worked but the back didn't. I deposited it into another bank account app with no problem.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "23.08.50",
+      "thumbsUp": 8,
+      "criterias": []
+    },
+    {
+      "id": "c6999ae3-11a2-48fd-8aa5-942a6acccc9d",
+      "userName": "Patricia Bowman",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjWQlKhlQjVYjnj820FlZdRUriAe0Wgs3usCMXMN7-WHK8M",
+      "date": "2023-11-01T01:06:37.333Z",
+      "score": 3,
+      "scoreText": "3",
+      "url": "https://play.google.com/store/apps/details?id=com.infonow.bofa&reviewId=c6999ae3-11a2-48fd-8aa5-942a6acccc9d",
+      "title": null,
+      "text": "The authentication process is truly disturbing. I never get the texted code. Only get code via email or phone. Techs can't figure nor branches. B of A blame my phone carrier. Carrier sends texts fine. Other institutions send codes just fine. Only B of A app can't text codes. Really inconvenient. Once access is granted, app works fine.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "23.08.50",
+      "thumbsUp": 9,
+      "criterias": [
+        {
+          "criteria": "vaf_linking_bank_accounts",
+          "rating": 3
+        },
+        {
+          "criteria": "vaf_never_display_useful_notifications",
+          "rating": 3
+        }
+      ]
+    }
+  ],
+  "nextPaginationToken": "CmYKZDAsMTAwMDAwMC42OTc3MjQ0MDIsMjQwMjQ4NDIwOTcsImh0dHA6Ly9tYXJrZXQuYW5kcm9pZC5jb20vZGV0YWlscz9pZD12Mjpjb20uaW5mb25vdy5ib2ZhOjEiLDEsZmFsc2U"
+}
