@@ -73,7 +73,8 @@
                 .then((data) => data.forEach(row => {
 
                     let tempDiv = document.createElement("div")
-                    tempDiv.innerHTML = answerBoxTemplate(row.title, row.descr, row.imdb_rating)
+                    // tempDiv.innerHTML = answerBoxTemplate(row.title, row.descr, row.imdb_rating)
+                    tempDiv.innerHTML = answerTemplate(row.title, row.summary, row.scoreText)
                     document.getElementById("answer-box").appendChild(tempDiv)
                 }));
 
