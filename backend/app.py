@@ -65,7 +65,7 @@ def home():
     return render_template("base.html", title="sample html")
 
 
-@app.route("/episodes")
+@app.route("/apps")
 def episodes_search():
     text = request.args.get("title")
     return json_search(text)
