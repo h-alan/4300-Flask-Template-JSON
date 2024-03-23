@@ -43,6 +43,7 @@ def json_search(query):
 
     # argsort
     inds = sorted(range(len(scores)), key=scores.__getitem__)
+    inds.reverse()
     matches = []
     matches = apps_df.loc[inds]
 
