@@ -15,11 +15,11 @@
         <div class="top-text">
             <div class="input-box" onclick="sendFocus()">
                 <img src="{{ url_for('static', filename='images/mag.png') }}" />
-                <input placeholder="Describe an app you want" id="filter-text-val" onkeyup="filterText()">
+                <input placeholder="Describe An App..." id="filter-text-val" onkeyup="filterText()">
             </div>
             <div class="input-box" onclick="sendFocusApp()">
                 <img src="{{ url_for('static', filename='images/mag.png') }}" />
-                <input placeholder="List apps that are similar" id="temp" onkeyup="filterText()">
+                <input placeholder="List Similar Apps..." id="temp" onkeyup="filterText()">
             </div>
         </div>
         <div id="answer-box">
@@ -29,10 +29,10 @@
 
     <script>
 
-        function answerTemplate(appId, title, titleDesc, rating) {
+        function answerTemplate(appId, title, titleDesc, rating, icon) {
             return `<div id='${appId}' class='answer-wrapper'>
-                <div class=''>
-                    <h3 class='episode-title'>${title}</h3>
+                <div class='answer-txt'>
+                    <h3 class='episode-title'><img class= "icon" src='${icon}' alt = "icon" width="50" height= "50"> ${title}</h3>
                     <p class='episode-desc'>${titleDesc}</p>
                     <p class='episode-rating'>Star Rating: ${rating}</p>
                 </div>
@@ -60,7 +60,7 @@
 
                     let tempDiv = document.createElement("div")
                     // tempDiv.innerHTML = answerBoxTemplate(row.title, row.descr, row.imdb_rating)
-                    tempDiv.innerHTML = answerTemplate(row.appId, row.title, row.summary, row.scoreText)
+                    tempDiv.innerHTML = answerTemplate(row.appId, row.title, row.summary, row.scoreText, row.icon)
                     document.getElementById("answer-box").appendChild(tempDiv)
                 }));
         }

@@ -74,6 +74,11 @@
     flex-direction: row;
 }
 
+.icon {
+    padding-right: 15px;
+    vertical-align: middle;
+}
+
 .answer-button-display {
     display: flex;
     align-items: center;

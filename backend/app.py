@@ -75,7 +75,7 @@ def json_search(query):
     matches = []
     matches = apps_df.loc[inds]
 
-    matches_filtered = matches[["title", "summary", "scoreText"]]
+    matches_filtered = matches[["title", "summary", "scoreText", "icon"]]
     matches_filtered_json = matches_filtered.to_json(orient="records")
     return matches_filtered_json
 
