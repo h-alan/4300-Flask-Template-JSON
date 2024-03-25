@@ -14,7 +14,8 @@ current_directory = os.path.dirname(os.path.abspath(__file__))
 
 # Specify the path to the JSON file relative to the current script
 # json_file_path = os.path.join(current_directory, 'init.json')
-json_allcat_file_path = os.path.join(current_directory, "all_apps.json")
+json_allcat_file_path = os.path.join(current_directory, "data/all_apps.json")
+json_allreviews_file_path = os.path.join(current_directory, "data/reviews.json")
 
 # Assuming your JSON data is stored in a file named 'init.json'
 # with open(json_file_path, 'r') as file:
@@ -25,6 +26,9 @@ json_allcat_file_path = os.path.join(current_directory, "all_apps.json")
 with open(json_allcat_file_path) as file:
     data = json.load(file)
     apps_df = pd.DataFrame(data)
+with open(json_allreviews_file_path) as file:
+    data = json.load(file)
+    rev_df = pd.DataFrame(data)
 
 app = Flask(__name__)
 CORS(app)
@@ -32,14 +36,38 @@ CORS(app)
 
 # Sample search using json with pandas
 def json_search(query):
-    # basic jaccard on description and query
     words_set = set(query.lower().split())
+
+    # basic jaccard on reviews and query
+    reviewScores = {}
+    totalScores = {}
+    for ind in rev_df.index:
+        if rev_df["thumbsUp"][ind] < 5:
+            continue
+        rev_set = set(rev_df["text"][ind].lower().split())
+        num = words_set.intersection(rev_set)
+        den = words_set.union(rev_set)
+        score = len(num) / len(den)
+
+        title = rev_df["appId"][ind]
+        if title not in reviewScores.keys():
+            reviewScores[title] = 0
+        if title not in totalScores.keys():
+            totalScores[title] = 0
+
+        reviewScores[title] += score
+        totalScores[title] += 1
+
+    for key in reviewScores.keys():
+        reviewScores[key] = reviewScores[key] / totalScores[key]
+
+    # basic jaccard on description and query, also using review scores
     scores = []
     for ind in apps_df.index:
         desc_set = set(apps_df["description"][ind].lower().split())
         num = words_set.intersection(desc_set)
         den = words_set.union(desc_set)
-        scores.append(len(num) / len(den))
+        scores.append(len(num) / len(den) + reviewScores[apps_df["appId"][ind]])
 
     # argsort
     inds = sorted(range(len(scores)), key=scores.__getitem__)

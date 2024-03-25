@@ -1,0 +1,1996 @@
+{
+  "data": [
+    {
+      "id": "bc7ecbc2-1fc8-4eef-9c3d-cec489bb5a4e",
+      "userName": "Shawn Seuferer",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocI1rWz92qNVIuxup5RrEc87I7Nf_DYHBGUMnZtzi0hj=mo",
+      "date": "2024-01-14T17:51:19.284Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=bc7ecbc2-1fc8-4eef-9c3d-cec489bb5a4e",
+      "title": null,
+      "text": "Got really tired of things not working correctly. Cloud syncing refused to work. On the rare occasion it actually did sync it would add all the entries from the cloud as duplicate entries. Lacking in a lot of features and it's a pain trying to migrate to a different app. I switched to Aegis Authenticator and it was the best decision I ever made. Took a while to switch my accounts to Aegis thanks to Google not allowing you to export to other apps, but no regrets.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "6.0",
+      "thumbsUp": 869,
+      "criterias": []
+    },
+    {
+      "id": "2ddd9695-1ba8-4752-884f-0ab810300caf",
+      "userName": "Miranda Williams",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjXU2OysZp9i54calCOFPH28Hw8x9KNfAgSxYiznkFc8OPE",
+      "date": "2024-01-09T00:01:10.164Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=2ddd9695-1ba8-4752-884f-0ab810300caf",
+      "title": null,
+      "text": "Was fine for over a year then all of a sudden my codes won't work on any website I use it for. I tried syncing but it keeps telling me \"it appears to be synced already.\" I made sure it was updated. I transferred it from one email to another and I was able to log in to one account. Tried logging into the same account again and couldn't do it. Uninstalling and reinstalling fixed it for now but I'm not optimistic.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "6.0",
+      "thumbsUp": 684,
+      "criterias": []
+    },
+    {
+      "id": "311c4646-3ac1-47e6-b1f4-8fba7ce3b037",
+      "userName": "PeridotTea91",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjVp9b1RqZjA9-iNb9AfqK65t06Lttj-dhME9r1Ky4GhpLE",
+      "date": "2024-01-01T20:43:17.531Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=311c4646-3ac1-47e6-b1f4-8fba7ce3b037",
+      "title": null,
+      "text": "I've used this app without issue for years. All of a sudden, all of my data was deleted along with all of my backups. I didn't update or reset anything. I tried logging into my Google account, and nothing was there. Now, I can't access a bunch of my accounts, both personal and for work. Also, I can't get ahold of anyone at Google to assist. Even the old backup codes didn't work. Use MS Authenticator instead.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "6.0",
+      "thumbsUp": 806,
+      "criterias": []
+    },
+    {
+      "id": "c9e744f3-420c-4c1e-8edf-f1524131487e",
+      "userName": "Gregory Pratt",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjVccOkg0NIr4kkaCt280RkDKI6Gx-B3avASYKBfhq_QhCU",
+      "date": "2023-11-05T16:48:07.254Z",
+      "score": 2,
+      "scoreText": "2",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=c9e744f3-420c-4c1e-8edf-f1524131487e",
+      "title": null,
+      "text": "Would love to give this app 5 stars, as it’s a straightforward design that does one thing well.  Almost.  Since earlier this year, the app has not refreshed its list of authentication codes when the 60-second countdown timer rolls over.  Given that many sites don’t have a grace period for codes from the preview 1-2 minutes, this is a stupid UI misdesign or bug (I’m going with the latter).  The lack of a fix makes me wonder if Google hasn’t abandoned this product.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "6.0",
+      "thumbsUp": 1030,
+      "criterias": []
+    },
+    {
+      "id": "066d0f64-eeb7-4891-91ee-ae360ae41683",
+      "userName": "Kendall",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjUr5KV0zpsBADliOPyExMIE_VgWzdnGypZoVYBpCd0uKCo",
+      "date": "2023-11-16T18:28:00.775Z",
+      "score": 4,
+      "scoreText": "4",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=066d0f64-eeb7-4891-91ee-ae360ae41683",
+      "title": null,
+      "text": "intuitive, consistent, minimal 2FA app with one minor bug great app, allows you to sync to your google account for multi-device or transferring. single point of failure, minor security concerns, but very convenient, so it's worth it. bug: it crashes whenever i try to rearrange my accounts aside from that, no major complaints, very consistent and reliable 2FA app, intuitive, easy to sync/transfer, been using it for ~5 years, no complaints aside from one avoidable crash condition.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "6.0",
+      "thumbsUp": 591,
+      "criterias": []
+    },
+    {
+      "id": "0f85987b-cd94-4c83-8b71-9ce10bddfcca",
+      "userName": "Daniel Gildardo Nogales villa",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocITr2yHy45EXl3twkbJ6T1qI3gT_K9KbrHdLImBA0Dwaw=mo",
+      "date": "2023-09-27T21:53:14.647Z",
+      "score": 2,
+      "scoreText": "2",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=0f85987b-cd94-4c83-8b71-9ce10bddfcca",
+      "title": null,
+      "text": "Like the other reviewers, this app really needs some work. The basic ability to categorize and group your different accounts, perhaps even tag them or put colour labels, customizable icons, or anything at all to help give them better shape. Maybe even the option to change the layout so that you are looking at thumbnails and can have more on the screen. Literally anything at all as right now it is a barebones list.",
+      "replyDate": null,
+      "replyText": null,
+      "version": null,
+      "thumbsUp": 163,
+      "criterias": []
+    },
+    {
+      "id": "3a9ab7ac-b75a-4547-9414-d3d552a7987a",
+      "userName": "Kristy k",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjWqSWyNFzqp80YhMaXrsl1AFkIKyxJw1zYfYr0qFjg2K5s",
+      "date": "2023-06-15T23:12:10.409Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=3a9ab7ac-b75a-4547-9414-d3d552a7987a",
+      "title": null,
+      "text": "In the last couple of weeks (June 2023) it stopped working on my Android phone. Seems to me some update to the Android system that caused the issue. I tried on 2 android devices. I did everything from reinstalling, syncing the time, nothing works. I searched for other options, nothing helped. It works on Apple devices, but not Android. If they don't fix it soon, I will have to switch to another app.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "6.0",
+      "thumbsUp": 2760,
+      "criterias": []
+    },
+    {
+      "id": "fb115f56-66e6-4718-836e-b858cf142469",
+      "userName": "Joe Madison",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjXIYlbqDnCERNJNlS-z5BzMMl2YGTP86e8AK41qF4oRRMoz",
+      "date": "2022-12-05T21:54:22.552Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=fb115f56-66e6-4718-836e-b858cf142469",
+      "title": null,
+      "text": "Still not secure. No way to backup accounts, no way to lock out anyone that gets access to your device. Even fingerprint authentication is better than nothing. But because there's nothing anyone that has access to your phone has access to this app. Plus if you lose your phone, you lose your accounts because there's no backup. Microsoft offers both of these features making their app much more appealing.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "5.20R4",
+      "thumbsUp": 1822,
+      "criterias": [
+        {
+          "criteria": "vaf_never_display_app_description",
+          "rating": 3
+        },
+        {
+          "criteria": "vaf_never_display_useful_notifications",
+          "rating": 2
+        },
+        {
+          "criteria": "vaf_never_display_content_language",
+          "rating": 1
+        }
+      ]
+    },
+    {
+      "id": "8c72153e-a145-4433-8352-42189932764b",
+      "userName": "A Google user",
+      "userImage": "https://play-lh.googleusercontent.com/EGemoI2NTXmTsBVtJqk8jxF9rh8ApRWfsIMQSt2uE4OcpQqbFu7f7NbTK05lx80nuSijCz7sc3a277R67g",
+      "date": "2019-06-28T11:40:39.493Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=8c72153e-a145-4433-8352-42189932764b",
+      "title": null,
+      "text": "works fine until you switch phones. The transfer app seemed to move everything, and it worked for 2 days, then lost all its data. There's no backup capabilities, so if you lose or destroy your device, your accounts are gone, meaning you have to disable 2 factor authentication and redo it. Not so easy to do if you cant log in to start with.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "5.00",
+      "thumbsUp": 361,
+      "criterias": [
+        {
+          "criteria": "vaf_never_display_disruptive_ads",
+          "rating": 2
+        },
+        {
+          "criteria": "vaf_never_display_considerate_of_time",
+          "rating": 1
+        },
+        {
+          "criteria": "vaf_never_display_content_language",
+          "rating": 1
+        }
+      ]
+    },
+    {
+      "id": "28e9074f-8925-44a8-a414-a99f73725fd1",
+      "userName": "Jason Price",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjV7Ho4t7Zb7QHLtB99n1o-ggMYj5s7Y30_aZx6cSf8Dga0",
+      "date": "2022-06-13T22:44:21.264Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=28e9074f-8925-44a8-a414-a99f73725fd1",
+      "title": null,
+      "text": "The latest update is horrible. The app now runs slowly. The \"Click to reveal PIN\" feature is just a pain in the backside, especially as there's no option to turn it off. There's still no built in option to lock the app with biometrics (like Microsoft and many others have), and there's no ability to back up in case your phone dies/is lost (no transfer to another phone is NOT backup).",
+      "replyDate": null,
+      "replyText": null,
+      "version": "5.20R3",
+      "thumbsUp": 663,
+      "criterias": [
+        {
+          "criteria": "vaf_never_display_ease_of_use",
+          "rating": null
+        }
+      ]
+    },
+    {
+      "id": "3eef75fe-3ba3-4acb-a669-d1f3ef4b0134",
+      "userName": "Michael Martin",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjVxl4AhrTxUTkXt1VFx5eV-EOzhz9LF9QdHkQYNYeswlsgS",
+      "date": "2022-09-16T04:16:21.190Z",
+      "score": 5,
+      "scoreText": "5",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=3eef75fe-3ba3-4acb-a669-d1f3ef4b0134",
+      "title": null,
+      "text": "The knock against this app seems to be the lack of a backup option, and no master password for locking the app. Both are easy to overcome. Put the app in the secure folder, which requires a password. For backup, you can export the codes to an old phone or tablet. You can sync manually with the export/import option should any changes arise. Tap and hold copies a code to the clipboard, and you can also rearrange entries by holding and moving, up or down. This is a perfectly good app!",
+      "replyDate": null,
+      "replyText": null,
+      "version": "5.20R4",
+      "thumbsUp": 1272,
+      "criterias": []
+    },
+    {
+      "id": "22b6bfde-abbf-4c20-9b5c-0f7cbe981690",
+      "userName": "A Google user",
+      "userImage": "https://play-lh.googleusercontent.com/EGemoI2NTXmTsBVtJqk8jxF9rh8ApRWfsIMQSt2uE4OcpQqbFu7f7NbTK05lx80nuSijCz7sc3a277R67g",
+      "date": "2019-03-03T21:44:21.242Z",
+      "score": 3,
+      "scoreText": "3",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=22b6bfde-abbf-4c20-9b5c-0f7cbe981690",
+      "title": null,
+      "text": "This app could be great, but the problems start if you  need to switch to a new device, or (God forbid) you lose your device with Authenticator on it.  Switching to a new device requires that you set up Authenticator again for every account you use it with.  Switching, as long as your old device still works, is a giant pain in the posterior, and if your device is lost or broken, well, you are out of luck, and locked out of everything protected by this 2FA.  There is no way to backup or restore, or share account data between devices.  I realize that there are security implications for backup or sharing, but the usability issues of not having backup or share among devices basically make this application useless for real-world applications.  I switched to \"Authy\", which supports backup and sharing.  Maybe that is less secure, but if security locks out the authorized user, that's pretty unacceptable, too.  This should be rated as 2.5 stars.  It works, but the usability is very poor.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "5.00",
+      "thumbsUp": 351,
+      "criterias": []
+    },
+    {
+      "id": "1f105b95-57b0-4f16-9cf9-9d46f3d5eba0",
+      "userName": "ルナええ、私は（Luna!）",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjU5WzKvEtkEL81xJgh3wgszyY4OKrREcaHpt5qEWmGQcBs",
+      "date": "2022-06-14T22:44:37.624Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=1f105b95-57b0-4f16-9cf9-9d46f3d5eba0",
+      "title": null,
+      "text": "Authenticator used to be great, but its just awful now. It takes FOREVER to load. ~5 seconds to open the app, even upwards to 10. when scrolling through codes, it takes nearly 10 seconds to load and even freezes sometimes, and you only have 20 seconds to input them before it resets. and the click to reveal code doesnt help. It also takes forever to load, and overall, is just a terrible experience. And also as a sidenote, if you lose your phone, you lose all hopes of getting the code back.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "5.20R3",
+      "thumbsUp": 538,
+      "criterias": [
+        {
+          "criteria": "vaf_never_display_ads_experience",
+          "rating": null
+        },
+        {
+          "criteria": "vaf_never_display_ease_of_use",
+          "rating": null
+        }
+      ]
+    },
+    {
+      "id": "e0da6359-f099-4f10-ba74-c8824e805dea",
+      "userName": "A Google user",
+      "userImage": "https://play-lh.googleusercontent.com/EGemoI2NTXmTsBVtJqk8jxF9rh8ApRWfsIMQSt2uE4OcpQqbFu7f7NbTK05lx80nuSijCz7sc3a277R67g",
+      "date": "2018-10-28T15:58:15.178Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=e0da6359-f099-4f10-ba74-c8824e805dea",
+      "title": null,
+      "text": "Extremely difficult to set up. I was unable to complete the set up process on a new Pixel 3XL as every code it gave me during set up was invalid. Spent a great deal of time reading forums and articles regarding how to set it up after the instructions given during setup process failed and was still inoperable. I've rarely had any issues with Google products so I was a little frustrated with this. My wife set her 2 step verification up with ease. I handed my phone to her to set up and she couldn't get it to work either. We're both baffled.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "5.00",
+      "thumbsUp": 107,
+      "criterias": [
+        {
+          "criteria": "vaf_never_display_make_you_happy",
+          "rating": 2
+        },
+        {
+          "criteria": "vaf_never_display_easy_to_use",
+          "rating": 2
+        },
+        {
+          "criteria": "vaf_never_display_content_language",
+          "rating": 1
+        }
+      ]
+    },
+    {
+      "id": "75c8e050-6837-4a35-9b62-26a21f843ea2",
+      "userName": "Steve Wright",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjXukEYShvuZh9p4VNMvCrKN5LQutnGAN2Cwk4dP-oG0Kg",
+      "date": "2020-10-15T08:03:58.847Z",
+      "score": 5,
+      "scoreText": "5",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=75c8e050-6837-4a35-9b62-26a21f843ea2",
+      "title": null,
+      "text": "Great App for total piece of mind. However, if you \"dump\" your phone, like I just did, you have to reinitialize the Authenticator on each and every website you had it enabled just as if you had changed your phone or phone number. I forgot to make a list of each of my websites I was using the App on, so I'm having to \"discover\" them as I access them. Yeah, it's a pain, but if it wasn't, the App would be nothing but window dressing.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "5.10",
+      "thumbsUp": 548,
+      "criterias": []
+    },
+    {
+      "id": "7c08ec64-3d22-482b-99f7-62d30c5ebca2",
+      "userName": "daryl jarman",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocJMPKbYpRcGk_3TxwaocLsjFiwGSckJmICbl1bPrZ0=mo",
+      "date": "2022-09-23T17:52:48.718Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=7c08ec64-3d22-482b-99f7-62d30c5ebca2",
+      "title": null,
+      "text": "This app is great... if you never want to change devices ever again. When trying to export to a new phone, it can't process special characters(possibly including spaces). The editing inside the app also doesn't allow you to remove parenthesis from certain keys like nintendo or facebook. I honestly can't believe that a security app developed by the biggest name in tech has such a horrible oversight. As it is now I'm stuck burning a backup code. You only get a few of them, so that's bad.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "5.20R4",
+      "thumbsUp": 1950,
+      "criterias": [
+        {
+          "criteria": "vaf_never_display_ease_of_use",
+          "rating": null
+        },
+        {
+          "criteria": "vaf_never_display_ads_experience",
+          "rating": null
+        }
+      ]
+    },
+    {
+      "id": "31ff43d7-3bc7-40c4-9a4f-dd7707ccecee",
+      "userName": "Edward Cook",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjUAhRr31AixTcIWeHr4XzPBy5YrKeateg4rDh8NsJweUKFf",
+      "date": "2023-04-26T15:44:42.978Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=31ff43d7-3bc7-40c4-9a4f-dd7707ccecee",
+      "title": null,
+      "text": "**UPDATE** I was pleased to hear that the syncing is now coming to this app, but from I hear the syncing isn't end-to-end encrypted. Is this true and if so will it be? - Still, even now with the pixel 6, and the generations of phones that came before it, there is still no cloud backup for this app?! I almost made the mistake of NOT exporting my codes. Other solutions at least give you the option to periodically backup to the cloud - I'm just blown away that this isn't a capability for this app.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "5.20R4",
+      "thumbsUp": 457,
+      "criterias": []
+    },
+    {
+      "id": "0a05ef2f-c2ba-4118-921a-865e1a6a6a4b",
+      "userName": "A Google user",
+      "userImage": "https://play-lh.googleusercontent.com/EGemoI2NTXmTsBVtJqk8jxF9rh8ApRWfsIMQSt2uE4OcpQqbFu7f7NbTK05lx80nuSijCz7sc3a277R67g",
+      "date": "2019-09-15T22:07:17.559Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=0a05ef2f-c2ba-4118-921a-865e1a6a6a4b",
+      "title": null,
+      "text": "I'm an IT professional and I understand the security implications of backing up the seeds in the cloud (though Google does just that anyway with your passwords if you want). Anyway, what users want is a way to EXPORT THE SEEDS so they can be imported into another device. Still doesn't solve the \"lost/stolen phone\" problem, but much better than nothing.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "5.00",
+      "thumbsUp": 125,
+      "criterias": []
+    },
+    {
+      "id": "1cf78e69-f60a-4c8d-bed0-7c20b92863d0",
+      "userName": "Tony Arroyo",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjVs6aGO5q7kQNfvotjYsSY7nY6umgFkHpddOv0tZYmcMPk",
+      "date": "2023-07-01T18:27:18.401Z",
+      "score": 3,
+      "scoreText": "3",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=1cf78e69-f60a-4c8d-bed0-7c20b92863d0",
+      "title": null,
+      "text": "Getting better. Now it has Google cloud backup, but it's debatable if you want to back it up there. If your Google account is compromised, you could lose all your accounts. There's still no security authentication on the app itself, so it's only as secure as the access to your phone is. Google desperately needs to provide a PIN code or biometric to access. Also needs the ability to transfer to other platforms.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "6.0",
+      "thumbsUp": 374,
+      "criterias": [
+        {
+          "criteria": "vaf_never_display_make_you_happy",
+          "rating": 3
+        },
+        {
+          "criteria": "vaf_never_display_content_language",
+          "rating": 1
+        },
+        {
+          "criteria": "vaf_never_display_deceptive_ads",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "id": "94c50100-27ea-4b18-8466-1cde42e96a9b",
+      "userName": "David West",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjWNsp-uAR78rmk3o1jpt1JA4AyiRfyWXTkNlG5hIdIV61a8",
+      "date": "2021-08-05T02:23:09.432Z",
+      "score": 4,
+      "scoreText": "4",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=94c50100-27ea-4b18-8466-1cde42e96a9b",
+      "title": null,
+      "text": "Cleaner and easier-to-use UI than other's I've tried, but sorely needs a sort and/or filter for those of us with more than a half-dozen accounts. I have 9 right now and I'm already bothered by having to scroll up and down to find an entry in an unordered list. And while it ought to go without saying, reading the other reviews makes me see it needs said: for each account, have some other method to get in. An alternate email and/or phone, etc. You don't want to be left locked out of everything when you leave your phone at the bar.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "5.10",
+      "thumbsUp": 352,
+      "criterias": []
+    },
+    {
+      "id": "4a787a61-7bb9-41a4-9ec9-67a5077f9d2d",
+      "userName": "Salvatore Mangiafico",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjUegZJDXY-CDdvMmJylPCVgNEHx1PzEgPHmgQ3PyqqlRfIe",
+      "date": "2022-01-02T15:56:14.280Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=4a787a61-7bb9-41a4-9ec9-67a5077f9d2d",
+      "title": null,
+      "text": "It appears that if your old phone stops working, there is no way to transfer accounts to your new phone. And you lose access to any account for any company foolish enough to rely on this app for 2FA. There is no point for this app. Two-factor authentication is great, but SMS works fine, and competing apps can actually be transferred easily between devices.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "5.10",
+      "thumbsUp": 600,
+      "criterias": []
+    },
+    {
+      "id": "7d85b6bd-2e48-44a8-96ac-abf0e0f7b303",
+      "userName": "JJ P",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocJRSLyGJcpNiozfW-5PijRm1uzh6erSuIVylEnU-7NB=mo",
+      "date": "2022-07-08T19:39:16.513Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=7d85b6bd-2e48-44a8-96ac-abf0e0f7b303",
+      "title": null,
+      "text": "Whatever this last update did, it's terrible. Starting the app from being completely closed its now a white screen for 10 seconds before the list of items comes up. And then you have to tap \"reveal\" to uncover in this weird fake pseudo-security feature. Even going back to the program when it was already open on device takes 5 seconds or so for the list to be populated.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "5.20R3",
+      "thumbsUp": 198,
+      "criterias": []
+    },
+    {
+      "id": "68c10775-5b69-4da1-87f8-418562012753",
+      "userName": "Patrick Raco",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjVoaK568BBAlFIQSEB9tBClZFU8zAH2rxH52y5cyTYSNw",
+      "date": "2021-02-20T15:55:45.241Z",
+      "score": 3,
+      "scoreText": "3",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=68c10775-5b69-4da1-87f8-418562012753",
+      "title": null,
+      "text": "App would be better if you could edit the entire name/identification of the account. For AWS accounts, the TLA is completly spelt out which doesn't leave much room for the part that is editable. Therefore, sometimes I have to rotate my phone to landscape to see the whole thing. And/or using a logo of the service would be great, similar to other auth apps. Also, a remote, secured backup would be great. Seems like a big reason people don't use/like this app.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "5.10",
+      "thumbsUp": 113,
+      "criterias": []
+    },
+    {
+      "id": "36b0c9d1-4a6f-4dee-9619-1b4ae655e334",
+      "userName": "Joshua Shenton",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocI-Lq36SbkKcCcC31zaq0irvrmUhWZMMNhLFDumAeSO=mo",
+      "date": "2023-07-13T20:22:52.450Z",
+      "score": 2,
+      "scoreText": "2",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=36b0c9d1-4a6f-4dee-9619-1b4ae655e334",
+      "title": null,
+      "text": "Like the other reviewers, this app really needs some work. The basic ability to categorize and group your different accounts, perhaps even tag them or put colour labels, customizable icons, or anything at all to help give them better shape. Maybe even the option to change the layout so that you are looking at thumbnails and can have more on the screen. Literally anything at all as right now it is a barebones list.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "6.0",
+      "thumbsUp": 1502,
+      "criterias": []
+    },
+    {
+      "id": "a5d571df-fe6a-41d8-9135-31bc2856c456",
+      "userName": "Jon McCarty",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjUfR8Jm71P5zBBLWqF1LbhGJTI4hFbzHDPICLDK_1nvKAA",
+      "date": "2020-05-19T15:26:00.450Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=a5d571df-fe6a-41d8-9135-31bc2856c456",
+      "title": null,
+      "text": "While I like some of the new functionality, I have to give only 1 start. The new UI is so bad. I frankly would forego the new abilities for the old UI. The name of the key should take 2 lines if you are going to enlarge the font. The much smaller font for the key makes using the key harder. One of the things that I really liked in the old UI is that the key font was as large as the screen can handle. The large fonts make it much easier to re-find the key as you type the key. Why would you make the thing that I need to find only one time larger and simultaneously make the key harder to see? I can't believe that there was any real UX testing or validation. The UX team needs to be educated.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "5.10",
+      "thumbsUp": 334,
+      "criterias": []
+    },
+    {
+      "id": "d4b52492-a944-4bfe-972a-39c73e4c8018",
+      "userName": "Roberto Diaz (Eric)",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjU79ybfSIJnOqKbuwJIcrxocCLH8KHWya3LLb0ZE1YN1QfR",
+      "date": "2023-09-24T15:19:45.241Z",
+      "score": 3,
+      "scoreText": "3",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=d4b52492-a944-4bfe-972a-39c73e4c8018",
+      "title": null,
+      "text": "Not something I recommend for someone with a high threat model but for the average person this app is fine. This app doesn't have the option to unlock with biometrics or a password, it doesn't have hardware key support, it doesn't let you hide the codes to where you need to tap to reveal it, it doesn't have end to end encryption, and it would be nice to have more backup options with encryption. I recommend aegis authenticator for anyone with a high threat model.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "6.0",
+      "thumbsUp": 55,
+      "criterias": [
+        {
+          "criteria": "vaf_never_display_ease_of_use",
+          "rating": null
+        }
+      ]
+    },
+    {
+      "id": "e778e0ad-1c11-4b39-b532-052e68fdc17e",
+      "userName": "Enrique Romero",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjXLDzx6Tl3C8lZjKy-dNKqXadxS11CaPqFb6RfmzWqp0M_v",
+      "date": "2023-02-02T13:52:26.920Z",
+      "score": 2,
+      "scoreText": "2",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=e778e0ad-1c11-4b39-b532-052e68fdc17e",
+      "title": null,
+      "text": "While helpful it is dated compared to others. A MAJOR DESIGN FLAW is the count down clocks on the far right. It should be at the start of each line (meaning left side.) This helps avoid wasted time and additional frustration when you start copying a number that will expire before you can paste it anywhere. MAJOR FLAW #2 - Lacks ability to use biometric lock protection when opening the app.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "5.20R4",
+      "thumbsUp": 263,
+      "criterias": []
+    },
+    {
+      "id": "984f3453-25fa-4454-8f79-bd1ec82f6626",
+      "userName": "Jason Treggiari",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjUP0nYfCUA91135d8afSbUiV97VhuXg7oVw5_0Vnpt8kw",
+      "date": "2020-08-28T19:12:19.561Z",
+      "score": 5,
+      "scoreText": "5",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=984f3453-25fa-4454-8f79-bd1ec82f6626",
+      "title": null,
+      "text": "I enjoy using this authentication tool. It stores in an easy to view and pleasant format. Switching devices is easy. And you can long press to automatically copy codes to clipboard (making entries on the phone a breeze). Side note: I haven't experienced the factory reset issue others describe, but I also haven't had to factory reset...so that's still up in the air.",
+      "replyDate": null,
+      "replyText": null,
+      "version": null,
+      "thumbsUp": 106,
+      "criterias": [
+        {
+          "criteria": "vaf_never_display_disruptive_ads",
+          "rating": 2
+        },
+        {
+          "criteria": "vaf_never_display_content_language",
+          "rating": 1
+        },
+        {
+          "criteria": "vaf_never_display_easy_to_use",
+          "rating": 1
+        }
+      ]
+    },
+    {
+      "id": "9d0630e7-c0fa-4b07-b9a2-3d8f76261ee4",
+      "userName": "Michael Ryan",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjXxEp6OF9hrUiqwteKG4QopBiNoohQ9FpCvvyQRAxv4AvQ",
+      "date": "2023-01-04T13:59:52.807Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=9d0630e7-c0fa-4b07-b9a2-3d8f76261ee4",
+      "title": null,
+      "text": "It would seem that I lost all keys I had during an OS update. Didn't think to make a backup, going to have to see if I have a historical one that I can use to restore system to previous state. Luckily I mostly migrated to Microsoft authenticator and a separate password manager so I didn't lose everything, but very inconvenient to reset the ones I did lose.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "5.20R4",
+      "thumbsUp": 516,
+      "criterias": []
+    },
+    {
+      "id": "4460a3ad-c3c0-4de6-9910-16a18440bf6a",
+      "userName": "Diamond Dog",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjWvTwdgI4ffAGWIBd0IJk4Tx_y47JZyDQCY2L3geBDBOg",
+      "date": "2022-04-23T21:39:23.311Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=4460a3ad-c3c0-4de6-9910-16a18440bf6a",
+      "title": null,
+      "text": "Lol, I've needed to transfer accounts across two different phones the past 3 years and had to boot up my old phone both times, was a pain to hassle with it given how it barely functions. At least I was lucky enough to even manage to turn on my old phone, there's no back up for those who completely lose access to their phones. There needs to be an option for those who'd like it to fix this issue. It's been a problem for years and frankly using Google auth is a mistake, find a better app.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "5.10",
+      "thumbsUp": 639,
+      "criterias": [
+        {
+          "criteria": "vaf_never_display_make_you_happy",
+          "rating": 2
+        },
+        {
+          "criteria": "vaf_never_display_difficult_to_use",
+          "rating": 1
+        },
+        {
+          "criteria": "vaf_never_display_negative_ads_impact",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "id": "d2d61abe-ad5e-42cc-b9ce-b9754d03d164",
+      "userName": "Jonathan Doss",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjXl5y_wllH_NbDGkPaPfseFXI4wtmU4OjdYx_WuhaRWgfM",
+      "date": "2022-07-08T14:03:45.860Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=d2d61abe-ad5e-42cc-b9ce-b9754d03d164",
+      "title": null,
+      "text": "Garbage now with \"click to reveal\" update. Incredibly slow to open and respond. How about leaving something alone that is working. And if this is a feature to safeguard against some potential attack (other than over the shoulder), it needs to be working before deployment bc it is now painfully slow to respond. Seems many others having issues, while some have none. There must be some conflicting app causing these problems that make the app barely usable.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "5.20R3",
+      "thumbsUp": 70,
+      "criterias": [
+        {
+          "criteria": "vaf_never_display_ease_of_use",
+          "rating": null
+        }
+      ]
+    },
+    {
+      "id": "00afd07f-aa8c-4282-af8a-e1d85774ff94",
+      "userName": "Michael Tomkins",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocITx9ZZsinI8uL1bxgwEo2ztJLlVUPKbNv2TJBMOiEs=mo",
+      "date": "2023-05-27T20:52:02.207Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=00afd07f-aa8c-4282-af8a-e1d85774ff94",
+      "title": null,
+      "text": "The authentication works, but the user interface clearly had zero thought put into it whatsoever. Even the very most basic features like the ability to sort the sites for which you are storing authentication information are missing. If like me you need many authenticated sites, enjoy trying to find them at random because the only sort option is chronological. And now it has the same meaningless, indistinguishable icon as every other Google app to make it hard to even find and open. Stop it!",
+      "replyDate": null,
+      "replyText": null,
+      "version": "6.0",
+      "thumbsUp": 1397,
+      "criterias": [
+        {
+          "criteria": "vaf_never_display_ease_of_use",
+          "rating": null
+        },
+        {
+          "criteria": "vaf_never_display_ads_experience",
+          "rating": null
+        }
+      ]
+    },
+    {
+      "id": "4cf6db34-9d3a-41b2-9dc7-e7fe3a97dc48",
+      "userName": "Melissa Ray",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjVWLrNKbnXkaGVlwrrGRp5OSIGsDdT76l-8mcb8a7WhjrY",
+      "date": "2022-06-03T21:05:20.521Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=4cf6db34-9d3a-41b2-9dc7-e7fe3a97dc48",
+      "title": null,
+      "text": "The app used to be stellar, but the new update has the app running ridiculously slow - it takes 5-10 seconds to even open the app, and when codes refresh it freezes for a few seconds. Your codes now require an additional step to reveal them as well, slowing down every log in process considerably, especially when youre needed to use the app multiple times a day. It used to be a smooth experience, but now it adds a needless speed bump to your work day. I'll be looking into other 2FA apps soon.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "5.20R3",
+      "thumbsUp": 254,
+      "criterias": []
+    },
+    {
+      "id": "a434ffe8-22e0-4b46-a6ea-ec60eee1f4b8",
+      "userName": "Amanda Barr",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocIVCVhtPlmSASEYGSb36duqbYoJ1cSdYz4eD_ZsyWli=mo",
+      "date": "2023-03-20T13:32:19.976Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=a434ffe8-22e0-4b46-a6ea-ec60eee1f4b8",
+      "title": null,
+      "text": "My previous Android phone randomly died one day and wouldn't turn back on, so I lost my account and any way to log in to multiple apps. There is no way to import an existing account without scanning the QR code from the original device. If the device won't even turn on, it clearly can't provide a QR code to scan. This is completely ridiculous, and I can't believe even with all the complaints that there is still seemingly no workaround for this issue.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "5.20R4",
+      "thumbsUp": 1141,
+      "criterias": []
+    },
+    {
+      "id": "a69306f5-1cbf-4801-8f95-6b0cba568b2c",
+      "userName": "Jim Ramsay",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjUOOb0KLRymQx0nGiAWVK-Qv7uhnvrSIrjFc6oXkBtWONs",
+      "date": "2022-06-30T18:58:43.592Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=a69306f5-1cbf-4801-8f95-6b0cba568b2c",
+      "title": null,
+      "text": "Recent change is nearly unusable. Time-based tokens work okay, if it takes an extra click to get to them. However, counter-based tokens are completely invisible. I can work around this by clicking the arrow to generate a token, and then long-press to copy the invisible pin, then paste it into another app somewhere so I can see it, but this is very time consuming and cumbersome.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "5.20R3",
+      "thumbsUp": 369,
+      "criterias": [
+        {
+          "criteria": "vaf_never_display_ease_of_use",
+          "rating": null
+        }
+      ]
+    },
+    {
+      "id": "197c9ef2-b905-4866-b54f-23f472d16cd8",
+      "userName": "A Google user",
+      "userImage": "https://play-lh.googleusercontent.com/EGemoI2NTXmTsBVtJqk8jxF9rh8ApRWfsIMQSt2uE4OcpQqbFu7f7NbTK05lx80nuSijCz7sc3a277R67g",
+      "date": "2019-10-06T00:32:58.780Z",
+      "score": 2,
+      "scoreText": "2",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=197c9ef2-b905-4866-b54f-23f472d16cd8",
+      "title": null,
+      "text": "More Google Abandonware, unfortunately. It does the job, but the UX is terrible once you get more than 20 codes. Microsoft's Authenticator is much, much better. (Also, of course you can't transfer the codes, they are device specific! Any sort of backup would defeat the purpose! Don't forget to download the backup codes and store them in a safe place in case you lose/refresh your phone!)",
+      "replyDate": null,
+      "replyText": null,
+      "version": "5.00",
+      "thumbsUp": 77,
+      "criterias": [
+        {
+          "criteria": "vaf_never_display_make_you_happy",
+          "rating": 2
+        },
+        {
+          "criteria": "vaf_never_display_disruptive_ads",
+          "rating": 2
+        },
+        {
+          "criteria": "vaf_never_display_content_language",
+          "rating": 1
+        }
+      ]
+    },
+    {
+      "id": "a22fa280-ea12-4c50-b2c6-1c6d80ca50f6",
+      "userName": "Denny Nguyen",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjUh4zdX250xZBwChEKlBw-qEp-g12hHNso57k0csbCeMcE",
+      "date": "2022-09-02T20:58:02.000Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=a22fa280-ea12-4c50-b2c6-1c6d80ca50f6",
+      "title": null,
+      "text": "You can't transfer across devices with smart sync, have to use QR code on old device. Found this out the hard way after the fact when I sold and wiped my old phone after sync. What a garbage system, even if for secure purposes. I've lost access to a couple accounts thanks to this. There's no clear notification if I have to do back up? Screw you, seriously screw you.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "5.20R4",
+      "thumbsUp": 889,
+      "criterias": []
+    },
+    {
+      "id": "23a6da00-58f3-48bf-80f5-e4f8dad08c37",
+      "userName": "ChaoticInfinityX",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjULb0n87o3A0UCvFis9kGHttxIwkG-fZMZ7XwuPT3ASfzs",
+      "date": "2021-08-27T20:16:12.645Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=23a6da00-58f3-48bf-80f5-e4f8dad08c37",
+      "title": null,
+      "text": "Basic to a fault, but does what it says. Just don't rely on it for too many accounts. Those that do shouldn't expect count on the data transfer function if you plan to switch phones soon. App doesn't mention that after it'll leave a banner at the top of app (both devices) and randomly send you a notification every couple of hours reminding you that your data was recently imported/exported. Worst part is the only way to remove it to wipe the app data or remove all codes and manually rejoin them!",
+      "replyDate": null,
+      "replyText": null,
+      "version": "5.10",
+      "thumbsUp": 221,
+      "criterias": [
+        {
+          "criteria": "vaf_never_display_ease_of_use",
+          "rating": null
+        }
+      ]
+    },
+    {
+      "id": "1d682645-3a39-41da-809f-0dce9693ca62",
+      "userName": "Lee Woodsum",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocIREVaFRoUpaJqD2MFd5GPLdws3qDW0B6krB_oF_pM=mo",
+      "date": "2023-06-18T13:21:21.291Z",
+      "score": 2,
+      "scoreText": "2",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=1d682645-3a39-41da-809f-0dce9693ca62",
+      "title": null,
+      "text": "This app is useless if the codes don't update after the timer finishes it's countdown. I have all the same codes on 2 different phones. On one phone it works fine and changes when it's supposed to. The other? Not so much. Watched the code NOT update through 2 cycles. I tried to do the time change sync, but no change as it was already synced. For the live of God google, it's not that hard to fix this. 🤷",
+      "replyDate": null,
+      "replyText": null,
+      "version": "6.0",
+      "thumbsUp": 702,
+      "criterias": []
+    },
+    {
+      "id": "2e3007a0-f5ac-424c-ab26-3599c52307ac",
+      "userName": "Adam Lynch",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjUGkGAsL-kQ3yhbSRLm8lkv2yNyJjiFhjB72wBRla9cBQ",
+      "date": "2022-07-20T18:03:30.716Z",
+      "score": 4,
+      "scoreText": "4",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=2e3007a0-f5ac-424c-ab26-3599c52307ac",
+      "title": null,
+      "text": "Used to be fine. Tapping to uncover codes is super inconvenient if you have more than one application to choose from. Additionally, I opened my app three times just now and each time it acted like it was my first time opening the app - all my accounts were gone. For whatever reason opening the app through the app store worked, but I should never have stability issues using the app on a Google phone, for Pete's sake. EDIT: doesn't look like I have to tap codes now. Thank you!",
+      "replyDate": null,
+      "replyText": null,
+      "version": "5.20R4",
+      "thumbsUp": 618,
+      "criterias": [
+        {
+          "criteria": "vaf_never_display_ease_of_use",
+          "rating": null
+        },
+        {
+          "criteria": "vaf_never_display_ads_experience",
+          "rating": null
+        }
+      ]
+    },
+    {
+      "id": "2bbe4293-3c78-48c6-87e3-45619843657e",
+      "userName": "Francois Lagrange",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjXVA_P88Yayox1AvvO7XAMFaVjUNwpYqdVkUWmFqdQwdqQ",
+      "date": "2022-06-12T12:55:51.389Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=2bbe4293-3c78-48c6-87e3-45619843657e",
+      "title": null,
+      "text": "Also agree that this last update is awful. First the 'Click to reveal pin' is unnecessary (for me, living alone, never using it elsewhere). At the very least it should be a setting, so that people can turn this off. Also, while the numbers where immediately visible, now, for an unclear reason it takes several seconds for the app to even show something, so badly that I restarted the app twice before realizing it's painfully slow. I supspect they now store everything in the cloud...",
+      "replyDate": null,
+      "replyText": null,
+      "version": "5.20R3",
+      "thumbsUp": 141,
+      "criterias": []
+    },
+    {
+      "id": "0ea8eb14-e64f-46bd-89e3-7d565c7c145e",
+      "userName": "Chuong Vuong",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocIlVJQAf4_RzlMoGXksKJ1bOHavX6JdYAWgMRLpM81T=mo",
+      "date": "2022-08-28T00:44:27.870Z",
+      "score": 2,
+      "scoreText": "2",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=0ea8eb14-e64f-46bd-89e3-7d565c7c145e",
+      "title": null,
+      "text": "This app is OK to use, but when I switched my phone, I lost all existing links with applications that use this app. There was no warning, no notifications. Only later, when I tried to access the app, I saw the instruction of what to do when switching phones. I mean, when I transferred data from the old device to the new one, EVERYTHING ELSE was transferred, but not this app. DO NOT USE THIS APP UNLESS YOU WANT TO BE LOCKED OUT OF YOUR ACCOUNTS.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "5.20R4",
+      "thumbsUp": 439,
+      "criterias": []
+    },
+    {
+      "id": "d9dd5dd3-d931-4c3d-b84d-d2d431bab819",
+      "userName": "Dirt Orbust",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjVMQXAcUzYbYxUupos_z9d2W-B8cuY924QagohxqCIyyg",
+      "date": "2022-01-10T09:01:00.159Z",
+      "score": 5,
+      "scoreText": "5",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=d9dd5dd3-d931-4c3d-b84d-d2d431bab819",
+      "title": null,
+      "text": "Sorry to hear people saying the app didn't transfer to new phone. I was so thankful the app did for me. Two months ago I was doing a swap via mail upgrade and only had a small window to transfer everything and make sure it was working. Samsung and Google seem to always work well together for me. Have each account linked to two different emails so just in case you loose one or the other or the whole phone, you will always have an option to recover. But, better to just do it all at once like I had to. Then everything can sync and approve itself and you no worry. Last thing you want to do when setting up a new phone is NOT have all your passwords in order beforehand 👴",
+      "replyDate": null,
+      "replyText": null,
+      "version": "5.10",
+      "thumbsUp": 432,
+      "criterias": []
+    },
+    {
+      "id": "12e2a9e7-956e-4ae2-8488-aba01381a1de",
+      "userName": "Marcus Johnson",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocKMPJu-2_Jb4w6SDCa33-LWm2u7N_rU2-Z_6Pu_TCmk=mo",
+      "date": "2023-01-05T09:45:11.993Z",
+      "score": 2,
+      "scoreText": "2",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=12e2a9e7-956e-4ae2-8488-aba01381a1de",
+      "title": null,
+      "text": "One of my gigs required this app, and that's the only reason you would use this. It does its one job, with zero flexibility or forward planning. Biggest problem is that transferring it to an upgraded phone doesn't work. The password won't match. The only reason I didn't get locked out of my account was because I kept my old phone ad a backup. Consumers, employers, stay away from this app.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "5.10",
+      "thumbsUp": 136,
+      "criterias": [
+        {
+          "criteria": "vaf_never_display_ease_of_use",
+          "rating": null
+        },
+        {
+          "criteria": "vaf_never_display_ads_experience",
+          "rating": null
+        }
+      ]
+    },
+    {
+      "id": "847f2eca-3cfe-42df-9337-ff95252b1cc1",
+      "userName": "jtru720",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjW65RUBXuAyIOo4-TfSUXNhnIw0z0B7Zv4JN4YjGWFjsBw",
+      "date": "2022-06-29T04:39:39.322Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=847f2eca-3cfe-42df-9337-ff95252b1cc1",
+      "title": null,
+      "text": "The recent changes made to this app made it very laggy and crashy. It used to be very simplistic and optimal. Now, you can't drag and drop your codes in alphabetical order without the lag making the process unbearable. The app behaves this way on three separate devices, which means the problem is an app issue. The devs need to either fix this problem or revert the app back to its prior state. In the meantime, I'm seriously considering another 2FA option.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "5.20R3",
+      "thumbsUp": 135,
+      "criterias": []
+    },
+    {
+      "id": "d3e76942-e439-4540-a765-df20053e240a",
+      "userName": "Taylor Munson",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjV8wsM7UhALIYXrqLMOsajYfBWN98arJwNvt8wHUKL6bbre",
+      "date": "2023-01-01T16:56:14.400Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=d3e76942-e439-4540-a765-df20053e240a",
+      "title": null,
+      "text": "This app works if you never switch to a new device. After my iPhone suddenly died on me, I switched to a Samsung Galaxy. If you lose access to a phone with the authentication app, there's no other way to access the app to get a code. So since I couldn't access my old phone, I had no other way of retrieiving a code and am locked out of a lot of my accounts. Very frustrating and seems like something Google should have figured out.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "5.10",
+      "thumbsUp": 192,
+      "criterias": []
+    },
+    {
+      "id": "71e61fb6-b974-4158-aa00-a54911e8635d",
+      "userName": "Gabriel Kushner",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocLfgoE4G1ILz-Fgk6atmOGuBsx6xNinsdZqStnV1lCB=mo",
+      "date": "2023-08-23T18:07:34.328Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=71e61fb6-b974-4158-aa00-a54911e8635d",
+      "title": null,
+      "text": "Terrible!! It shook up the ui, and deleted all my icons on my home screen the moment this app was installed. It clicks on random things when I'm not even touching my phone, and prevents me from clicking on certain things randomly, partially freezing my phone. It's as if someone opened my phone and poured acid in it! Fortunately though, the app has no problem authenticating.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "6.0",
+      "thumbsUp": 204,
+      "criterias": []
+    },
+    {
+      "id": "b31a35d1-13f8-4a45-925d-a1da406da474",
+      "userName": "Csaba Szabo",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjULiqO_ZC1KcOXUz4CL1bU1COdl2C9mWIIUGF3fWSOle3iz",
+      "date": "2022-06-24T09:26:37.391Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=b31a35d1-13f8-4a45-925d-a1da406da474",
+      "title": null,
+      "text": "Horrible, meaningless, useless app, since you can't transfer data from a previous phone to the new one. Imagine this, I broke the display of the phone on which i have several accounts added to this app. On the new phone, even though I'm logged in to the same Google account with which the authenticator was installed on the previous phone, there's no way to take the damn backup and restore it. Well, what's the use of having app data backed up to Google, if you can't restore something like this ?",
+      "replyDate": null,
+      "replyText": null,
+      "version": "5.20R3",
+      "thumbsUp": 145,
+      "criterias": []
+    },
+    {
+      "id": "2e29d62e-894d-4fea-a634-6f652d0f82ae",
+      "userName": "Paul Watrobski",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjUfIOMjNIdyl0SH3vkSDJqgzWASAR7-wJMfx0htRhR4AU8u",
+      "date": "2023-05-08T14:02:07.230Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=2e29d62e-894d-4fea-a634-6f652d0f82ae",
+      "title": null,
+      "text": "I've been reading that Google Pixel phones are coming up as not being eligible for the new update for some reason. Syncing doesn't appear to be available for my Pixel 6 Pro or Pixel 7. The way the appears in the play store has the old icon and doesn't have an option to sync but the screenshots show the new version. My apple devices on the other hand do have the syncing capability. I'm not sure what's going on but I have uninstalled and reinstalled this app multiple times to no avail.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "5.20R4",
+      "thumbsUp": 80,
+      "criterias": []
+    },
+    {
+      "id": "235e861c-613d-4cbf-b41b-63dd99cd994d",
+      "userName": "Derek Ricciuto",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjUhrDW2dtmdT0o88NWIGOE7rIR6JD0A4cNTMYdWBDsl8eRB",
+      "date": "2022-12-05T08:54:20.871Z",
+      "score": 2,
+      "scoreText": "2",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=235e861c-613d-4cbf-b41b-63dd99cd994d",
+      "title": null,
+      "text": "Great app, but it has an issue importing new accounts! This issue is caused by entries with no text in their 'email' field, which typically shows up inside parentheses at the end of the entry's name. To work around this, rename any entries that happen to end in an empty parenthesis '()', so that there is instead some text inside the parentheses, and then try exporting again. Hope this helps someone! UPDATE 2: Version 5.20 (seed encryption) creates extreme lag for most actions (100+ entries).",
+      "replyDate": null,
+      "replyText": null,
+      "version": "5.20R4",
+      "thumbsUp": 137,
+      "criterias": []
+    },
+    {
+      "id": "441e2c93-4a66-429d-b040-57521c22e8fa",
+      "userName": "C B",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjVATGWaWrdFzmvScVhi_9Wn15YbNqY1B8Bdeb3pxZ15BII",
+      "date": "2023-04-28T12:56:31.682Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=441e2c93-4a66-429d-b040-57521c22e8fa",
+      "title": null,
+      "text": "They just rolled out an update without an opt out that security experts are going nuts over. They must have laid off the people in charge of end-to-end encryption for app development, because this application is no longer secure, as there is no end to end encryption implemented in this. You cannot turn off cloud syncing either. I'm pretty close to removing this now",
+      "replyDate": null,
+      "replyText": null,
+      "version": "5.20R4",
+      "thumbsUp": 110,
+      "criterias": []
+    },
+    {
+      "id": "4cfb81d1-378d-4b95-adbb-d0130aca635b",
+      "userName": "Greg Alioto",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjVGftxG1RXVpj_4DkMfya2d-fxAAfkxoiKQf_Fwm3yke_fs",
+      "date": "2022-05-26T16:27:21.547Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=4cfb81d1-378d-4b95-adbb-d0130aca635b",
+      "title": null,
+      "text": "I hate the new Click To Reveal PIN feature. Huge time waste, terribly inconvenient. Google Authenticator was simple and easy to use before, and it was perfect the way it was. We could just open it up, scroll to the right entry, make sure the timer isn't about to run out, and get the code you need. \"Click to reveal PIN\" is just extra steps that do nothing but waste time and take extra taps. Please give us an option to disable the \"Click to reveal PIN\"",
+      "replyDate": null,
+      "replyText": null,
+      "version": "5.20R3",
+      "thumbsUp": 339,
+      "criterias": []
+    },
+    {
+      "id": "7afbe22b-1b54-4185-b6c8-40f76c2853de",
+      "userName": "Anthony Campos",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjXbhXADeXqBgjga5RpGBgF_FG166HP965ED_-EN86uZHic",
+      "date": "2023-01-06T20:46:53.518Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=7afbe22b-1b54-4185-b6c8-40f76c2853de",
+      "title": null,
+      "text": "Works but is EXTREMELY barebones. Should be able to sync accounts and their codes across devices instead of just being able to transfer accounts based on a single QR code. Nevermind the fact the app completely lacks any password or biometrics like face or fingerprint scan to even open up the app is another removed security layer. Giving us an option to back up an encrypted file of all our accounts to local storage or cloud storage of our choice would be nice as well. Also the lack of darkmode.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "5.20R4",
+      "thumbsUp": 91,
+      "criterias": [
+        {
+          "criteria": "vaf_never_display_spend_more_time",
+          "rating": 3
+        },
+        {
+          "criteria": "vaf_never_display_app_description",
+          "rating": 1
+        },
+        {
+          "criteria": "vaf_never_display_negative_ads_impact",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "id": "13455870-796e-4470-b07c-21293ea432d4",
+      "userName": "A Google user",
+      "userImage": "https://play-lh.googleusercontent.com/EGemoI2NTXmTsBVtJqk8jxF9rh8ApRWfsIMQSt2uE4OcpQqbFu7f7NbTK05lx80nuSijCz7sc3a277R67g",
+      "date": "2019-06-11T01:57:34.278Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=13455870-796e-4470-b07c-21293ea432d4",
+      "title": null,
+      "text": "I had to do a factory data reset on my phone. Reinstalled Authenticator. I logged it back in with barcode. Every single time I've tried to use it since, it says incorrect code. I've read like 20 support articles, and none of them have given me any information that has fixed the problem. I'M IN TEARS, because I can't do any of my admin, and there's no way for me to chat with a real person at Google to fix this. I can't even change to a different authenticator app, because I CAN'T AUTHENTICATE.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "5.00",
+      "thumbsUp": 709,
+      "criterias": []
+    },
+    {
+      "id": "86830c9d-e425-460f-9a2c-f0d1d2ecc728",
+      "userName": "Michael Brock",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjUWACnHQ3ix8VEaz9TGMRMA63knnbYJjAvU3TT6l1sREQ",
+      "date": "2022-05-31T16:39:06.690Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=86830c9d-e425-460f-9a2c-f0d1d2ecc728",
+      "title": null,
+      "text": "For years the only real issue I had with the app was the lack of a search (I had no need to transfer it to a new phone). With this latest update I will be searching for a new app though. It now takes at least 30 seconds to open and the poorly implemented, giant font, \"Click to reveal PIN\" serves no purpose but to add complication. Is the idea that someone might be looking over your shoulder and \"stealing\" your totp code? Really?",
+      "replyDate": null,
+      "replyText": null,
+      "version": "5.20R3",
+      "thumbsUp": 165,
+      "criterias": []
+    },
+    {
+      "id": "369cae35-1036-455e-b13e-baca10443659",
+      "userName": "Michael Wallstrom",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjWr1nyTBcXLBul1-S6jbleHquHWub4R0gznNgLf2ddcX0Ky",
+      "date": "2021-09-10T16:43:16.909Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=369cae35-1036-455e-b13e-baca10443659",
+      "title": null,
+      "text": "How in the hell do you REMOVE an entry in the list? Or edit one, or rename one? If anyone has working answers to the above, I'd be willing to change some of the below- The lack of options, OR total lack of useful help info ANYWHERE makes this one of the worst 'basic' Google apps ever made. I'd recommend moving to Authy instead, which does all the above, lets you backup everything, transfer easily, and even an extra pin layer to even open the app (if your phone is stolen.)",
+      "replyDate": null,
+      "replyText": null,
+      "version": "5.10",
+      "thumbsUp": 29,
+      "criterias": []
+    },
+    {
+      "id": "f7ce4527-6399-4e70-a59c-c373f48f6613",
+      "userName": "Noah Mason",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjV9_4KzOEqyDiyjy3YGhwXty924C5RW5-0YGEoxSUSCKQ",
+      "date": "2022-08-13T18:11:43.556Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=f7ce4527-6399-4e70-a59c-c373f48f6613",
+      "title": null,
+      "text": "This app is painfully horrible now. If you have a lot of accounts it's slow, lags, freezes, and I always have to wait to get the option to close the app/wait just to click Wait to scroll through my accounts only for it to freeze again. This app is barely usable. The old version before they pushed out the 'Click to Reveal' was solid and stable. Ever since the 'Click to Reveal' and the supposed 'fix' after, the app still crashes, lags, and freezes. Gave feedback in the app and still persists.",
+      "replyDate": null,
+      "replyText": null,
+      "version": null,
+      "thumbsUp": 18,
+      "criterias": [
+        {
+          "criteria": "vaf_never_display_ads_experience",
+          "rating": null
+        },
+        {
+          "criteria": "vaf_never_display_ease_of_use",
+          "rating": null
+        }
+      ]
+    },
+    {
+      "id": "719cf0aa-ff9f-4041-af95-bc99cae3ec5b",
+      "userName": "Austin Schriver",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjVK9uTbrpYX1c9KC0NMhP0SeL2gDzQ8ClQGvsIbDHLPag",
+      "date": "2022-12-19T16:53:56.175Z",
+      "score": 4,
+      "scoreText": "4",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=719cf0aa-ff9f-4041-af95-bc99cae3ec5b",
+      "title": null,
+      "text": "It's a great authenticator, I've found it surprisingly easy to port my accounts from device to device using the QR feature. I do wish it's Icon could fit better on Android 12+ with the Themed Icons enabled. And on slower devices, the app likes to stay on a white screen occasionally before actually starting up. A bit frustrating if you're trying to sign in and have to wait a few seconds to just read a code.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "5.20R4",
+      "thumbsUp": 126,
+      "criterias": [
+        {
+          "criteria": "vaf_never_display_ease_of_use",
+          "rating": null
+        }
+      ]
+    },
+    {
+      "id": "e2d493bf-94fd-45eb-8723-13c022112de1",
+      "userName": "Jennifer Erlitz",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocKO4Bux4zTw_JkHYlU_KPWA8J76ZcUfTV3Ip9gqWU1j=mo",
+      "date": "2023-04-27T22:41:31.160Z",
+      "score": 2,
+      "scoreText": "2",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=e2d493bf-94fd-45eb-8723-13c022112de1",
+      "title": null,
+      "text": "Okay, not sure why it changed, but I went to use the app and now I can no longer tap and hold to copy the code to my clipboard. I mean, sure it's great that I can now rename and change the order of all of my accounts, but I have a huge problem with remembering numbers and now that one basic accessibility option is no longer available and it can take two or three tries and retries for me to get it right! Bring back that accessibility feature and I'll up the rating!",
+      "replyDate": null,
+      "replyText": null,
+      "version": "6.0",
+      "thumbsUp": 974,
+      "criterias": []
+    },
+    {
+      "id": "f226312d-63b2-48ee-995e-f0de8d66fd89",
+      "userName": "Logan",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjUhJiK_BYnu7W-vl4GWLIiVFpxLL7c7nF_ajzodGlc7-JI",
+      "date": "2022-06-07T18:50:53.870Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=f226312d-63b2-48ee-995e-f0de8d66fd89",
+      "title": null,
+      "text": "This last update is awful. App is painfully slow and barely usable now. Takes ove 30 seconds to open constantly freezing while scrolling through the list. When a code time elapse it will freeze for 10 seconds before showing the new code. Now you only have 20 seconds to enter it. Finally i tested out the export function which cannot export to file for offline backup as it implies but merely device to device only. After completing that i now have a blue banner stuck at top and no way to clear it.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "5.20R3",
+      "thumbsUp": 202,
+      "criterias": []
+    },
+    {
+      "id": "e71d61f3-68fe-4d2d-8915-094ef92a705a",
+      "userName": "Alex Pastel",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjX4MZFc_NP7xUXCqILGsIY63a9rDwXzePkZQElU5K1_eDKP",
+      "date": "2022-10-14T18:19:53.323Z",
+      "score": 3,
+      "scoreText": "3",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=e71d61f3-68fe-4d2d-8915-094ef92a705a",
+      "title": null,
+      "text": "It needs the ability to alphabetically sort and search the entries, instead of just using the order in which you added them with no search capability. Makes it cumbersome to find the entry you want. You end up having to memorize the order in which you added them so you know how far to scroll down. Try having 50+ entries and finding the one you are looking for in less than 15 seconds.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "5.20R4",
+      "thumbsUp": 268,
+      "criterias": []
+    },
+    {
+      "id": "65d5cd6b-be6d-4865-8f6a-e54c2b728a27",
+      "userName": "Dave Adams",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjWTYSMCgfdae09QunekM45AR0N6lXCXGCQbhTnn7vg8fog",
+      "date": "2022-10-28T15:14:48.348Z",
+      "score": 2,
+      "scoreText": "2",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=65d5cd6b-be6d-4865-8f6a-e54c2b728a27",
+      "title": null,
+      "text": "There is no way of recovering access to your authenticator. Things happen to phones all the time whether they break, get lost, or stolen, and then this app just ends up causing more problems than it solves. When you lose access to your accounts or wallets, this app only makes the problem more frustrating. Unfortunately this is a very common issue and to not have addressed it already gives me that much more to dislike about Google.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "5.20R4",
+      "thumbsUp": 182,
+      "criterias": []
+    },
+    {
+      "id": "e664d2f0-b3c4-49d0-9ede-2a1f594dc53e",
+      "userName": "Chris Power",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjXH6O4SX0STjzz80KeAd7vsmDuTKi_FOZlAmDYKPN__CyI",
+      "date": "2022-06-01T00:17:38.348Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=e664d2f0-b3c4-49d0-9ede-2a1f594dc53e",
+      "title": null,
+      "text": "I love the latest update's \"tap to reveal PIN.\" From a security perspective, this is a great and simple feature. This update *should* have reduced the background processing required to open the app, making things faster. Unfortunately the opposite is true; the app now takes over ten seconds just to open before *anything* is displayed. I'm hoping this is just a temporary bug and I will be able to update this review soon.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "5.20R3",
+      "thumbsUp": 102,
+      "criterias": [
+        {
+          "criteria": "vaf_never_display_ads_experience",
+          "rating": null
+        },
+        {
+          "criteria": "vaf_never_display_ease_of_use",
+          "rating": null
+        }
+      ]
+    },
+    {
+      "id": "e62c2107-71a2-43ec-abe4-c3b5b26cc9f9",
+      "userName": "A Google user",
+      "userImage": "https://play-lh.googleusercontent.com/EGemoI2NTXmTsBVtJqk8jxF9rh8ApRWfsIMQSt2uE4OcpQqbFu7f7NbTK05lx80nuSijCz7sc3a277R67g",
+      "date": "2019-07-26T22:52:15.773Z",
+      "score": 2,
+      "scoreText": "2",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=e62c2107-71a2-43ec-abe4-c3b5b26cc9f9",
+      "title": null,
+      "text": "No easy way to switch all accounts to new phone.  App works great for authentication.  However, there is no way to transfer settings to a new phone.  So, if you have a lot of places where you use Authenticator, and you get a new phone, you have to login to each account and reset 2FA settings to use the new Authenticator app.  Not a problem if just one or two places, but if you've 20, then yeah, huge PITA.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "5.00",
+      "thumbsUp": 31,
+      "criterias": []
+    },
+    {
+      "id": "f2539b9d-842c-437d-baa5-5c68d5cefc4b",
+      "userName": "A Google user",
+      "userImage": "https://play-lh.googleusercontent.com/EGemoI2NTXmTsBVtJqk8jxF9rh8ApRWfsIMQSt2uE4OcpQqbFu7f7NbTK05lx80nuSijCz7sc3a277R67g",
+      "date": "2020-03-19T12:18:04.386Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=f2539b9d-842c-437d-baa5-5c68d5cefc4b",
+      "title": null,
+      "text": "Use the Microsoft Authenticator app. This app hasn't been updated in nearly 3 years. The Microsoft app is much more feature rich including the ability to backup to the cloud so migrating to a new phone or restoring after a reset is really easy. This app is garbage. Lacking any kind of backup forces you to re-enroll EVERYTHING into the app for 2FA in the event of moving devices. This also means there's no adding any of it to a tablet or second device.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.74",
+      "thumbsUp": 40,
+      "criterias": [
+        {
+          "criteria": "vaf_never_display_easy_to_use",
+          "rating": 1
+        },
+        {
+          "criteria": "vaf_never_display_considerate_of_time",
+          "rating": 2
+        },
+        {
+          "criteria": "vaf_never_display_content_language",
+          "rating": 1
+        }
+      ]
+    },
+    {
+      "id": "f5962d68-5899-40ab-a3c4-39046f31372f",
+      "userName": "Emily Olson",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocKmjxUQC5bVYf6AYsYllxHW1AJdpIUdds_TS5FZ4-Ox=mo",
+      "date": "2022-02-02T21:57:57.437Z",
+      "score": 2,
+      "scoreText": "2",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=f5962d68-5899-40ab-a3c4-39046f31372f",
+      "title": null,
+      "text": "App works great when it's installed. However, my phone broke and I wasn't able to transfer my accounts from the old phone to the new one. I have several accounts that require 2FA authentication, but there's no way that I have found to work around this issue. I've scoured the help pages and forums, but have found nothing addressing this oversight.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "5.10",
+      "thumbsUp": 602,
+      "criterias": []
+    },
+    {
+      "id": "9f0886b8-cedc-4fd7-9414-1b0130846627",
+      "userName": "A Google user",
+      "userImage": "https://play-lh.googleusercontent.com/EGemoI2NTXmTsBVtJqk8jxF9rh8ApRWfsIMQSt2uE4OcpQqbFu7f7NbTK05lx80nuSijCz7sc3a277R67g",
+      "date": "2019-09-11T21:10:24.150Z",
+      "score": 2,
+      "scoreText": "2",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=9f0886b8-cedc-4fd7-9414-1b0130846627",
+      "title": null,
+      "text": "Don't use this for non-google accounts. If the account provider isn't very savvy, you will have a hugely difficult time if you change phones ever. It's not Google's fault that other websites don't allow transfer to a new phone, but they really shouldn't be meddling in the first place. Having this app available can lure people into thinking it's a good idea to attach any other eligible app/website to it, and it's totally not.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "5.00",
+      "thumbsUp": 70,
+      "criterias": [
+        {
+          "criteria": "vaf_never_display_easy_to_use",
+          "rating": 2
+        },
+        {
+          "criteria": "vaf_never_display_considerate_of_time",
+          "rating": 2
+        },
+        {
+          "criteria": "vaf_never_display_content_language",
+          "rating": 1
+        }
+      ]
+    },
+    {
+      "id": "4fa0467c-77c2-4c1e-99da-4d6bbf42a888",
+      "userName": "A Google user",
+      "userImage": "https://play-lh.googleusercontent.com/EGemoI2NTXmTsBVtJqk8jxF9rh8ApRWfsIMQSt2uE4OcpQqbFu7f7NbTK05lx80nuSijCz7sc3a277R67g",
+      "date": "2020-02-12T19:41:09.600Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=4fa0467c-77c2-4c1e-99da-4d6bbf42a888",
+      "title": null,
+      "text": "Did what it was supposed to do. Until I needed to log in one night and a website authenticator was missing. Pathetic and makes the app useless if it can't do the one thing it's supposed to do. Now I'm logged out of a site I need to access and can't because this stupid app. Also, apparently doesn't sync so if your phone dies or gets stolen, no way to authenticate anything. Moved over to Microsoft Authenticator and it solves that issue (which should also solve the accounts disappearing issue).",
+      "replyDate": null,
+      "replyText": null,
+      "version": "5.00",
+      "thumbsUp": 218,
+      "criterias": [
+        {
+          "criteria": "vaf_never_display_spend_more_time",
+          "rating": 2
+        },
+        {
+          "criteria": "vaf_never_display_easy_to_use",
+          "rating": 2
+        },
+        {
+          "criteria": "vaf_never_display_content_language",
+          "rating": 1
+        }
+      ]
+    },
+    {
+      "id": "b5e8c297-cd33-4b49-a160-e3848d72f665",
+      "userName": "Howard Reid",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjX6RSpDwR6VVPdIFqUI0VQYoV4rjJ1lAEm1KrtKjvuN-g",
+      "date": "2021-03-25T13:49:52.562Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=b5e8c297-cd33-4b49-a160-e3848d72f665",
+      "title": null,
+      "text": "This needs a proper update. I was forced to upgrade to a new phone. My previous one ended up damaged. I followed the instructions to transfer my data over from my previous phone to my new one. Now, I have account issues. This authenticator doesn't even pop up on screen for any 2-step verification prompts. Recently, Google has had some issues regarding our account management. This is not okay.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "5.10",
+      "thumbsUp": 705,
+      "criterias": [
+        {
+          "criteria": "vaf_never_display_meet_expectations",
+          "rating": 2
+        },
+        {
+          "criteria": "vaf_never_display_difficult_to_use",
+          "rating": 1
+        },
+        {
+          "criteria": "vaf_never_display_disruptive_ads",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "id": "4fafc8b8-8851-488d-be01-a863d3bcd15f",
+      "userName": "Vahan T",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocI9aVhemvZT_8TE5Hl4l7OtqjFgoyrVbzD7Q8DNOn-S=mo",
+      "date": "2022-08-26T22:26:03.371Z",
+      "score": 2,
+      "scoreText": "2",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=4fafc8b8-8851-488d-be01-a863d3bcd15f",
+      "title": null,
+      "text": "The app is too simple. The ui needs better sorting, there need to be website logos and icons added and most importantly, encrypted backup to Google account/cloud. I don't want to worry about losing access to website and accounts because my phone crashed, broke, lost, stolen, bricked, etc. The #1 thing that needs to be prioritized is a secure backup option. Even if it's not on the cloud and just a file to export. Once that's there, people can have some peace of mind",
+      "replyDate": null,
+      "replyText": null,
+      "version": "5.20R4",
+      "thumbsUp": 56,
+      "criterias": []
+    },
+    {
+      "id": "69fccd6b-cfd8-445c-adfb-73cb3014bb08",
+      "userName": "Dmitry Gorlov",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjWKKbQxcWNjjDh9muZMfX2nxzV_gzhhnV529fe4hzkf7eZ_",
+      "date": "2023-01-09T08:44:37.790Z",
+      "score": 2,
+      "scoreText": "2",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=69fccd6b-cfd8-445c-adfb-73cb3014bb08",
+      "title": null,
+      "text": "The most ridiculous thing is that after I decided to try out the Export feature (but DID NOT import codes to another device, so it was not completed) I've got this stupid banner 'Accounts were recently exported' and I can't take it out. Also, codes are not synced up to a cloud. Such a big company as Google could definitely do better with this app.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "5.20R4",
+      "thumbsUp": 35,
+      "criterias": [
+        {
+          "criteria": "vaf_never_display_ease_of_use",
+          "rating": null
+        },
+        {
+          "criteria": "vaf_never_display_ads_experience",
+          "rating": null
+        }
+      ]
+    },
+    {
+      "id": "ccb04d01-f6ae-4df4-8ec9-a1ec33680cc3",
+      "userName": "A Google user",
+      "userImage": "https://play-lh.googleusercontent.com/EGemoI2NTXmTsBVtJqk8jxF9rh8ApRWfsIMQSt2uE4OcpQqbFu7f7NbTK05lx80nuSijCz7sc3a277R67g",
+      "date": "2020-04-24T00:43:31.354Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=ccb04d01-f6ae-4df4-8ec9-a1ec33680cc3",
+      "title": null,
+      "text": "Transfer issues abound. Got a new phone, thought everything had transferred just fine. App was installed all other apps transfer information and continue to work seamlessly.....not this one. Now I'm locked out of multiple accounts due to a broken old phone. Backup codes are....somewhere, haven't needed them so they have been placed somewhere only 2 year ago me knows. App needs to transfer to new device better.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "5.00",
+      "thumbsUp": 62,
+      "criterias": [
+        {
+          "criteria": "vaf_never_display_meet_expectations",
+          "rating": 2
+        },
+        {
+          "criteria": "vaf_never_display_app_description",
+          "rating": 1
+        },
+        {
+          "criteria": "vaf_never_display_content_language",
+          "rating": 1
+        }
+      ]
+    },
+    {
+      "id": "f32434eb-18e2-4ef6-95af-7c0a39f6ab70",
+      "userName": "Brant Sulek",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjUNBWM1WyuSBJAc6G4VCoLXcp0NkXXr8u0CLsg0Z1PEKIw",
+      "date": "2022-10-25T02:01:26.633Z",
+      "score": 2,
+      "scoreText": "2",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=f32434eb-18e2-4ef6-95af-7c0a39f6ab70",
+      "title": null,
+      "text": "By having absolutely no way of recovering access to your authenticator, when things happen to phones all the time, is just causing more problems than it solves. When people lose access to their important accounts, is just as bad as somebody stealing it. It's just basic common sense and I'm literally like the millionth person to go through this nonsense for it to continue.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "5.20R4",
+      "thumbsUp": 154,
+      "criterias": []
+    },
+    {
+      "id": "12a2ccfe-70d5-4345-83f5-62f0fa383efd",
+      "userName": "Earl Grosser",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjXC-dhfi5U6RkYydNWtnUdfui3oAZYbYQ1XCwotFP7hnzI",
+      "date": "2021-09-27T22:08:32.553Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=12a2ccfe-70d5-4345-83f5-62f0fa383efd",
+      "title": null,
+      "text": "Just downloaded this app and I'm trying to use it for authentication. Every time it asks for the authentication code I type it in and plenty of time and it says it's wrong. I've done this now 20 to 30 times and every single time it's wrong. I did read in one of these reviews that the times sync up may not be correct and considering you only have 20 seconds to input them that could be a big problem. So as of right now this app is completely useless and not working at all for me.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "5.10",
+      "thumbsUp": 135,
+      "criterias": []
+    },
+    {
+      "id": "8ffe289f-696c-4c20-9d43-cd93ffe998e9",
+      "userName": "Dave H",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocJIxVeC4qWde3kU3ZTiYrewIKfgANoIPXi7MqFwCBhW=mo",
+      "date": "2023-07-15T21:03:55.768Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=8ffe289f-696c-4c20-9d43-cd93ffe998e9",
+      "title": null,
+      "text": "This damned app locked me out of my most vital and important Google accounts. When I \"try another way\" it offers to send a code to the email I can't get into. Practical huh? It's been over a year and I've had to cut my losses bc it was driving me insane. Of course Google cust support is non-existent... Wish I'd never downloaded it to begin with. BIGGEST mistake. Google just adds & adds \"innovative\"features without patching or tying the loose ends from the prior ones that didn't quite work out",
+      "replyDate": null,
+      "replyText": null,
+      "version": null,
+      "thumbsUp": 30,
+      "criterias": []
+    },
+    {
+      "id": "c1d631e2-42bb-4c3e-a829-43f2934510a2",
+      "userName": "A Google user",
+      "userImage": "https://play-lh.googleusercontent.com/EGemoI2NTXmTsBVtJqk8jxF9rh8ApRWfsIMQSt2uE4OcpQqbFu7f7NbTK05lx80nuSijCz7sc3a277R67g",
+      "date": "2019-08-27T03:49:54.970Z",
+      "score": 2,
+      "scoreText": "2",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=c1d631e2-42bb-4c3e-a829-43f2934510a2",
+      "title": null,
+      "text": "It doesn't sync past information what you've put into your app. It doesn't save by an account but just by the app inside. It works as intended to do but as soon as you reset your phone like I did, you're pretty much screwed. I'd recommend staying away from this app until the developers could add a way to sync the information in your Google account. Like why bother to make this app if you can use an exisiting device that is logged in with your Google account to disable that lost device... etc.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "5.00",
+      "thumbsUp": 316,
+      "criterias": [
+        {
+          "criteria": "vaf_never_display_considerate_of_time",
+          "rating": 2
+        },
+        {
+          "criteria": "vaf_never_display_disruptive_ads",
+          "rating": 2
+        },
+        {
+          "criteria": "vaf_never_display_content_language",
+          "rating": 1
+        }
+      ]
+    },
+    {
+      "id": "5a4aac92-37bb-44e6-b58c-7849acad1eac",
+      "userName": "A Google user",
+      "userImage": "https://play-lh.googleusercontent.com/EGemoI2NTXmTsBVtJqk8jxF9rh8ApRWfsIMQSt2uE4OcpQqbFu7f7NbTK05lx80nuSijCz7sc3a277R67g",
+      "date": "2019-09-18T00:19:59.396Z",
+      "score": 2,
+      "scoreText": "2",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=5a4aac92-37bb-44e6-b58c-7849acad1eac",
+      "title": null,
+      "text": "Works but has a crippling flaw. In terms of ease of use it is great however if you use 2 factor authorization for an account and you lose the device that you used for the authenticator then you're screwed. There is no way to sync any accounts to your google account or to back up any data to the cloud. So if you get a new phone for example and you log into your account and get the app you won't have the other accounts synced resulting in you losing access to all the accounts synced to it.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "5.00",
+      "thumbsUp": 652,
+      "criterias": [
+        {
+          "criteria": "vaf_never_display_easy_to_use",
+          "rating": 1
+        },
+        {
+          "criteria": "vaf_never_display_useful_notifications",
+          "rating": 1
+        },
+        {
+          "criteria": "vaf_never_display_content_language",
+          "rating": 1
+        }
+      ]
+    },
+    {
+      "id": "69618548-ee90-4745-b4e2-940db4acb713",
+      "userName": "Matt Franklin",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjWyb1xEu0_-6S0KXy2AP1e-12DimaSVDG9-89wFEYgE_pxl",
+      "date": "2023-06-02T15:05:35.690Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=69618548-ee90-4745-b4e2-940db4acb713",
+      "title": null,
+      "text": "It's terribly designed. The UI is so bare minimum it's hard to distinguish which code correlates with each account. Additionally Googles icons are so minimal it is hard to distinguish which app belongs to what. You'd think an authenticator would have a distinguishable icon such as a padlock or a shield but it's some random lines that make an asterisk. I switched to Microsoft authentication and it seems better but I'd prefer if Google authenticator got an overhaul.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "5.20R4",
+      "thumbsUp": 9,
+      "criterias": []
+    },
+    {
+      "id": "9c2a1009-8440-469c-b969-9389f12a9fc8",
+      "userName": "Douglas Lawson",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjXKZ9K4dpzvqkTU9mqRID5BJ5cAyI6IVF0zDsMVeWOpzwgJ",
+      "date": "2022-10-14T21:28:40.312Z",
+      "score": 2,
+      "scoreText": "2",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=9c2a1009-8440-469c-b969-9389f12a9fc8",
+      "title": null,
+      "text": "Not the best security app. If you have to factory reset your phone, you will lose access to any accounts linked to this Authenticator app. Very frustrating. If I had perfect foresight and knew I would have to reset my phone, I would have unlinked my accounts beforehand, but of course, we don't have perfect foresight. I did not have this problem with Authenticator app by another big tech/software company (begins with M). I would recommend that app over this one.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "5.20R4",
+      "thumbsUp": 21,
+      "criterias": []
+    },
+    {
+      "id": "9c3a22a2-94c0-40c8-873b-eb5a27e5598d",
+      "userName": "John Albano",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjW6OBMdWVBANbnBpfjy6l9Cpx5DOLLcEPHj6DbFqWE-OgPr",
+      "date": "2022-06-11T12:14:52.170Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=9c3a22a2-94c0-40c8-873b-eb5a27e5598d",
+      "title": null,
+      "text": "Latest update is terrible. Between login timers, site passwords, and all the other hoops to jump through to get into apps/sites, Google Authenticator has now made their app load/run slower and also added an extra, unnecessary \"CLICK TO REVEAL\" step to accessing each individual 2FA code. It's as if someone at the company was looking to deliberately turn the program to trash.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "5.20R3",
+      "thumbsUp": 71,
+      "criterias": []
+    },
+    {
+      "id": "993f2604-18e0-44f1-9736-df453520b0f3",
+      "userName": "Chris McConnell",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjWEXF1RJJsHpI9OkqAHcuX_sw2ircLy7yWv42DcFZBZWgc",
+      "date": "2021-11-06T04:43:54.423Z",
+      "score": 4,
+      "scoreText": "4",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=993f2604-18e0-44f1-9736-df453520b0f3",
+      "title": null,
+      "text": "It does it's job, but if you have Advanced Protection enabled, it'd be nice if it would sync across devices. I know there has to be some form of ridiculous, \"we guarantee it's safe with us, as long as you have this key\" type of encryption Google could use to make this happen. I understand G-Auth syncing OTP accounts is insecure, but how insecure could it be with Advanced Protection and a physical key? Maybe it has something to do with the \"Time-Based\" aspect? Anywho, great app.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "5.10",
+      "thumbsUp": 120,
+      "criterias": [
+        {
+          "criteria": "vaf_never_display_deceptive_ads",
+          "rating": 2
+        },
+        {
+          "criteria": "vaf_never_display_visually_bad",
+          "rating": 2
+        },
+        {
+          "criteria": "vaf_never_display_easy_to_use",
+          "rating": 1
+        }
+      ]
+    },
+    {
+      "id": "0af2924a-0e49-4ac0-a392-8b36cab66fd0",
+      "userName": "A Google user",
+      "userImage": "https://play-lh.googleusercontent.com/EGemoI2NTXmTsBVtJqk8jxF9rh8ApRWfsIMQSt2uE4OcpQqbFu7f7NbTK05lx80nuSijCz7sc3a277R67g",
+      "date": "2019-05-09T18:47:25.629Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=0af2924a-0e49-4ac0-a392-8b36cab66fd0",
+      "title": null,
+      "text": "Google Authenticator does NOT sync to your Google account. So if you lose or switch your phone, reinstall this app on the new phone, guess what? All of your security tokens will NOT be there. I am completely locked out of my two Facebook accounts, and they are not responding to my support tickets, it has been days now. I just cannot believe that this app does not sync to your Google account. What sense does that make? If anyone can help me with my issue please let me know.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "5.00",
+      "thumbsUp": 804,
+      "criterias": [
+        {
+          "criteria": "vaf_never_display_meet_expectations",
+          "rating": 2
+        },
+        {
+          "criteria": "vaf_never_display_deceptive_ads",
+          "rating": 2
+        },
+        {
+          "criteria": "vaf_never_display_content_language",
+          "rating": 1
+        }
+      ]
+    },
+    {
+      "id": "31c2db74-e0ca-4220-bac4-fb31b3ae9e9c",
+      "userName": "Jessica Cerise",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjUcmsMrKj9xZgp-hdp9cJQT0MHaOGf0-9GdX00rGgNdd6bm",
+      "date": "2022-09-08T00:01:34.256Z",
+      "score": 3,
+      "scoreText": "3",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=31c2db74-e0ca-4220-bac4-fb31b3ae9e9c",
+      "title": null,
+      "text": "It is easy to use and extremely effective. Since using this app, I haven't had any hacking problems. I do have a problem with the fact I cannot use Authenticator through my Gmail account on my desktop. I had to reset my phone to factory settings and was unaware of this feature. It was incredibly complicated to regain access to some of my accounts secured with this app. Fix this problem and I'll give it more stars.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "5.20R4",
+      "thumbsUp": 42,
+      "criterias": [
+        {
+          "criteria": "vaf_never_display_ads_experience",
+          "rating": null
+        },
+        {
+          "criteria": "vaf_never_display_ease_of_use",
+          "rating": null
+        }
+      ]
+    },
+    {
+      "id": "c277cb06-37a8-4ded-8bec-8bab7c7251b1",
+      "userName": "Matt Hughes",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjVwp5OFpDgw2EjbcXGPKaDmm4INL1ACdmnug3LFtbOeyYLv",
+      "date": "2022-05-22T13:02:42.838Z",
+      "score": 2,
+      "scoreText": "2",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=c277cb06-37a8-4ded-8bec-8bab7c7251b1",
+      "title": null,
+      "text": "Have used this for quite a bit for a few different things, latest update with the \"click to reveal pin\" my first thought was wow, that's super annoying. Went to the settings to see if you can turn that off and didn't find an option. Luckily I've been moving my totp to a self hosted bitwarden install and will only have this as a 2fa check to get into that password manager.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "5.20R2",
+      "thumbsUp": 217,
+      "criterias": []
+    },
+    {
+      "id": "5020d76a-e19e-4bd6-a448-ae7d015c19e3",
+      "userName": "Jonny Farringdon",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjU4Qem7WRyrk81zJi_avUB9UfpGeviaFk3GHPwxMo-TgX4b",
+      "date": "2023-05-24T20:38:40.917Z",
+      "score": 5,
+      "scoreText": "5",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=5020d76a-e19e-4bd6-a448-ae7d015c19e3",
+      "title": null,
+      "text": "Seems to ask for verification at the appropriate moments, and far less burdensome than early systems. BYT the Yes it's me and the No it's not me buttons are VERY close together on my tall think pixel screen. So close together and smaller than my fingertip is wide, it seems easy to press the wrong one by mistake. Please put some space between the buttons. TY",
+      "replyDate": null,
+      "replyText": null,
+      "version": "5.20R4",
+      "thumbsUp": 34,
+      "criterias": [
+        {
+          "criteria": "vaf_never_display_ads_experience",
+          "rating": null
+        },
+        {
+          "criteria": "vaf_never_display_ease_of_use",
+          "rating": null
+        }
+      ]
+    },
+    {
+      "id": "954653df-2275-44b3-9e1f-f48e4b9973fa",
+      "userName": "Khary Bentick",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjVJcdsu1picdBJvNI6sWZsIMuLknL8G17qUQ7p9Cuj7jLc",
+      "date": "2022-02-24T01:15:39.415Z",
+      "score": 2,
+      "scoreText": "2",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=954653df-2275-44b3-9e1f-f48e4b9973fa",
+      "title": null,
+      "text": "I would think Google would provide a method for transferring the accounts between phones without manually going into the app. As in, during the backup process. I know it is a security issue, but when someone is using a phone transfer program, wouldn't it be smart to mention that it needs to be done before they reset the phone. A big waste!",
+      "replyDate": null,
+      "replyText": null,
+      "version": "5.10",
+      "thumbsUp": 748,
+      "criterias": []
+    },
+    {
+      "id": "9c15dedb-605e-4249-af38-876e3e9b4688",
+      "userName": "Penguin_Spy",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjW0yzN3GK5ODR45LQE-xhUj7VaJ97Ak3q0mbQXhzcLqN0c",
+      "date": "2022-06-02T21:08:09.193Z",
+      "score": 2,
+      "scoreText": "2",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=9c15dedb-605e-4249-af38-876e3e9b4688",
+      "title": null,
+      "text": "works fine, does what it's supposed to. however, the recent update where it hides codes untill you tap them is SUPER ----ing annoying, and there is no setting to disable it. i know how to use my phone & not let other people see the screen, i dont need google to hold my hand. the settings menu is laughably empty, so you have plenty of space to add an option for this, google. \"if it's not broken, dont fix it. if you do, at least add a switch\"",
+      "replyDate": null,
+      "replyText": null,
+      "version": "5.20R3",
+      "thumbsUp": 111,
+      "criterias": [
+        {
+          "criteria": "vaf_never_display_ease_of_use",
+          "rating": null
+        }
+      ]
+    },
+    {
+      "id": "e1285c4c-f952-477b-8f0c-f1e975ba73bc",
+      "userName": "A Google user",
+      "userImage": "https://play-lh.googleusercontent.com/EGemoI2NTXmTsBVtJqk8jxF9rh8ApRWfsIMQSt2uE4OcpQqbFu7f7NbTK05lx80nuSijCz7sc3a277R67g",
+      "date": "2020-02-25T01:37:45.199Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=e1285c4c-f952-477b-8f0c-f1e975ba73bc",
+      "title": null,
+      "text": "Recently upgraded my phone and switch my Google account to my new phone but lost all my apps connected to the authenticator. It's so annoying trying to figure a way to get back in. This app is a big problem but if you don't plan on ever switching phones I guess you can use it. It's good security but they don't transfer your information from the old phone.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "5.00",
+      "thumbsUp": 78,
+      "criterias": []
+    },
+    {
+      "id": "ed8c8808-6f6c-40d5-9559-110d75dc73e1",
+      "userName": "Bilal Phone",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocKDaBvT0klc2u6US48-cIwQQbvB5AkXMjEbwIebKoM7=mo",
+      "date": "2022-07-25T15:45:08.240Z",
+      "score": 3,
+      "scoreText": "3",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=ed8c8808-6f6c-40d5-9559-110d75dc73e1",
+      "title": null,
+      "text": "The app functions but the more you use this app the more it becomes clear that little UX testing has been done here for a while. Basic stuff like sorting the list or filtering are missing. Going through a long list of accounts to find the right one can become error prone and time consuming. Would have expected better.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "5.20R4",
+      "thumbsUp": 387,
+      "criterias": []
+    },
+    {
+      "id": "1dea0fe2-cd6f-497d-b23f-c7699bbc2d60",
+      "userName": "John Hatzakis",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjXAjBmtokaLFodUzWaXi-Nq6PpGm7AO4GGMpO1Bu75lylis",
+      "date": "2022-07-04T13:58:45.423Z",
+      "score": 2,
+      "scoreText": "2",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=1dea0fe2-cd6f-497d-b23f-c7699bbc2d60",
+      "title": null,
+      "text": "Latest update has really damaged the UX and stability of this app, which was previously fantastic. Now an extra press is needed to access a code and the app crashes quite regularly, especially when accessing any of the settings. The only thing this app needed previously was a search bar - I have over 50 2FA enabled logins and a search function for these would be ideal.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "5.20R3",
+      "thumbsUp": 31,
+      "criterias": [
+        {
+          "criteria": "vaf_never_display_ease_of_use",
+          "rating": null
+        },
+        {
+          "criteria": "vaf_never_display_ads_experience",
+          "rating": null
+        }
+      ]
+    },
+    {
+      "id": "69dc833d-e15f-407b-aa98-7d4ad2ad5c99",
+      "userName": "Allen",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjVL94TQUNfMVOZh-BdrXRRFRY2-wVmIz3WRUCQlXk3198EL",
+      "date": "2023-05-05T07:44:40.948Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=69dc833d-e15f-407b-aa98-7d4ad2ad5c99",
+      "title": null,
+      "text": "I lost access to some semi-important accounts because Google never implemented any type of syncing during the time I was using this app. I just assumed they would because it was Google. My mistake. But they still get a 1 star for lacking such an important feature. If it's for security reasons, it could have still been an optional feature. So use another app that offers sync... Like Microsoft Authenticator, or password apps with built-in TOTP like Bitwarden & SafeInCloud.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "5.20R4",
+      "thumbsUp": 7,
+      "criterias": []
+    },
+    {
+      "id": "34b7c19f-523d-42ab-92cf-dc5604543c30",
+      "userName": "Nikita Hines",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjWnsvGXRwalPei1OfwziGJi_jGKtByJIQn4YA-4HnWh_1M",
+      "date": "2022-10-22T18:31:28.497Z",
+      "score": 4,
+      "scoreText": "4",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=34b7c19f-523d-42ab-92cf-dc5604543c30",
+      "title": null,
+      "text": "The app is great, however like others have mentioned it is also limiting. There should be a way for the app to call like on Duo on a phone you have access to for authentication. Real life says that you may need to change your phone number, you may need to replace your phone or even lose it. It is way too limiting. Needs an update for alternative ways to use.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "5.20R4",
+      "thumbsUp": 30,
+      "criterias": []
+    },
+    {
+      "id": "668bfc5e-c882-4079-b9d5-e6825d5804b0",
+      "userName": "Ms Tony Love",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjU6HagLr5ddeVCMolZMIhuY8tbd3FjkJs6iAxfUCfrMB9gG",
+      "date": "2021-03-30T22:02:31.916Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=668bfc5e-c882-4079-b9d5-e6825d5804b0",
+      "title": null,
+      "text": "No matter how quickly you jump from this page back to whatever page using it for, always have the wrong one. The only way it works is to have 2 phones and have both open at the same time. What a uselrss waste of time. Every site using this is losing my business plain and simple. This actually makes it so anyone trying to hack it probably has an easier time getting onto your account then you have to get on your own account.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "5.10",
+      "thumbsUp": 95,
+      "criterias": [
+        {
+          "criteria": "vaf_never_display_considerate_of_time",
+          "rating": 2
+        },
+        {
+          "criteria": "vaf_never_display_deceptive_ads",
+          "rating": 3
+        },
+        {
+          "criteria": "vaf_never_display_content_language",
+          "rating": 1
+        }
+      ]
+    },
+    {
+      "id": "2036a43e-a186-400b-8a50-5722dd7b7b4b",
+      "userName": "Jane L",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocK0PDdWBgUfCwyhOCx5B2Tv06sQZa43bR9sSIMtpvVX=mo",
+      "date": "2021-07-10T02:03:54.240Z",
+      "score": 3,
+      "scoreText": "3",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=2036a43e-a186-400b-8a50-5722dd7b7b4b",
+      "title": null,
+      "text": "App works fine to its intended function. Only giving it a 3 star because there's no way to backup the data without exporting it another phone. I do wish they would add a backup feature syncing to your Google account then this'll be perfect. My advice to people is to don't rely solely on authenticators, write down the backup keys that the website provide to your accounts in case you lose or break your phone.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "5.10",
+      "thumbsUp": 69,
+      "criterias": []
+    },
+    {
+      "id": "c914cc44-ce71-4c95-9dfe-64114a7f9a7b",
+      "userName": "mojorayjones",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjW7rWJAyKAlos0XOaiQVlHsxa04UttbF7q7DgCQ0shPOnU",
+      "date": "2022-01-23T23:45:15.124Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=c914cc44-ce71-4c95-9dfe-64114a7f9a7b",
+      "title": null,
+      "text": "I don't receive codes from websites after reinstalling the app due to problems. They say just synch the time, but that doesn't work. Obviously lots of threads on Reddit and Youtube tech gurus trying to address the same glitch issues. I wish I never installed this since it's just resulted in locking myself out of accounts and after a couple hours trouble shooting it still doesn't work. Don't recommend. I have the recovery keys stored and everything, but I still can't receive valid codes. Fail.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "5.10",
+      "thumbsUp": 143,
+      "criterias": []
+    },
+    {
+      "id": "57936737-3e5b-4a07-8ffe-5b97b8ccc1d6",
+      "userName": "A Google user",
+      "userImage": "https://play-lh.googleusercontent.com/EGemoI2NTXmTsBVtJqk8jxF9rh8ApRWfsIMQSt2uE4OcpQqbFu7f7NbTK05lx80nuSijCz7sc3a277R67g",
+      "date": "2020-04-17T19:31:08.774Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=57936737-3e5b-4a07-8ffe-5b97b8ccc1d6",
+      "title": null,
+      "text": "Do not use this form of 2-step. Very few services use this app, so its easy to forget about. That's a big problem when you switch phones, because your keys aren't tied to the account you sign in with, they're tied to the phone. I've lost access to 5 accounts as a result of this highly flawed 2-step process. You're better off letting someone else access your account and going through support to get it back than you are using this worthless authenticator.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "5.00",
+      "thumbsUp": 91,
+      "criterias": [
+        {
+          "criteria": "vaf_never_display_positive_impact",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "id": "8b2af618-2ae9-4fed-9634-95a342e1aa5d",
+      "userName": "Carly Huber",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjUHRMhU4TPYDJ0XrUe-Qeo6wzCeZ5_g8M0Jww6sLFZ2A4g",
+      "date": "2020-07-15T15:30:32.900Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=8b2af618-2ae9-4fed-9634-95a342e1aa5d",
+      "title": null,
+      "text": "DO NOT USE: I am permanently locked out of my account online and Google doesn't have an answer to opening or resetting the accounts so you can have access again. The only answer they have is to \"sync\" the time, it doesn't work. It does not work unless you do everything right before. If you do use the authenticator, make sure to turn it off on all accounts BEFORE you switch devices. I couldn't with mine since my previous phone was destroyed. And now I'm here to say what I wish I knew before.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "5.10",
+      "thumbsUp": 930,
+      "criterias": [
+        {
+          "criteria": "vaf_never_display_negative_ads_impact",
+          "rating": 2
+        },
+        {
+          "criteria": "vaf_never_display_visually_bad",
+          "rating": 2
+        },
+        {
+          "criteria": "vaf_never_display_useful_notifications",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "id": "95448873-696e-4571-97e9-c426e5627fb6",
+      "userName": "Yan-Fa Li",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjU3JYn0DSJ4Iyn88bBobrxSompc7Fti8o9BEgv98unGKi2W",
+      "date": "2021-11-08T16:41:26.721Z",
+      "score": 4,
+      "scoreText": "4",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=95448873-696e-4571-97e9-c426e5627fb6",
+      "title": null,
+      "text": "Needs a search bar. I use this app a lot. It has improved immensely over time, I'm glad to see Google investing in it. However over time as I add more otp it has gotten difficult to use because it only supports scrolling. I think it'd be great if you add a search bar once the number of otp goes off the screen so you can filter the entries.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "5.10",
+      "thumbsUp": 94,
+      "criterias": [
+        {
+          "criteria": "vaf_never_display_ease_of_use",
+          "rating": null
+        }
+      ]
+    },
+    {
+      "id": "6ad8d812-7bb3-40d0-a668-8fc2e2664d79",
+      "userName": "mister alagiz",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjXEa2W1cNDtvyhqTwZz4bVcVI1YCfBQJVMkbM1pJnv2S7I",
+      "date": "2022-09-18T07:26:13.401Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=6ad8d812-7bb3-40d0-a668-8fc2e2664d79",
+      "title": null,
+      "text": "was great until the recent update, now it is way slower and with more unnecessary steps. EDIT: after 3 months of using this new version - it is HORRIBLE. constantly hangs when you open it. i use it several times a day and now i have to stare at this fuсking app 15-20 seconds before it unfreezes first, try to scroll to the needed app quickly until it freezes again for 15-20 seconds, great experience. will be looking to migrate to some other app, not looking forward to how \"easy\" it would be also",
+      "replyDate": null,
+      "replyText": null,
+      "version": "5.20R4",
+      "thumbsUp": 22,
+      "criterias": []
+    },
+    {
+      "id": "5eee3714-fa58-4852-9301-08a6ed1eefb7",
+      "userName": "Andrew Smith",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjUtUghmINI1cWQufA67xlFaiwzV3naxHu0Pf6t4-pMGFDeu",
+      "date": "2020-09-10T14:26:04.200Z",
+      "score": 4,
+      "scoreText": "4",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&reviewId=5eee3714-fa58-4852-9301-08a6ed1eefb7",
+      "title": null,
+      "text": "As of the most recent update, it's now possible to sync auth tokens to new devices. Before this, I used Authy instead, because I wanted to be able to easily maintain a backup device or two with my auth tokens in case I were to lose my primary phone. Now, Google Authenticator has this functionality. And, unlike Authy, it works offline and doesn't transmit any data to a server. Auth token are one of the few things I would prefer not to have stored on a server in the cloud. Unfortunately, the most recent update also broke Wear OS compatibility. It's no longer possible to install the app on a Wear OS watch and if you still have the old watch app installed, it cannot sync with the new phone app. This is very disappointing. Authenticator codes on the watch were a huge benefit.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "5.10",
+      "thumbsUp": 358,
+      "criterias": []
+    }
+  ],
+  "nextPaginationToken": "Cn4KfDAsMTAwMTAwMC40MDczMzgxNDI0LDIyODUzODExMTc5OCwiaHR0cDovL21hcmtldC5hbmRyb2lkLmNvbS9kZXRhaWxzP2lkPXYyOmNvbS5nb29nbGUuYW5kcm9pZC5hcHBzLmF1dGhlbnRpY2F0b3IyOjEiLDEsZmFsc2U"
+}

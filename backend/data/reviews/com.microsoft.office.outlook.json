@@ -1,0 +1,1946 @@
+{
+  "data": [
+    {
+      "id": "05078874-cd21-454d-8520-f8848a7f70ea",
+      "userName": "C I",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjV88StShG678MrqcyYHG9CTAI6fiVyCnFzSuMDMUOinmocV",
+      "date": "2024-03-14T19:22:52.130Z",
+      "score": 3,
+      "scoreText": "3",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=05078874-cd21-454d-8520-f8848a7f70ea",
+      "title": null,
+      "text": "I like it, except the app doesn't finish reading out loud long emails. The app keeps saying I need a page to read that and then shuts down. I have to make the time to physically read the long email that I was using the app for to save some time. I liked back when the app allowed you to look at the document as it was being read. It made it easier to take notes. Anyway, for reading short emails, it works fine, but it fails to completely finish reading out loud long emails.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2408.1",
+      "thumbsUp": 36,
+      "criterias": []
+    },
+    {
+      "id": "e7355515-1772-4f12-bd5b-86a4de1a53fe",
+      "userName": "NinoArtur Sylmar",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocJRAkFTR3Cd426GVLAU851sUj6FJh7rVMeiGeHYUxhh=mo",
+      "date": "2024-03-05T02:49:24.326Z",
+      "score": 5,
+      "scoreText": "5",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=e7355515-1772-4f12-bd5b-86a4de1a53fe",
+      "title": null,
+      "text": "At first I was not too happy when my MSN email was switched to outlook but after trying it out, I now Love it. Outlook separates your email into two major categories: Focused & Others. In addition to Junk. You have the options of selecting which messages are most important and the least significant. You have full control of all of your messages. Easy as pie to use.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2406.2",
+      "thumbsUp": 175,
+      "criterias": []
+    },
+    {
+      "id": "ca9e33d5-dd0a-4be1-95bf-f3835bf54045",
+      "userName": "Kenneth Smoke",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjW4-YaEyURpgTk4zX5JbhvItZHRBcQ1W64TyV9AsFxhb0g8",
+      "date": "2024-02-25T15:39:39.476Z",
+      "score": 3,
+      "scoreText": "3",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=ca9e33d5-dd0a-4be1-95bf-f3835bf54045",
+      "title": null,
+      "text": "Remove Bing Search from Context menu. Then I'll come back. I love Outlook but not if you're going to integrate yourself into my Android. 2/13/14 wow. This app has evolved in the past 2 years easier to use than the PC app, Mac version is better but not by much. Upgraded to 3 stars from 1. Refresh rates are glitchy slow to push on Android. Also doesn't always refresh \"live\" even when trying to sync from iPhone or PC to android.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2405.2",
+      "thumbsUp": 167,
+      "criterias": []
+    },
+    {
+      "id": "2ae8825f-f2d8-45bc-9b89-83412da23b17",
+      "userName": "Gregyy D",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjXVwPlZFrsT1eZV4rJ3k60_e5ZRXPcUdjXHPMNWc2WGmac",
+      "date": "2024-02-25T16:30:43.229Z",
+      "score": 2,
+      "scoreText": "2",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=2ae8825f-f2d8-45bc-9b89-83412da23b17",
+      "title": null,
+      "text": "CAUTION TO OTHER USERS: Not fully syncing emails. I'e been waiting for an email for the past few days and have monitoried my app. The sender resent it several times, yet it is not showing up on my outlook app. Finally, i checked via PC & there they are. During that time I received other emails which on time. After identifying the discrepancy, I attempted to sync the email. I found no option for that. As a result, I now know this app is not as reliable.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2405.2",
+      "thumbsUp": 195,
+      "criterias": [
+        {
+          "criteria": "vaf_phase1_file_sharing",
+          "rating": 1
+        },
+        {
+          "criteria": "vaf_phase1_collaboration",
+          "rating": 1
+        },
+        {
+          "criteria": "vaf_phase1_collaborative_editing",
+          "rating": 1
+        }
+      ]
+    },
+    {
+      "id": "7a577886-5d56-412c-885d-5445c577ef18",
+      "userName": "Scott",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocJxs6P9yHNVB4fFRSbpLfzdD4Akp2s5TJQQXAmu0eh0=mo",
+      "date": "2024-03-15T19:00:20.786Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=7a577886-5d56-412c-885d-5445c577ef18",
+      "title": null,
+      "text": "Good in some ways but, like so many Microsoft products, it's an anti-productivity tool in others. If you want to go through and delete a bunch of emails at one time you have to oh-so-carefully touch the circle on the side of each one. If you are off by a little bit it opens the email for you or, worse, it unselects everything you've just selected. It is certain that the redundant, fat-salary earners at M-soft who design and produce their products don't use them.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2408.1",
+      "thumbsUp": 5,
+      "criterias": [
+        {
+          "criteria": "vaf_phase1_whiteboarding",
+          "rating": 3
+        },
+        {
+          "criteria": "vaf_phase1_works_offline",
+          "rating": 1
+        },
+        {
+          "criteria": "vaf_delete_messages",
+          "rating": 1
+        }
+      ]
+    },
+    {
+      "id": "0988625f-f08f-4440-9d33-d28cd601aefa",
+      "userName": "Hamster “Hammy” Pooh",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjWIuHbp1liFs6aEMzSAH37LfFuWrFcdq8Ia0TKkjAhaPA",
+      "date": "2024-03-07T17:07:40.898Z",
+      "score": 3,
+      "scoreText": "3",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=0988625f-f08f-4440-9d33-d28cd601aefa",
+      "title": null,
+      "text": "I mean, it's pretty ok? To be honest, my emails look like a mess because I can't sort by sender like on the computer, so I have to scroll down slowly until I find what I'm looking for. I just end up turning on my computer so I can use the browser form of Outlook. It's just easier on my ADHD brain. This app is really just for notifications because of that flaw...At least the notifications are practically instant.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2406.2",
+      "thumbsUp": 17,
+      "criterias": [
+        {
+          "criteria": "vaf_phase1_file_sharing",
+          "rating": 1
+        },
+        {
+          "criteria": "vaf_phase1_collaborative_editing",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "id": "06c41c2b-a308-4bff-870a-e4f777f9772e",
+      "userName": "Michelle Manatan",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocJPpLorKSgbP5AjexQ0fh_vRI8C6Eq0q2JlF0d8Rqd2=mo",
+      "date": "2024-03-19T10:53:30.264Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=06c41c2b-a308-4bff-870a-e4f777f9772e",
+      "title": null,
+      "text": "I've been using Outlook for a long time but for some reason, over the last 2 years, my email doesn't work and I don't get anything for maybe a month, or more. I keep uninstalling and reinstalling but nothing is working. No email since 12/22/22 3/17/23 - email stopped working and haven't received anything since 3/7/23. Clearly, your tech team and customer support is lacking, and I use this email for everything! 3/19/24 - ended up paying for extra storage and I still can't access my email!!!",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2408.1",
+      "thumbsUp": 4,
+      "criterias": []
+    },
+    {
+      "id": "aa658ea0-0129-45e9-92ce-dcd25eee37a5",
+      "userName": "David Malmgren",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocJMEgUGR1yN_mBx6OdHYOPebJTouam17dR6XVU9BrYg=mo",
+      "date": "2024-03-12T23:00:44.287Z",
+      "score": 3,
+      "scoreText": "3",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=aa658ea0-0129-45e9-92ce-dcd25eee37a5",
+      "title": null,
+      "text": "I like Microsoft applications, but now I'm looking for an alternative to Outlook, both on my phone and pc. The ad you can't delete and the cost of going ad free is ridiculous. I'm not running a business, it's just personal email. I'm running windows 11 on everything and bought 11 pro, you'd think you'd get a break if you are already spending money at the Microsoft store.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2408.1",
+      "thumbsUp": 88,
+      "criterias": [
+        {
+          "criteria": "vaf_phase1_collaboration",
+          "rating": 1
+        },
+        {
+          "criteria": "vaf_phase1_file_sharing",
+          "rating": 3
+        },
+        {
+          "criteria": "vaf_phase1_collaborative_editing",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "id": "0c53771a-bb07-49e9-a3a3-924f94d9b4d4",
+      "userName": "Matt",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjWxNeqYSCkCfdW2l4kNkqDG0BeUsxIKFJN6LuKAng5sTX0",
+      "date": "2024-03-11T21:40:21.187Z",
+      "score": 2,
+      "scoreText": "2",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=0c53771a-bb07-49e9-a3a3-924f94d9b4d4",
+      "title": null,
+      "text": "Ok but not the best it could be. Can't even dial a phone number from a calendar entry. Terrible in searching previous items, both this app and Microsoft 365. Nothing like the Office 2019 or before. I have to run two calendar apps so I can make calls with a tap on the number and add new appointments. I keep this on hoping it will get better.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2406.2",
+      "thumbsUp": 36,
+      "criterias": []
+    },
+    {
+      "id": "69077ec3-6359-44be-8214-5ab6e2e17a6c",
+      "userName": "A Google user",
+      "userImage": "https://play-lh.googleusercontent.com/EGemoI2NTXmTsBVtJqk8jxF9rh8ApRWfsIMQSt2uE4OcpQqbFu7f7NbTK05lx80nuSijCz7sc3a277R67g",
+      "date": "2024-03-11T17:54:12.260Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=69077ec3-6359-44be-8214-5ab6e2e17a6c",
+      "title": null,
+      "text": "Another classic case of a app update going thru that makes the case for if it ain't broke don't fix it. I got 13 emails today not one notification came in on my phone thru the app even though it's on. All this occurring after a app update that wasn't necessary. Still can't block junk mail senders thru the app you can only do that from a desktop so it still needs alot of work",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2408.1",
+      "thumbsUp": 22,
+      "criterias": [
+        {
+          "criteria": "vaf_never_display_meet_expectations",
+          "rating": 2
+        },
+        {
+          "criteria": "vaf_phase1_location_tagging",
+          "rating": 3
+        },
+        {
+          "criteria": "vaf_phase1_managing_events",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "id": "45a1194e-4b12-4fb0-b244-85d2a7e4410c",
+      "userName": "Jeff Fuhr",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjVDb8AFUEBYSD4hu4iZDHEur0u3e4zKnZUQbg71F8DL8w",
+      "date": "2024-03-11T20:52:04.768Z",
+      "score": 5,
+      "scoreText": "5",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=45a1194e-4b12-4fb0-b244-85d2a7e4410c",
+      "title": null,
+      "text": "IT professional with decades of heavy Outlook on Windows use. Outlook on Android is not a desktop clone, e.g. it relies on native Android app for contacts. On Android, Outlook is its own animal. But it's flat out the best there is. Check out the extensive feature list in the Play Store. That's not a mere wish list. It all works rock solid. I use it to manage my personal and professional life while on the go. Don't leave home without it. (last edited 03/11/2024).",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2408.1",
+      "thumbsUp": 155,
+      "criterias": []
+    },
+    {
+      "id": "25cf2589-976b-481e-aa26-d2a08616ed06",
+      "userName": "Nic Cain",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjVSkGiaBubWTTnz8XUJFADNLyep-TX84xxJK2d9hHyaqA",
+      "date": "2024-03-04T19:26:04.104Z",
+      "score": 2,
+      "scoreText": "2",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=25cf2589-976b-481e-aa26-d2a08616ed06",
+      "title": null,
+      "text": "If the app fails to authenticate to O365, it should notify you rather than silently fail for days while you miss emails. It should load emails in the background when it picks up there are new emails rather than not doing that until you open the client, at which point you have to wait a couple of minutes starting at old emails while waiting for it to do it's job. I wouldn't use this app were it not forced on me by policy.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2406.2",
+      "thumbsUp": 14,
+      "criterias": []
+    },
+    {
+      "id": "597df190-a341-46ca-b3c9-9d38d4da8520",
+      "userName": "kevin c",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocJNZ-6suzjTWhpEQ7JJvGQyVjIZImYofXPrEULW7RPJ=mo",
+      "date": "2024-03-01T08:45:05.759Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=597df190-a341-46ca-b3c9-9d38d4da8520",
+      "title": null,
+      "text": "Switched to another app that works as needed. Hopefully MS addresses this shortcoming in the future. Almost perfect. It has been stable and reliable, plus no ads or subscriptions needed. What's missing is that when you do a search, you can't long-press to select multiple emails for deletion. Every other email app I've used has this feature, and it's important when you are trying to clean your inbox. I hope this functionality is added in a future update.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2402.1",
+      "thumbsUp": 122,
+      "criterias": []
+    },
+    {
+      "id": "9674ac76-533f-4db0-885c-14304650382f",
+      "userName": "Rove McClain",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjVzf3_-LAWrvAxklMypfN61qby9RnVM7UiNFXQ5gLk4n10s",
+      "date": "2024-02-28T11:23:45.508Z",
+      "score": 3,
+      "scoreText": "3",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=9674ac76-533f-4db0-885c-14304650382f",
+      "title": null,
+      "text": "There's no reaction options. Since the latest update, there is a HUGE delay when it comes to selecting either Mark as Read or Delete on an Outlook notification and when the action actually takes place. Sometimes it never execute the action and the notification just sits in the notification pane. This isn't supposed to happen, it should be instant. This has to be a bug. It would be nice if we had the option to change the app icon to a dark icon like in iOS.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2405.2",
+      "thumbsUp": 54,
+      "criterias": []
+    },
+    {
+      "id": "eab1901c-d37c-44fd-bd21-bc722184249d",
+      "userName": "McKenna Malone",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjWwsMbts8FntPj2OI8WxO-pDEeCFdeXAKtlemixTx7IMn4Z",
+      "date": "2024-02-23T22:53:18.886Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=eab1901c-d37c-44fd-bd21-bc722184249d",
+      "title": null,
+      "text": "If you have time sensitive emails, use the actual website or find a better email service. This app has caused me to miss so many important emails and dates because no matter how many times you refresh the app or force stop, it will still hide messages!! Like what's the point in even having an app if you have to use the website to access recent emails? Also, always double check that your email ACTUALLY SENT!! This app will keep them in 'Outbox' until Jesus Christ returns 🙄",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2405.2",
+      "thumbsUp": 68,
+      "criterias": []
+    },
+    {
+      "id": "42bd8a75-67cc-4898-98b4-1056fea040ab",
+      "userName": "Makayla Moate",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocJU1CdEUW5pBdMuPUdh0pRwgzK2VKycHq2gv42mFW1Y=mo",
+      "date": "2024-02-24T18:04:43.775Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=42bd8a75-67cc-4898-98b4-1056fea040ab",
+      "title": null,
+      "text": "Worst email recovery process I have ever encountered. I didn't even forget my password or anything, its just mad that I don't keep it logged in on one specific device. Its completely unusable and ironically the security feature makes it unreliable due to the constant risk of being locked out. I'm just glad nothing to important was on this email so I can leave it in it's grave with minimal loss.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2406.0",
+      "thumbsUp": 46,
+      "criterias": []
+    },
+    {
+      "id": "8937eb37-70c3-4de2-90da-bbd1cddadda2",
+      "userName": "Joseph Ezell",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjUF0ptqW8GB72zCS9MrSdQ3aTC8YzJB4NSLuDYMMHa1S1Os",
+      "date": "2024-01-16T08:45:45.314Z",
+      "score": 5,
+      "scoreText": "5",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=8937eb37-70c3-4de2-90da-bbd1cddadda2",
+      "title": null,
+      "text": "I still love this email application. Solid, reliable access to my Outlook and other email accounts. I give it five stars for longevity and performance. In my opinion, the Outlook app does a great job of filtering junk mail, and now, there are ads at the top of the inbox email list. It mirrors the web based version of Outlook. I guess I'm not surprised, but I am disappointed. As of now, the Outlook Android app continues to be free but not ad free unless I want to pay a subscription fee.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2352.1",
+      "thumbsUp": 809,
+      "criterias": [
+        {
+          "criteria": "vaf_phase1_collaboration",
+          "rating": 2
+        },
+        {
+          "criteria": "vaf_phase1_collaborative_editing",
+          "rating": 2
+        },
+        {
+          "criteria": "vaf_phase1_messaging",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "id": "6206dfa3-73e8-434a-ace0-060e4a44d9a7",
+      "userName": "Kaily Xayasane",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjUU9c1tomS_SU-p5SFv7nEhWEru50ooPKp8a_8h6xw3sqlh",
+      "date": "2024-02-12T20:03:46.590Z",
+      "score": 3,
+      "scoreText": "3",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=6206dfa3-73e8-434a-ace0-060e4a44d9a7",
+      "title": null,
+      "text": "It's convenient for the most part. I just wonder why every time I use the search bar, the results show emails from years ago instead of the most recent matches (yesterday, last week, etc.). This causes an inconvenience because I am forced to use the microsoft website to do my search, which gives me more 'accurate and recent' results thannon the app. If this can be updated, I would give it 5 stars.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2404.1",
+      "thumbsUp": 174,
+      "criterias": []
+    },
+    {
+      "id": "aadd41a2-8e88-44fd-833e-cd808bb0c417",
+      "userName": "Moe Wasserman",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocLmsXDzMbt3sBkHtxYJnSJdHUs4chXgINHZTLMqo3Ci=mo",
+      "date": "2024-01-21T00:09:38.574Z",
+      "score": 5,
+      "scoreText": "5",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=aadd41a2-8e88-44fd-833e-cd808bb0c417",
+      "title": null,
+      "text": "I really enjoyed using this app for its great functionality! I really like that this app has the option to split up your emails between the important ones and the other ones. This app has saved me much important time just because of that one feature. I also like that it has the rules option to save emails in whichever way you would like to organise them for the future. All in all, I believe that this is a great app, but cannot wait for improvement on the software speed!",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2352.1",
+      "thumbsUp": 290,
+      "criterias": [
+        {
+          "criteria": "vaf_phase1_messaging",
+          "rating": 3
+        },
+        {
+          "criteria": "vaf_phase1_collaboration",
+          "rating": 3
+        },
+        {
+          "criteria": "vaf_phase1_file_sharing",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "id": "6806146b-5bd2-4326-bb54-763682bfa9e2",
+      "userName": "Dave Singleton",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjXLWn3PTyrhqrxBvawPe4mg28nZFC1QzlgWY_-ka6NJ-OA",
+      "date": "2024-02-19T03:40:58.452Z",
+      "score": 2,
+      "scoreText": "2",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=6806146b-5bd2-4326-bb54-763682bfa9e2",
+      "title": null,
+      "text": "All folders are open without a way to collapse them. Shallow indenting, no color coding or shading makes it impossible to tell what folder is a subfolder. This flat minimalist design is not efficient for organizing and quickly recognizing & accessing emails. The desktop and web versions of Outlook are not like this. Anything in the \"inbox\" function as expected. In any other folder it is too much of a time consuming nightmare to deal with. It wasn't like this in the past. Why change it?",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2405.1",
+      "thumbsUp": 100,
+      "criterias": []
+    },
+    {
+      "id": "9c7f6977-12a6-4174-94bf-ac12dc3ef59c",
+      "userName": "Elizabeth Beck",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjU8ks9czCBqDPWMKwmvIFR6XkBNp0WQFExcDi5f-6GrCxCg",
+      "date": "2024-02-16T20:28:38.870Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=9c7f6977-12a6-4174-94bf-ac12dc3ef59c",
+      "title": null,
+      "text": "Scrolling through email threads is a nightmare and has been for years. Every other time I scroll, it sends me right back down to the last message in the thread. App forces me to sign in and authenticate twice in a row because apparently the first one doesn't do anything, and the two-digit number they ask for after signing in is *always* immediately blocked by the pop-up asking for the number. Wish there were an alternative to Outlook.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2405.0",
+      "thumbsUp": 71,
+      "criterias": [
+        {
+          "criteria": "vaf_mark_message_as_read",
+          "rating": 1
+        },
+        {
+          "criteria": "vaf_phase1_online_storage",
+          "rating": 1
+        },
+        {
+          "criteria": "vaf_phase1_autocorrect_feature",
+          "rating": 1
+        }
+      ]
+    },
+    {
+      "id": "a8bd4859-391e-4be8-b5bb-aad722b64ddd",
+      "userName": "Jamie Shannon",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocLBE8eaZ3AZ2dWPoxRJ6bRwDk1tfs5Ydspa4gYEUNss=mo",
+      "date": "2024-02-20T13:04:31.330Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=a8bd4859-391e-4be8-b5bb-aad722b64ddd",
+      "title": null,
+      "text": "This app is so unreliable. I see an email in my notifications, I click it and it's not even in my inbox, I just get an error that the email cannot be found. Then I refresh for the next 10 minutes and sometimes it will appear and sometimes it's blank. I look at my calendar on the go and it's blank or it doesn't reflect the changes of an update to a meeting someone has previously sent. I'm wondering what the point of this app when I don't get current emails and my calendar is not even up-to-date.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2405.1",
+      "thumbsUp": 86,
+      "criterias": []
+    },
+    {
+      "id": "56f5e344-87d7-48c2-9352-7130a80c9e84",
+      "userName": "Aaron Scully",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjXQcX5ZqVY4ydJRIIITiPhywEpLVglPMLA7NiqVGQ2q4A",
+      "date": "2024-01-28T21:59:40.149Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=56f5e344-87d7-48c2-9352-7130a80c9e84",
+      "title": null,
+      "text": "The calendar is terrible. The day view requires you to scroll up and down the full day, otherwise you might miss events. I have a huge phone, surely a day can fit on the screen (especially when there is a single event on that day? As usual, MS do not have a clue when it comes to UI/UX. Here's a tip to MS: force you devs to organise their life by using this app and it will soon improve. Perhaps copy the excellent CalenGoo while your at it.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2401.0",
+      "thumbsUp": 62,
+      "criterias": []
+    },
+    {
+      "id": "019d7c7c-8287-47d1-836c-131970ba8cc7",
+      "userName": "Derna Horton",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjU0oH1ymxBMljax-ic5cppYpnzwEVRzok5tIg13E36hIjg",
+      "date": "2024-03-04T23:53:57.640Z",
+      "score": 2,
+      "scoreText": "2",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=019d7c7c-8287-47d1-836c-131970ba8cc7",
+      "title": null,
+      "text": "Needs to be more reliable. New emails will not show up in the inbox most times. The suggestion is to clear the cache and data. Problem is clearing the data is the nuclear option. It was really difficult to get it to work with my companies email server. I cant even find where I can copy my current settings. Has to be a better way than start over from scratch",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2406.2",
+      "thumbsUp": 5,
+      "criterias": []
+    },
+    {
+      "id": "2cc88199-acf9-4732-a4da-0f4cc8db0628",
+      "userName": "Ethan Rogers",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjWkAuPdu0Z0QLubUiqj75p_ZB-aK2D-7EYcykKtwnXqGjM",
+      "date": "2024-02-21T16:57:48.595Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=2cc88199-acf9-4732-a4da-0f4cc8db0628",
+      "title": null,
+      "text": "The app gets stuck loading my email after I sign in. When I try to restart the app, it makes me sign in again. New update: I can't sign in at all because my email account isn't a Google account. Seriously, you'd think as a billion-dollar company and one of the most widely-used tech companies in the world, Microsoft would at least somewhat know how to design decent software, but I guess not.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2405.2",
+      "thumbsUp": 13,
+      "criterias": []
+    },
+    {
+      "id": "707c2199-4f0d-4b62-bc0b-a0e1552fc9aa",
+      "userName": "Paul Arevalo",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocL9hrzIyKJ5lIYyJDbmtL1egoPz5OxYJVU-FiYx_xN7=mo",
+      "date": "2024-03-13T16:22:46.729Z",
+      "score": 3,
+      "scoreText": "3",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=707c2199-4f0d-4b62-bc0b-a0e1552fc9aa",
+      "title": null,
+      "text": "App update on android allows you to select Teams or Zoom on calendar invite, which is great. However, neither selection works when sending the calendar invite. I tried multiple times and had to fix an invite from the desktop. Hopefully, this will be fixed because now I can not book a Teams or Zoom meeting with the calendar.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2408.1",
+      "thumbsUp": 0,
+      "criterias": []
+    },
+    {
+      "id": "61da8bfc-5e1a-4f1a-8247-19705fa5964d",
+      "userName": "R K",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjWZxWRXkGfQm1ovXkXxkqJHvFaIrKBlqPq50u_nLj7QTr0",
+      "date": "2024-03-05T04:30:51.122Z",
+      "score": 4,
+      "scoreText": "4",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=61da8bfc-5e1a-4f1a-8247-19705fa5964d",
+      "title": null,
+      "text": "Bring back Calendar editing by showing the day view to allow selecting on the screen a new time and day. The pop-up time selector is harder to utilize for calenders that are full. A visual option to see open time slots was so much easier! Also, allow the option to sync ALL Calendar events. Limiting to only a few months in the past is too limiting when wanting to search for historical meetings. Update: Editing is working again. Added extra star",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2406.2",
+      "thumbsUp": 18,
+      "criterias": []
+    },
+    {
+      "id": "38c9253c-1df0-438d-a45e-a85499f5fa00",
+      "userName": "Tim McGinnis",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjWUsjat-P4A0hjArqLgnB9h2fKFjs510C4J1kNo3sX4lg",
+      "date": "2024-02-15T23:48:30.433Z",
+      "score": 4,
+      "scoreText": "4",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=38c9253c-1df0-438d-a45e-a85499f5fa00",
+      "title": null,
+      "text": "I have used Outlook since inception and have enjoyed it. I do wish they would do something about spam/fishing e-mail, the addresses are dead give aways so it should be relatively simple. I like the new sweep feature and use it heavily for unwanted e-mail that won't stop even when unsubscribed. Since now retired I don't use the advanced features like I used to. Keep the improvements coming",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2404.1",
+      "thumbsUp": 30,
+      "criterias": [
+        {
+          "criteria": "vaf_phase1_collaborative_editing",
+          "rating": 3
+        },
+        {
+          "criteria": "vaf_phase1_collaboration",
+          "rating": 3
+        },
+        {
+          "criteria": "vaf_phase1_messaging",
+          "rating": 1
+        }
+      ]
+    },
+    {
+      "id": "ea84d9e4-37e7-48c5-88c6-29c429934133",
+      "userName": "zubhanwc3",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjXEuzvUJwDMhuWCnW226BHhZtSDQl4ETCDgsz1E8yTksZU",
+      "date": "2024-02-15T21:40:04.287Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=ea84d9e4-37e7-48c5-88c6-29c429934133",
+      "title": null,
+      "text": "The app won't load emails. The only time that I can see an email is when I get a notification for a single email. I can then click on the notification and read the email. If multiple emails are sent in the notification, none of them open and I get a blank inbox that won't load more emails. Sometimes, even clicking on a single notification doesn't work, though only when It's first opening the app",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2405.0",
+      "thumbsUp": 54,
+      "criterias": []
+    },
+    {
+      "id": "bd1d15b5-5fc0-4d2f-8cc4-9428359dbe4f",
+      "userName": "Jorge Rivera",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjVZGm5cWNokXsVUyCvsDXxN4vVXU8AkZOS3W8VvItahdKc",
+      "date": "2024-01-29T15:28:23.453Z",
+      "score": 3,
+      "scoreText": "3",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=bd1d15b5-5fc0-4d2f-8cc4-9428359dbe4f",
+      "title": null,
+      "text": "Great app until recently. For whatever reason, now I keep getting these notifications on steroids that would not go away! I read my emails, but this Outlook app keeps bringing up notifications about already read emails like literally every minute!!! It is SO ANNOYING!! Yesterday and today, this app has been bringing up a notification about almost day old emails, the same two already read emails over and over and over and over and over (you get the point) again!! FIX THAT!!",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2402.1",
+      "thumbsUp": 16,
+      "criterias": []
+    },
+    {
+      "id": "c86bd8ed-e74c-4b29-a047-35496149a785",
+      "userName": "Ed Padin",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjX_RyH6wGuiBX8spcv8Bbremwq7EnGdYFrwGTAaEy___SMq",
+      "date": "2024-03-04T13:47:01.100Z",
+      "score": 3,
+      "scoreText": "3",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=c86bd8ed-e74c-4b29-a047-35496149a785",
+      "title": null,
+      "text": "Why does it have to be so difficult to change passwords? I am subject to a corporate password policy that requires changing my exchange password every quarter. Every. Single.Time this app auses account lockups because there is no way to change the password. There is asome dark science where you have wait for it to prompt you for the new password. Sometimes it works, sometimes not. Almost always it just keeps trying the old password, which results in me having to contact the help desk to unlock",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2406.2",
+      "thumbsUp": 39,
+      "criterias": []
+    },
+    {
+      "id": "cfbcb44b-b969-4f6b-9ec5-8d6683b90475",
+      "userName": "M Swa",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjUHXQW8-OO8IbeSIoVtmzHE2ECc4qKNRwaf7YkYXGDMhT0",
+      "date": "2024-02-01T16:08:37.574Z",
+      "score": 3,
+      "scoreText": "3",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=cfbcb44b-b969-4f6b-9ec5-8d6683b90475",
+      "title": null,
+      "text": "App works fairly well. Not sure why the ability to add safe emails to safe sender list is missing from the app. I have so many emails that go to junk that shouldn't, but I have no ability to add those emails or domains to a safe sender list in the app. Need the capability. The point of the app is convenience. It is inconvenient to have to log into my account from a computer to add senders to my safe sender list in a browser.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2402.1",
+      "thumbsUp": 23,
+      "criterias": [
+        {
+          "criteria": "vaf_phase1_organizational_tools",
+          "rating": 1
+        },
+        {
+          "criteria": "vaf_multi_device_sync",
+          "rating": 1
+        },
+        {
+          "criteria": "vaf_never_display_make_you_happy",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "id": "26e76193-5062-4f2d-9127-e714d00c296d",
+      "userName": "shon cody",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjVX7DXA2QqgSOx-8TcvaugBS1_RURIHSrsUvz-3P1GxVJHH",
+      "date": "2024-03-01T01:30:09.549Z",
+      "score": 5,
+      "scoreText": "5",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=26e76193-5062-4f2d-9127-e714d00c296d",
+      "title": null,
+      "text": "Since I enrolled in school about 5 years ago, I had to deal with Microsoft due to exchange, etc...& although it hasn't been hard to deal with as an email agent, it has steadily grown into an even more efficient & easier to use set-up...kudos to Microsoft for all the steps they have been taking in the right direction with almost all of their apps, & also the fluidity that has been systemically fused within their apps which is making it almost enjoyable to use them all once again..!!💯🔹🙉🙈🙊🔹💱",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2406.2",
+      "thumbsUp": 4,
+      "criterias": [
+        {
+          "criteria": "vaf_phase1_collaboration",
+          "rating": 1
+        },
+        {
+          "criteria": "vaf_phase1_messaging",
+          "rating": 1
+        },
+        {
+          "criteria": "vaf_phase1_file_sharing",
+          "rating": 1
+        }
+      ]
+    },
+    {
+      "id": "b2539031-47b7-4498-b6d8-458a7aee2355",
+      "userName": "William Phoenix",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjX_6vpNc6GdTkIvT-Njoiu3VSmz-FQzMcblHdXxI-paPEY",
+      "date": "2024-01-26T21:44:55.695Z",
+      "score": 5,
+      "scoreText": "5",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=b2539031-47b7-4498-b6d8-458a7aee2355",
+      "title": null,
+      "text": "The app itself works great. Does everything I need it to do. The only issue that has recently come up is that even though I \"force close\" it, it now turns itself on and sends me notifications. It didn't used to do that and I haven't changed any settings. Letting it run 8n the background uses a good percent of battery. Is there anything that can be done to fix this?",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2402.1",
+      "thumbsUp": 78,
+      "criterias": []
+    },
+    {
+      "id": "4bd3a7ed-6626-4bdb-9c15-70e75620cf04",
+      "userName": "qwazy meadows",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocJK22In7kQhYGiXoKgX28qfrz0FrGYOGMS8FMR5bppl=mo",
+      "date": "2024-02-16T14:19:03.620Z",
+      "score": 3,
+      "scoreText": "3",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=4bd3a7ed-6626-4bdb-9c15-70e75620cf04",
+      "title": null,
+      "text": "They have tried to get too cute. Now they just use symbols, but you can't hover over them to find out what they are. You can't unflag emails, the reply and forward commands are hidden and you have to track them down. When you reply it gives you a strange mini bar to type into making it difficult to add things or look at what your writing. I honestly can't believe people still use this. I have to for work and it is not good. 3 stars because it technically works. But isnt user friendly",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2404.1",
+      "thumbsUp": 28,
+      "criterias": [
+        {
+          "criteria": "vaf_phase1_messaging",
+          "rating": 3
+        },
+        {
+          "criteria": "vaf_phase1_collaboration",
+          "rating": 3
+        },
+        {
+          "criteria": "vaf_phase1_file_sharing",
+          "rating": 1
+        }
+      ]
+    },
+    {
+      "id": "93514fea-8f1e-4a67-b4bd-2ca69e50451b",
+      "userName": "Kevin",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocK9EkVUdjM5K-6VAz42eXDP8_mcpuixD4p8Tdlw4o5UxQ=mo",
+      "date": "2024-02-05T13:23:13.975Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=93514fea-8f1e-4a67-b4bd-2ca69e50451b",
+      "title": null,
+      "text": "I never had problems with this app until today. I went to the \"deleted\" folder to clean it out. It asked me if I wanted to permanently delete. I said yes. It started a stupid animation of it deleteing them. I don't need to watch it delete 500+ emails so I pushed the back button which brought me to my inbox where it states deleting everything there. I hurried up and closed the app which stop my from losing everything but I lost most. Everything in the deleted folder is still there.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2352.1",
+      "thumbsUp": 13,
+      "criterias": []
+    },
+    {
+      "id": "1a2528eb-ae03-49c2-8a0b-d8626e2a44ab",
+      "userName": "Idenstret",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjUZ46-JHDPGGW0k--cmrCoiH_vwW8MHjiLTQZKGty3dmp4",
+      "date": "2024-01-23T13:44:20.698Z",
+      "score": 5,
+      "scoreText": "5",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=1a2528eb-ae03-49c2-8a0b-d8626e2a44ab",
+      "title": null,
+      "text": "I've used Outlook for years. I love that everything is so easy to file away in their own little folders, alphabetically. I can delete a bunch of messages all at once (unlike gmail where you can only delete one at a time). I use my phone for everything, so having an email thats mobile friendly goes a LONG way for me. I've tried other emails and I always come back to Outlook. It's just perfect for me. 😁",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2352.1",
+      "thumbsUp": 30,
+      "criterias": []
+    },
+    {
+      "id": "3af7cb41-4d92-4581-a74e-bb11354bb981",
+      "userName": "Anthony Fincher",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjV9H33oC6tRBJX_Ch2JtszpLX4yHjb6RdXIUYD3ihUxWnA",
+      "date": "2024-02-02T15:40:33.663Z",
+      "score": 2,
+      "scoreText": "2",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=3af7cb41-4d92-4581-a74e-bb11354bb981",
+      "title": null,
+      "text": "3 months with no response. Search function is non functional. Perhaps it's because I have 4 emails combined, but the search function doesn't work AT ALL. I search by words in the text, subject words, or even email address, and I get one or two hits, ignoring dozens that are more recent. To do any serious searching of my emails, I need to go to other email apps or the web.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2402.1",
+      "thumbsUp": 43,
+      "criterias": []
+    },
+    {
+      "id": "6162d8e7-877a-4023-a02e-c83c31fcdf84",
+      "userName": "Edwin Reyes",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjUWFV_px2jvF-wnmGxntsBKSzynGUizBsLvstyg2gz08qF6",
+      "date": "2024-01-25T23:01:27.161Z",
+      "score": 5,
+      "scoreText": "5",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=6162d8e7-877a-4023-a02e-c83c31fcdf84",
+      "title": null,
+      "text": "Microsoft Outlook on my Samsung S21 Ultra 5G is a game-changer. Seamless integration, user-friendly interface, and reliable performance make email and productivity a breeze. Navigating emails, calendars, and contacts is intuitive, and timely notifications keep me on track. The app's versatility in handling multiple accounts and the focused inbox feature has significantly enhanced my efficiency. With smooth synchronization, Microsoft Outlook is indispensable on my Android, earning a 5-star rating",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2401.0",
+      "thumbsUp": 11,
+      "criterias": []
+    },
+    {
+      "id": "9bd59693-370a-43b4-be38-82d37ea9015f",
+      "userName": "Craig Wiley",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjWnbIrf4F181wcpguuKWeIO74cQ3uzvbluhp-Anhn8YYQ",
+      "date": "2024-02-06T18:18:03.910Z",
+      "score": 5,
+      "scoreText": "5",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=9bd59693-370a-43b4-be38-82d37ea9015f",
+      "title": null,
+      "text": "Seamless with Outlook on my laptop. I use Outlook for my multiple Gmail accounts, let's me choose between the accounts on the same screen. For me, much easier to organize and navigate (but then again I grew up on Outlook). Can also receive an email on one account and then reply or forward on another. All this then stays synced with my PC email, and they are stored on both the phone and PC when off line such as when sailing offshore.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2402.1",
+      "thumbsUp": 70,
+      "criterias": [
+        {
+          "criteria": "vaf_never_display_ease_of_use",
+          "rating": null
+        },
+        {
+          "criteria": "vaf_never_display_ads_experience",
+          "rating": null
+        }
+      ]
+    },
+    {
+      "id": "b4388c68-f4ad-4835-b03c-a6a008650efa",
+      "userName": "Dave Hanson",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjXhas-pbJXGIUEYzELv9URXhontpG0Mx_AXlyEDixxbBf7m",
+      "date": "2024-02-09T02:06:50.583Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=b4388c68-f4ad-4835-b03c-a6a008650efa",
+      "title": null,
+      "text": "Outlook is so poor when it attempts to connect account with Gmail. Constant issues receiving mail and syncing calendar. Also, there is a constant attempt to try the new outlook which is completely a mess. I have deleted and reconfigured the app multiple times and getting support is literally impossible. Sadly I paid for the package for a year and I'm really regretting it as Gmail is way more reliable than Outlook at this time.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2402.1",
+      "thumbsUp": 40,
+      "criterias": []
+    },
+    {
+      "id": "6b8fba0e-1f4a-4ce9-9a1e-a95788a3d9b2",
+      "userName": "Tiffany Mayhugh",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocJZkEC4Faxez0_16rxgiGiwYbiFOCTM7fpw0whu26pA=mo",
+      "date": "2024-01-30T16:42:38.447Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=6b8fba0e-1f4a-4ce9-9a1e-a95788a3d9b2",
+      "title": null,
+      "text": "If I could give the app 0 I would. It has a terrible interface. I'd rather take the time to turn on my laptop and go through emails on it. The outlook app does not include all emails making it nearly impossible to locate old emails for reference. If you have multiple outlook email addresses forget it, the app cant switch from one to the other it combines them both, but shows you none of the emails you actually need. It's absolutely terrible, I know 3rd graders who could've coded this better",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2401.0",
+      "thumbsUp": 39,
+      "criterias": []
+    },
+    {
+      "id": "b699dcb9-57a4-4d2f-bb32-d2484383d4b1",
+      "userName": "Carol Larson",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocLKc4kv8EOWgzdNC41jLBv-j-bI_AckYNkCSzBy-rQj=mo",
+      "date": "2024-02-04T20:06:40.698Z",
+      "score": 5,
+      "scoreText": "5",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=b699dcb9-57a4-4d2f-bb32-d2484383d4b1",
+      "title": null,
+      "text": "I've have always used Outlook and have had no problems with it. Easy to use. The only thing outlook needs to have is a way to Edit or Delete folders. I'm constantly getting reminders about folders from microsoft that need to changed or deleted but microsoft outlook has no way of doing either one. So not sure why microsoft sends those emails??",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2402.1",
+      "thumbsUp": 22,
+      "criterias": [
+        {
+          "criteria": "vaf_never_display_ease_of_use",
+          "rating": null
+        },
+        {
+          "criteria": "vaf_never_display_ads_experience",
+          "rating": null
+        }
+      ]
+    },
+    {
+      "id": "8d32b9bd-9aee-47eb-ae77-3b00679d338a",
+      "userName": "Oscar Baechler",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjWlQE2xGblYyrCSmHYoRU8vWYBuO72tfyWVfvchmacaglo",
+      "date": "2024-02-06T21:19:57.485Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=8d32b9bd-9aee-47eb-ae77-3b00679d338a",
+      "title": null,
+      "text": "I wrote this review in Google docs using speech to text over data. Last week, I gave Word a bad review after they stopped using speech to text over data, and replaced it with a check network connection error. My workaround was using Outlook, where Microsoft still had speech to text. This week, instead of making Word better, they made Outlook worse and now give the same error. Multiple apps solve my need for Speech to Text, and Microsoft is uniquely behind on this now.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2402.1",
+      "thumbsUp": 28,
+      "criterias": []
+    },
+    {
+      "id": "d6bf8a22-920b-4bdd-80e9-2faf171e2877",
+      "userName": "Jan Ulrych",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocJ8kOZTJGp6QmPnb1TtVFZ5lNEXN_OIOI7mIqoLpHuj=mo",
+      "date": "2024-02-03T10:40:52.204Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=d6bf8a22-920b-4bdd-80e9-2faf171e2877",
+      "title": null,
+      "text": "After switching from Gmail, it is very hard to get used to outlook: * emails in thread are not collapsible, no quick way to quickly jump to the next email in thread without having to carefully scroll; * Cannot set categories in app; * Folders not suggested for new emails in thread that has already been move to a folder! * It is not possible to perform mass action with emails from search results; * On the plus side, text formatting options are great!",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2402.1",
+      "thumbsUp": 27,
+      "criterias": []
+    },
+    {
+      "id": "8235a872-94bc-45d4-9452-05878f27e8a5",
+      "userName": "Tim Johnson",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjUbcDEbV-Z8wa0sO6AO9cnuauh39rJinb16A1eh0b1WF9k",
+      "date": "2024-01-18T16:00:27.153Z",
+      "score": 3,
+      "scoreText": "3",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=8235a872-94bc-45d4-9452-05878f27e8a5",
+      "title": null,
+      "text": "\"New\" Outlook has degraded a bunch of fundamental features of the application. Drag and drop attachments out of emails no longer works and files must be downloaded through the email window. Forwarding emails as an attachment now requires far more steps and seems to be discouraged by the dev team. Attaching files to emails now emphasizes attaching cloud files, which increases the chance of mistakenly sending the same file to recipients you want to keep separate, like in a bidding process.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2352.1",
+      "thumbsUp": 38,
+      "criterias": []
+    },
+    {
+      "id": "061cc4ca-a5de-4580-adde-35c1552c6e46",
+      "userName": "kelly stiles",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocKxqAzQEpR7xpT0XyGDdC9t-T0w6ICuA-WlA76KZchy=mo",
+      "date": "2024-01-16T19:26:44.380Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=061cc4ca-a5de-4580-adde-35c1552c6e46",
+      "title": null,
+      "text": "No network connection all of a sudden. I've had the app for years with absolutely no issues. I use it for my work email. Now all of a sudden for the last several weeks, I am continuously getting a message to check my network connections and try again. That includes when I am on my home wifi and my company wifi. Makes no sense.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2352.1",
+      "thumbsUp": 55,
+      "criterias": []
+    },
+    {
+      "id": "695e40cd-7d87-494a-b97e-c3de795b5248",
+      "userName": "Dale Bates",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocILNw-7xf-gG74niPyMEqAP3NDcgbqurGxP52nc1PTq=mo",
+      "date": "2024-01-20T22:21:58.635Z",
+      "score": 3,
+      "scoreText": "3",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=695e40cd-7d87-494a-b97e-c3de795b5248",
+      "title": null,
+      "text": "Interior with AOL mail has gotten better lately, but thats due to me no longer attempting to send emails via Outlook. Whenever I need to send or forward email I jump over to my AOL web mail instance to do so. For years I've had mail synch issues with Outlook, but usually I can get past it by restarting Outlook using the reset function in their system menu. As of 01-20-2024, Outlook still has same bug as noted above :-(",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2352.1",
+      "thumbsUp": 11,
+      "criterias": [
+        {
+          "criteria": "vaf_organizational_tools",
+          "rating": 1
+        },
+        {
+          "criteria": "vaf_phase1_autocorrect_feature",
+          "rating": 1
+        },
+        {
+          "criteria": "vaf_phase1_multi_device_sync",
+          "rating": 1
+        }
+      ]
+    },
+    {
+      "id": "86852919-ac5e-4498-8962-ee9c89882396",
+      "userName": "Aaron Cushinberry",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjVgx1r3yCZuLogEzEVAVkbN1PZDcJrmg5MmSvGvIsaSGq4",
+      "date": "2024-02-15T10:59:31.745Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=86852919-ac5e-4498-8962-ee9c89882396",
+      "title": null,
+      "text": "The latest update is terrible. The app has really gone down in years. I would give no stars if I could. Junk email is coming into regular email. I can't block it now because whoever is sending the junk mail adds me, like I'm sending the email myself. Microsoft sucks!! Edit 9/30- The Microsoft Calendar has been hacked, and you can't block it. Get Google Gmail instead!! Edit 2/15- Everything above is still happening!!!",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2402.1",
+      "thumbsUp": 25,
+      "criterias": []
+    },
+    {
+      "id": "27e94b33-0ebe-4a50-8c5a-ddec407d927a",
+      "userName": "Linda C",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjXzwic7Ghq3aEzxzPSUpWwdx063VZx3BNurDJIy8MSmDgaw",
+      "date": "2024-01-30T12:02:40.609Z",
+      "score": 4,
+      "scoreText": "4",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=27e94b33-0ebe-4a50-8c5a-ddec407d927a",
+      "title": null,
+      "text": "I'm still learning about new things Outlook can do as it continues to evolve. But, overall I like it a lot for the things I want it to do, which is stay in touch with family and friends, allow me to discard or discontinue receiving msgs I don't want to be bothered with, make folders foe keeping msgs in categorized ways for future reference, etc.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2402.1",
+      "thumbsUp": 12,
+      "criterias": [
+        {
+          "criteria": "vaf_phase1_collaboration",
+          "rating": 1
+        },
+        {
+          "criteria": "vaf_phase1_file_sharing",
+          "rating": 1
+        },
+        {
+          "criteria": "vaf_phase1_messaging",
+          "rating": 1
+        }
+      ]
+    },
+    {
+      "id": "da1c4864-2053-429b-a80d-11c9e2e1b013",
+      "userName": "Megan",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjWz67ySM8kc_0cDCUS2UOWaV4-61DWQn3rTQ48enpt5iA",
+      "date": "2024-01-31T04:45:15.155Z",
+      "score": 4,
+      "scoreText": "4",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=da1c4864-2053-429b-a80d-11c9e2e1b013",
+      "title": null,
+      "text": "I have used this app for years. I love it and prefer it over Gmail. However, I feel like my battery has been draining on my phone faster than usual for the past couple of months. My phone says it's normal battery use, but this app uses quite a bit more battery than my other apps for the same screen time. I've been trying to find a setting for controlling how often it sync, etc, but I can't. Any suggestions?",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2402.1",
+      "thumbsUp": 16,
+      "criterias": []
+    },
+    {
+      "id": "52f5fe65-9344-42af-81d5-01b90b4073c5",
+      "userName": "Justin Rison",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocLUMz6s7SupCzd8d9HNFuBltv89nhWPBzQNbNi7zQvpUw=mo",
+      "date": "2024-01-27T13:34:07.370Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=52f5fe65-9344-42af-81d5-01b90b4073c5",
+      "title": null,
+      "text": "Notifications are broken. I get notified every 30 minutes until the start of an event from when I set the reminder. Getting reminded every 30 minutes for an event next week is very annoying with no way to set the snooze or just dismiss it outright. It used to not do this and would allow for a snooze or dismissal of the reminder.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2401.0",
+      "thumbsUp": 4,
+      "criterias": [
+        {
+          "criteria": "vaf_never_display_app_description",
+          "rating": 3
+        },
+        {
+          "criteria": "vaf_phase1_screensharing",
+          "rating": 2
+        },
+        {
+          "criteria": "vaf_never_display_considerate_of_time",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "id": "dce86361-7697-479e-933b-763eabd61781",
+      "userName": "Chris Slova",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjXf1kmFjGmkuMOS-vyb5L_C0n1ziCHEWUZVnC8he2u49TE",
+      "date": "2024-01-29T23:52:09.271Z",
+      "score": 3,
+      "scoreText": "3",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=dce86361-7697-479e-933b-763eabd61781",
+      "title": null,
+      "text": "Today, Outlook for Android stopped syncing. I've reset Outlook on my phone, cleared cache, reset app, and finally deleted Outlook for Android and reinstalled it. Have two emails on Outlook for Android. Gmail is syncing okay, but Yahoo is not. It just started today, and nothing works. Any suggestions? I'm frustrated. Please help. Thanks.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2402.1",
+      "thumbsUp": 8,
+      "criterias": []
+    },
+    {
+      "id": "27809661-46b7-43a5-8790-654cafa8df85",
+      "userName": "Gianna",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjUWqIw89wOiKAXTpVrOZMQZ7Jn4JkGyazVblpcU-7GZuEg",
+      "date": "2024-02-08T03:12:00.786Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=27809661-46b7-43a5-8790-654cafa8df85",
+      "title": null,
+      "text": "I can no longer add people or rooms to a calendar invite for myself or anyone else's calendar for which I am an editor for work. I fill in the name or conference room address as i have done for years and nothing stays. I am so frustrated and will now need to go boot up my laptop at 9pm to create this meeting that should have taken 2 minutes, but instead had me fussing for 20, including unistall/reinstall my app. One of the MANY reasons I hate Outlook and wish we could all use something else.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2402.1",
+      "thumbsUp": 4,
+      "criterias": []
+    },
+    {
+      "id": "74dff566-5910-480b-9617-418e4faff4eb",
+      "userName": "Ely Beske",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocKUA3JjRaqh_otW0KnQj6WrxcJb5jRBA5nHmmylnyKV=mo",
+      "date": "2024-02-07T18:57:25.570Z",
+      "score": 2,
+      "scoreText": "2",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=74dff566-5910-480b-9617-418e4faff4eb",
+      "title": null,
+      "text": "App works well mostly, but when it comes to forwarded emails, this app is useless. It will only show you what was added to a forwarded message and not the content that was forwarded. I shouldn't have to log in from a desktop to see forwarded messages. Microsoft fix this please.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2402.1",
+      "thumbsUp": 3,
+      "criterias": []
+    },
+    {
+      "id": "e40e6fe2-7e4c-428a-bc32-f7c3332904b3",
+      "userName": "Vinnie Smith 22",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjWTozW23H86Ifs5Qi5mNII4ohtJoLuXy97Tt5lQAQgViKU",
+      "date": "2024-02-18T11:34:29.636Z",
+      "score": 5,
+      "scoreText": "5",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=e40e6fe2-7e4c-428a-bc32-f7c3332904b3",
+      "title": null,
+      "text": "At first like any change it took a little time to figure out how Outlook was laid out, but I am enjoying all the extras and the difference choices for customizing how I use it. As time has gone by, since first switching over to Microsoft Outlook, I have customized my home page, and many different tabs and pages. Notifications and navigating with different options and layouts has helped my productivity as well. I use Outlook now as my primary and go to site and app, couldn't be happier.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2405.1",
+      "thumbsUp": 38,
+      "criterias": [
+        {
+          "criteria": "vaf_phase1_location_tagging",
+          "rating": 1
+        },
+        {
+          "criteria": "vaf_phase1_works_offline",
+          "rating": 1
+        },
+        {
+          "criteria": "vaf_phase1_messaging",
+          "rating": 1
+        }
+      ]
+    },
+    {
+      "id": "5b7c7243-4832-4a90-8739-5efba4e3a8d5",
+      "userName": "Benjamin DeBusschere",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjUzDgZ4339GfIvUZ8ap5s8ZlfR3fg2DTti83Jwg-1fIAw",
+      "date": "2024-01-25T20:26:19.880Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=5b7c7243-4832-4a90-8739-5efba4e3a8d5",
+      "title": null,
+      "text": "Will not uodate/sync emails. I will get a notification saying I have a new email, but it will not open. And when I open the app, it's showing old emails. Tried to uninstall and reinstall. Will work for a short time, and go back to not syncing. The calendar will update perfectly",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2401.0",
+      "thumbsUp": 12,
+      "criterias": [
+        {
+          "criteria": "vaf_phase1_setting_reminders",
+          "rating": 1
+        },
+        {
+          "criteria": "vaf_calendar_support",
+          "rating": 3
+        },
+        {
+          "criteria": "vaf_organizational_tools",
+          "rating": 1
+        }
+      ]
+    },
+    {
+      "id": "a1a8d827-9ef4-4719-a456-2eae4f1a027a",
+      "userName": "Theo Hodges",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocLOTylbqjjh4Swqqh94vMu4OeLKU42n2Y-yjnZBb06E=mo",
+      "date": "2024-01-20T12:23:54.601Z",
+      "score": 2,
+      "scoreText": "2",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=a1a8d827-9ef4-4719-a456-2eae4f1a027a",
+      "title": null,
+      "text": "User Experience not the same across devices. Poor planning by development. Not intuitive in making experience the same. Works better on an old Galaxy Tab 5SE than Pixel 6 Pro? WTD?? What the Darn???? Update- Uninstall and Reinstall seems to have fixed my issues. It should have worked from jump street. I still blame the app as no Updates to the app has been applied or Indicated to be available by Play store since 2022 when I initially installed the app.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2352.1",
+      "thumbsUp": 4,
+      "criterias": []
+    },
+    {
+      "id": "8a258a10-7c26-4bd7-a5b1-d4ba251b39c5",
+      "userName": "Alane Chen",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjUbG39sFsWyFj7AdTjVzAkqTuMwCfz94ISI_wuunaN-4u5I",
+      "date": "2024-02-07T01:21:23.479Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=8a258a10-7c26-4bd7-a5b1-d4ba251b39c5",
+      "title": null,
+      "text": "A couple weeks ago my Outlook started not showing new emails. I still get notifications and if I click on said notification, I can view that email, but if I leave, I can't find it in my inbox at all. However, if I search for it in the search bar it still shows up. Emails sent to other folders seem to show up fine? The desktop app also shows all my emails just fine.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2338.0",
+      "thumbsUp": 2,
+      "criterias": []
+    },
+    {
+      "id": "3849f8a2-889e-40d0-85f7-bcc42d745611",
+      "userName": "Mark S",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjVYnFAQuOWym624ENFPJ1u67KEjkjTExeVomFHGO65HRzg",
+      "date": "2023-12-23T21:16:32.491Z",
+      "score": 5,
+      "scoreText": "5",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=3849f8a2-889e-40d0-85f7-bcc42d745611",
+      "title": null,
+      "text": "Best way to organize your day. Outlook has it all with the best email client as well. Little to fault. My only issue is the you're not able to open up multiple instances of the app unlike the desktop version. This means if you want to look at a contact at the same time you're editing say a calendar entry that's more difficult to do you can always open up the contact app that comes with Android because they are synchronized assuming you turn that feature on",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2347.4",
+      "thumbsUp": 84,
+      "criterias": []
+    },
+    {
+      "id": "499b9e82-bf8e-4ecc-845b-bf1f95a5e11d",
+      "userName": "James Taggart",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocJAr50RJhDtRlexqhIVy0wpZp3K3wkHti-wS13f-E0H=mo",
+      "date": "2024-01-03T12:30:08.316Z",
+      "score": 5,
+      "scoreText": "5",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=499b9e82-bf8e-4ecc-845b-bf1f95a5e11d",
+      "title": null,
+      "text": "I have been using for many years and have rarely had any problems. I also have Outlook installed on 2 laptops and 1 tablet, latest version as of 01/03/2024. They all work together seamlessly. I have zero complaints. Executing several functions is considerably quicker and easier using the app on my phone with one exception being the calendar. I prefer the way the calendar works on the previous version. Otherwise I do practically everything else with the app on my phone, Samsung Galaxy S9.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2347.4",
+      "thumbsUp": 130,
+      "criterias": [
+        {
+          "criteria": "vaf_phase1_setting_reminders",
+          "rating": 1
+        },
+        {
+          "criteria": "vaf_phase1_file_sharing",
+          "rating": 1
+        },
+        {
+          "criteria": "vaf_phase1_online_storage",
+          "rating": 1
+        }
+      ]
+    },
+    {
+      "id": "5b260ec3-8018-42df-b984-8859613f31a0",
+      "userName": "Steve Arttus",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocIzF_tqvc3TpLdWYc7nK50qkOm4hAidfaCknsioXKzi=mo",
+      "date": "2024-01-03T13:11:50.400Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=5b260ec3-8018-42df-b984-8859613f31a0",
+      "title": null,
+      "text": "App takes DAYS to sync with the email on my computer. Pretty much makes the app worthless, might as well just wait to get back to the computer to send and receive emails. Also, will get push notifications that I've received an email, but the app won't let me open the email. Real Handy.....🤨 I'm not sure how Microsoft can show that this app has a 4.5 star rating. Most of the ratings are 3 stars or less when you look through the reviews.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2347.4",
+      "thumbsUp": 391,
+      "criterias": []
+    },
+    {
+      "id": "a556a0cb-cff2-4e56-8a18-9a217bef04ab",
+      "userName": "Sos (Sos)",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjVayTv3BURtC7bfNkUIzUv51rIYy6sStiYyYHv14thuEQ",
+      "date": "2023-12-21T19:31:04.580Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=a556a0cb-cff2-4e56-8a18-9a217bef04ab",
+      "title": null,
+      "text": "BEWARE!!! If your Microsoft backup is full, they will withhold all incoming emails unless you make room or pay for more storage. That's right! They hold your email hostage. I've never encountered this issue anywhere else. I initially started using outlook to create a more professional looking email I could use for my important life stuff. Well guess how that turned out.. Thanks, Microsoft, for soft locking me out of my accounts behind a pay wall.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2347.3",
+      "thumbsUp": 196,
+      "criterias": []
+    },
+    {
+      "id": "4cca5ead-e46e-4ade-928d-7d94aa6b58d9",
+      "userName": "Tyler Fankhauser",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocJt6dILefpWexbrRmcilX_sCa5VSXAdgpDTp_vlc_Lb=mo",
+      "date": "2024-01-02T16:46:18.920Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=4cca5ead-e46e-4ade-928d-7d94aa6b58d9",
+      "title": null,
+      "text": "The absolute worst spam filter you could ever find. Inbox flooded with 50+ spam emails daily. Doesn't matter how many times you report them as spam, it still let's them through to your inbox. Also has an annoying alert at the top of the screen that I've used 93% of my storage. You can close the alert, but it comes back every time the app is opened. It's an awful experience every time I open the app.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2347.4",
+      "thumbsUp": 80,
+      "criterias": [
+        {
+          "criteria": "vaf_never_display_inappropriate_ads",
+          "rating": 2
+        },
+        {
+          "criteria": "vaf_phase1_multi_device_sync",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "id": "94c423e7-5dd5-4842-ade3-24e4563926b0",
+      "userName": "Elizabeth Burton",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocLMjah2vJQcCDkcOdFcaqib3c4Vasd3L-IsG7W_5_eu=mo",
+      "date": "2024-01-09T21:41:52.935Z",
+      "score": 4,
+      "scoreText": "4",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=94c423e7-5dd5-4842-ade3-24e4563926b0",
+      "title": null,
+      "text": "Microsoft Outlook is fairly easy to use. Have been using it for 10 months, since March 2022. I only use it to send, receive, and archive email. I'm sure it has much more capability than what I use it for. Update I had a good experience with MS Outlook, until 10/2023, when someone hacked my email account. It appears they tampered with the HTML coding, causing the Washington Post columns to extend beyond the margins of my mobile phone. Microsoft, I feel sure you can determine who did that.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2347.4",
+      "thumbsUp": 121,
+      "criterias": [
+        {
+          "criteria": "vaf_managing_events",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "id": "cdc6e51d-d07a-448e-b82a-ae8e07d9d1f3",
+      "userName": "Mark Messinger",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjXhvl6g0YO00f0hBiGupikLzSRvnyjVxJVpEo0x2n7Z26VH",
+      "date": "2023-12-22T16:43:28.633Z",
+      "score": 2,
+      "scoreText": "2",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=cdc6e51d-d07a-448e-b82a-ae8e07d9d1f3",
+      "title": null,
+      "text": "Does not reliably sync to the Android Calendar. This is the Sync Calendar setting, which is supposed to sync events from MSOFT's app to the Android Calendar. I've complained about this issue, for years. And yet it persists. So that's one star off, for the problem, and two stars off for MSOFT's failure to fix the problem. There are other mail and calendar apps that have far more features than this one. My employer forces me to use it, which is unfortunate.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2347.4",
+      "thumbsUp": 81,
+      "criterias": [
+        {
+          "criteria": "vaf_never_display_considerate_of_time",
+          "rating": 1
+        },
+        {
+          "criteria": "vaf_never_display_negative_ads_impact",
+          "rating": 2
+        },
+        {
+          "criteria": "vaf_phase1_online_storage",
+          "rating": 1
+        }
+      ]
+    },
+    {
+      "id": "5871f2da-c05c-4bbb-ab14-899ddd6adc1e",
+      "userName": "David Albert",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjVvCmlecg2a3Zo2adMmU4uv_o2VI4qJb8yFgFJQtihy5A",
+      "date": "2023-12-31T23:07:37.167Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=5871f2da-c05c-4bbb-ab14-899ddd6adc1e",
+      "title": null,
+      "text": "Utterly disappointing. 1. Searching (emails) is completely ineffective. I can literally search for the contents of the first message in my Inbox and not find it with a proper name or unique noun as keyword. 2. I cannot modify or add Contacts. And numerous text messages, caller-ID, and notifications fail to display the name of the Contact. I would point the finger at Android or Samsung--BUT WHY WOULD I? I can't even add a Contact to the app which controls all of my email, calendar, contacts.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2347.4",
+      "thumbsUp": 53,
+      "criterias": []
+    },
+    {
+      "id": "21cc6506-d8b4-477c-ab24-7d12e5e4492e",
+      "userName": "Ashley",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjVDMmibBVA3PPohCU16eZiZTk3fkVtBvzSlQ3jGCF5smwUf",
+      "date": "2023-12-22T03:01:36.449Z",
+      "score": 3,
+      "scoreText": "3",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=21cc6506-d8b4-477c-ab24-7d12e5e4492e",
+      "title": null,
+      "text": "It does a terrible job at filtering out junk mail lately. There was an issue before, but it was widely known and only lasted a few days. Now nearly all the junk mail I get is sent to my inbox again (every hour I get one or more notifications for a junk email). I get more of those notifications than I do for regular emails. As of September '23. Edit- near the end of 2023 and I still get junk mail sent to my regular inbox. I turned off phone notifications for my Hotmail account bc of it",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2347.4",
+      "thumbsUp": 447,
+      "criterias": []
+    },
+    {
+      "id": "b0f6f6bd-7baf-4f29-a821-274c52f86315",
+      "userName": "Derek Gipson",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjWTAcviHF2pw86o1F7WQhMV01YNTrOfSoKPYw7oTFZfRzs",
+      "date": "2024-03-06T06:20:22.953Z",
+      "score": 4,
+      "scoreText": "4",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=b0f6f6bd-7baf-4f29-a821-274c52f86315",
+      "title": null,
+      "text": "Great email. I'm becoming a big fan of Microsoft Apps. They are efficient, full of innovation and their have impressive capabilities. What I love the most is that unlike some app developers, they dont just disappear once you purchase their products. They are use diagnostic data the right way. For the betterment of their products. They also make sure you understand how to use your product and will even give you crash courses on utilization. I love it!!!!!! ❤️ 😎💯🙏",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2347.4",
+      "thumbsUp": 26,
+      "criterias": [
+        {
+          "criteria": "vaf_phase1_collaborative_editing",
+          "rating": 1
+        },
+        {
+          "criteria": "vaf_phase1_messaging",
+          "rating": 1
+        },
+        {
+          "criteria": "vaf_phase1_collaboration",
+          "rating": 1
+        }
+      ]
+    },
+    {
+      "id": "f0d1cdb7-eaa8-4b9b-b138-f81d38bbb1a0",
+      "userName": "Emanuel Falade",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjWzMxfGftff_4k2FJRLMMuwPVX0J71kFUKf-UbOmq8jc8I",
+      "date": "2023-12-30T16:20:07.832Z",
+      "score": 3,
+      "scoreText": "3",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=f0d1cdb7-eaa8-4b9b-b138-f81d38bbb1a0",
+      "title": null,
+      "text": "Simply put, this app's search function doesn't work on Android. Support keeps giving us solutions to reinstall, but it's not working. I came from a Samsung Galaxy s22 and JUST switched to a Pixel 8 days ago. It did the same thing on the Samsung that it's doing now. No results in search. Please report this as an app fix, and stop making it about the users. We pay for this app with our 360 subscription, so have it fixed please. They've been dancing around this for months!!!! It's an app issue.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2347.4",
+      "thumbsUp": 26,
+      "criterias": []
+    },
+    {
+      "id": "2128b5e2-4796-4012-acd9-12adc708e70c",
+      "userName": "Sam Philip",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjU899YCh1kj6aZ3f8_kzCLAreqfUoBLXtnZRI16LVDEPb2y",
+      "date": "2023-12-19T23:48:19.504Z",
+      "score": 2,
+      "scoreText": "2",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=2128b5e2-4796-4012-acd9-12adc708e70c",
+      "title": null,
+      "text": "The app has been great for as many years as it's been around, until..... I'm not sure if it was the most recent update or if it's a system issue. However, I no longer get notifications when I receive emails. Being that this is my work email, I can't afford not to receive email notifications, and unfortunately, I can't switch email services due to Outlook being the mandatory service for my employer. Fix the notification issue, and I'll gladly update my rating. Samsung S23 Ultra",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2347.3",
+      "thumbsUp": 482,
+      "criterias": []
+    },
+    {
+      "id": "cc19a024-b07d-4e71-81bf-7933dcdcaa3c",
+      "userName": "A Google user",
+      "userImage": "https://play-lh.googleusercontent.com/EGemoI2NTXmTsBVtJqk8jxF9rh8ApRWfsIMQSt2uE4OcpQqbFu7f7NbTK05lx80nuSijCz7sc3a277R67g",
+      "date": "2023-11-23T17:03:47.231Z",
+      "score": 4,
+      "scoreText": "4",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=cc19a024-b07d-4e71-81bf-7933dcdcaa3c",
+      "title": null,
+      "text": "Update: I see constant improvement in calendar and mail. Going up one star. Original review: Performance of this app has been deteriorating. It works fine with one account. But if you add a business account with shared inboxes, it stays showing problems. For example, if you switch to a shared inbox, you will still see emails from the first inbox you were in. The only way to fix that is too close and relaunch the app.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2345.0",
+      "thumbsUp": 168,
+      "criterias": []
+    },
+    {
+      "id": "6e27ecff-4595-4cb4-925b-7a3a144e646d",
+      "userName": "Terry Wilson",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocL45iYsHnzFkyrx4e8H4MfPILrhWPxbZOHyXSBcWM-H=mo",
+      "date": "2023-11-07T13:11:34.663Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=6e27ecff-4595-4cb4-925b-7a3a144e646d",
+      "title": null,
+      "text": "I'm not sure when the last app update occurred, but for the last 2 weeks, I will receive a notification that I have received an email. But when I open up the Outlook app, most of my new emails are nowhere to be found. I try searching for them, and nothing. I have to go onto a browser app and go to the physical web address of my email to actually find and open new email. Please fix this!!!",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2342.1",
+      "thumbsUp": 364,
+      "criterias": []
+    },
+    {
+      "id": "3d39a3cd-8200-41e5-bcc4-ad9c9ef76a86",
+      "userName": "Andre Brito",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjVCEY3BaHunDuu-J6ZzvwqAwikWTn7BZv0u3O8eHOG_jXU",
+      "date": "2024-03-06T15:45:06.910Z",
+      "score": 2,
+      "scoreText": "2",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=3d39a3cd-8200-41e5-bcc4-ad9c9ef76a86",
+      "title": null,
+      "text": "Frustrating! Calendar takes minutes to load and sync. When writing emails on the phone, the cursor constantly goes back to the beginning of the text, or selects the last word I wrote and doesn't let me deselect it. After insisting, I'm about to continue the sentence and the cursor returns back to the beginning of the text. Then I try to get back where I was and after some back and forth it either closes the email (at least it saves it as draft!) or zoom into the header in a random way.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2406.2",
+      "thumbsUp": 107,
+      "criterias": []
+    },
+    {
+      "id": "6ee8c684-ffd0-4928-a829-4ab4f20c4461",
+      "userName": "Menwil Gordon",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjU2RE5nHKOSvQCfQaPVMg79APR8I-3X9lCiqyZ3uva44cc",
+      "date": "2024-03-15T15:26:25.735Z",
+      "score": 4,
+      "scoreText": "4",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=6ee8c684-ffd0-4928-a829-4ab4f20c4461",
+      "title": null,
+      "text": "I love using the app, and it works well. However, it does not save my filter selections anymore. Previously, when I chose to only see unread emails, the app will remember this when I close and open again. But now it always shows all emails, and I continuously have to filter to see only unread emails. Please could this be fixed. Thank you.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2408.1",
+      "thumbsUp": 19,
+      "criterias": []
+    },
+    {
+      "id": "2727452e-1163-4846-882b-f0e61ea80e3a",
+      "userName": "Carl Williams",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjVbxg_ZSI8v_dNBT7iUYDnTsRVDCNvXuNEEy-lcFumc4GAb",
+      "date": "2024-03-05T02:35:04.209Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=2727452e-1163-4846-882b-f0e61ea80e3a",
+      "title": null,
+      "text": "Caution, do not use this app. You'll end up wasting too much time trying to figure out how to add and manage email folders. IT'S NOT POSSIBLE WITH THIS APP. Can't create subfolders?? All other email apps seem to be able to effortlessly. The Samsung email app does it perfectly. So what's the holdup? People have to add this request to the wishlist? It's not a well known procedure to move emails around? Can't delete folders either?? BTW, IT'S 2023 EDIT: It's now March 2024. Still hearing crickets.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2405.2",
+      "thumbsUp": 99,
+      "criterias": []
+    },
+    {
+      "id": "58946087-3343-4104-9e49-03613d7af537",
+      "userName": "Iain Macleod",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocLrGvXBwBXLwjQzyZ6q0W2fyIexeSfpZVjInNxcp3ld=mo",
+      "date": "2024-03-18T11:13:16.420Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=58946087-3343-4104-9e49-03613d7af537",
+      "title": null,
+      "text": "Annoyingly forced to use this app by my work. Hangs a lot (pixel 7 up to date so shouldn't be a local issue). Frequently flags a notification to say I have a new email, but when you tap on it it takes me (slowly) to the inbox and won't show any new emails for hours. Often doesn't sync with my Outlook 365 calendar. Would drop it in a heartbeat for another.xlient if I could!",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2408.1",
+      "thumbsUp": 11,
+      "criterias": []
+    },
+    {
+      "id": "0a5f5ff0-1a7f-4d27-b03f-5c1b212d1e26",
+      "userName": "Marwan Ragheb",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjUsg8ePqySw2aI6Fwo9DB3WHUHG2KIu7I9_bigv9mMK3JQ",
+      "date": "2024-02-29T12:28:12.753Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=0a5f5ff0-1a7f-4d27-b03f-5c1b212d1e26",
+      "title": null,
+      "text": "I am writing to express my disappointment regarding the recent update. Not only did it slow down the app significantly, but it also caused synchronisation issues that severely impacted my user experience. To the point where I reinstalled the app, unfortunately, now, I have a problem reinstalling my various emails. I hope you will take the necessary steps to rectify the situation and restore my confidence in Outlook!",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2405.2",
+      "thumbsUp": 67,
+      "criterias": [
+        {
+          "criteria": "vaf_phase1_file_sharing",
+          "rating": 3
+        },
+        {
+          "criteria": "vaf_phase1_collaboration",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "id": "e33266d6-5fc4-4b0b-90ee-b4ec1545ebc1",
+      "userName": "Aliston Beviss-Challinor",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocLCqfCXWWZxvYX-RrODcdM-xj2tTUMVDrjbqWWnGZLr=mo",
+      "date": "2024-02-29T03:47:44.417Z",
+      "score": 2,
+      "scoreText": "2",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=e33266d6-5fc4-4b0b-90ee-b4ec1545ebc1",
+      "title": null,
+      "text": "The app does not work very well. Indexing does not work for one of my inboxes. Indexing works on my Gmail inbox only. Attachments are not downloading. Sometimes it shows an email but says \"no content\" when there is in fact content. This problem usually fixes itself after a while. It's like it still needs to download the content or something but it shows the email already.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2405.2",
+      "thumbsUp": 61,
+      "criterias": []
+    },
+    {
+      "id": "6a4d3250-396e-403d-a5d2-bee60385ad57",
+      "userName": "Ali Naqvi",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocIRhI5BCH_Ig1LSqNVftKMLzD9sJNS0eu7iLejtMJ7a=mo",
+      "date": "2024-02-28T10:58:52.641Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=6a4d3250-396e-403d-a5d2-bee60385ad57",
+      "title": null,
+      "text": "Please fix the app. In the last week it has gone extremely slow, it freezes the phone, and when trying to use the android magnifier (accessibility setting for visual aid), it freezes and reboots the phone every single time. This is only happening in the Outlook app since last week. Also occasionally happens with MS Teams android app, but every other app does not have this issue, so seems to be isolated to Microsoft apps only (Outlook and Teams that I know of).",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2405.2",
+      "thumbsUp": 158,
+      "criterias": []
+    },
+    {
+      "id": "ece8cc5e-34e4-4e0f-b62d-21dde539c971",
+      "userName": "Chenyze",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjUIkNcB1FGFK2u3Y_F4ZPVulgqRujgPQYtekxAQTgD7DbI",
+      "date": "2024-03-15T09:23:41.262Z",
+      "score": 4,
+      "scoreText": "4",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=ece8cc5e-34e4-4e0f-b62d-21dde539c971",
+      "title": null,
+      "text": "Good - shifting to folders is easy because I there's a Search + Autocomplete to select the folder. Bad - I can't duplicate calendar events here. Bad - I can't copy and paste text from one event's Description to another. Super weird because I can paste to Teams, and Outlook Email, but just not to Outlook Calendar. Can be better - just let me have the option of typing out the start and end time instead of having to select on a calendar. It's tough to select correctly for anything < 30min slots.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2408.1",
+      "thumbsUp": 1,
+      "criterias": []
+    },
+    {
+      "id": "53b32f14-4be0-4ef1-bb2e-2a4fb2829b64",
+      "userName": "R A Bardy (at mangozoid)",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjWSONSacddD4TSKZPSvdJwK8TcQCysYBedYDQvvH0_j3js",
+      "date": "2024-03-16T19:31:30.736Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=53b32f14-4be0-4ef1-bb2e-2a4fb2829b64",
+      "title": null,
+      "text": "Really not impressed with this - all was working great but as usual Microsoft are always 'fixing' and 'tweaking' things that don't need it and work absolutely fine. Sure enough this app is now constantly misbehaving: not opening first time,not allowing access or viewing of attachments, and just generally being rubbish and anti-productive... That is why people switch to alternatives...😢😔",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2408.1",
+      "thumbsUp": 11,
+      "criterias": [
+        {
+          "criteria": "vaf_phase1_file_sharing",
+          "rating": 2
+        },
+        {
+          "criteria": "vaf_phase1_collaborative_editing",
+          "rating": 2
+        },
+        {
+          "criteria": "vaf_phase1_collaboration",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "id": "0088bffb-f0e4-44e3-aad2-1ea3ac863259",
+      "userName": "Pedro Rodríguez",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjWaDBw06UfOVHt2o_L7oi68cNcRWY-lIUSwAsfY0Wn7L3I",
+      "date": "2024-03-13T14:30:24.852Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=0088bffb-f0e4-44e3-aad2-1ea3ac863259",
+      "title": null,
+      "text": "\"Delete meeting requests and notifications from Inbox after responding\" and uncheck it. Yeah, poorly programmed when it comes already set to delete them Also the website it's worse than ever, 1, it takes you to a support page instead of the actual login, 2 once you are in the login either it won't let you or it will ask to install. Hotmail user since 2002, I have never change the settings, and last update, same person emails goes to inbox, deleted, spam, archives, so yeah, it's worsening",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2408.1",
+      "thumbsUp": 2,
+      "criterias": []
+    },
+    {
+      "id": "0994126a-44eb-43d8-94b1-122289b8ded1",
+      "userName": "Samuel dodzi",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocLL5V_AZ-bKtBfJ0B3FZ5BLEj6MEE1JRHrluH2cYfcM=mo",
+      "date": "2024-02-24T23:09:37.577Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=0994126a-44eb-43d8-94b1-122289b8ded1",
+      "title": null,
+      "text": "This app used to be working well until this month, and it turned a nightmare for me. It keeps closing in 2-5 seconds anytime I open on my phone. I've done factory reset twice losing vital data because of pressure from my company to assess emails sent. I've done system update to UI 6.o version, uninstall and installed several times, clear cache and data, just to keep the app stable, but all proved futile. I wish there's another alternative to receive corporate emails. Very bad experience",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2405.2",
+      "thumbsUp": 41,
+      "criterias": []
+    },
+    {
+      "id": "7d64d084-89d9-4422-9151-014b9aba98d0",
+      "userName": "B Hackett",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjWs4oUqNo31-zLIp-8Xgqaz7FNrDlR_0eO8u3wr0rorXnAh",
+      "date": "2024-02-22T11:38:02.816Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=7d64d084-89d9-4422-9151-014b9aba98d0",
+      "title": null,
+      "text": "What have you done? App has become slow and unresponsive. Tried to reinstall and didn't help. When I touch a message to open, it takes 1-3 seconds to do something. Touch the menu and it bumps across the screen slower than a snail. Also noticed my battery drains a lot faster - is Outlook sucking battery power in the background? We use Office 365 at work, and it was nice having everything in sync. Now I've got to look for another solution to get my work done.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2405.2",
+      "thumbsUp": 207,
+      "criterias": []
+    },
+    {
+      "id": "baebf97e-307d-412b-9d09-d4aa42acc19c",
+      "userName": "Avuni Elvis",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjWSH_zcw8SzWIumKT7GPMqGFNpnjzACOvofbcC5gKC5wPCd",
+      "date": "2024-02-23T07:50:38.317Z",
+      "score": 4,
+      "scoreText": "4",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=baebf97e-307d-412b-9d09-d4aa42acc19c",
+      "title": null,
+      "text": "Good customization,Filter,Organization, and (API)links with other application and user interface. However, Outlook Web appears to be the only option for scheduling emails. Could this be added as a customization feature for the mobile version and the new outlook for windows.(Its breeds email substitution just because of one feature's accessibility) Copilot would be an extremely useful edge for the app too.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2405.2",
+      "thumbsUp": 37,
+      "criterias": [
+        {
+          "criteria": "vaf_never_display_ads_experience",
+          "rating": null
+        },
+        {
+          "criteria": "vaf_never_display_ease_of_use",
+          "rating": null
+        }
+      ]
+    },
+    {
+      "id": "e17f6f84-f262-4851-a7ee-1d74115b4d52",
+      "userName": "LeoT",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocKeL4rdorIrF6O4lMhNj3imbLWt_Ebf-XmuF3tl1uOY=mo",
+      "date": "2024-03-02T11:22:17.921Z",
+      "score": 4,
+      "scoreText": "4",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=e17f6f84-f262-4851-a7ee-1d74115b4d52",
+      "title": null,
+      "text": "From a company so large as Microsoft, the filtering function is sub par. If I search for a particular name, or email address, or any other simple search, it either can't find it, or shows hardly any results. Even filtering for flagged items brings up barely anything. This is on the fully paid version of Office 365. Microsoft, spend a little money and get this right. It needs the same functionality available on the desktop version. We're 2024, not 1990!",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2406.2",
+      "thumbsUp": 22,
+      "criterias": []
+    },
+    {
+      "id": "a9849e94-8083-4e2a-bfda-5f4e164e7c37",
+      "userName": "Ervin Keça",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjUHRCcD4xg1C0FmOjvJLF7CC0l_d_L279KbZLG1XXKkOdWe",
+      "date": "2024-02-25T13:01:34.656Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=a9849e94-8083-4e2a-bfda-5f4e164e7c37",
+      "title": null,
+      "text": "It's been some time now where I cannot receive or send emails from the app. And yes, I did uninstall and install it again, cleared dhe caches etc. When I reinstalled, all my emails were gone (not deleted, I can still have access to them via desktop) and it says the inbox is empty. Very frustrating to say the least, as I've missed some important emails to read them on time. I hope this will be fixed asap. Thank you.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2406.0",
+      "thumbsUp": 15,
+      "criterias": []
+    },
+    {
+      "id": "1fc69ee5-f14b-4dbb-bb39-78f4eb8b95f8",
+      "userName": "Callum Fernando",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjWz-Fg1b-Mm9xngZXObA5yYot3wPr5oGs2QRkcsKtPesDk",
+      "date": "2024-03-01T09:35:57.143Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=1fc69ee5-f14b-4dbb-bb39-78f4eb8b95f8",
+      "title": null,
+      "text": "Just like others are saying, the app has become unusable in the last week, freezing when you're even trying to scroll through the messages. The rest of my phone is working as usual so it's definitely specifically this app. I have reinstalled the app, deleted the cache and setup my accounts over again but to no avail. Please have a look at this and fix this as my work emails are dependent on this app on my phone.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2406.2",
+      "thumbsUp": 144,
+      "criterias": []
+    },
+    {
+      "id": "6aa768f7-a803-4fa8-81ec-02c8bee4d1f4",
+      "userName": "Yvon Charron",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjV-af13bBdlcRN2eYgshDtW8Hd0VlJGSw1Eb2Rwc_5JHas",
+      "date": "2024-02-27T02:58:54.958Z",
+      "score": 5,
+      "scoreText": "5",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=6aa768f7-a803-4fa8-81ec-02c8bee4d1f4",
+      "title": null,
+      "text": "I have been using this app forever ... to be honest with you ... outlook was my very first email prov8der and still is ,,, yes I've never really had any kind of problems ,,, it has gotten more safisticated as time goes on ,,, but that is for the protection of its users as the hackers get more advanced with their technology,,, thanks for making it easy for this old man who has trouble keeping up with all of this information in this ever fast-paced world",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2405.2",
+      "thumbsUp": 17,
+      "criterias": [
+        {
+          "criteria": "vaf_phase1_file_sharing",
+          "rating": 1
+        },
+        {
+          "criteria": "vaf_phase1_collaboration",
+          "rating": 1
+        },
+        {
+          "criteria": "vaf_phase1_collaborative_editing",
+          "rating": 1
+        }
+      ]
+    },
+    {
+      "id": "4063dded-3867-4462-8c0d-425881f3e237",
+      "userName": "Indy Padham",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocLAw_v5Xsyu0p7oLob8BwW_2wrJQA61fyeJxxDT_ncQ=mo",
+      "date": "2024-03-17T19:47:00.948Z",
+      "score": 3,
+      "scoreText": "3",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=4063dded-3867-4462-8c0d-425881f3e237",
+      "title": null,
+      "text": "Why can't the outlook or any other Microsoft app copy of the fonts that are already in use on my desktop/laptop? It would be extremely helpful if the stationary settings that I already use on my desktoo/laptop/tablet could automatically be replicated on the Android and iOS apps with me having to manually configure this for each Microsoft app and device.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2408.2",
+      "thumbsUp": 1,
+      "criterias": []
+    },
+    {
+      "id": "d57c5ac1-8871-4a96-a1cd-47ed2269985d",
+      "userName": "Joseph Gamal",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjUi27YHQbntnx4i99PAEZUuwH6-DMAIh11IjrJpOXw0jg1b",
+      "date": "2024-03-06T17:20:03.920Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=d57c5ac1-8871-4a96-a1cd-47ed2269985d",
+      "title": null,
+      "text": "I'm experiencing multiple issues with my phone. Firstly, I'm not receiving notifications from folders despite adjusting all the settings to display notifications. Additionally, since the last update, Outlook crashes every few days. I've tried clearing the cache, but sometimes I have to uninstall and reinstall the application to resolve the issue. Note My android version is 13",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2406.2",
+      "thumbsUp": 8,
+      "criterias": []
+    },
+    {
+      "id": "3303395a-78dc-4089-ab25-df228df80456",
+      "userName": "Rick Quax",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjXCN5NhK3qtCuukdj6MOj7MmLYAv12DSmwXKIk07yEhCwg",
+      "date": "2024-03-05T09:29:39.845Z",
+      "score": 4,
+      "scoreText": "4",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=3303395a-78dc-4089-ab25-df228df80456",
+      "title": null,
+      "text": "Overall great. Only thing: I would like it to be easier to convert an e-mail to a calendar event -- not reply with an invitation, but just for myself, with the description being filled with the email contents and perhaps an attempt from Outlook to automatically read the time and date and location, if present.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2406.2",
+      "thumbsUp": 1,
+      "criterias": []
+    },
+    {
+      "id": "dd6da4f4-da3a-4ab7-82cc-352ca227e65e",
+      "userName": "Rich Maya",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjVFBHzUoTER4CNTPTOaXCk2p_OX0uiZqAIQEJtroJAvR-s",
+      "date": "2024-03-13T13:05:08.996Z",
+      "score": 2,
+      "scoreText": "2",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=dd6da4f4-da3a-4ab7-82cc-352ca227e65e",
+      "title": null,
+      "text": "Using with an Outlook account, since I believed my experience would be optimised by using the same app. Search function never works at all. Can't create or delete folders. And every few months it logs me out and asks for my password again, because what better way to boost productivity, than to be locked out of your email, trying to remember yet another sodding password that I almost never need, rather than using the secure app on my secured device without impediment from its creators?",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2408.1",
+      "thumbsUp": 80,
+      "criterias": []
+    },
+    {
+      "id": "d0b57efd-90af-46f1-8492-c573dea4020b",
+      "userName": "Lisa Ragoonanan",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjUhSJwsmjSVgEM5Q_TNY2w4OHFMk_BP0VE8ypMO6duFkug4",
+      "date": "2024-03-08T00:52:49.821Z",
+      "score": 2,
+      "scoreText": "2",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=d0b57efd-90af-46f1-8492-c573dea4020b",
+      "title": null,
+      "text": "DND does not work!! I have this app on my android for work during work hours. I have it set to quiet time between 5pm to 828am during the week and DND on the weekends. But DND doesn't work! I have tried all ways and all how! And every Saturday and Sunday my email notification starts @828 and waking me up for no reason! This is the most annoying app ever and gives me anxiety! I hate the notification sound when I'm NOT being paid to work! Turning off notifications in the phone app settings works.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2406.2",
+      "thumbsUp": 8,
+      "criterias": []
+    },
+    {
+      "id": "7acf6758-5d63-4f2a-9419-32e60832eda4",
+      "userName": "Curtis Bowal",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocKr0HHRMlA4OuFlq-yzME3Qvfo60beBqAXUmBVAgiu3=mo",
+      "date": "2024-03-13T00:38:34.598Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=7acf6758-5d63-4f2a-9419-32e60832eda4",
+      "title": null,
+      "text": "Integration with Wear OS app and Outlook for Android phone simply does not work. Devs seriously need to fix the issue with the Up Next complication not working as it always only shows the first meeting of the day even when it has passed. Also, neither Google calendar or Outlook offer sync capabilities for the other calendars, so with personal Gmail calendar and work on outlook, I'm left with a half functioning very expensive analog watch.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2408.1",
+      "thumbsUp": 6,
+      "criterias": []
+    },
+    {
+      "id": "5d647ad7-f60a-430a-9a84-7216bd86cb0b",
+      "userName": "Benjamin Smithwick",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjXKe9lgglvvLtfrPvMkL9UnC5nAjsXfkrClnkRTwkmnV2M",
+      "date": "2024-03-01T05:45:06.463Z",
+      "score": 5,
+      "scoreText": "5",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=5d647ad7-f60a-430a-9a84-7216bd86cb0b",
+      "title": null,
+      "text": "I find Outlook to be supportive for using managed file directories for a clean house keeping of emails, there is also a calendar option for managing daily time schedules. Also saving a half prepared email in the draft file saves a lot of time for on the go daily schedules. There are ads on outlook, as I just swipe to delete them, as they are really no bother.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2406.2",
+      "thumbsUp": 18,
+      "criterias": [
+        {
+          "criteria": "vaf_never_display_ease_of_use",
+          "rating": null
+        },
+        {
+          "criteria": "vaf_never_display_ads_experience",
+          "rating": null
+        }
+      ]
+    },
+    {
+      "id": "52d42530-9d42-498d-bbb5-2038cb565175",
+      "userName": "Jgogl",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocJ5Ppsy8inCXjCyfNUUoQuEHsEm9lfiP-pup69htdvM=mo",
+      "date": "2024-02-21T15:14:45.347Z",
+      "score": 4,
+      "scoreText": "4",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=52d42530-9d42-498d-bbb5-2038cb565175",
+      "title": null,
+      "text": "A friendly bit of feedback regarding the Outlook app (Android) layout. The Send email button is right next to the Dictate microphone button. I have repeatedly sent emails by mistake too early by accidentally pressing the Send instead of Dictate. Please could you move the Send button so that it is nowhere near any of the buttons needed for composing the email. Ie there's nothing in the top right of the screen. Surely this has been spotted in development and testing, seems a little obvious!",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2405.1",
+      "thumbsUp": 111,
+      "criterias": []
+    },
+    {
+      "id": "f14940d9-66f0-442f-9afe-7018648329e2",
+      "userName": "Hamish Loveday",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjXA3eexIFFFi9ZjJzZ0IqxveHKROYJFZYbj49uZ5C1MW0iu",
+      "date": "2024-03-07T08:59:01.304Z",
+      "score": 1,
+      "scoreText": "1",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=f14940d9-66f0-442f-9afe-7018648329e2",
+      "title": null,
+      "text": "The app itself is fine when it doesn't crash. Unfortunately, it crashs all the time lately. Every time I open it, it slows my pixel 8 pro to a crawl before coming up with a not responding message. Teams is the same. I've tried reinstalling, clearing cache etc. but it continues to be unusable.",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2406.2",
+      "thumbsUp": 10,
+      "criterias": []
+    },
+    {
+      "id": "7c678d10-6e4b-4f56-b5da-b1b4a0c24232",
+      "userName": "Mike",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocLF0gUZSalQ2p-g3PfwTX1cLvfMwM9o5W9XY5nRjs-1=mo",
+      "date": "2024-03-17T13:30:39.566Z",
+      "score": 2,
+      "scoreText": "2",
+      "url": "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&reviewId=7c678d10-6e4b-4f56-b5da-b1b4a0c24232",
+      "title": null,
+      "text": "It works ok but I hate how Microsoft places the advert at the top in white so it looks like an email you haven't read. Worse, one time the ad was an Amazon link for a USB stick that I clicked on by mistake, so now Amazon keeps recommending me for USB sticks. How annoying! And I don't even want a USB stick!",
+      "replyDate": null,
+      "replyText": null,
+      "version": "4.2408.1",
+      "thumbsUp": 1,
+      "criterias": []
+    }
+  ],
+  "nextPaginationToken": "CncKdQpzMCwxMDAwMDAwLjc2MzEzNDE4MTUsMTA2MjcyNTc5NDIzNiwiaHR0cDovL21hcmtldC5hbmRyb2lkLmNvbS9kZXRhaWxzP2lkPXYyOmNvbS5taWNyb3NvZnQub2ZmaWNlLm91dGxvb2s6MSIsMSxmYWxzZQ"
+}
