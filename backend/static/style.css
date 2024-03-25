@@ -81,9 +81,13 @@
 }
 
 .answer-remove-button {
-    background-color: #e8372a;
-    border: none;
+    background-color: rgba(0, 0, 0, 0.6);
     color: white;
+    border: solid;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    transition-duration: 0.4s;
     padding: 1rem 2rem;
     text-align: center;
     text-decoration: none;
@@ -94,13 +98,18 @@
 }
 
 .answer-remove-button:hover {
-    background-color: #f8392b;
+    background-color: white;
+    color: black;
 }
 
 .answer-info-button {
-    background-color: #3878e5;
-    border: none;
+    background-color: rgba(0, 0, 0, 0.6);
     color: white;
+    border: solid;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    transition-duration: 0.4s;
     padding: 1rem 2rem;
     text-align: center;
     text-decoration: none;
@@ -111,7 +120,8 @@
 }
 
 .answer-info-button:hover {
-    background-color: #3e85ff;
+    background-color: white;
+    color: black;
 }
 
 .input-box {
@@ -153,5 +163,9 @@
 }
 
 .episode-desc {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.episode-rating {
     font-family: 'Montserrat', sans-serif;
 }
