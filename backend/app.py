@@ -34,9 +34,20 @@ app = Flask(__name__)
 CORS(app)
 
 
+# Standardizes creating of word set
+def clean(query):
+    return set(query.lower().split())
+
+#TODO: Preprocess the reviews
+#       - avoid loading it in every single time
+#       - consistent + faster
+
 # Sample search using json with pandas
 def json_search(query):
-    words_set = set(query.lower().split())
+    words_set = clean(query)
+
+    if len(words_set) == 0:
+        raise ValueError("Query should not be empty")
 
     # basic jaccard on reviews and query
     reviewScores = {}
@@ -44,7 +55,7 @@ def json_search(query):
     for ind in rev_df.index:
         if rev_df["thumbsUp"][ind] < 5:
             continue
-        rev_set = set(rev_df["text"][ind].lower().split())
+        rev_set = clean(rev_df["text"][ind])
         num = words_set.intersection(rev_set)
         den = words_set.union(rev_set)
         score = len(num) / len(den)
@@ -64,7 +75,7 @@ def json_search(query):
     # basic jaccard on description and query, also using review scores
     scores = []
     for ind in apps_df.index:
-        desc_set = set(apps_df["description"][ind].lower().split())
+        desc_set = clean(apps_df["description"][ind])
         num = words_set.intersection(desc_set)
         den = words_set.union(desc_set)
         scores.append(len(num) / len(den) + reviewScores[apps_df["appId"][ind]])
@@ -75,10 +86,9 @@ def json_search(query):
     matches = []
     matches = apps_df.loc[inds]
 
-    matches_filtered = matches[["title", "summary", "scoreText", "icon"]]
+    matches_filtered = matches[["title", "summary", "scoreText", "appId", "icon"]]
     matches_filtered_json = matches_filtered.to_json(orient="records")
     return matches_filtered_json
-
 
 #   matches = []
 #  merged_df = pd.merge(episodes_df, reviews_df, left_on='id', right_on='id', how='inner')
@@ -97,6 +107,14 @@ def home():
 def episodes_search():
     text = request.args.get("title")
     return json_search(text)
+
+@app.route("/inforeq")
+def info_query():
+    appId = request.args.get("appId")
+    
+    print("QUERYING INFO OF: " + appId)
+    x = apps_df.loc[apps_df["appId"] == appId,:]
+    return x.to_json(orient="records")
 
 
 if "DB_NAME" not in os.environ:
