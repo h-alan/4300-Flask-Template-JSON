@@ -197,6 +197,7 @@ def compute_cosine_sim(query, inv_idx, idf, doc_norms):
     return res
 
 
+# Returns sorted list
 def cosine_similarity(query, desc_idx, desc_idf, desc_doc_norms, rev_dict):
     desc_sim = compute_cosine_sim(query, desc_idx, desc_idf, desc_doc_norms)
 
@@ -225,17 +226,15 @@ def cosine_similarity(query, desc_idx, desc_idf, desc_doc_norms, rev_dict):
         print(apps_df["title"][w], desc_sim[w])
 
     matches_filtered = matches[
-        ["title", "summary", "scoreText", "appId", "icon", "url"]
+        ["title", "summary", "scoreText", "appId", "icon", "url", "price", "offersIAP", "score"]
     ]
-    matches_filtered_json = matches_filtered.to_json(orient="records")
-    return matches_filtered_json
+    return matches_filtered
 
 
 # Search using json with pandas
 # filter values included are: max price of app (0-100), minimum rating (0-5) and
 # whether in app purchases are allowed (boolean)
-# def json_search(query, minRating, maxPrice, iap):
-def json_search(query):
+def json_search(query, price, iap, score):
     words_set = tokenize_input(query.lower())
 
     # empty query is allowed, we just return nothing
@@ -243,9 +242,12 @@ def json_search(query):
         empty_data = json.loads("{}")
         return empty_data
 
-    return cosine_similarity(
+    ranks = cosine_similarity(
         words_set, desc_inv_idx, desc_idf_dict, desc_norms, rev_dict={}
     )
+    filtered_ranks = ranks.query("price <= @price & (offersIAP | @iap) & score >= @score")
+    return filtered_ranks.to_json(orient="records")
+    
 
 
 @app.route("/")
@@ -255,14 +257,32 @@ def home():
 
 @app.route("/apps")
 def episodes_search():
-    print("help")
     text = request.args.get("title")
-    #   minRating = float(request.args.get("minRating"))
-    #  maxPrice = float(request.args.get("maxPrice"))
-    # iap = bool(request.args.get("iap"))
-    # print(minRating + " " + maxPrice)
-    #  return json_search(text, minRating, maxPrice, iap)
-    return json_search(text)
+    score = 0
+    try:
+        score = float(request.args.get("min_rating"))
+    except:
+        print("Unexpected error reading rating: " + request.args.get("min_rating"))
+        score = 0
+    price = 100
+    try:
+        price = float(request.args.get("max_price"))
+    except:
+        print("Unexpected error reading price: " + request.args.get("max_price"))
+        price = 0.0
+    iap = True
+    try:
+        iap = bool(request.args.get("iap"))
+    except:
+        print("Unexpected error reading iap: " + request.args.get("iap"))
+        iap = True
+
+    print(
+        f"""SEARCHING: {text} 
+\t min_rating: {score}
+\t max_price: {price}
+\t iap: {iap}""")
+    return json_search(text, price, iap, score)
 
 
 @app.route("/inforeq")

@@ -263,12 +263,12 @@
             irrel = [[]];
 
             document.getElementById("answer-box").innerHTML = "";
-            console.log(document.getElementById("filter-text-val").value);
+            console.log("Searching: " + document.getElementById("filter-text-val").value + "...");
             fetch("/apps?" + new URLSearchParams({
                 title: document.getElementById("filter-text-val").value
-                //    , minRating: JSON.stringify(document.getElementById("minRating").value)
-                //      , maxPrice: JSON.stringify(document.getElementById("price").value)
-                //      , iap: JSON.stringify(document.getElementById("iap").value)
+                , min_rating: document.getElementById("min-rating").value
+                , max_price: document.getElementById("price").value
+                , iap: document.getElementById("iap").value
             }).toString())
                 .then((response) => response.json())
                 .then((data) => data.forEach(row => {
