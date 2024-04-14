@@ -3,23 +3,24 @@
 <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Kanit&family=Montserrat&family=Open+Sans:wght@500&display=swap"
+<link
+    href="https://fonts.googleapis.com/css2?family=Kanit&family=Montserrat&family=Bebas+Neue&family=Open+Sans:wght@500&display=swap"
     rel="stylesheet">
 
 <body>
     <div class="full-body-container">
         <div class="welcome">
-            <img src="{{ url_for('static', filename='images/play.png') }}" />
+            <img src="{{ url_for('static', filename='images/logo.jpg') }}" />
             <h1 id="normal-c">Appiphany</h1>
         </div>
         <div class="top-text">
             <div class="input-box" onclick="sendFocus()">
                 <img src="{{ url_for('static', filename='images/mag.png') }}" />
-                <input placeholder="Describe An App..." id="filter-text-val" onkeyup="filterText()">
+                <input placeholder="Describe An App" id="filter-text-val" onkeyup="filterText()">
             </div>
             <div class="input-box" onclick="sendFocusApp()">
                 <img src="{{ url_for('static', filename='images/mag.png') }}" />
-                <input placeholder="List Similar Apps..." id="temp" onkeyup="filterText()">
+                <input placeholder="List Similar Apps" id="temp" onkeyup="filterText()">
             </div>
         </div>
         <div id="answer-box">
