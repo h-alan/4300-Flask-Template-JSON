@@ -250,6 +250,7 @@
                 irrel[iteration].push(appId);
                 obj.style.backgroundColor = irrel_color;
                 obj.innerHTML = "Irrelevant";
+                document.getElementById(appId).style.opacity = 0.3;
             }
             else if ((index = irrel[iteration].indexOf(appId)) > -1) { // In irrel
                 console.log("Found in irrel @ " + index);
@@ -257,6 +258,7 @@
                 rel[iteration].push(appId);
                 obj.style.backgroundColor = rel_color;
                 obj.innerHTML = "Relevant";
+                document.getElementById(appId).style.opacity = 1;
             }
             else {
                 console.error(`Unexpected toggle call, ${appId} not member of either.`);
@@ -272,12 +274,12 @@
             irrel = [[]];
 
             document.getElementById("answer-box").innerHTML = "";
-            console.log(document.getElementById("filter-text-val").value);
+            console.log("Searching: " + document.getElementById("filter-text-val").value + "...");
             fetch("/apps?" + new URLSearchParams({
                 title: document.getElementById("filter-text-val").value
-                //    , minRating: JSON.stringify(document.getElementById("minRating").value)
-                //      , maxPrice: JSON.stringify(document.getElementById("price").value)
-                //      , iap: JSON.stringify(document.getElementById("iap").value)
+                , min_rating: document.getElementById("min-rating").value
+                , max_price: document.getElementById("price").value
+                , iap: document.getElementById("iap").value
             }).toString())
                 .then((response) => response.json())
                 .then((data) => data.forEach(row => {
@@ -298,15 +300,16 @@
 
         function rocchio() {
             iteration++;
-            console.log("Performing Rocchio Iteration " + iteration);
-            document.getElementById("answer-box").innerHTML = "yeah, we're working on our rocchio";
+            rankings.push([])
+            console.log("Performing Rocchio Iteration" + iteration);
+            // document.getElementById("answer-box").innerHTML = "yeah, we're working on our rocchio";
             rel_json = JSON.stringify(rel)
             console.log(rel_json);
             console.log(typeof (rel_json));
-            fetch("/rel-feed?" + new URLSearchParams({ rel: JSON.stringify(rel), irrel: JSON.stringify(irrel), iter: JSON.stringify(iteration) }).toString())
+            document.getElementById("answer-box").innerHTML = ''
+            fetch("/rel-feed?" + new URLSearchParams({ title: document.getElementById("filter-text-val").value, rel: JSON.stringify(rel), irrel: JSON.stringify(irrel), iter: JSON.stringify(iteration) }).toString())
                 .then((response) => response.json())
                 .then((data) => data.forEach(row => {
-
                     let tempDiv = document.createElement("div");
                     // tempDiv.innerHTML = answerBoxTemplate(row.title, row.descr, row.imdb_rating)
                     if (rankings.length !== iteration) {
