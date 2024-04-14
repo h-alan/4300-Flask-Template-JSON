@@ -42,7 +42,13 @@ def clean(query):
 
 
 def tokenize_input(input):
-    return input.replace(".", " ").replace(",", " ").replace("?", " ").replace("!", " ")
+    return (
+        input.replace(".", " ")
+        .replace(",", " ")
+        .replace("?", " ")
+        .replace("!", " ")
+        .split()
+    )
 
 
 def build_tf_inv_idx(df, key):
@@ -161,6 +167,7 @@ def jaccard_similarity(words_set):
 
 def compute_dot_scores(query_word_counts, inv_idx, idf):
     doc_scores = {}
+
     for token in query_word_counts:
         if token in inv_idx and token in idf:
             for doc, freq in inv_idx[token]:
@@ -173,10 +180,9 @@ def compute_dot_scores(query_word_counts, inv_idx, idf):
 
 
 def compute_cosine_sim(query, inv_idx, idf, doc_norms):
-    q_token = tokenize_input(query.lower())
     q_count = {}
     q_norm = 0
-    for token in q_token:
+    for token in query:
         q_count[token] = q_count.get(token, 0) + 1
     for token in q_count:
         if token in idf:
@@ -218,7 +224,9 @@ def cosine_similarity(query, desc_idx, desc_idf, desc_doc_norms, rev_dict):
     for w in sorted(desc_sim, key=desc_sim.get, reverse=True):
         print(apps_df["title"][w], desc_sim[w])
 
-    matches_filtered = matches[["title", "summary", "scoreText", "appId", "icon"]]
+    matches_filtered = matches[
+        ["title", "summary", "scoreText", "appId", "icon", "url"]
+    ]
     matches_filtered_json = matches_filtered.to_json(orient="records")
     return matches_filtered_json
 

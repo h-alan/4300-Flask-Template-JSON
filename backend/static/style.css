@@ -187,3 +187,8 @@
 .episode-rating {
     font-family: 'Montserrat', sans-serif;
 }
+
+a.entry {
+    color: initial;
+    text-decoration: initial;
+}
