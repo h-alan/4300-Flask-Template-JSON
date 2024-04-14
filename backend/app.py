@@ -233,13 +233,7 @@ def apply_filter(results, price, iap, score):
 # Search using json with pandas
 # filter values included are: max price of app (0-100), minimum rating (0-5) and
 # whether in app purchases are allowed (boolean)
-def json_search(query, price, iap, score):
-    words_set = tokenize_input(query.lower())
-
-    # empty query is allowed, we just return nothing
-    if len(words_set) == 0:
-        empty_data = json.loads("{}")
-        return empty_data
+def json_search(words_set, price, iap, score):
 
     ranks = cosine_similarity(
         words_set, desc_inv_idx, desc_idf_dict, desc_norms, rev_dict={}
@@ -257,6 +251,12 @@ def home():
 @app.route("/apps")
 def episodes_search():
     text = request.args.get("title")
+    words_set = tokenize_input(text.lower())
+
+    # empty query is allowed, we just return nothing
+    if len(words_set) == 0:
+        empty_data = json.loads("{}")
+        return empty_data
     score = 0
     try:
         score = float(request.args.get("min_rating"))
@@ -281,7 +281,7 @@ def episodes_search():
 \t min_rating: {score}
 \t max_price: {price}
 \t iap: {iap}""")
-    return json_search(text, price, iap, score)
+    return json_search(words_set, price, iap, score)
 
 
 @app.route("/inforeq")
@@ -322,7 +322,7 @@ def query_improvement():
     for rel in rels:
         query+=tokenize_input(apps_df[apps_df['appId']==rel]['description'].tolist()[0].lower())
 
-    return cosine_similarity(query, desc_inv_idx, desc_idf_dict, desc_norms, rev_df)
+    return cosine_similarity(query, desc_inv_idx, desc_idf_dict, desc_norms, rev_df).to_json(orient="records")
 
 
 if "DB_NAME" not in os.environ:
