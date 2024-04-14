@@ -1,5 +1,6 @@
 <!doctype html>
-<title>{% block title %}{% endblock %} - Flaskr</title>
+<title>{% block title %}{% endblock %} Appiphany </title>
+<link rel="icon" type="image/x-icon" href="static/images/logo.ico">
 <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -10,7 +11,7 @@
 <body>
     <div class="full-body-container">
         <div class="welcome">
-            <img src="{{ url_for('static', filename='images/logo.jpg') }}" />
+            <img src="{{ url_for('static', filename='images/logo.png') }}" />
             <h1 id="normal-c">Appiphany</h1>
         </div>
         <div class="top-text">
@@ -18,13 +19,35 @@
                 <img src="{{ url_for('static', filename='images/mag.png') }}" />
                 <input placeholder="Describe An App" id="filter-text-val">
             </div>
-            <div class="input-box" onclick="sendFocusApp()">
+            <!--       <div class="input-box" onclick="sendFocusApp()"> 
                 <img src="{{ url_for('static', filename='images/mag.png') }}" />
-                <input placeholder="List Similar Apps" id="temp">
-            </div>
-            <button onclick="filterText()" class="query-button">Search!</button>
-            <button onclick="rocchio()" class="rocchio-button">Improve the search</button>
+                <input placeholder="List Similar Apps" id="temp"> 
+            </div> -->
         </div>
+        <div class="button-box">
+            <button onclick="filterText()" class="button">Search!</button>
+            <button onclick="rocchio()" class="button">Improve the Search</button>
+            <button onclick="advSettingsToggle()" class="button">Filters</button>
+        </div>
+        <div class="advanced-settings" id="adv">
+            <div class="price">
+                <label for="price">Max Price</label>
+                <input type="range" id="price" name="price" min="0" max="100" value="100" />
+            </div>
+
+            <div class="lower-settings">
+                <div class="iap">
+                    <input type="checkbox" id="iap" name="iap" checked>
+                    <label for="iap"> In-app Purchases Allowed?</label><br>
+                </div>
+
+                <div class="min-star">
+                    <input type="number" id="min-rating" name="min-rating" min="0" max="5" value="0" />
+                    <label for="min-rating">Minimum Star Rating (0-5):</label>
+                </div>
+            </div>
+        </div>
+
         <div id="answer-box">
 
         </div>
@@ -34,7 +57,21 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.1/dist/chart.min.js"></script>
 
     <script>
+        var hidden = true
+        function advSettingsToggle() {
+            hidden = !hidden;
+            var x = document.getElementById("adv");
+            if (hidden) {
+                x.style.display = "none";
+            } else {
+                x.style.display = "flex";
+            }
+        }
+    </script>
 
+    <script>
+        // We can use local_storage if we want to memorize values between pages (or even use cookies)
+        // Currently don't use because not necessarily and/or lazy
         //localStorage.setItem('rel', '[[]]');
         //localStorage.setItem('irrel', '[[]]');
         //localStorage.setItem('rankings', '[[]]');
@@ -46,17 +83,22 @@
         var iteration = -1;//localStorage.getItem('iter');
         const show_top_x = 10;
 
-        function answerTemplate(appId, title, titleDesc, rating, icon) {
+        const rel_color = "#00FF00";
+        const irrel_color = "#FF0000";
+
+        function answerTemplate(appId, title, titleDesc, rating, icon, url) {
             return `<div id='${appId}' style='flex-direction:column'>
                 <div class='answer-wrapper'>
                     <div class='answer-txt'>
-                        <h3 class='episode-title'><img class= "icon" src='${icon}' alt = "icon" width="50" height= "50"> ${title}</h3>
+                        <a target="_blank" rel="noopener noreferrer" href="${url}" class='entry'>
+                            <h3 class='episode-title'><img class= "icon" src='${icon}' alt = "icon" width="50" height= "50">${title}</h3>
+                        </a>
                         <p class='episode-desc'>${titleDesc}</p>
                         <p class='episode-rating'>Star Rating: ${rating}</p>
                     </div>
                     <div class='answer-button-display'>
                         <button onclick='query_id("${appId}")' class='answer-info-button'>Info</button>
-                        <button onclick='irrelevant("${appId}")' class='answer-remove-button'>Irrelevant?</button>
+                        <button onclick='rel_toggle(this,"${appId}")' class='answer-remove-button' style="background-color:${rel_color}">Relevant!</button>
                     </div>
                 </div>
             </div>`
@@ -192,11 +234,25 @@
 
         // need some fixing and extra checks for duplicates...
         // we will change this to become a "TOGGLE REL/IRREL button"
-        function irrelevant(appId) {
-            const index = rel[iteration].indexOf(appId);
-            if (index > -1) {
+        function rel_toggle(obj, appId) {
+            if ((index = rel[iteration].indexOf(appId)) > -1) { // In rel
+                console.log("Found in rel @ " + index);
                 rel[iteration].splice(index, 1);
                 irrel[iteration].push(appId);
+                obj.style.backgroundColor = irrel_color;
+                obj.innerHTML = "Irrelevant!";
+                document.getElementById(appId).style.opacity = 0.3;
+            }
+            else if ((index = irrel[iteration].indexOf(appId)) > -1) { // In irrel
+                console.log("Found in irrel @ " + index);
+                irrel[iteration].splice(index, 1);
+                rel[iteration].push(appId);
+                obj.style.backgroundColor = rel_color;
+                obj.innerHTML = "Relevant!";
+                document.getElementById(appId).style.opacity = 1;
+            }
+            else {
+                console.error(`Unexpected toggle call, ${appId} not member of either.`);
             }
             console.log("Relevant: " + rel[iteration].toString());
             console.log("Irrelevant: " + irrel[iteration].toString());
@@ -207,9 +263,15 @@
             rel = [[]];
             rankings = [[]];
             irrel = [[]];
+
             document.getElementById("answer-box").innerHTML = "";
-            console.log(document.getElementById("filter-text-val").value);
-            fetch("/apps?" + new URLSearchParams({ title: document.getElementById("filter-text-val").value }).toString())
+            console.log("Searching: " + document.getElementById("filter-text-val").value + "...");
+            fetch("/apps?" + new URLSearchParams({
+                title: document.getElementById("filter-text-val").value
+                , min_rating: document.getElementById("min-rating").value
+                , max_price: document.getElementById("price").value
+                , iap: document.getElementById("iap").value
+            }).toString())
                 .then((response) => response.json())
                 .then((data) => data.forEach(row => {
 
@@ -221,7 +283,7 @@
                         rel[iteration].push(row.appId);
                         //console.log(rel[iteration][len - 1]);
 
-                        tempDiv.innerHTML = answerTemplate(row.appId, row.title, row.summary, row.scoreText, row.icon);
+                        tempDiv.innerHTML = answerTemplate(row.appId, row.title, row.summary, row.scoreText, row.icon, row.url);
                         document.getElementById("answer-box").appendChild(tempDiv);
                     }
                 }));
@@ -252,7 +314,7 @@
                         rel[iteration].push(row.appId);
                         //console.log(rel[iteration][len - 1]);
 
-                        tempDiv.innerHTML = answerTemplate(row.appId, row.title, row.summary, row.scoreText, row.icon);
+                        tempDiv.innerHTML = answerTemplate(row.appId, row.title, row.summary, row.scoreText, row.icon, row.url);
                         document.getElementById("answer-box").appendChild(tempDiv);
                     }
                 }));
