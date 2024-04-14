@@ -230,6 +230,12 @@ def cosine_similarity(query, desc_idx, desc_idf, desc_doc_norms, rev_dict):
     ]
     return matches_filtered
 
+# apply filter
+# though honestly, I think it's smarter to just do this on the frontend and not bother
+# with this in the backend
+def apply_filter(results, price, iap, score):
+    filtered_results = results.query("price <= @price & (offersIAP | @iap) & score >= @score")
+    return filtered_results
 
 # Search using json with pandas
 # filter values included are: max price of app (0-100), minimum rating (0-5) and
@@ -245,7 +251,7 @@ def json_search(query, price, iap, score):
     ranks = cosine_similarity(
         words_set, desc_inv_idx, desc_idf_dict, desc_norms, rev_dict={}
     )
-    filtered_ranks = ranks.query("price <= @price & (offersIAP | @iap) & score >= @score")
+    filtered_ranks = apply_filter(ranks, price, iap, score)
     return filtered_ranks.to_json(orient="records")
     
 

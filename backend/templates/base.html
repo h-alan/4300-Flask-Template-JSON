@@ -241,6 +241,7 @@
                 irrel[iteration].push(appId);
                 obj.style.backgroundColor = irrel_color;
                 obj.innerHTML = "Irrelevant!";
+                document.getElementById(appId).style.opacity = 0.3;
             }
             else if ((index = irrel[iteration].indexOf(appId)) > -1) { // In irrel
                 console.log("Found in irrel @ " + index);
@@ -248,6 +249,7 @@
                 rel[iteration].push(appId);
                 obj.style.backgroundColor = rel_color;
                 obj.innerHTML = "Relevant!";
+                document.getElementById(appId).style.opacity = 1;
             }
             else {
                 console.error(`Unexpected toggle call, ${appId} not member of either.`);
