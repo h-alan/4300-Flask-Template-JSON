@@ -28,18 +28,23 @@
         </div>
     </div>
 
+    <!-- Histogram helper -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.1/dist/chart.min.js"></script>
+
     <script>
 
         function answerTemplate(appId, title, titleDesc, rating, icon) {
-            return `<div id='${appId}' class='answer-wrapper'>
-                <div class='answer-txt'>
-                    <h3 class='episode-title'><img class= "icon" src='${icon}' alt = "icon" width="50" height= "50"> ${title}</h3>
-                    <p class='episode-desc'>${titleDesc}</p>
-                    <p class='episode-rating'>Star Rating: ${rating}</p>
-                </div>
-                <div class='answer-button-display'>
-                    <button class='answer-info-button'>Info</button>
-                    <button onclick='document.getElementById("${appId}").remove()' class='answer-remove-button'>Remove</button>
+            return `<div id='${appId}' style='flex-direction:column'>
+                <div class='answer-wrapper'>
+                    <div class='answer-txt'>
+                        <h3 class='episode-title'><img class= "icon" src='${icon}' alt = "icon" width="50" height= "50"> ${title}</h3>
+                        <p class='episode-desc'>${titleDesc}</p>
+                        <p class='episode-rating'>Star Rating: ${rating}</p>
+                    </div>
+                    <div class='answer-button-display'>
+                        <button onclick='query_id("${appId}")' class='answer-info-button'>Info</button>
+                        <button onclick='document.getElementById("${appId}").remove()' class='answer-remove-button'>Remove</button>
+                    </div>
                 </div>
             </div>`
         }
@@ -50,6 +55,126 @@
 
         function sendFocus() {
             document.getElementById('filter-text-val').focus()
+        }
+
+        // Info box
+        function info_box(appId, descriptionHTML, installs) {
+            return `<div id='${appId}-extra-info' style='border:1px solid black;padding:10px;border-radius:5px'>
+                <div class='histogram'>
+                    <canvas id="${appId}-ratings"></canvas>
+                </div>
+                <div class='advanced-info'>
+                    <p class='desc-html'>${descriptionHTML}</p>
+                    <p class='app-installs'>${installs} installs!</p>
+                </div>
+            </div>
+            `
+        }
+
+        // Make a histogram from settings
+        // Not sure how to get rid of the frequency thing on the sides
+        // Credit to ChartJS open source
+        // Can make it a gradient for the histogram coloring
+        function rating_histogram(appId, histogram) {
+            const x_vals = [0.5, 1.5, 2.5, 3.5, 4.5];
+            const y_vals = Object.values(histogram);
+            const data = x_vals.map((k, i) => ({ x: k, y: y_vals[i] }));
+
+            // Red
+            const backgroundColor = Array(x_vals.length).fill('rgba(255, 99, 132, 0.2)');
+            const borderColor = Array(x_vals.length).fill('rgba(255, 99, 132, 1)');
+            // Highlight the 5 star ratings in blue
+            backgroundColor[x_vals.length - 1] = 'rgba(54, 162, 235, 0.2)';
+            borderColor[x_vals.length - 1] = 'rgba(54, 162, 235, 1)';
+
+            context = document.getElementById(appId.toString() + '-ratings').getContext('2d');
+            return new Chart(context, {
+                type: 'bar',
+                data: {
+                    datasets: [{
+                        label: 'Frequency',
+                        data: data,
+                        backgroundColor: backgroundColor,
+                        borderColor: borderColor,
+                        borderWidth: 1,
+                        barPercentage: 1,
+                        categoryPercentage: 1,
+                        borderRadius: 5,
+                    }]
+                },
+                options: {
+                    scales: {
+                        //xAxes: {
+                        //    gridLines: { display: false }
+                        //},
+                        x: {
+                            type: 'linear',
+                            offset: false,
+                            grid: {
+                                offset: false,
+                                display: false,
+                            },
+                            ticks: {
+                                stepSize: 1
+                            },
+                            title: {
+                                display: true,
+                                text: 'Stars',
+                                font: {
+                                    size: 14
+                                }
+                            }
+                        },
+                        y: {
+                            title: {
+                                display: true,
+                                text: 'Frequency',
+                                font: {
+                                    size: 14
+                                }
+                            },
+                            grid: {
+                                display: false
+                            }
+                        }
+                    },
+                    plugins: {
+                        legend: {
+                            display: false,
+                        },
+                        tooltip: {
+                            callbacks: {
+                                title: (items) => {
+                                    if (!items.length) {
+                                        return '';
+                                    }
+                                    const item = items[0];
+                                    const x = item.parsed.x + 0.5;
+                                    return `${x}★`;
+                                }
+                            }
+                        }
+                    }
+                }
+            });
+        }
+
+        function query_id(appId) {
+            let xtra_info = document.getElementById(`${appId}-extra-info`)
+            if (xtra_info) { // Toggle
+                xtra_info.remove();
+            }
+            else { // Query info
+                console.log("Querying: " + appId.toString())
+                fetch("/inforeq?" + new URLSearchParams({ appId: appId }).toString())
+                    .then((response) => response.json())
+                    .then(data => data.forEach(row => {
+                        let info_div = document.createElement('div')
+                        info_div.innerHTML = info_box(row.appId, row.descriptionHTML, row.installs)
+                        document.getElementById(row.appId.toString()).appendChild(info_div)
+                        rating_histogram(row.appId, row.histogram)
+                    }));
+            }
         }
 
         function filterText() {
