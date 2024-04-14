@@ -25,10 +25,10 @@ json_allreviews_file_path = os.path.join(current_directory, "data/reviews.json")
 #  episodes_df = pd.DataFrame(data['episodes'])
 # reviews_df = pd.DataFrame(data['reviews'])
 
-with open(json_allcat_file_path) as file:
+with open(json_allcat_file_path, encoding="utf-8") as file:
     data = json.load(file)
     apps_df = pd.DataFrame(data)
-with open(json_allreviews_file_path) as file:
+with open(json_allreviews_file_path, encoding="utf-8") as file:
     data = json.load(file)
     rev_df = pd.DataFrame(data)
 
@@ -43,13 +43,13 @@ def clean(query):
 def tokenize_input(input):
    return input.replace(".", " ").replace(",", " ").replace("?", " ").replace("!", " ")
 
-def build_tf_inv_idx(df):
+def build_tf_inv_idx(df, key):
     output = {}
 
     for ind in df.index:
         # removing punctuation
         # replace is faster than translate
-        desc = tokenize_input(df["description"][ind].lower())
+        desc = tokenize_input(df[key][ind].lower())
 
         # building tf inv_idx dict
         counts = {}
@@ -96,8 +96,8 @@ def compute_norms(inv_idx, idf, n_docs):
     return res
 
 # precomputing before query is input
-desc_inv_idx = build_tf_inv_idx(apps_df)
-desc_idf_dict = compute_idf(desc_inv_idx, apps_df.size, 2, 0.95)
+desc_inv_idx = build_tf_inv_idx(apps_df, 'description')
+desc_idf_dict = compute_idf(desc_inv_idx, apps_df.size, 0, 1)
 desc_norms = compute_norms(desc_inv_idx, desc_idf_dict, apps_df.size)
 
 # this takes forever to finish
@@ -182,8 +182,8 @@ def compute_cosine_sim(query, inv_idx, idf, doc_norms):
 
     return res
 
-def cosine_similarity(query, desc_inv_idx, desc_idf, desc_doc_norms, rev_dict):
-    desc_sim = compute_cosine_sim(query, desc_inv_idx, desc_idf, desc_doc_norms)
+def cosine_similarity(query, desc_idx, desc_idf, desc_doc_norms, rev_dict):
+    desc_sim = compute_cosine_sim(query, desc_idx, desc_idf, desc_doc_norms)
 
     # computing average review cosine score for each app
     '''
@@ -206,6 +206,9 @@ def cosine_similarity(query, desc_inv_idx, desc_idf, desc_doc_norms, rev_dict):
     inds = sorted(desc_sim, key=desc_sim.get, reverse=True)
     matches = apps_df.loc[inds]
 
+    for w in sorted(desc_sim, key=desc_sim.get, reverse=True):
+        print(apps_df["title"][w], desc_sim[w])
+
     matches_filtered = matches[["title", "summary", "scoreText", "appId", "icon"]]
     matches_filtered_json = matches_filtered.to_json(orient="records")
     return matches_filtered_json
@@ -216,10 +219,10 @@ def json_search(query):
 
     # empty query is allowed, we just return nothing
     if len(words_set) == 0:
-        empty_data = json.loads(request.POST.get('mydata', "{}"))
+        empty_data = json.loads('{}')
         return empty_data
 
-    return jaccard_similarity(words_set)
+    return cosine_similarity(words_set, desc_inv_idx, desc_idf_dict, desc_norms, rev_dict={})
 
 
 @app.route("/")
