@@ -100,7 +100,8 @@ desc_inv_idx = build_tf_inv_idx(apps_df)
 desc_idf_dict = compute_idf(desc_inv_idx, apps_df.size, 2, 0.95)
 desc_norms = compute_norms(desc_inv_idx, desc_idf_dict, apps_df.size)
 
-# precomputing for each review
+# this takes forever to finish
+''' precomputing for each review
 rev_dict = {}
 for ind in rev_df.index:
     if rev_df["thumbsUp"][ind] < 5:
@@ -109,6 +110,7 @@ for ind in rev_df.index:
     rev_dict[ind]['inv_idx'] = build_tf_inv_idx(rev_df)
     rev_dict[ind]['idf'] = compute_idf(rev_dict[ind]['inv_idx'], rev_df.size, 5, 0.95)
     rev_dict[ind]['norms'] = compute_norms(rev_dict[ind]['inv_idx'], rev_dict[ind]['idf'], rev_df.size)
+'''
 
 def jaccard_similarity(words_set):
    # basic jaccard on reviews and query
@@ -184,6 +186,7 @@ def cosine_similarity(query, desc_inv_idx, desc_idf, desc_doc_norms, rev_dict):
     desc_sim = compute_cosine_sim(query, desc_inv_idx, desc_idf, desc_doc_norms)
 
     # computing average review cosine score for each app
+    '''
     app_rev_score = {}
     app_rev_count = {}
     for rev in rev_dict:
@@ -197,9 +200,10 @@ def cosine_similarity(query, desc_inv_idx, desc_idf, desc_doc_norms, rev_dict):
     combined = {}
     for key in desc_sim:
        combined[key] = desc_sim[key] + app_rev_score[apps_df["appId"][key]]
+    '''
 
-    # argsort
-    inds = sorted(combined, key=combined.get, reverse=True)
+    # switch this to combined once reviews get added
+    inds = sorted(desc_sim, key=desc_sim.get, reverse=True)
     matches = apps_df.loc[inds]
 
     matches_filtered = matches[["title", "summary", "scoreText", "appId", "icon"]]
