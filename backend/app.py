@@ -27,10 +27,10 @@ json_allreviews_file_path = os.path.join(current_directory, "data/reviews.json")
 
 with open(json_allcat_file_path, encoding="utf-8") as file:
     data = json.load(file)
-    apps_df = pd.DataFrame(data)
+    apps_df = pd.DataFrame(data).drop_duplicates(subset=['appId'])
 with open(json_allreviews_file_path, encoding="utf-8") as file:
     data = json.load(file)
-    rev_df = pd.DataFrame(data)
+    rev_df = pd.DataFrame(data).drop_duplicates(subset=['appId'])
 
 app = Flask(__name__)
 CORS(app)
