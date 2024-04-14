@@ -255,7 +255,6 @@ def home():
 
 @app.route("/apps")
 def episodes_search():
-    print("help")
     text = request.args.get("title")
     #   minRating = float(request.args.get("minRating"))
     #  maxPrice = float(request.args.get("maxPrice"))

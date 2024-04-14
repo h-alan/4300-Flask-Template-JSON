@@ -1,6 +1,6 @@
 <!doctype html>
 <title>{% block title %}{% endblock %} Appiphany </title>
-<link rel="icon" type="image/x-icon" href="static/images/logo.ico">
+<link rel="icon" type="image/png" href="static/images/logo.png">
 <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,22 +27,26 @@
         <div class="button-box">
             <button onclick="filterText()" class="button">Search!</button>
             <button onclick="rocchio()" class="button">Improve the Search</button>
-            <button onclick="advSettingsToggle()" class="button">Filters</button>
+            <button onclick="advSettingsToggle()" class="button" id="f_button">Filters</button>
         </div>
         <div class="advanced-settings" id="adv">
             <div class="price">
-                <label for="price">Max Price</label>
-                <input type="range" id="price" name="price" min="0" max="100" value="100" />
+                <span class="slider-label">Max Price ($)</span>
+                <input type="number" class="slider-input" min="0" max="100" value="100"
+                    onchange="this.nextElementSibling.value = this.value" />
+                <input type="range" class="slider" id="price" name="price" min="0" max="100" value="100"
+                    onchange="this.previousElementSibling.value = this.value" />
             </div>
 
             <div class="lower-settings">
                 <div class="iap">
-                    <input type="checkbox" id="iap" name="iap" checked>
+                    <input type="checkbox" class="iap-check" id="iap" name="iap" checked>
                     <label for="iap"> In-app Purchases Allowed?</label><br>
                 </div>
 
                 <div class="min-star">
-                    <input type="number" id="min-rating" name="min-rating" min="0" max="5" value="0" />
+                    <input type="number" class="slider-input" id="min-rating" name="min-rating" min="0" max="5"
+                        value="0" />
                     <label for="min-rating">Minimum Star Rating (0-5):</label>
                 </div>
             </div>
@@ -60,11 +64,16 @@
         var hidden = true
         function advSettingsToggle() {
             hidden = !hidden;
-            var x = document.getElementById("adv");
+            var filters = document.getElementById("adv");
+            var f_button = document.getElementById("f_button");
             if (hidden) {
-                x.style.display = "none";
+                filters.style.display = "none";
+                f_button.style.backgroundColor = "#666666"
+                f_button.style.color = "#ffffff"
             } else {
-                x.style.display = "flex";
+                filters.style.display = "flex";
+                f_button.style.backgroundColor = "#ffffff"
+                f_button.style.color = "#000000"
             }
         }
     </script>
@@ -83,8 +92,8 @@
         var iteration = -1;//localStorage.getItem('iter');
         const show_top_x = 10;
 
-        const rel_color = "#00FF00";
-        const irrel_color = "#FF0000";
+        const rel_color = "#75ba88";
+        const irrel_color = "#b06e68";
 
         function answerTemplate(appId, title, titleDesc, rating, icon, url) {
             return `<div id='${appId}' style='flex-direction:column'>
@@ -97,8 +106,8 @@
                         <p class='episode-rating'>Star Rating: ${rating}</p>
                     </div>
                     <div class='answer-button-display'>
-                        <button onclick='query_id("${appId}")' class='answer-info-button'>Info</button>
-                        <button onclick='rel_toggle(this,"${appId}")' class='answer-remove-button' style="background-color:${rel_color}">Relevant!</button>
+                        <button onclick='query_id("${appId}")' class='button'>Info</button>
+                        <button onclick='rel_toggle(this,"${appId}")' class='button' style="background-color:${rel_color}">Relevant</button>
                     </div>
                 </div>
             </div>`
@@ -240,14 +249,14 @@
                 rel[iteration].splice(index, 1);
                 irrel[iteration].push(appId);
                 obj.style.backgroundColor = irrel_color;
-                obj.innerHTML = "Irrelevant!";
+                obj.innerHTML = "Irrelevant";
             }
             else if ((index = irrel[iteration].indexOf(appId)) > -1) { // In irrel
                 console.log("Found in irrel @ " + index);
                 irrel[iteration].splice(index, 1);
                 rel[iteration].push(appId);
                 obj.style.backgroundColor = rel_color;
-                obj.innerHTML = "Relevant!";
+                obj.innerHTML = "Relevant";
             }
             else {
                 console.error(`Unexpected toggle call, ${appId} not member of either.`);
