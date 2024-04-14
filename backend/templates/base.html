@@ -48,6 +48,9 @@
         var iteration = -1;//localStorage.getItem('iter');
         const show_top_x = 10;
 
+        const rel_color = "#00FF00";
+        const irrel_color = "#FF0000";
+
         function answerTemplate(appId, title, titleDesc, rating, icon, url) {
             return `<div id='${appId}' style='flex-direction:column'>
                 <div class='answer-wrapper'>
@@ -60,7 +63,7 @@
                     </div>
                     <div class='answer-button-display'>
                         <button onclick='query_id("${appId}")' class='answer-info-button'>Info</button>
-                        <button onclick='irrelevant("${appId}")' class='answer-remove-button'>Irrelevant?</button>
+                        <button onclick='rel_toggle(this,"${appId}")' class='answer-remove-button' style="background-color:${rel_color}">Relevant!</button>
                     </div>
                 </div>
             </div>`
@@ -196,11 +199,23 @@
 
         // need some fixing and extra checks for duplicates...
         // we will change this to become a "TOGGLE REL/IRREL button"
-        function irrelevant(appId) {
-            const index = rel[iteration].indexOf(appId);
-            if (index > -1) {
+        function rel_toggle(obj, appId) {
+            if ((index = rel[iteration].indexOf(appId)) > -1) { // In rel
+                console.log("Found in rel @ " + index);
                 rel[iteration].splice(index, 1);
                 irrel[iteration].push(appId);
+                obj.style.backgroundColor = irrel_color;
+                obj.innerHTML = "Irrelevant!";
+            }
+            else if ((index = irrel[iteration].indexOf(appId)) > -1) { // In irrel
+                console.log("Found in irrel @ " + index);
+                irrel[iteration].splice(index, 1);
+                rel[iteration].push(appId);
+                obj.style.backgroundColor = rel_color;
+                obj.innerHTML = "Relevant!";
+            }
+            else {
+                console.error(`Unexpected toggle call, ${appId} not member of either.`);
             }
             console.log("Relevant: " + rel[iteration].toString());
             console.log("Irrelevant: " + irrel[iteration].toString());
