@@ -41,7 +41,7 @@ def clean(query):
     return set(query.lower().split())
 
 def tokenize_input(input):
-   return input.replace(".", " ").replace(",", " ").replace("?", " ").replace("!", " ").split()
+    return input.replace(".", " ").replace(",", " ").replace("?", " ").replace("!", " ").replace("-", " ").split()
 
 def build_tf_inv_idx(df, key):
     output = {}
@@ -113,7 +113,7 @@ for ind in rev_df.index:
 '''
 
 def jaccard_similarity(words_set):
-   # basic jaccard on reviews and query
+    # basic jaccard on reviews and query
     reviewScores = {}
     totalScores = {}
     for ind in rev_df.index:
@@ -203,7 +203,7 @@ def cosine_similarity(query, desc_idx, desc_idf, desc_doc_norms, rev_dict):
     '''
 
     # switch this to combined once reviews get added
-    inds = sorted(desc_sim, key=desc_sim.get, reverse=True)
+    inds = sorted(desc_sim, key=desc_sim.get, reverse=True)[0:10]
     matches = apps_df.loc[inds]
 
     matches_filtered = matches[["title", "summary", "scoreText", "appId", "icon"]]
@@ -242,16 +242,34 @@ def info_query():
 
 @app.route("/rel-feed")
 def query_improvement():
+    
+    # CONSTANTS/HYPERPARAMETERS:
+    ROCCHIO_A = 0.8
+    ROCCHIO_B = 0.3
+    ROCCHIO_C = 0.4
+    
     iteration_num = int(request.args.get("iter"))
     print(f"ROCCHIO ITERATION: {iteration_num}")
-    rel = json.loads(request.args.get('rel'))
-    print(f"RELEVANT: {rel}")
-    irrel = json.loads(request.args.get('irrel'))
-    print(f"IRRELEVANT: {irrel}")
+    rels = json.loads(request.args.get('rel'))[0]
+    print(f"RELEVANT: {rels}")
+    irrels = json.loads(request.args.get('irrel'))[0]
+    print(f"IRRELEVANT: {irrels}")
     # rel, irrel are 2d arrays that contain all previous rocchio results / processes
     # do rocchio stuff
     # pls return some new rankings in similar way to JSON_search, or similar format to above
-    return None
+    
+    query_str = request.args.get("title")
+    query = tokenize_input(query_str.lower())
+    
+    # empty query is allowed, we just return nothing
+    if len(query) == 0:
+        empty_data = json.loads('{}')
+        return empty_data
+    
+    for rel in rels:
+        query+=tokenize_input(apps_df[apps_df['appId']==rel]['description'].tolist()[0].lower())
+
+    return cosine_similarity(query, desc_inv_idx, desc_idf_dict, desc_norms, rev_df)
 
 
 if "DB_NAME" not in os.environ:

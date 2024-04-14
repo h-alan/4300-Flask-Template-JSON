@@ -229,15 +229,16 @@
 
         function rocchio() {
             iteration++;
+            rankings.push([])
             console.log("Performing Rocchio Iteration" + iteration);
-            document.getElementById("answer-box").innerHTML = "yeah, we're working on our rocchio";
+            // document.getElementById("answer-box").innerHTML = "yeah, we're working on our rocchio";
             rel_json = JSON.stringify(rel)
             console.log(rel_json);
             console.log(typeof (rel_json));
-            fetch("/rel-feed?" + new URLSearchParams({ rel: JSON.stringify(rel), irrel: JSON.stringify(irrel), iter: JSON.stringify(iteration) }).toString())
+            document.getElementById("answer-box").innerHTML = ''
+            fetch("/rel-feed?" + new URLSearchParams({ title: document.getElementById("filter-text-val").value, rel: JSON.stringify(rel), irrel: JSON.stringify(irrel), iter: JSON.stringify(iteration) }).toString())
                 .then((response) => response.json())
                 .then((data) => data.forEach(row => {
-
                     let tempDiv = document.createElement("div");
                     // tempDiv.innerHTML = answerBoxTemplate(row.title, row.descr, row.imdb_rating)
                     if (rankings.length !== iteration) {
