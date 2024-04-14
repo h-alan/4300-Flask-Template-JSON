@@ -16,12 +16,14 @@
         <div class="top-text">
             <div class="input-box" onclick="sendFocus()">
                 <img src="{{ url_for('static', filename='images/mag.png') }}" />
-                <input placeholder="Describe An App" id="filter-text-val" onkeyup="filterText()">
+                <input placeholder="Describe An App" id="filter-text-val">
             </div>
             <div class="input-box" onclick="sendFocusApp()">
                 <img src="{{ url_for('static', filename='images/mag.png') }}" />
-                <input placeholder="List Similar Apps" id="temp" onkeyup="filterText()">
+                <input placeholder="List Similar Apps" id="temp">
             </div>
+            <button onclick="filterText()" class="query-button">Search!</button>
+            <button onclick="rocchio()" class="rocchio-button">Improve the search</button>
         </div>
         <div id="answer-box">
 
@@ -33,6 +35,17 @@
 
     <script>
 
+        //localStorage.setItem('rel', '[[]]');
+        //localStorage.setItem('irrel', '[[]]');
+        //localStorage.setItem('rankings', '[[]]');
+        //localStorage.setItem('iter', '0');
+
+        var rel = [[]];//localStorage.getItem('rel');
+        var irrel = [[]];//localStorage.getItem('irrel');
+        var rankings = [[]];//localStorage.getItem('rankings');
+        var iteration = -1;//localStorage.getItem('iter');
+        const show_top_x = 10;
+
         function answerTemplate(appId, title, titleDesc, rating, icon) {
             return `<div id='${appId}' style='flex-direction:column'>
                 <div class='answer-wrapper'>
@@ -43,7 +56,7 @@
                     </div>
                     <div class='answer-button-display'>
                         <button onclick='query_id("${appId}")' class='answer-info-button'>Info</button>
-                        <button onclick='document.getElementById("${appId}").remove()' class='answer-remove-button'>Remove</button>
+                        <button onclick='irrelevant("${appId}")' class='answer-remove-button'>Irrelevant?</button>
                     </div>
                 </div>
             </div>`
@@ -177,17 +190,70 @@
             }
         }
 
+        // need some fixing and extra checks for duplicates...
+        // we will change this to become a "TOGGLE REL/IRREL button"
+        function irrelevant(appId) {
+            const index = rel[iteration].indexOf(appId);
+            if (index > -1) {
+                rel[iteration].splice(index, 1);
+                irrel[iteration].push(appId);
+            }
+            console.log("Relevant: " + rel[iteration].toString());
+            console.log("Irrelevant: " + irrel[iteration].toString());
+        }
+
         function filterText() {
-            document.getElementById("answer-box").innerHTML = ""
-            console.log(document.getElementById("filter-text-val").value)
+            iteration = 0;
+            rel = [[]];
+            rankings = [[]];
+            irrel = [[]];
+            document.getElementById("answer-box").innerHTML = "";
+            console.log(document.getElementById("filter-text-val").value);
             fetch("/apps?" + new URLSearchParams({ title: document.getElementById("filter-text-val").value }).toString())
                 .then((response) => response.json())
                 .then((data) => data.forEach(row => {
 
-                    let tempDiv = document.createElement("div")
+                    let tempDiv = document.createElement("div");
                     // tempDiv.innerHTML = answerBoxTemplate(row.title, row.descr, row.imdb_rating)
-                    tempDiv.innerHTML = answerTemplate(row.appId, row.title, row.summary, row.scoreText, row.icon)
-                    document.getElementById("answer-box").appendChild(tempDiv)
+                    rankings[iteration].push(row.appId);
+                    let len = rankings[iteration].length;
+                    if (len <= show_top_x) {
+                        rel[iteration].push(row.appId);
+                        //console.log(rel[iteration][len - 1]);
+
+                        tempDiv.innerHTML = answerTemplate(row.appId, row.title, row.summary, row.scoreText, row.icon);
+                        document.getElementById("answer-box").appendChild(tempDiv);
+                    }
+                }));
+        }
+
+        function rocchio() {
+            iteration++;
+            console.log("Performing Rocchio Iteration" + iteration);
+            document.getElementById("answer-box").innerHTML = "yeah, we're working on our rocchio";
+            rel_json = JSON.stringify(rel)
+            console.log(rel_json);
+            console.log(typeof (rel_json));
+            fetch("/rel-feed?" + new URLSearchParams({ rel: JSON.stringify(rel), irrel: JSON.stringify(irrel), iter: JSON.stringify(iteration) }).toString())
+                .then((response) => response.json())
+                .then((data) => data.forEach(row => {
+
+                    let tempDiv = document.createElement("div");
+                    // tempDiv.innerHTML = answerBoxTemplate(row.title, row.descr, row.imdb_rating)
+                    if (rankings.length !== iteration) {
+                        rel.push([]);
+                        rankings.push([]);
+                        irrel.push([]);
+                    }
+                    rankings[iteration].push(row.appId);
+                    let len = rankings[iteration].length;
+                    if (len <= show_top_x) {
+                        rel[iteration].push(row.appId);
+                        //console.log(rel[iteration][len - 1]);
+
+                        tempDiv.innerHTML = answerTemplate(row.appId, row.title, row.summary, row.scoreText, row.icon);
+                        document.getElementById("answer-box").appendChild(tempDiv);
+                    }
                 }));
         }
 
