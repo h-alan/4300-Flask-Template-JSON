@@ -4,6 +4,8 @@ from flask import Flask, render_template, request
 from flask_cors import CORS
 from helpers.MySQLDatabaseHandler import MySQLDatabaseHandler
 import pandas as pd
+import math
+import numpy as np
 
 # ROOT_PATH for linking with all your files.
 # Feel free to use a config.py or settings.py with a global export variable
@@ -38,18 +40,78 @@ CORS(app)
 def clean(query):
     return set(query.lower().split())
 
-#TODO: Preprocess the reviews
-#       - avoid loading it in every single time
-#       - consistent + faster
+def tokenize_input(input):
+   return input.replace(".", " ").replace(",", " ").replace("?", " ").replace("!", " ")
 
-# Sample search using json with pandas
-def json_search(query):
-    words_set = clean(query)
+def build_tf_inv_idx(df):
+    output = {}
 
-    if len(words_set) == 0:
-        raise ValueError("Query should not be empty")
+    for ind in df.index:
+        # removing punctuation
+        # replace is faster than translate
+        desc = tokenize_input(df["description"][ind].lower())
 
-    # basic jaccard on reviews and query
+        # building tf inv_idx dict
+        counts = {}
+        for token in desc:
+            counts[token] = counts.get(token, 0) + 1
+        for token in counts:
+            if token in output:
+                output[token].append((ind, counts[token]))
+            else:
+                output[token] = [(ind, counts[token])]
+
+    return output
+
+
+def compute_idf(inv_idx, n_docs, min_df, max_df_ratio):
+    res = {}
+
+    for token in inv_idx:
+        docs = inv_idx[token]
+
+        # filter out tokens too frequent or not frequent enough
+        if len(docs) < min_df:
+            continue
+        ratio = len(docs) / n_docs
+        if ratio > max_df_ratio:
+            continue
+        else:
+            res[token] = math.log2(n_docs / (1 + len(docs)))
+
+    return res
+
+
+def compute_norms(inv_idx, idf, n_docs):
+    res = np.zeros(shape=n_docs)
+
+    for token in inv_idx:
+        for doc, freq in inv_idx[token]:
+            if token in idf:
+                res[doc] += (freq * idf[token])**2
+    
+    for i in range(n_docs):
+        res[i] = math.sqrt(res[i])
+
+    return res
+
+# precomputing before query is input
+desc_inv_idx = build_tf_inv_idx(apps_df)
+desc_idf_dict = compute_idf(desc_inv_idx, apps_df.size, 2, 0.95)
+desc_norms = compute_norms(desc_inv_idx, desc_idf_dict, apps_df.size)
+
+# precomputing for each review
+rev_dict = {}
+for ind in rev_df.index:
+    if rev_df["thumbsUp"][ind] < 5:
+        continue
+    rev_dict[ind] = {}
+    rev_dict[ind]['inv_idx'] = build_tf_inv_idx(rev_df)
+    rev_dict[ind]['idf'] = compute_idf(rev_dict[ind]['inv_idx'], rev_df.size, 5, 0.95)
+    rev_dict[ind]['norms'] = compute_norms(rev_dict[ind]['inv_idx'], rev_dict[ind]['idf'], rev_df.size)
+
+def jaccard_similarity(words_set):
+   # basic jaccard on reviews and query
     reviewScores = {}
     totalScores = {}
     for ind in rev_df.index:
@@ -90,12 +152,70 @@ def json_search(query):
     matches_filtered_json = matches_filtered.to_json(orient="records")
     return matches_filtered_json
 
-#   matches = []
-#  merged_df = pd.merge(episodes_df, reviews_df, left_on='id', right_on='id', how='inner')
-# matches = merged_df[merged_df['title'].str.lower().str.contains(query.lower())]
-# matches_filtered = matches[['title', 'descr', 'imdb_rating']]
-# matches_filtered_json = matches_filtered.to_json(orient='records')
-# return matches_filtered_json
+def compute_dot_scores(query_word_counts, inv_idx, idf):
+    doc_scores = {}
+    for token in query_word_counts:
+        if token in inv_idx and token in idf:
+            for doc, freq in inv_idx[token]:
+                doc_scores[doc] = (doc_scores.get(doc, 0) + 
+                    freq * idf[token] * query_word_counts[token] * idf[token])
+
+    return doc_scores
+
+def compute_cosine_sim(query, inv_idx, idf, doc_norms):
+    q_token = tokenize_input(query.lower())
+    q_count = {}
+    q_norm = 0
+    for token in q_token:
+        q_count[token] = q_count.get(token, 0) + 1
+    for token in q_count:
+        if token in idf:
+            q_norm += (q_count[token] * idf[token])**2
+    q_norm = math.sqrt(q_norm)
+
+    res = {}
+    doc_scores = compute_dot_scores(q_count, inv_idx, idf)
+    for doc in doc_scores:
+        res[doc] = doc_scores[doc] / (q_norm * doc_norms[doc])
+
+    return res
+
+def cosine_similarity(query, desc_inv_idx, desc_idf, desc_doc_norms, rev_dict):
+    desc_sim = compute_cosine_sim(query, desc_inv_idx, desc_idf, desc_doc_norms)
+
+    # computing average review cosine score for each app
+    app_rev_score = {}
+    app_rev_count = {}
+    for rev in rev_dict:
+        score = compute_cosine_sim(rev_dict[rev]['inv_idx'], rev_dict[rev]['idf'], rev_dict[rev]['norms'])
+        title = rev_df["appId"][ind]
+        app_rev_score[title] = app_rev_score.get(title, 0) + score
+        app_rev_count[title] = app_rev_count.get(title, 0) + 1
+    for app in app_rev_score:
+       app_rev_score[app] = app_rev_score[app] / app_rev_count[app]
+
+    combined = {}
+    for key in desc_sim:
+       combined[key] = desc_sim[key] + app_rev_score[apps_df["appId"][key]]
+
+    # argsort
+    inds = sorted(combined, key=combined.get, reverse=True)
+    matches = apps_df.loc[inds]
+
+    matches_filtered = matches[["title", "summary", "scoreText", "appId", "icon"]]
+    matches_filtered_json = matches_filtered.to_json(orient="records")
+    return matches_filtered_json
+
+# Search using json with pandas
+def json_search(query):
+    words_set = tokenize_input(query.lower())
+
+    # empty query is allowed, we just return nothing
+    if len(words_set) == 0:
+        empty_data = json.loads(request.POST.get('mydata', "{}"))
+        return empty_data
+
+    return jaccard_similarity(words_set)
 
 
 @app.route("/")
