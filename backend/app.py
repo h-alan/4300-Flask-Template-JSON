@@ -116,6 +116,19 @@ def info_query():
     x = apps_df.loc[apps_df["appId"] == appId,:]
     return x.to_json(orient="records")
 
+@app.route("/rel-feed")
+def query_improvement():
+    iteration_num = int(request.args.get("iter"))
+    print(f"ROCCHIO ITERATION: {iteration_num}")
+    rel = json.loads(request.args.get('rel'))
+    print(f"RELEVANT: {rel}")
+    irrel = json.loads(request.args.get('irrel'))
+    print(f"IRRELEVANT: {irrel}")
+    # rel, irrel are 2d arrays that contain all previous rocchio results / processes
+    # do rocchio stuff
+    # pls return some new rankings in similar way to JSON_search, or similar format to above
+    return None
+
 
 if "DB_NAME" not in os.environ:
     app.run(debug=True, host="0.0.0.0", port=5000)
