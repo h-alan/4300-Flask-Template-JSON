@@ -40,8 +40,10 @@ CORS(app)
 def clean(query):
     return set(query.lower().split())
 
+
 def tokenize_input(input):
-   return input.replace(".", " ").replace(",", " ").replace("?", " ").replace("!", " ")
+    return input.replace(".", " ").replace(",", " ").replace("?", " ").replace("!", " ")
+
 
 def build_tf_inv_idx(df, key):
     output = {}
@@ -88,20 +90,21 @@ def compute_norms(inv_idx, idf, n_docs):
     for token in inv_idx:
         for doc, freq in inv_idx[token]:
             if token in idf:
-                res[doc] += (freq * idf[token])**2
-    
+                res[doc] += (freq * idf[token]) ** 2
+
     for i in range(n_docs):
         res[i] = math.sqrt(res[i])
 
     return res
 
+
 # precomputing before query is input
-desc_inv_idx = build_tf_inv_idx(apps_df, 'description')
+desc_inv_idx = build_tf_inv_idx(apps_df, "description")
 desc_idf_dict = compute_idf(desc_inv_idx, apps_df.size, 0, 1)
 desc_norms = compute_norms(desc_inv_idx, desc_idf_dict, apps_df.size)
 
 # this takes forever to finish
-''' precomputing for each review
+""" precomputing for each review
 rev_dict = {}
 for ind in rev_df.index:
     if rev_df["thumbsUp"][ind] < 5:
@@ -110,10 +113,11 @@ for ind in rev_df.index:
     rev_dict[ind]['inv_idx'] = build_tf_inv_idx(rev_df)
     rev_dict[ind]['idf'] = compute_idf(rev_dict[ind]['inv_idx'], rev_df.size, 5, 0.95)
     rev_dict[ind]['norms'] = compute_norms(rev_dict[ind]['inv_idx'], rev_dict[ind]['idf'], rev_df.size)
-'''
+"""
+
 
 def jaccard_similarity(words_set):
-   # basic jaccard on reviews and query
+    # basic jaccard on reviews and query
     reviewScores = {}
     totalScores = {}
     for ind in rev_df.index:
@@ -154,15 +158,19 @@ def jaccard_similarity(words_set):
     matches_filtered_json = matches_filtered.to_json(orient="records")
     return matches_filtered_json
 
+
 def compute_dot_scores(query_word_counts, inv_idx, idf):
     doc_scores = {}
     for token in query_word_counts:
         if token in inv_idx and token in idf:
             for doc, freq in inv_idx[token]:
-                doc_scores[doc] = (doc_scores.get(doc, 0) + 
-                    freq * idf[token] * query_word_counts[token] * idf[token])
+                doc_scores[doc] = (
+                    doc_scores.get(doc, 0)
+                    + freq * idf[token] * query_word_counts[token] * idf[token]
+                )
 
     return doc_scores
+
 
 def compute_cosine_sim(query, inv_idx, idf, doc_norms):
     q_token = tokenize_input(query.lower())
@@ -172,7 +180,7 @@ def compute_cosine_sim(query, inv_idx, idf, doc_norms):
         q_count[token] = q_count.get(token, 0) + 1
     for token in q_count:
         if token in idf:
-            q_norm += (q_count[token] * idf[token])**2
+            q_norm += (q_count[token] * idf[token]) ** 2
     q_norm = math.sqrt(q_norm)
 
     res = {}
@@ -182,11 +190,12 @@ def compute_cosine_sim(query, inv_idx, idf, doc_norms):
 
     return res
 
+
 def cosine_similarity(query, desc_idx, desc_idf, desc_doc_norms, rev_dict):
     desc_sim = compute_cosine_sim(query, desc_idx, desc_idf, desc_doc_norms)
 
     # computing average review cosine score for each app
-    '''
+    """
     app_rev_score = {}
     app_rev_count = {}
     for rev in rev_dict:
@@ -200,7 +209,7 @@ def cosine_similarity(query, desc_idx, desc_idf, desc_doc_norms, rev_dict):
     combined = {}
     for key in desc_sim:
        combined[key] = desc_sim[key] + app_rev_score[apps_df["appId"][key]]
-    '''
+    """
 
     # switch this to combined once reviews get added
     inds = sorted(desc_sim, key=desc_sim.get, reverse=True)
@@ -213,16 +222,22 @@ def cosine_similarity(query, desc_idx, desc_idf, desc_doc_norms, rev_dict):
     matches_filtered_json = matches_filtered.to_json(orient="records")
     return matches_filtered_json
 
+
 # Search using json with pandas
+# filter values included are: max price of app (0-100), minimum rating (0-5) and
+# whether in app purchases are allowed (boolean)
+# def json_search(query, minRating, maxPrice, iap):
 def json_search(query):
     words_set = tokenize_input(query.lower())
 
     # empty query is allowed, we just return nothing
     if len(words_set) == 0:
-        empty_data = json.loads('{}')
+        empty_data = json.loads("{}")
         return empty_data
 
-    return cosine_similarity(words_set, desc_inv_idx, desc_idf_dict, desc_norms, rev_dict={})
+    return cosine_similarity(
+        words_set, desc_inv_idx, desc_idf_dict, desc_norms, rev_dict={}
+    )
 
 
 @app.route("/")
@@ -232,24 +247,32 @@ def home():
 
 @app.route("/apps")
 def episodes_search():
+    print("help")
     text = request.args.get("title")
+    #   minRating = float(request.args.get("minRating"))
+    #  maxPrice = float(request.args.get("maxPrice"))
+    # iap = bool(request.args.get("iap"))
+    # print(minRating + " " + maxPrice)
+    #  return json_search(text, minRating, maxPrice, iap)
     return json_search(text)
+
 
 @app.route("/inforeq")
 def info_query():
     appId = request.args.get("appId")
-    
+
     print("QUERYING INFO OF: " + appId)
-    x = apps_df.loc[apps_df["appId"] == appId,:]
+    x = apps_df.loc[apps_df["appId"] == appId, :]
     return x.to_json(orient="records")
+
 
 @app.route("/rel-feed")
 def query_improvement():
     iteration_num = int(request.args.get("iter"))
     print(f"ROCCHIO ITERATION: {iteration_num}")
-    rel = json.loads(request.args.get('rel'))
+    rel = json.loads(request.args.get("rel"))
     print(f"RELEVANT: {rel}")
-    irrel = json.loads(request.args.get('irrel'))
+    irrel = json.loads(request.args.get("irrel"))
     print(f"IRRELEVANT: {irrel}")
     # rel, irrel are 2d arrays that contain all previous rocchio results / processes
     # do rocchio stuff

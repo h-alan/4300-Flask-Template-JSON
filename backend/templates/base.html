@@ -10,7 +10,7 @@
 <body>
     <div class="full-body-container">
         <div class="welcome">
-            <img src="{{ url_for('static', filename='images/logo.jpg') }}" />
+            <img src="{{ url_for('static', filename='images/logo.png') }}" />
             <h1 id="normal-c">Appiphany</h1>
         </div>
         <div class="top-text">
@@ -18,13 +18,35 @@
                 <img src="{{ url_for('static', filename='images/mag.png') }}" />
                 <input placeholder="Describe An App" id="filter-text-val">
             </div>
-            <div class="input-box" onclick="sendFocusApp()">
+            <!--       <div class="input-box" onclick="sendFocusApp()"> 
                 <img src="{{ url_for('static', filename='images/mag.png') }}" />
-                <input placeholder="List Similar Apps" id="temp">
-            </div>
-            <button onclick="filterText()" class="query-button">Search!</button>
-            <button onclick="rocchio()" class="rocchio-button">Improve the search</button>
+                <input placeholder="List Similar Apps" id="temp"> 
+            </div> -->
         </div>
+        <div class="button-box">
+            <button onclick="filterText()" class="button">Search!</button>
+            <button onclick="rocchio()" class="button">Improve the Search</button>
+            <button onclick="advSettingsToggle()" class="button">Filters</button>
+        </div>
+        <div class="advanced-settings" id="adv">
+            <div class="price">
+                <label for="price">Max Price</label>
+                <input type="range" id="price" name="price" min="0" max="100" value="100" />
+            </div>
+
+            <div class="lower-settings">
+                <div class="iap">
+                    <input type="checkbox" id="iap" name="iap" checked>
+                    <label for="iap"> In-app Purchases Allowed?</label><br>
+                </div>
+
+                <div class="min-star">
+                    <input type="number" id="min-rating" name="min-rating" min="0" max="5" value="0" />
+                    <label for="min-rating">Minimum Star Rating (0-5):</label>
+                </div>
+            </div>
+        </div>
+
         <div id="answer-box">
 
         </div>
@@ -32,6 +54,19 @@
 
     <!-- Histogram helper -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.1/dist/chart.min.js"></script>
+
+    <script>
+        var hidden = true
+        function advSettingsToggle() {
+            hidden = !hidden;
+            var x = document.getElementById("adv");
+            if (hidden) {
+                x.style.display = "none";
+            } else {
+                x.style.display = "flex";
+            }
+        }
+    </script>
 
     <script>
 
@@ -55,8 +90,8 @@
                         <p class='episode-rating'>Star Rating: ${rating}</p>
                     </div>
                     <div class='answer-button-display'>
-                        <button onclick='query_id("${appId}")' class='answer-info-button'>Info</button>
-                        <button onclick='irrelevant("${appId}")' class='answer-remove-button'>Irrelevant?</button>
+                        <button onclick='query_id("${appId}")' class='button'>Info</button>
+                        <button onclick='irrelevant("${appId}")' class='button'>Irrelevant?</button>
                     </div>
                 </div>
             </div>`
@@ -207,9 +242,15 @@
             rel = [[]];
             rankings = [[]];
             irrel = [[]];
+
             document.getElementById("answer-box").innerHTML = "";
             console.log(document.getElementById("filter-text-val").value);
-            fetch("/apps?" + new URLSearchParams({ title: document.getElementById("filter-text-val").value }).toString())
+            fetch("/apps?" + new URLSearchParams({
+                title: document.getElementById("filter-text-val").value
+                //    , minRating: JSON.stringify(document.getElementById("minRating").value)
+                //      , maxPrice: JSON.stringify(document.getElementById("price").value)
+                //      , iap: JSON.stringify(document.getElementById("iap").value)
+            }).toString())
                 .then((response) => response.json())
                 .then((data) => data.forEach(row => {
 
@@ -229,7 +270,7 @@
 
         function rocchio() {
             iteration++;
-            console.log("Performing Rocchio Iteration" + iteration);
+            console.log("Performing Rocchio Iteration " + iteration);
             document.getElementById("answer-box").innerHTML = "yeah, we're working on our rocchio";
             rel_json = JSON.stringify(rel)
             console.log(rel_json);
