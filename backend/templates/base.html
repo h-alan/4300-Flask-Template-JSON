@@ -1,5 +1,6 @@
 <!doctype html>
-<title>{% block title %}{% endblock %} - Flaskr</title>
+<title>{% block title %}{% endblock %} Appiphany </title>
+<link rel="icon" type="image/x-icon" href="static/images/logo.ico">
 <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -34,7 +35,8 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.1/dist/chart.min.js"></script>
 
     <script>
-
+        // We can use local_storage if we want to memorize values between pages (or even use cookies)
+        // Currently don't use because not necessarily and/or lazy
         //localStorage.setItem('rel', '[[]]');
         //localStorage.setItem('irrel', '[[]]');
         //localStorage.setItem('rankings', '[[]]');
@@ -46,11 +48,13 @@
         var iteration = -1;//localStorage.getItem('iter');
         const show_top_x = 10;
 
-        function answerTemplate(appId, title, titleDesc, rating, icon) {
+        function answerTemplate(appId, title, titleDesc, rating, icon, url) {
             return `<div id='${appId}' style='flex-direction:column'>
                 <div class='answer-wrapper'>
                     <div class='answer-txt'>
-                        <h3 class='episode-title'><img class= "icon" src='${icon}' alt = "icon" width="50" height= "50"> ${title}</h3>
+                        <a target="_blank" rel="noopener noreferrer" href="${url}" class='entry'>
+                            <h3 class='episode-title'><img class= "icon" src='${icon}' alt = "icon" width="50" height= "50">${title}</h3>
+                        </a>
                         <p class='episode-desc'>${titleDesc}</p>
                         <p class='episode-rating'>Star Rating: ${rating}</p>
                     </div>
@@ -221,7 +225,7 @@
                         rel[iteration].push(row.appId);
                         //console.log(rel[iteration][len - 1]);
 
-                        tempDiv.innerHTML = answerTemplate(row.appId, row.title, row.summary, row.scoreText, row.icon);
+                        tempDiv.innerHTML = answerTemplate(row.appId, row.title, row.summary, row.scoreText, row.icon, row.url);
                         document.getElementById("answer-box").appendChild(tempDiv);
                     }
                 }));

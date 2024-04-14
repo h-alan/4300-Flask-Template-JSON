@@ -209,7 +209,7 @@ def cosine_similarity(query, desc_idx, desc_idf, desc_doc_norms, rev_dict):
     for w in sorted(desc_sim, key=desc_sim.get, reverse=True):
         print(apps_df["title"][w], desc_sim[w])
 
-    matches_filtered = matches[["title", "summary", "scoreText", "appId", "icon"]]
+    matches_filtered = matches[["title", "summary", "scoreText", "appId", "icon", "url"]]
     matches_filtered_json = matches_filtered.to_json(orient="records")
     return matches_filtered_json
 
