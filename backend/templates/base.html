@@ -255,7 +255,7 @@
                         rel[iteration].push(row.appId);
                         //console.log(rel[iteration][len - 1]);
 
-                        tempDiv.innerHTML = answerTemplate(row.appId, row.title, row.summary, row.scoreText, row.icon);
+                        tempDiv.innerHTML = answerTemplate(row.appId, row.title, row.summary, row.scoreText, row.icon, row.url);
                         document.getElementById("answer-box").appendChild(tempDiv);
                     }
                 }));
