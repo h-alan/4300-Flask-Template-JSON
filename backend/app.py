@@ -239,11 +239,13 @@ def cosine_similarity(query, desc_idx, desc_idf, desc_doc_norms, rev_dict):
 
     combined = {}
     for key in desc_sim:
+        '''
         if apps_df["appId"][key] not in app_rev_score:
            rev_score = 0
         else:
            score = app_rev_score[apps_df["appId"][key]]
-        combined[key] = desc_sim[key] + score
+        '''
+        combined[key] = desc_sim[key] + 0
 
     # switch this to combined once reviews get added
     inds = sorted(combined, key=combined.get, reverse=True)[0:10]
