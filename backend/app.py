@@ -218,8 +218,7 @@ def compute_cosine_sim(query, inv_idx, idf, doc_norms):
 
 # Returns sorted list
 def cosine_similarity(query, desc_idx, desc_idf, desc_doc_norms, rev_dict):
-    tokens = tokenize_input(query.lower())
-    desc_sim = compute_cosine_sim(tokens, desc_idx, desc_idf, desc_doc_norms)
+    desc_sim = compute_cosine_sim(query, desc_idx, desc_idf, desc_doc_norms)
 
     # computing average review cosine score for each app
     """
@@ -234,21 +233,23 @@ def cosine_similarity(query, desc_idx, desc_idf, desc_doc_norms, rev_dict):
        app_rev_score[app] = app_rev_score[app] / app_rev_count[app]
     """
 
+    '''
     words_set = clean(query)
     app_rev_score = jaccard_reviews(words_set)
 
     combined = {}
     for key in desc_sim:
-        '''
+        
         if apps_df["appId"][key] not in app_rev_score:
            rev_score = 0
         else:
            score = app_rev_score[apps_df["appId"][key]]
-        '''
+        
         combined[key] = desc_sim[key] + 0
+    '''
 
     # switch this to combined once reviews get added
-    inds = sorted(combined, key=combined.get, reverse=True)[0:10]
+    inds = sorted(desc_sim, key=desc_sim.get, reverse=True)[0:10]
     matches = apps_df.loc[inds]
 
     #for w in sorted(desc_sim, key=desc_sim.get, reverse=True):
@@ -287,9 +288,10 @@ def home():
 @app.route("/apps")
 def episodes_search():
     text = request.args.get("title")
+    words_set = tokenize_input(text.lower())
 
     # empty query is allowed, we just return nothing
-    if len(text) == 0:
+    if len(words_set) == 0:
         empty_data = json.loads("{}")
         return empty_data
     score = 0
@@ -316,7 +318,7 @@ def episodes_search():
 \t min_rating: {score}
 \t max_price: {price}
 \t iap: {iap}""")
-    return json_search(text, price, iap, score)
+    return json_search(words_set, price, iap, score)
 
 
 @app.route("/inforeq")
