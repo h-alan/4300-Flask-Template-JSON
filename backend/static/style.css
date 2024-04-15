@@ -186,6 +186,7 @@ input[type=number]::-webkit-outer-spin-button {
 .icon {
     padding-right: 15px;
     vertical-align: middle;
+    border-radius: 5px;
 }
 
 .answer-button-display {
@@ -252,7 +253,14 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .episode-title {
-    font-family: 'Kanit', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
+    transition-duration: 0.2s;
+    font-size: x-large;
+}
+
+.episode-title:hover {
+    color: #aa0a04;
+    text-decoration: underline;
 }
 
 .episode-desc {
@@ -261,6 +269,8 @@ input[type=number]::-webkit-outer-spin-button {
 
 .episode-rating {
     font-family: 'Montserrat', sans-serif;
+    align-items: center;
+    font-weight: bold;
 }
 
 a.entry {

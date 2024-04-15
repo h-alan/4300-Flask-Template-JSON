@@ -15,7 +15,10 @@
             <h1 id="normal-c">Appiphany</h1>
         </div>
         <div class="top-text">
-            <p id="instructions">Welcome to Appiphany! Start by typing in a description of your desired app then click search. You can optionally click on Filters and define needed filters. We will return a list of results but if you want to finetune the results you can mark the results as relevant or irrelevant and then select "Improve the Search"</p>
+            <p id="instructions">Welcome to Appiphany! Start by typing in a description of your desired app then click
+                search. You can optionally click on Filters and define needed filters. We will return a list of results
+                but if you want to finetune the results you can mark the results as relevant or irrelevant and then
+                select "Improve the Search"</p>
             <div class="input-box" onclick="sendFocus()">
                 <img src="{{ url_for('static', filename='images/mag.png') }}" />
                 <input placeholder="Describe An App" id="filter-text-val">
@@ -104,7 +107,7 @@
                             <h3 class='episode-title'><img class= "icon" src='${icon}' alt = "icon" width="50" height= "50">${title}</h3>
                         </a>
                         <p class='episode-desc'>${titleDesc}</p>
-                        <p class='episode-rating'>Star Rating: ${rating}</p>
+                        <p class='episode-rating'><img class= "icon" src='{{ url_for('static', filename='images/star.png') }}' width="15" height= "15">${rating}</p>
                     </div>
                     <div class='answer-button-display'>
                         <button onclick='query_id("${appId}")' class='button'>Info</button>
