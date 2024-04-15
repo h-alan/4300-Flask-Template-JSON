@@ -16,40 +16,25 @@
     color: #525253;
 }
 
-#google-c {
-    color: #4285F4;
-}
-
-#google-s {
-    color: #DB4437;
-}
-
-#google-4 {
-    color: #F4B400;
-}
-
-#google-3 {
-    color: #4285F4;
-}
-
-#google-0-1 {
-    color: #0F9D58;
-}
-
-#google-0-2 {
-    color: #DB4437;
-}
-
-.google-colors {
-    display: flex;
-    align-items: center;
-    font-size: 48px;
-    font-family: 'Open Sans', sans-serif;
-}
 
 .google-colors h1 {
     margin-bottom: 0;
     margin-right: 3px;
+}
+
+.descr {
+    text-align: center;
+    color: #aa0a04;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+.instructions {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
 }
 
 .welcome {
@@ -74,6 +59,10 @@
 .answer-wrapper {
     display: flex;
     flex-direction: row;
+    padding: 1rem;
+    border-bottom: solid;
+    border-radius: 2px;
+    border-color: rgba(0, 0, 0, 0.3)
 }
 
 .answer-txt {
@@ -276,8 +265,4 @@ input[type=number]::-webkit-outer-spin-button {
 a.entry {
     color: initial;
     text-decoration: initial;
-}
-
-#instructions {
-    width: 70%;
 }
