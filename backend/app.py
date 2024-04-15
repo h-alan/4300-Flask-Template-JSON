@@ -99,7 +99,7 @@ def compute_norms(inv_idx, idf, n_docs):
 
 # precomputing before query is input
 desc_inv_idx = build_tf_inv_idx(apps_df, "description")
-desc_idf_dict = compute_idf(desc_inv_idx, apps_df.size, 0, 1)
+desc_idf_dict = compute_idf(desc_inv_idx, apps_df.size, 0, 0.9)
 desc_norms = compute_norms(desc_inv_idx, desc_idf_dict, apps_df.size)
 
 # this takes forever to finish
@@ -158,6 +158,32 @@ def jaccard_similarity(words_set):
     return matches_filtered_json
 
 
+def jaccard_reviews(words_set):
+    # basic jaccard on reviews and query
+    reviewScores = {}
+    totalScores = {}
+    for ind in rev_df.index:
+        if rev_df["thumbsUp"][ind] < 5:
+            continue
+        rev_set = clean(rev_df["text"][ind])
+        num = words_set.intersection(rev_set)
+        den = words_set.union(rev_set)
+        score = len(num) / len(den)
+
+        title = rev_df["appId"][ind]
+        if title not in reviewScores.keys():
+            reviewScores[title] = 0
+        if title not in totalScores.keys():
+            totalScores[title] = 0
+
+        reviewScores[title] += score
+        totalScores[title] += 1
+
+    for key in reviewScores.keys():
+        reviewScores[key] = reviewScores[key] / totalScores[key]
+
+    return reviewScores
+
 def compute_dot_scores(query_word_counts, inv_idx, idf):
     doc_scores = {}
 
@@ -192,7 +218,8 @@ def compute_cosine_sim(query, inv_idx, idf, doc_norms):
 
 # Returns sorted list
 def cosine_similarity(query, desc_idx, desc_idf, desc_doc_norms, rev_dict):
-    desc_sim = compute_cosine_sim(query, desc_idx, desc_idf, desc_doc_norms)
+    tokens = tokenize_input(query.lower())
+    desc_sim = compute_cosine_sim(tokens, desc_idx, desc_idf, desc_doc_norms)
 
     # computing average review cosine score for each app
     """
@@ -205,18 +232,25 @@ def cosine_similarity(query, desc_idx, desc_idf, desc_doc_norms, rev_dict):
         app_rev_count[title] = app_rev_count.get(title, 0) + 1
     for app in app_rev_score:
        app_rev_score[app] = app_rev_score[app] / app_rev_count[app]
+    """
+
+    words_set = clean(query)
+    app_rev_score = jaccard_reviews(words_set)
 
     combined = {}
     for key in desc_sim:
-       combined[key] = desc_sim[key] + app_rev_score[apps_df["appId"][key]]
-    """
+        if apps_df["appId"][key] not in app_rev_score:
+           rev_score = 0
+        else:
+           score = app_rev_score[apps_df["appId"][key]]
+        combined[key] = desc_sim[key] + score
 
     # switch this to combined once reviews get added
-    inds = sorted(desc_sim, key=desc_sim.get, reverse=True)[0:10]
+    inds = sorted(combined, key=combined.get, reverse=True)[0:10]
     matches = apps_df.loc[inds]
 
-    for w in sorted(desc_sim, key=desc_sim.get, reverse=True):
-        print(apps_df["title"][w], desc_sim[w])
+    #for w in sorted(desc_sim, key=desc_sim.get, reverse=True):
+    #    print(apps_df["title"][w], desc_sim[w])
 
     matches_filtered = matches[
         ["title", "summary", "scoreText", "appId", "icon", "url", "price", "offersIAP", "score"]
@@ -233,10 +267,10 @@ def apply_filter(results, price, iap, score):
 # Search using json with pandas
 # filter values included are: max price of app (0-100), minimum rating (0-5) and
 # whether in app purchases are allowed (boolean)
-def json_search(words_set, price, iap, score):
+def json_search(text, price, iap, score):
 
     ranks = cosine_similarity(
-        words_set, desc_inv_idx, desc_idf_dict, desc_norms, rev_dict={}
+        text, desc_inv_idx, desc_idf_dict, desc_norms, rev_dict={}
     )
     filtered_ranks = apply_filter(ranks, price, iap, score)
     return filtered_ranks.to_json(orient="records")
@@ -251,10 +285,9 @@ def home():
 @app.route("/apps")
 def episodes_search():
     text = request.args.get("title")
-    words_set = tokenize_input(text.lower())
 
     # empty query is allowed, we just return nothing
-    if len(words_set) == 0:
+    if len(text) == 0:
         empty_data = json.loads("{}")
         return empty_data
     score = 0
@@ -281,7 +314,7 @@ def episodes_search():
 \t min_rating: {score}
 \t max_price: {price}
 \t iap: {iap}""")
-    return json_search(words_set, price, iap, score)
+    return json_search(text, price, iap, score)
 
 
 @app.route("/inforeq")
