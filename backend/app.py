@@ -349,9 +349,9 @@ def query_improvement():
             avg_doc[token] = avg_doc[token]['total_count'] / len(avg_doc)
         return avg_doc
     # CONSTANTS/HYPERPARAMETERS:
-    ROCCHIO_A = 0.8
-    ROCCHIO_B = 0.3
-    ROCCHIO_C = 0.1
+    ROCCHIO_A = 1
+    ROCCHIO_B = 0.03
+    ROCCHIO_C = 0.01
     
     iteration_num = int(request.args.get("iter"))
     print(f"ROCCHIO ITERATION: {iteration_num}")
