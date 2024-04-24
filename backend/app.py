@@ -392,8 +392,6 @@ def query_improvement():
                 n_query[token] = 0
         # else:
             # n_query[token] = 0
-
-    print(n_query)
     
     return cosine_similarity(n_query, desc_inv_idx, desc_idf_dict, desc_norms, rev_df).to_json(orient="records")
 
