@@ -198,11 +198,8 @@ def compute_dot_scores(query_word_counts, inv_idx, idf):
     return doc_scores
 
 
-def compute_cosine_sim(query, inv_idx, idf, doc_norms):
-    q_count = {}
+def compute_cosine_sim(q_count, inv_idx, idf, doc_norms):
     q_norm = 0
-    for token in query:
-        q_count[token] = q_count.get(token, 0) + 1
     for token in q_count:
         if token in idf:
             q_norm += (q_count[token] * idf[token]) ** 2
@@ -218,7 +215,10 @@ def compute_cosine_sim(query, inv_idx, idf, doc_norms):
 
 # Returns sorted list
 def cosine_similarity(query, desc_idx, desc_idf, desc_doc_norms, rev_dict):
-    desc_sim = compute_cosine_sim(query, desc_idx, desc_idf, desc_doc_norms)
+    q_count = {}
+    for token in query:
+        q_count[token] = q_count.get(token, 0) + 1
+    desc_sim = compute_cosine_sim(q_count, desc_idx, desc_idf, desc_doc_norms)
 
     # computing average review cosine score for each app
     """
@@ -332,11 +332,26 @@ def info_query():
 
 @app.route("/rel-feed")
 def query_improvement():
-    
+    # Helper function
+    def avg_token_frequencies(doc_names):
+        avg_doc = {}
+        for name in doc_names:
+            doc_count={}
+            for token in tokenize_input(apps_df[apps_df['appId']==name]['description'].tolist()[0].lower()):
+                doc_count[token] = doc_count.get(token, 0) + 1
+            for token, count in doc_count.items():
+                if token in avg_doc:
+                    avg_doc[token]['total_count'] += count
+                    avg_doc[token]['dict_count'] += 1
+                else:
+                    avg_doc[token] = {'total_count': count, 'dict_count': 1}
+        for token in avg_doc:
+            avg_doc[token] = avg_doc[token]['total_count'] / len(avg_doc)
+        return avg_doc
     # CONSTANTS/HYPERPARAMETERS:
     ROCCHIO_A = 0.8
     ROCCHIO_B = 0.3
-    ROCCHIO_C = 0.4
+    ROCCHIO_C = 0.1
     
     iteration_num = int(request.args.get("iter"))
     print(f"ROCCHIO ITERATION: {iteration_num}")
@@ -350,16 +365,37 @@ def query_improvement():
     
     query_str = request.args.get("title")
     query = tokenize_input(query_str.lower())
-    
+    q_count = {}
+    for token in query:
+        q_count[token] = ROCCHIO_A * q_count.get(token, 0) + 1
+        
     # empty query is allowed, we just return nothing
     if len(query) == 0:
         empty_data = json.loads('{}')
         return empty_data
     
-    for rel in rels:
-        query+=tokenize_input(apps_df[apps_df['appId']==rel]['description'].tolist()[0].lower())
+    avg_rel_freq = avg_token_frequencies(rels)
+    avg_irrel_freq = avg_token_frequencies(irrels)
+    
+    n_query = q_count.copy()
 
-    return cosine_similarity(query, desc_inv_idx, desc_idf_dict, desc_norms, rev_df).to_json(orient="records")
+    for token in avg_rel_freq:
+        if token in n_query:
+            n_query[token] += ROCCHIO_B * avg_rel_freq[token]
+        else:
+            n_query[token] = ROCCHIO_B * avg_rel_freq[token]
+
+    for token in avg_irrel_freq:
+        if token in n_query:
+            n_query[token] -= ROCCHIO_C * avg_irrel_freq[token]
+            if n_query[token]<0:
+                n_query[token] = 0
+        # else:
+            # n_query[token] = 0
+
+    print(n_query)
+    
+    return cosine_similarity(n_query, desc_inv_idx, desc_idf_dict, desc_norms, rev_df).to_json(orient="records")
 
 
 if "DB_NAME" not in os.environ:
