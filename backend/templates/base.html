@@ -16,8 +16,9 @@
         </div>
         <div class="top-text">
             <h2 class="descr">A Full-Featured App Recommender </h2>
-            <p id="instructions" class="instructions">Input a description of the app you desire.<br> After searching,
-                finetune your results to receive a new set of recommendations.</p>
+            <p id="instructions" class="instructions">Input a description of the app you desire.<br><br> After searching,
+                label the relevant and irrelevant results by clicking the Relevant toggle then finetune your results 
+                using the "Improve the Search" button.</p>
             <div class="input-box" onclick="sendFocus()">
                 <img src="{{ url_for('static', filename='images/mag.png') }}" />
                 <input placeholder="Describe An App" id="filter-text-val">
