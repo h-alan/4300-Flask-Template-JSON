@@ -111,7 +111,12 @@
                     </div>
                     <div class='answer-button-display'>
                         <button onclick='query_id("${appId}")' class='button'>Info</button>
-                        <button onclick='rel_toggle(this,"${appId}")' class='button' style="background-color:${rel_color}">Relevant</button>
+                        <p class='relevant-options' style='color:red'>Irrelevant</p>
+                        <label class="switch"'>
+                            <input type="checkbox" onchange='rel_toggle(this,"${appId}")' checked>
+                            <span class="relevant-slider round"></span>
+                            </label>
+                        <p class='relevant-options' style='color:green'>Relevant</p>
                     </div>
                 </div>
             </div>`
@@ -248,20 +253,21 @@
         // need some fixing and extra checks for duplicates...
         // we will change this to become a "TOGGLE REL/IRREL button"
         function rel_toggle(obj, appId) {
+            console.log("________________________________")
             if ((index = rel[iteration].indexOf(appId)) > -1) { // In rel
                 console.log("Found in rel @ " + index);
                 rel[iteration].splice(index, 1);
                 irrel[iteration].push(appId);
-                obj.style.backgroundColor = irrel_color;
-                obj.innerHTML = "Irrelevant";
+                // obj.style.backgroundColor = irrel_color;
+                // obj.innerHTML = "Irrelevant";
                 document.getElementById(appId).style.opacity = 0.3;
             }
             else if ((index = irrel[iteration].indexOf(appId)) > -1) { // In irrel
                 console.log("Found in irrel @ " + index);
                 irrel[iteration].splice(index, 1);
                 rel[iteration].push(appId);
-                obj.style.backgroundColor = rel_color;
-                obj.innerHTML = "Relevant";
+                // obj.style.backgroundColor = rel_color;
+                // obj.innerHTML = "Relevant";
                 document.getElementById(appId).style.opacity = 1;
             }
             else {
