@@ -16,8 +16,9 @@
         </div>
         <div class="top-text">
             <h2 class="descr">A Full-Featured App Recommender </h2>
-            <p id="instructions" class="instructions">Input a description of the app you desire.<br><br> After searching,
-                label the relevant and irrelevant results by clicking the Relevant toggle then finetune your results 
+            <p id="instructions" class="instructions">Input a description of the app you desire.<br><br> After
+                searching,
+                label the relevant and irrelevant results by clicking the Relevant toggle then finetune your results
                 using the "Improve the Search" button.</p>
             <div class="input-box" onclick="sendFocus()">
                 <img src="{{ url_for('static', filename='images/mag.png') }}" />
@@ -99,7 +100,7 @@
         const rel_color = "#75ba88";
         const irrel_color = "#b06e68";
 
-        function answerTemplate(appId, title, titleDesc, rating, icon, url) {
+        function answerTemplate(appId, title, titleDesc, rating, icon, url, topics) {
             return `<div id='${appId}' style='flex-direction:column'>
                 <div class='answer-wrapper'>
                     <div class='answer-txt'>
@@ -108,6 +109,7 @@
                         </a>
                         <p class='episode-desc'>${titleDesc}</p>
                         <p class='episode-rating'><img class= "icon" src='{{ url_for('static', filename='images/star.png') }}' width="15" height= "15">${rating}</p>
+                        <p class='episode-desc'>${topics}</p>
                     </div>
                     <div class='answer-button-display'>
                         <button onclick='query_id("${appId}")' class='button'>Info</button>
@@ -301,7 +303,7 @@
                         rel[iteration].push(row.appId);
                         //console.log(rel[iteration][len - 1]);
 
-                        tempDiv.innerHTML = answerTemplate(row.appId, row.title, row.summary, row.scoreText, row.icon, row.url);
+                        tempDiv.innerHTML = answerTemplate(row.appId, row.title, row.summary, row.scoreText, row.icon, row.url, row.topics);
                         document.getElementById("answer-box").appendChild(tempDiv);
                     }
                 }));
@@ -332,7 +334,7 @@
                         rel[iteration].push(row.appId);
                         //console.log(rel[iteration][len - 1]);
 
-                        tempDiv.innerHTML = answerTemplate(row.appId, row.title, row.summary, row.scoreText, row.icon, row.url);
+                        tempDiv.innerHTML = answerTemplate(row.appId, row.title, row.summary, row.scoreText, row.icon, row.url, row.topics);
                         document.getElementById("answer-box").appendChild(tempDiv);
                     }
                 }));

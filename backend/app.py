@@ -6,6 +6,10 @@ from helpers.MySQLDatabaseHandler import MySQLDatabaseHandler
 import pandas as pd
 import math
 import numpy as np
+from sklearn.feature_extraction.text import TfidfVectorizer
+from scipy.sparse.linalg import svds
+from sklearn.preprocessing import normalize
+from sklearn.decomposition import TruncatedSVD
 
 # ROOT_PATH for linking with all your files.
 # Feel free to use a config.py or settings.py with a global export variable
@@ -30,19 +34,54 @@ with open(json_allcat_file_path, encoding="utf-8") as file:
     apps_df = pd.DataFrame(data).drop_duplicates(subset=['appId'])
 with open(json_allreviews_file_path, encoding="utf-8") as file:
     data = json.load(file)
-    rev_df = pd.DataFrame(data).drop_duplicates(subset=['appId'])
+    rev_df = pd.DataFrame(data)
 
 app = Flask(__name__)
 CORS(app)
-
 
 # Standardizes creating of word set
 def clean(query):
     return set(query.lower().split())
 
-
 def tokenize_input(input):
     return input.replace(".", " ").replace(",", " ").replace("?", " ").replace("!", " ").replace("-", " ").split()
+
+def get_topics(components): 
+    for i, comp in enumerate(components):
+        terms_comp = zip(vocab,comp)
+        sorted_terms = sorted(terms_comp, key= lambda x:x[1], reverse=True)[:10]
+        topic_word_list = set()
+        for t in sorted_terms:
+            topic_word_list.add(t[0])
+    return topic_word_list
+
+# preprocess topics for reviews using SVD
+revs_by_app = {}
+app_topics = {}
+for index, row in rev_df.iterrows():
+    app_id = row['appId']
+    if app_id in revs_by_app:
+        revs_by_app[app_id].append(row['text'])
+    else:
+        revs_by_app[app_id] = [row['text']]
+for ind in apps_df.index:
+    app_id = apps_df["appId"][ind]
+    if app_id not in revs_by_app:
+        app_topics[app_id] = ["No topics!"]
+        continue
+    try:
+        vectorizer = TfidfVectorizer(stop_words = 'english', max_df = .7,
+                            min_df = 2, tokenizer=tokenize_input)
+        td_matrix = vectorizer.fit_transform(revs_by_app[app_id])
+        svd_modeling= TruncatedSVD(algorithm='randomized', n_iter=100, random_state=122)
+        svd_modeling.fit(td_matrix)
+        components=svd_modeling.components_
+        vocab = vectorizer.get_feature_names_out()
+    
+        topics = get_topics(components)
+        app_topics[app_id] = topics
+    except:
+        app_topics[app_id] = ["No topics!"]
 
 def build_tf_inv_idx(df, key):
     output = {}
@@ -101,19 +140,6 @@ def compute_norms(inv_idx, idf, n_docs):
 desc_inv_idx = build_tf_inv_idx(apps_df, "description")
 desc_idf_dict = compute_idf(desc_inv_idx, apps_df.size, 0, 0.9)
 desc_norms = compute_norms(desc_inv_idx, desc_idf_dict, apps_df.size)
-
-# this takes forever to finish
-""" precomputing for each review
-rev_dict = {}
-for ind in rev_df.index:
-    if rev_df["thumbsUp"][ind] < 5:
-        continue
-    rev_dict[ind] = {}
-    rev_dict[ind]['inv_idx'] = build_tf_inv_idx(rev_df)
-    rev_dict[ind]['idf'] = compute_idf(rev_dict[ind]['inv_idx'], rev_df.size, 5, 0.95)
-    rev_dict[ind]['norms'] = compute_norms(rev_dict[ind]['inv_idx'], rev_dict[ind]['idf'], rev_df.size)
-"""
-
 
 def jaccard_similarity(words_set):
     # basic jaccard on reviews and query
@@ -220,19 +246,7 @@ def cosine_similarity(query, desc_idx, desc_idf, desc_doc_norms, rev_dict):
         q_count[token] = q_count.get(token, 0) + 1
     desc_sim = compute_cosine_sim(q_count, desc_idx, desc_idf, desc_doc_norms)
 
-    # computing average review cosine score for each app
-    """
-    app_rev_score = {}
-    app_rev_count = {}
-    for rev in rev_dict:
-        score = compute_cosine_sim(rev_dict[rev]['inv_idx'], rev_dict[rev]['idf'], rev_dict[rev]['norms'])
-        title = rev_df["appId"][ind]
-        app_rev_score[title] = app_rev_score.get(title, 0) + score
-        app_rev_count[title] = app_rev_count.get(title, 0) + 1
-    for app in app_rev_score:
-       app_rev_score[app] = app_rev_score[app] / app_rev_count[app]
-    """
-
+    # computing average review jaccard score for each app
     '''
     words_set = clean(query)
     app_rev_score = jaccard_reviews(words_set)
@@ -252,12 +266,16 @@ def cosine_similarity(query, desc_idx, desc_idf, desc_doc_norms, rev_dict):
     inds = sorted(desc_sim, key=desc_sim.get, reverse=True)[0:10]
     matches = apps_df.loc[inds]
 
-    #for w in sorted(desc_sim, key=desc_sim.get, reverse=True):
-    #    print(apps_df["title"][w], desc_sim[w])
-
     matches_filtered = matches[
         ["title", "summary", "scoreText", "appId", "icon", "url", "price", "offersIAP", "score"]
     ]
+
+    # append topics from svd
+    topics = []
+    for ind in matches_filtered.index:
+        joined = ','.join(app_topics[matches_filtered['appId'][ind]])
+        topics.append(joined)
+    matches_filtered['topics'] = topics
     return matches_filtered
 
 # apply filter
