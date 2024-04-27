@@ -45,8 +45,14 @@
 
             <div class="lower-settings">
                 <div class="iap">
-                    <input type="checkbox" class="iap-check" id="iap" name="iap" checked>
-                    <label for="iap"> In-app Purchases Allowed?</label><br>
+                    <label class="switch">
+                        <input type="checkbox" onchange='rel_toggle(this,"${appId}")' id="iap" name="iap" checked>
+                        <span class="relevant-slider round"></span>
+                    </label>
+                    <a class='relevant-options-IAP' style='color:black'>In-App Purchases Allowed?</a>
+
+                    <!--<input type="checkbox" class="iap-check" id="iap" name="iap" checked>
+                    <label for="iap"> In-app Purchases Allowed?</label><br> -->
                 </div>
 
                 <div class="min-star">
@@ -113,12 +119,11 @@
                     </div>
                     <div class='answer-button-display'>
                         <button onclick='query_id("${appId}")' class='button'>Info</button>
-                        <p class='relevant-options' style='color:red'>Irrelevant</p>
                         <label class="switch"'>
                             <input type="checkbox" onchange='rel_toggle(this,"${appId}")' checked>
                             <span class="relevant-slider round"></span>
                             </label>
-                        <p class='relevant-options' style='color:green'>Relevant</p>
+                        <p class='relevant-options' style='color:black'>RELEVANT</p>
                     </div>
                 </div>
             </div>`

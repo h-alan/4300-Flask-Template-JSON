@@ -40,7 +40,7 @@ app = Flask(__name__)
 CORS(app)
 #-------------------------
 # DEBUGGING CONSTANTS
-DEBUG_MODE_NO_TOPICS = False #DO NOT PUSH WITH THIS SET TO TRUE
+DEBUG_MODE_NO_TOPICS = True #DO NOT PUSH WITH THIS SET TO TRUE
 
 
 
