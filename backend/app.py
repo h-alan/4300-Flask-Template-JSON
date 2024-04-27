@@ -40,7 +40,7 @@ app = Flask(__name__)
 CORS(app)
 # -------------------------
 # DEBUGGING CONSTANTS
-DEBUG_MODE_NO_TOPICS = False  # DO NOT PUSH WITH THIS SET TO TRUE
+DEBUG_MODE_NO_TOPICS = True  # DO NOT PUSH WITH THIS SET TO TRUE
 
 
 # Standardizes creating of word set
@@ -425,7 +425,35 @@ def query_improvement():
     print(f"RELEVANT: {rels}")
     irrels = json.loads(request.args.get("irrel"))[0]
     print(f"IRRELEVANT: {irrels}")
+
+    score = 0
+    try:
+        score = float(request.args.get("min_rating"))
+    except:
+        print("Unexpected error reading rating: " + request.args.get("min_rating"))
+        score = 0
+    price = 100
+    try:
+        price = float(request.args.get("max_price"))
+    except:
+        print("Unexpected error reading price: " + request.args.get("max_price"))
+        price = 0.0
+    iap = True
+    try:
+        iap = bool(request.args.get("iap"))
+    except:
+        print("Unexpected error reading iap: " + request.args.get("iap"))
+        iap = True
+
+    print(
+        f""" ROCCHIO FILTERS
+    \t min_rating: {score}
+    \t max_price: {price}
+    \t iap: {iap}"""
+    )
+
     # rel, irrel are 2d arrays that contain all previous rocchio results / processes
+    # filters are the same as in default search, score and price are floats, iap is boolean
     # do rocchio stuff
     # pls return some new rankings in similar way to JSON_search, or similar format to above
 

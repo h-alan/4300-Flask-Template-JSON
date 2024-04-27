@@ -293,7 +293,7 @@ a.entry {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #f5e7e7;
+    background-color: #f7baba;
     -webkit-transition: .4s;
     transition: .4s;
 }
@@ -372,7 +372,7 @@ input:checked+.relevant-slider:before {
     white-space: nowrap;
     cursor: pointer;
     font-size: 30px;
-    color: #ccc;
+    color: #b9b7b7;
 }
 
 .rate:not(:checked)>label:before {

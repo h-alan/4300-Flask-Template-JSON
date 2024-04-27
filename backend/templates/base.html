@@ -37,9 +37,9 @@
         <div class="advanced-settings" id="adv">
             <div class="price">
                 <span class="slider-label">Max Price ($)</span>
-                <input type="number" class="slider-input" min="0" max="100" value="100"
+                <input type="number" class="slider-input" min="0" max="10" value="10"
                     onchange="this.nextElementSibling.value = this.value" />
-                <input type="range" class="slider" id="price" name="price" min="0" max="100" value="100"
+                <input type="range" class="slider" id="price" name="price" min="0" max="10" value="10"
                     onchange="this.previousElementSibling.value = this.value" />
             </div>
 
@@ -328,6 +328,13 @@
         }
 
         function rocchio() {
+            var minimum_rating;
+            if (document.getElementById("star1").checked) { minimum_rating = 1 }
+            if (document.getElementById("star2").checked) { minimum_rating = 2 }
+            if (document.getElementById("star3").checked) { minimum_rating = 3 }
+            if (document.getElementById("star4").checked) { minimum_rating = 4 }
+            if (document.getElementById("star5").checked) { minimum_rating = 5 }
+
             iteration++;
             rankings.push([])
             console.log("Performing Rocchio Iteration" + iteration);
@@ -336,7 +343,15 @@
             console.log(rel_json);
             console.log(typeof (rel_json));
             document.getElementById("answer-box").innerHTML = ''
-            fetch("/rel-feed?" + new URLSearchParams({ title: document.getElementById("filter-text-val").value, rel: JSON.stringify(rel), irrel: JSON.stringify(irrel), iter: JSON.stringify(iteration) }).toString())
+            fetch("/rel-feed?" + new URLSearchParams({
+                title: document.getElementById("filter-text-val").value,
+                rel: JSON.stringify(rel),
+                irrel: JSON.stringify(irrel),
+                iter: JSON.stringify(iteration)
+                , min_rating: minimum_rating
+                , max_price: document.getElementById("price").value
+                , iap: document.getElementById("iap").value
+            }).toString())
                 .then((response) => response.json())
                 .then((data) => data.forEach(row => {
                     let tempDiv = document.createElement("div");
