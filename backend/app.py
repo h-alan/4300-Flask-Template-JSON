@@ -38,9 +38,9 @@ with open(json_allreviews_file_path, encoding="utf-8") as file:
 
 app = Flask(__name__)
 CORS(app)
-
+#-------------------------
 # DEBUGGING CONSTANTS
-DEBUG_MODE_NO_TOPICS = False #CHANGE TO FALSE WHEN YOU WANT TOPICS TO BE GENERATED
+DEBUG_MODE_NO_TOPICS = False #DO NOT PUSH WITH THIS SET TO TRUE
 
 
 
@@ -275,13 +275,19 @@ def cosine_similarity(query, desc_idx, desc_idf, desc_doc_norms, rev_dict):
     matches_filtered = matches[
         ["title", "summary", "scoreText", "appId", "icon", "url", "price", "offersIAP", "score"]
     ]
+    
+    score_weight = 0.05
+    matches_filtered['desc_sim_score'] = matches_filtered.index.map(desc_sim)
+    matches_filtered['weighted_score'] = matches_filtered['desc_sim_score'] + score_weight * matches_filtered['score']
+    matches_filtered = matches_filtered.sort_values(by='weighted_score', ascending=False)
 
     # append topics from svd
-    topics = []
-    for ind in matches_filtered.index:
-        joined = ', '.join(app_topics[matches_filtered['appId'][ind]])
-        topics.append(joined)
-    matches_filtered['topics'] = topics
+    if not DEBUG_MODE_NO_TOPICS:
+        topics = []
+        for ind in matches_filtered.index:
+            joined = ', '.join(app_topics[matches_filtered['appId'][ind]])
+            topics.append(joined)
+        matches_filtered['topics'] = topics
     return matches_filtered
 
 # apply filter
