@@ -16,9 +16,9 @@
         </div>
         <div class="top-text">
             <h2 class="descr">A Full-Featured App Recommender </h2>
-            <p id="instructions" class="instructions">Input a description of the app you desire.<br><br> After
+            <p id="instructions" class="instructions">Input a description of an app you desire.<br><br> After
                 searching,
-                label the relevant and irrelevant results by clicking the Relevant toggle then finetune your results
+                label the relevant and irrelevant results using the toggle for each app, then finetune your results
                 using the "Improve the Search" button.</p>
             <div class="input-box" onclick="sendFocus()">
                 <img src="{{ url_for('static', filename='images/mag.png') }}" />
@@ -37,23 +37,36 @@
         <div class="advanced-settings" id="adv">
             <div class="price">
                 <span class="slider-label">Max Price ($)</span>
-                <input type="number" class="slider-input" min="0" max="100" value="100"
+                <input type="number" class="slider-input" min="0" max="10" value="10"
                     onchange="this.nextElementSibling.value = this.value" />
-                <input type="range" class="slider" id="price" name="price" min="0" max="100" value="100"
+                <input type="range" class="slider" id="price" name="price" min="0" max="10" value="10"
                     onchange="this.previousElementSibling.value = this.value" />
             </div>
 
             <div class="lower-settings">
                 <div class="iap">
-                    <input type="checkbox" class="iap-check" id="iap" name="iap" checked>
-                    <label for="iap"> In-app Purchases Allowed?</label><br>
+                    <label class="switch">
+                        <input type="checkbox" onchange='rel_toggle(this,"${appId}")' id="iap" name="iap" checked>
+                        <span class="relevant-slider round"></span>
+                    </label>
+                    <a class='relevant-options-IAP' style='color:black'>In-App Purchases Allowed?</a>
                 </div>
 
-                <div class="min-star">
-                    <input type="number" class="slider-input" id="min-rating" name="min-rating" min="0" max="5"
-                        value="0" />
-                    <label for="min-rating">Minimum Star Rating (0-5):</label>
+                <div class="min-rating">
+                    <div class="rate">
+                        <input type="radio" id="star5" name="rate" value="5" />
+                        <label for="star5" title="text">5 stars</label>
+                        <input type="radio" id="star4" name="rate" value="4" />
+                        <label for="star4" title="text">4 stars</label>
+                        <input type="radio" id="star3" name="rate" value="3" />
+                        <label for="star3" title="text">3 stars</label>
+                        <input type="radio" id="star2" name="rate" value="2" />
+                        <label for="star2" title="text">2 stars</label>
+                        <input type="radio" id="star1" name="rate" value="1" />
+                        <label for="star1" title="text">1 star</label>
+                    </div>
                 </div>
+                <label for="min-rating">Minimum Star Rating</label>
             </div>
         </div>
 
@@ -113,12 +126,11 @@
                     </div>
                     <div class='answer-button-display'>
                         <button onclick='query_id("${appId}")' class='button'>Info</button>
-                        <p class='relevant-options' style='color:red'>Irrelevant</p>
                         <label class="switch"'>
                             <input type="checkbox" onchange='rel_toggle(this,"${appId}")' checked>
                             <span class="relevant-slider round"></span>
                             </label>
-                        <p class='relevant-options' style='color:green'>Relevant</p>
+                        <p class='relevant-options' style='color:black'>RELEVANT</p>
                     </div>
                 </div>
             </div>`
@@ -284,12 +296,18 @@
             rel = [[]];
             rankings = [[]];
             irrel = [[]];
+            var minimum_rating;
+            if (document.getElementById("star1").checked) { minimum_rating = 1 }
+            if (document.getElementById("star2").checked) { minimum_rating = 2 }
+            if (document.getElementById("star3").checked) { minimum_rating = 3 }
+            if (document.getElementById("star4").checked) { minimum_rating = 4 }
+            if (document.getElementById("star5").checked) { minimum_rating = 5 }
 
             document.getElementById("answer-box").innerHTML = "";
             console.log("Searching: " + document.getElementById("filter-text-val").value + "...");
             fetch("/apps?" + new URLSearchParams({
                 title: document.getElementById("filter-text-val").value
-                , min_rating: document.getElementById("min-rating").value
+                , min_rating: minimum_rating
                 , max_price: document.getElementById("price").value
                 , iap: document.getElementById("iap").value
             }).toString())
@@ -310,6 +328,13 @@
         }
 
         function rocchio() {
+            var minimum_rating;
+            if (document.getElementById("star1").checked) { minimum_rating = 1 }
+            if (document.getElementById("star2").checked) { minimum_rating = 2 }
+            if (document.getElementById("star3").checked) { minimum_rating = 3 }
+            if (document.getElementById("star4").checked) { minimum_rating = 4 }
+            if (document.getElementById("star5").checked) { minimum_rating = 5 }
+
             iteration++;
             rankings.push([])
             console.log("Performing Rocchio Iteration" + iteration);
@@ -318,7 +343,15 @@
             console.log(rel_json);
             console.log(typeof (rel_json));
             document.getElementById("answer-box").innerHTML = ''
-            fetch("/rel-feed?" + new URLSearchParams({ title: document.getElementById("filter-text-val").value, rel: JSON.stringify(rel), irrel: JSON.stringify(irrel), iter: JSON.stringify(iteration) }).toString())
+            fetch("/rel-feed?" + new URLSearchParams({
+                title: document.getElementById("filter-text-val").value,
+                rel: JSON.stringify(rel),
+                irrel: JSON.stringify(irrel),
+                iter: JSON.stringify(iteration)
+                , min_rating: minimum_rating
+                , max_price: document.getElementById("price").value
+                , iap: document.getElementById("iap").value
+            }).toString())
                 .then((response) => response.json())
                 .then((data) => data.forEach(row => {
                     let tempDiv = document.createElement("div");

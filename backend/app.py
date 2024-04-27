@@ -31,17 +31,16 @@ json_allreviews_file_path = os.path.join(current_directory, "data/reviews.json")
 
 with open(json_allcat_file_path, encoding="utf-8") as file:
     data = json.load(file)
-    apps_df = pd.DataFrame(data).drop_duplicates(subset=['appId'])
+    apps_df = pd.DataFrame(data).drop_duplicates(subset=["appId"])
 with open(json_allreviews_file_path, encoding="utf-8") as file:
     data = json.load(file)
     rev_df = pd.DataFrame(data)
 
 app = Flask(__name__)
 CORS(app)
-#-------------------------
+# -------------------------
 # DEBUGGING CONSTANTS
-DEBUG_MODE_NO_TOPICS = False #DO NOT PUSH WITH THIS SET TO TRUE
-
+DEBUG_MODE_NO_TOPICS = True  # DO NOT PUSH WITH THIS SET TO TRUE
 
 
 categories_list = ['APPLICATION', 'ART_AND_DESIGN', 'AUTO_AND_VEHICLES', 'BEAUTY', 'BOOKS_AND_REFERENCE', 'BUSINESS', 'COMICS', 'COMMUNICATION', 'DATING', 'EDUCATION', 'ENTERTAINMENT', 'EVENTS', 'FINANCE', 'FOOD_AND_DRINK', 'HEALTH_AND_FITNESS', 'HOUSE_AND_HOME', 'LIBRARIES_AND_DEMO', 'LIFESTYLE', 'MAPS_AND_NAVIGATION', 'MEDICAL', 'MUSIC_AND_AUDIO', 'NEWS_AND_MAGAZINES', 'PARENTING', 'PERSONALIZATION', 'PHOTOGRAPHY', 'PRODUCTIVITY', 'SHOPPING', 'SOCIAL', 'SPORTS', 'TOOLS', 'TRAVEL_AND_LOCAL', 'VIDEO_PLAYERS', 'WEATHER', 'GAME', 'FAMILY']
@@ -50,46 +49,60 @@ categories_list = ['APPLICATION', 'ART_AND_DESIGN', 'AUTO_AND_VEHICLES', 'BEAUTY
 def clean(query):
     return set(query.lower().split())
 
-def tokenize_input(input):
-    return input.replace(".", " ").replace(",", " ").replace("?", " ").replace("!", " ").replace("-", " ").split()
 
-def get_topics(components): 
+def tokenize_input(input):
+    return (
+        input.replace(".", " ")
+        .replace(",", " ")
+        .replace("?", " ")
+        .replace("!", " ")
+        .replace("-", " ")
+        .split()
+    )
+
+
+def get_topics(components):
     for i, comp in enumerate(components):
-        terms_comp = zip(vocab,comp)
-        sorted_terms = sorted(terms_comp, key= lambda x:x[1], reverse=True)[:10]
+        terms_comp = zip(vocab, comp)
+        sorted_terms = sorted(terms_comp, key=lambda x: x[1], reverse=True)[:10]
         topic_word_list = set()
         for t in sorted_terms:
             topic_word_list.add(t[0])
     return topic_word_list
+
 
 # preprocess topics for reviews using SVD
 revs_by_app = {}
 app_topics = {}
 if not DEBUG_MODE_NO_TOPICS:
     for index, row in rev_df.iterrows():
-        app_id = row['appId']
+        app_id = row["appId"]
         if app_id in revs_by_app:
-            revs_by_app[app_id].append(row['text'])
+            revs_by_app[app_id].append(row["text"])
         else:
-            revs_by_app[app_id] = [row['text']]
+            revs_by_app[app_id] = [row["text"]]
     for ind in apps_df.index:
         app_id = apps_df["appId"][ind]
         if app_id not in revs_by_app:
             app_topics[app_id] = ["No topics!"]
             continue
         try:
-            vectorizer = TfidfVectorizer(stop_words = 'english', max_df = .7,
-                                min_df = 2, tokenizer=tokenize_input)
+            vectorizer = TfidfVectorizer(
+                stop_words="english", max_df=0.7, min_df=2, tokenizer=tokenize_input
+            )
             td_matrix = vectorizer.fit_transform(revs_by_app[app_id])
-            svd_modeling= TruncatedSVD(algorithm='randomized', n_iter=100, random_state=122)
+            svd_modeling = TruncatedSVD(
+                algorithm="randomized", n_iter=100, random_state=122
+            )
             svd_modeling.fit(td_matrix)
-            components=svd_modeling.components_
+            components = svd_modeling.components_
             vocab = vectorizer.get_feature_names_out()
-        
+
             topics = get_topics(components)
             app_topics[app_id] = topics
         except:
             app_topics[app_id] = ["No topics!"]
+
 
 def build_tf_inv_idx(df, key):
     output = {}
@@ -148,6 +161,7 @@ def compute_norms(inv_idx, idf, n_docs):
 desc_inv_idx = build_tf_inv_idx(apps_df, "description")
 desc_idf_dict = compute_idf(desc_inv_idx, apps_df.size, 0, 0.9)
 desc_norms = compute_norms(desc_inv_idx, desc_idf_dict, apps_df.size)
+
 
 def jaccard_similarity(words_set):
     # basic jaccard on reviews and query
@@ -218,6 +232,7 @@ def jaccard_reviews(words_set):
 
     return reviewScores
 
+
 def compute_dot_scores(query_word_counts, inv_idx, idf):
     doc_scores = {}
 
@@ -255,7 +270,7 @@ def cosine_similarity(query, desc_idx, desc_idf, desc_doc_norms, rev_dict):
     desc_sim = compute_cosine_sim(q_count, desc_idx, desc_idf, desc_doc_norms)
 
     # computing average review jaccard score for each app
-    '''
+    """
     words_set = clean(query)
     app_rev_score = jaccard_reviews(words_set)
 
@@ -268,36 +283,54 @@ def cosine_similarity(query, desc_idx, desc_idf, desc_doc_norms, rev_dict):
            score = app_rev_score[apps_df["appId"][key]]
         
         combined[key] = desc_sim[key] + 0
-    '''
+    """
 
     # switch this to combined once reviews get added
     inds = sorted(desc_sim, key=desc_sim.get, reverse=True)[0:10]
     matches = apps_df.loc[inds]
 
     matches_filtered = matches[
-        ["title", "summary", "scoreText", "appId", "icon", "url", "price", "offersIAP", "score"]
+        [
+            "title",
+            "summary",
+            "scoreText",
+            "appId",
+            "icon",
+            "url",
+            "price",
+            "offersIAP",
+            "score",
+        ]
     ]
-    
+
     score_weight = 0.05
-    matches_filtered['desc_sim_score'] = matches_filtered.index.map(desc_sim)
-    matches_filtered['weighted_score'] = matches_filtered['desc_sim_score'] + score_weight * matches_filtered['score']
-    matches_filtered = matches_filtered.sort_values(by='weighted_score', ascending=False)
+    matches_filtered["desc_sim_score"] = matches_filtered.index.map(desc_sim)
+    matches_filtered["weighted_score"] = (
+        matches_filtered["desc_sim_score"] + score_weight * matches_filtered["score"]
+    )
+    matches_filtered = matches_filtered.sort_values(
+        by="weighted_score", ascending=False
+    )
 
     # append topics from svd
     if not DEBUG_MODE_NO_TOPICS:
         topics = []
         for ind in matches_filtered.index:
-            joined = ', '.join(app_topics[matches_filtered['appId'][ind]])
+            joined = ", ".join(app_topics[matches_filtered["appId"][ind]])
             topics.append(joined)
-        matches_filtered['topics'] = topics
+        matches_filtered["topics"] = topics
     return matches_filtered
+
 
 # apply filter
 # though honestly, I think it's smarter to just do this on the frontend and not bother
 # with this in the backend
 def apply_filter(results, price, iap, score):
-    filtered_results = results.query("price <= @price & (offersIAP | @iap) & score >= @score")
+    filtered_results = results.query(
+        "price <= @price & (offersIAP | @iap) & score >= @score"
+    )
     return filtered_results
+
 
 # Search using json with pandas
 # filter values included are: max price of app (0-100), minimum rating (0-5) and
@@ -309,7 +342,6 @@ def json_search(text, price, iap, score):
     )
     filtered_ranks = apply_filter(ranks, price, iap, score)
     return filtered_ranks.to_json(orient="records")
-    
 
 
 @app.route("/")
@@ -349,7 +381,8 @@ def episodes_search():
         f"""SEARCHING: {text} 
 \t min_rating: {score}
 \t max_price: {price}
-\t iap: {iap}""")
+\t iap: {iap}"""
+    )
     return json_search(words_set, price, iap, score)
 
 
@@ -368,47 +401,78 @@ def query_improvement():
     def avg_token_frequencies(doc_names):
         avg_doc = {}
         for name in doc_names:
-            doc_count={}
-            for token in tokenize_input(apps_df[apps_df['appId']==name]['description'].tolist()[0].lower()):
+            doc_count = {}
+            for token in tokenize_input(
+                apps_df[apps_df["appId"] == name]["description"].tolist()[0].lower()
+            ):
                 doc_count[token] = doc_count.get(token, 0) + 1
             for token, count in doc_count.items():
                 if token in avg_doc:
-                    avg_doc[token]['total_count'] += count
-                    avg_doc[token]['dict_count'] += 1
+                    avg_doc[token]["total_count"] += count
+                    avg_doc[token]["dict_count"] += 1
                 else:
-                    avg_doc[token] = {'total_count': count, 'dict_count': 1}
+                    avg_doc[token] = {"total_count": count, "dict_count": 1}
         for token in avg_doc:
-            avg_doc[token] = avg_doc[token]['total_count'] / len(avg_doc)
+            avg_doc[token] = avg_doc[token]["total_count"] / len(avg_doc)
         return avg_doc
+
     # CONSTANTS/HYPERPARAMETERS:
     ROCCHIO_A = 1
     ROCCHIO_B = 0.03
     ROCCHIO_C = 0.01
-    
+
     iteration_num = int(request.args.get("iter"))
     print(f"ROCCHIO ITERATION: {iteration_num}")
-    rels = json.loads(request.args.get('rel'))[0]
+    rels = json.loads(request.args.get("rel"))[0]
     print(f"RELEVANT: {rels}")
-    irrels = json.loads(request.args.get('irrel'))[0]
+    irrels = json.loads(request.args.get("irrel"))[0]
     print(f"IRRELEVANT: {irrels}")
+
+    score = 0
+    try:
+        score = float(request.args.get("min_rating"))
+    except:
+        print("Unexpected error reading rating: " + request.args.get("min_rating"))
+        score = 0
+    price = 100
+    try:
+        price = float(request.args.get("max_price"))
+    except:
+        print("Unexpected error reading price: " + request.args.get("max_price"))
+        price = 0.0
+    iap = True
+    try:
+        iap = bool(request.args.get("iap"))
+    except:
+        print("Unexpected error reading iap: " + request.args.get("iap"))
+        iap = True
+
+    print(
+        f""" ROCCHIO FILTERS
+    \t min_rating: {score}
+    \t max_price: {price}
+    \t iap: {iap}"""
+    )
+
     # rel, irrel are 2d arrays that contain all previous rocchio results / processes
+    # filters are the same as in default search, score and price are floats, iap is boolean
     # do rocchio stuff
     # pls return some new rankings in similar way to JSON_search, or similar format to above
-    
+
     query_str = request.args.get("title")
     query = tokenize_input(query_str.lower())
     q_count = {}
     for token in query:
         q_count[token] = ROCCHIO_A * q_count.get(token, 0) + 1
-        
+
     # empty query is allowed, we just return nothing
     if len(query) == 0:
-        empty_data = json.loads('{}')
+        empty_data = json.loads("{}")
         return empty_data
-    
+
     avg_rel_freq = avg_token_frequencies(rels)
     avg_irrel_freq = avg_token_frequencies(irrels)
-    
+
     n_query = q_count.copy()
 
     for token in avg_rel_freq:
@@ -420,12 +484,14 @@ def query_improvement():
     for token in avg_irrel_freq:
         if token in n_query:
             n_query[token] -= ROCCHIO_C * avg_irrel_freq[token]
-            if n_query[token]<0:
+            if n_query[token] < 0:
                 n_query[token] = 0
         # else:
-            # n_query[token] = 0
-    
-    return cosine_similarity(n_query, desc_inv_idx, desc_idf_dict, desc_norms, rev_df).to_json(orient="records")
+        # n_query[token] = 0
+
+    return cosine_similarity(
+        n_query, desc_inv_idx, desc_idf_dict, desc_norms, rev_df
+    ).to_json(orient="records")
 
 
 if "DB_NAME" not in os.environ:
