@@ -109,7 +109,7 @@
                         </a>
                         <p class='episode-desc'>${titleDesc}</p>
                         <p class='episode-rating'><img class= "icon" src='{{ url_for('static', filename='images/star.png') }}' width="15" height= "15">${rating}</p>
-                        <p class='episode-desc'>${topics}</p>
+                        <p class='episode-desc'><u><b>Common review topics:</b></u> ${topics}</p>
                     </div>
                     <div class='answer-button-display'>
                         <button onclick='query_id("${appId}")' class='button'>Info</button>
