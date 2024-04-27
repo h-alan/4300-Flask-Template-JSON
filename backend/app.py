@@ -39,6 +39,11 @@ with open(json_allreviews_file_path, encoding="utf-8") as file:
 app = Flask(__name__)
 CORS(app)
 
+# DEBUGGING CONSTANTS
+DEBUG_MODE_NO_TOPICS = False #CHANGE TO FALSE WHEN YOU WANT TOPICS TO BE GENERATED
+
+
+
 # Standardizes creating of word set
 def clean(query):
     return set(query.lower().split())
@@ -58,30 +63,31 @@ def get_topics(components):
 # preprocess topics for reviews using SVD
 revs_by_app = {}
 app_topics = {}
-for index, row in rev_df.iterrows():
-    app_id = row['appId']
-    if app_id in revs_by_app:
-        revs_by_app[app_id].append(row['text'])
-    else:
-        revs_by_app[app_id] = [row['text']]
-for ind in apps_df.index:
-    app_id = apps_df["appId"][ind]
-    if app_id not in revs_by_app:
-        app_topics[app_id] = ["No topics!"]
-        continue
-    try:
-        vectorizer = TfidfVectorizer(stop_words = 'english', max_df = .7,
-                            min_df = 2, tokenizer=tokenize_input)
-        td_matrix = vectorizer.fit_transform(revs_by_app[app_id])
-        svd_modeling= TruncatedSVD(algorithm='randomized', n_iter=100, random_state=122)
-        svd_modeling.fit(td_matrix)
-        components=svd_modeling.components_
-        vocab = vectorizer.get_feature_names_out()
-    
-        topics = get_topics(components)
-        app_topics[app_id] = topics
-    except:
-        app_topics[app_id] = ["No topics!"]
+if not DEBUG_MODE_NO_TOPICS:
+    for index, row in rev_df.iterrows():
+        app_id = row['appId']
+        if app_id in revs_by_app:
+            revs_by_app[app_id].append(row['text'])
+        else:
+            revs_by_app[app_id] = [row['text']]
+    for ind in apps_df.index:
+        app_id = apps_df["appId"][ind]
+        if app_id not in revs_by_app:
+            app_topics[app_id] = ["No topics!"]
+            continue
+        try:
+            vectorizer = TfidfVectorizer(stop_words = 'english', max_df = .7,
+                                min_df = 2, tokenizer=tokenize_input)
+            td_matrix = vectorizer.fit_transform(revs_by_app[app_id])
+            svd_modeling= TruncatedSVD(algorithm='randomized', n_iter=100, random_state=122)
+            svd_modeling.fit(td_matrix)
+            components=svd_modeling.components_
+            vocab = vectorizer.get_feature_names_out()
+        
+            topics = get_topics(components)
+            app_topics[app_id] = [", ".join(topics)]
+        except:
+            app_topics[app_id] = ["No topics!"]
 
 def build_tf_inv_idx(df, key):
     output = {}
