@@ -85,7 +85,7 @@ if not DEBUG_MODE_NO_TOPICS:
             vocab = vectorizer.get_feature_names_out()
         
             topics = get_topics(components)
-            app_topics[app_id] = [", ".join(topics)]
+            app_topics[app_id] = topics
         except:
             app_topics[app_id] = ["No topics!"]
 
@@ -279,7 +279,7 @@ def cosine_similarity(query, desc_idx, desc_idf, desc_doc_norms, rev_dict):
     # append topics from svd
     topics = []
     for ind in matches_filtered.index:
-        joined = ','.join(app_topics[matches_filtered['appId'][ind]])
+        joined = ', '.join(app_topics[matches_filtered['appId'][ind]])
         topics.append(joined)
     matches_filtered['topics'] = topics
     return matches_filtered
