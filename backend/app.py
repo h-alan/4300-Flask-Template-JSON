@@ -43,7 +43,8 @@ CORS(app)
 DEBUG_MODE_NO_TOPICS = True  # DO NOT PUSH WITH THIS SET TO TRUE
 
 
-categories_list = ['APPLICATION', 'ART_AND_DESIGN', 'AUTO_AND_VEHICLES', 'BEAUTY', 'BOOKS_AND_REFERENCE', 'BUSINESS', 'COMICS', 'COMMUNICATION', 'DATING', 'EDUCATION', 'ENTERTAINMENT', 'EVENTS', 'FINANCE', 'FOOD_AND_DRINK', 'HEALTH_AND_FITNESS', 'HOUSE_AND_HOME', 'LIBRARIES_AND_DEMO', 'LIFESTYLE', 'MAPS_AND_NAVIGATION', 'MEDICAL', 'MUSIC_AND_AUDIO', 'NEWS_AND_MAGAZINES', 'PARENTING', 'PERSONALIZATION', 'PHOTOGRAPHY', 'PRODUCTIVITY', 'SHOPPING', 'SOCIAL', 'SPORTS', 'TOOLS', 'TRAVEL_AND_LOCAL', 'VIDEO_PLAYERS', 'WEATHER', 'GAME', 'FAMILY']
+# categories_list = ['APPLICATION', 'ART_AND_DESIGN', 'AUTO_AND_VEHICLES', 'BEAUTY', 'BOOKS_AND_REFERENCE', 'BUSINESS', 'COMICS', 'COMMUNICATION', 'DATING', 'EDUCATION', 'ENTERTAINMENT', 'EVENTS', 'FINANCE', 'FOOD_AND_DRINK', 'HEALTH_AND_FITNESS', 'HOUSE_AND_HOME', 'LIBRARIES_AND_DEMO', 'LIFESTYLE', 'MAPS_AND_NAVIGATION', 'MEDICAL', 'MUSIC_AND_AUDIO', 'NEWS_AND_MAGAZINES', 'PARENTING', 'PERSONALIZATION', 'PHOTOGRAPHY', 'PRODUCTIVITY', 'SHOPPING', 'SOCIAL', 'SPORTS', 'TOOLS', 'TRAVEL_AND_LOCAL', 'VIDEO_PLAYERS', 'WEATHER', 'GAME', 'FAMILY']
+
 
 # Standardizes creating of word set
 def clean(query):
@@ -335,7 +336,8 @@ def apply_filter(results, price, iap, score):
 # Search using json with pandas
 # filter values included are: max price of app (0-100), minimum rating (0-5) and
 # whether in app purchases are allowed (boolean)
-def json_search(text, price, iap, score):
+# cats is an array containing the selected categories. Guaranteed to be subset of categories array
+def json_search(text, price, iap, score, cats):
 
     ranks = cosine_similarity(
         text, desc_inv_idx, desc_idf_dict, desc_norms, rev_dict={}
@@ -383,7 +385,11 @@ def episodes_search():
 \t max_price: {price}
 \t iap: {iap}"""
     )
-    return json_search(words_set, price, iap, score)
+
+    cats = json.loads(request.args.get("cats"))
+    print(f"CATEGORIES: {cats}")
+
+    return json_search(words_set, price, iap, score, cats)
 
 
 @app.route("/inforeq")
@@ -454,8 +460,12 @@ def query_improvement():
     \t iap: {iap}"""
     )
 
+    cats = json.loads(request.args.get("cats"))
+    print(f"CATEGORIES: {cats}")
+
     # rel, irrel are 2d arrays that contain all previous rocchio results / processes
     # filters are the same as in default search, score and price are floats, iap is boolean
+    # categories (cats) is same as in default search
     # do rocchio stuff
     # pls return some new rankings in similar way to JSON_search, or similar format to above
 

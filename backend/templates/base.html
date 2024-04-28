@@ -8,6 +8,16 @@
     href="https://fonts.googleapis.com/css2?family=Kanit&family=Montserrat&family=Bebas+Neue&family=Open+Sans:wght@500&display=swap"
     rel="stylesheet">
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/selectize.js/0.15.2/css/selectize.default.min.css"
+    integrity="sha512-pTaEn+6gF1IeWv3W1+7X7eM60TFu/agjgoHmYhAfLEU8Phuf6JKiiE8YmsNC0aCgQv4192s4Vai8YZ6VNM6vyQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/selectize.js/0.15.2/js/selectize.min.js"
+    integrity="sha512-IOebNkvA/HZjMM7MxL0NYeLYEalloZ8ckak+NDtOViP7oiYzG5vn6WVXyrJDiJPhl4yRdmNAG49iuLmhkUdVsQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
 <body>
     <div class="full-body-container">
         <div class="welcome">
@@ -35,13 +45,6 @@
             <button onclick="advSettingsToggle()" class="button" id="f_button">Filters</button>
         </div>
         <div class="advanced-settings" id="adv">
-            <div class="price">
-                <span class="slider-label">Max Price ($)</span>
-                <input type="number" class="slider-input" min="0" max="10" value="10"
-                    onchange="this.nextElementSibling.value = this.value" />
-                <input type="range" class="slider" id="price" name="price" min="0" max="10" value="10"
-                    onchange="this.previousElementSibling.value = this.value" />
-            </div>
 
             <div class="lower-settings">
                 <div class="iap">
@@ -68,12 +71,28 @@
                 </div>
                 <label for="min-rating">Minimum Star Rating</label>
             </div>
+
+            <div class="price">
+                <span class="slider-label">Max Price ($)</span>
+                <input type="number" class="slider-input" min="0" max="10" value="10"
+                    onchange="this.nextElementSibling.value = this.value" />
+                <input type="range" class="slider" id="price" name="price" min="0" max="10" value="10"
+                    onchange="this.previousElementSibling.value = this.value" />
+            </div>
+
+            <div class="cats">
+                <select id="select-tools" placeholder="Pick Categories..."></select>
+            </div>
         </div>
 
         <div id="answer-box">
 
         </div>
     </div>
+
+    <script>
+
+    </script>
 
     <!-- Histogram helper -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.1/dist/chart.min.js"></script>
@@ -97,6 +116,56 @@
     </script>
 
     <script>
+
+        var $select = $('#select-tools').selectize({
+            maxItems: null,
+            valueField: 'id',
+            labelField: 'title',
+            searchField: 'title',
+            options: [
+                { id: 0, title: 'Application' },
+                { id: 1, title: 'Art and Design' },
+                { id: 2, title: 'Auto and Vehicles' },
+                { id: 3, title: 'Beauty' },
+                { id: 4, title: 'Books and Reference' },
+                { id: 5, title: 'Business' },
+                { id: 6, title: 'Comics' },
+                { id: 7, title: 'Communication' },
+                { id: 8, title: 'Dating' },
+                { id: 9, title: 'Education' },
+                { id: 10, title: 'Entertainment' },
+                { id: 11, title: 'Events' },
+                { id: 12, title: 'Finance' },
+                { id: 13, title: 'Food and Drink' },
+                { id: 14, title: 'Health and Fitness' },
+                { id: 15, title: 'House and Home' },
+                { id: 16, title: 'Libraries and Demo' },
+                { id: 17, title: 'Maps and Navigation' },
+                { id: 18, title: 'Medical' },
+                { id: 19, title: 'Music and Audio' },
+                { id: 20, title: 'News and Magazines' },
+                { id: 21, title: 'Parenting' },
+                { id: 22, title: 'Personalization' },
+                { id: 23, title: 'Photography' },
+                { id: 24, title: 'Productivity' },
+                { id: 25, title: 'Shopping' },
+                { id: 26, title: 'Social' },
+                { id: 27, title: 'Sports' },
+                { id: 28, title: 'Tools' },
+                { id: 29, title: 'Travel and Local' },
+                { id: 30, title: 'Video Players' },
+                { id: 31, title: 'Weather' },
+                { id: 32, title: 'Game' },
+                { id: 33, title: 'Family' },
+            ],
+            create: false
+        });
+
+        var cats = $select[0].selectize;
+        //cats.setValue([1, 2])
+        catArr = cats.getValue()
+        console.log("Category Array (1-3): " + catArr[0] + " " + catArr[1] + " " + catArr[2])
+
         // We can use local_storage if we want to memorize values between pages (or even use cookies)
         // Currently don't use because not necessarily and/or lazy
         //localStorage.setItem('rel', '[[]]');
@@ -296,7 +365,19 @@
             rel = [[]];
             rankings = [[]];
             irrel = [[]];
-            var minimum_rating;
+
+            categories_list = ['APPLICATION', 'ART_AND_DESIGN', 'AUTO_AND_VEHICLES', 'BEAUTY', 'BOOKS_AND_REFERENCE', 'BUSINESS', 'COMICS', 'COMMUNICATION', 'DATING', 'EDUCATION', 'ENTERTAINMENT', 'EVENTS', 'FINANCE', 'FOOD_AND_DRINK', 'HEALTH_AND_FITNESS', 'HOUSE_AND_HOME', 'LIBRARIES_AND_DEMO', 'LIFESTYLE', 'MAPS_AND_NAVIGATION', 'MEDICAL', 'MUSIC_AND_AUDIO', 'NEWS_AND_MAGAZINES', 'PARENTING', 'PERSONALIZATION', 'PHOTOGRAPHY', 'PRODUCTIVITY', 'SHOPPING', 'SOCIAL', 'SPORTS', 'TOOLS', 'TRAVEL_AND_LOCAL', 'VIDEO_PLAYERS', 'WEATHER', 'GAME', 'FAMILY']
+            selected_cats = []
+            if (catArr.length == 0) { selected_cats = categories_list }
+            else {
+                for (let i = 0; i < catArr.length; i++) {
+                    selected_cats.push(categories_list[catArr[i]])
+                }
+            }
+            cats = JSON.stringify(selected_cats)
+            console.log(cats)
+
+            minimum_rating = 0;
             if (document.getElementById("star1").checked) { minimum_rating = 1 }
             if (document.getElementById("star2").checked) { minimum_rating = 2 }
             if (document.getElementById("star3").checked) { minimum_rating = 3 }
@@ -310,6 +391,7 @@
                 , min_rating: minimum_rating
                 , max_price: document.getElementById("price").value
                 , iap: document.getElementById("iap").value
+                , cats: JSON.stringify(selected_cats)
             }).toString())
                 .then((response) => response.json())
                 .then((data) => data.forEach(row => {
@@ -328,7 +410,18 @@
         }
 
         function rocchio() {
-            var minimum_rating;
+            categories_list = ['APPLICATION', 'ART_AND_DESIGN', 'AUTO_AND_VEHICLES', 'BEAUTY', 'BOOKS_AND_REFERENCE', 'BUSINESS', 'COMICS', 'COMMUNICATION', 'DATING', 'EDUCATION', 'ENTERTAINMENT', 'EVENTS', 'FINANCE', 'FOOD_AND_DRINK', 'HEALTH_AND_FITNESS', 'HOUSE_AND_HOME', 'LIBRARIES_AND_DEMO', 'LIFESTYLE', 'MAPS_AND_NAVIGATION', 'MEDICAL', 'MUSIC_AND_AUDIO', 'NEWS_AND_MAGAZINES', 'PARENTING', 'PERSONALIZATION', 'PHOTOGRAPHY', 'PRODUCTIVITY', 'SHOPPING', 'SOCIAL', 'SPORTS', 'TOOLS', 'TRAVEL_AND_LOCAL', 'VIDEO_PLAYERS', 'WEATHER', 'GAME', 'FAMILY']
+            selected_cats = []
+            if (catArr.length == 0) { selected_cats = categories_list }
+            else {
+                for (let i = 0; i < catArr.length; i++) {
+                    selected_cats.push(categories_list[catArr[i]])
+                }
+            }
+            cats = JSON.stringify(selected_cats)
+            //console.log(cats)
+
+            minimum_rating = 0;
             if (document.getElementById("star1").checked) { minimum_rating = 1 }
             if (document.getElementById("star2").checked) { minimum_rating = 2 }
             if (document.getElementById("star3").checked) { minimum_rating = 3 }
@@ -351,6 +444,7 @@
                 , min_rating: minimum_rating
                 , max_price: document.getElementById("price").value
                 , iap: document.getElementById("iap").value
+                , cats: JSON.stringify(selected_cats)
             }).toString())
                 .then((response) => response.json())
                 .then((data) => data.forEach(row => {

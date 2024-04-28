@@ -89,7 +89,7 @@
 .lower-settings {
     display: flex;
     flex-direction: row;
-    padding-top: 1rem;
+    padding-top: 2rem;
     align-items: center;
 }
 
@@ -159,6 +159,7 @@ input[type=number]::-webkit-outer-spin-button {
     flex-direction: row;
     width: 500px;
     align-items: center;
+    padding-top: 1rem;
 }
 
 .iap {
@@ -311,11 +312,11 @@ a.entry {
 }
 
 input:checked+.relevant-slider {
-    background-color: #d60606;
+    background-color: #910303;
 }
 
 input:focus+.relevant-slider {
-    box-shadow: 0 0 1px #972d03;
+    box-shadow: 0 0 1px #eb4706;
 }
 
 input:checked+.relevant-slider:before {
@@ -397,3 +398,15 @@ input:checked+.relevant-slider:before {
 }
 
 /* Modified from: https://github.com/mukulkant/Star-rating-using-pure-css */
+
+.cats {
+    width: 500px;
+    padding-top: 1.2rem;
+}
+
+.selectize-control.multi .selectize-input [data-value] {
+    background-color: #9b0000 !important;
+    background-image: none !important;
+    background-repeat: repeat-x;
+    border: none !important;
+}
