@@ -257,6 +257,11 @@ input[type=number]::-webkit-outer-spin-button {
     font-family: 'Montserrat', sans-serif;
 }
 
+.similarity-desc {
+    font-family: 'Montserrat', sans-serif;
+    font-size: small;
+}
+
 .episode-rating {
     font-family: 'Montserrat', sans-serif;
     align-items: center;

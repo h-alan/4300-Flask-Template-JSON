@@ -182,7 +182,7 @@
         const rel_color = "#75ba88";
         const irrel_color = "#b06e68";
 
-        function answerTemplate(appId, title, titleDesc, rating, icon, url, topics) {
+        function answerTemplate(appId, title, titleDesc, rating, icon, url, topics, similarity) {
             return `<div id='${appId}' style='flex-direction:column'>
                 <div class='answer-wrapper'>
                     <div class='answer-txt'>
@@ -192,6 +192,7 @@
                         <p class='episode-desc'>${titleDesc}</p>
                         <p class='episode-rating'><img class= "icon" src='{{ url_for('static', filename='images/star.png') }}' width="15" height= "15">${rating}</p>
                         <p class='episode-desc'><u><b>Common review topics:</b></u> ${topics}</p>
+                        <p class='similarity-desc'><b>Similarity Score:</b> ${similarity}</p>
                     </div>
                     <div class='answer-button-display'>
                         <button onclick='query_id("${appId}")' class='button'>Info</button>
@@ -403,7 +404,7 @@
                         rel[iteration].push(row.appId);
                         //console.log(rel[iteration][len - 1]);
 
-                        tempDiv.innerHTML = answerTemplate(row.appId, row.title, row.summary, row.scoreText, row.icon, row.url, row.topics);
+                        tempDiv.innerHTML = answerTemplate(row.appId, row.title, row.summary, row.scoreText, row.icon, row.url, row.topics, row.weighted_score);
                         document.getElementById("answer-box").appendChild(tempDiv);
                     }
                 }));
@@ -461,7 +462,7 @@
                         rel[iteration].push(row.appId);
                         //console.log(rel[iteration][len - 1]);
 
-                        tempDiv.innerHTML = answerTemplate(row.appId, row.title, row.summary, row.scoreText, row.icon, row.url, row.topics);
+                        tempDiv.innerHTML = answerTemplate(row.appId, row.title, row.summary, row.scoreText, row.icon, row.url, row.topics, row.weighted_score);
                         document.getElementById("answer-box").appendChild(tempDiv);
                     }
                 }));
