@@ -70,6 +70,10 @@
     max-width: 25rem;
 }
 
+.advanced-info {
+    font-family: 'Montserrat', sans-serif;
+}
+
 .button-box {
     display: flex;
     flex-direction: row;
@@ -378,7 +382,7 @@ input:checked+.relevant-slider:before {
     white-space: nowrap;
     cursor: pointer;
     font-size: 30px;
-    color: #b9b7b7;
+    color: #dadada;
 }
 
 .rate:not(:checked)>label:before {

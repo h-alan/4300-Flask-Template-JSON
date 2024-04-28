@@ -185,22 +185,27 @@
         function answerTemplate(appId, title, titleDesc, rating, icon, url, topics, similarity) {
             return `<div id='${appId}' style='flex-direction:column'>
                 <div class='answer-wrapper'>
-                    <div class='answer-txt'>
-                        <a target="_blank" rel="noopener noreferrer" href="${url}" class='entry'>
+                    <div>
+                        <div class='answer-txt'>
+                            <a target="_blank" rel="noopener noreferrer" href="${url}" class='entry'>
                             <h3 class='episode-title'><img class= "icon" src='${icon}' alt = "icon" width="50" height= "50">${title}</h3>
-                        </a>
-                        <p class='episode-desc'>${titleDesc}</p>
-                        <p class='episode-rating'><img class= "icon" src='{{ url_for('static', filename='images/star.png') }}' width="15" height= "15">${rating}</p>
-                        <p class='episode-desc'><u><b>Common review topics:</b></u> ${topics}</p>
-                        <p class='similarity-desc'><b>Similarity Score:</b> ${similarity}</p>
+                            </a>
+                            <p class='episode-desc'>${titleDesc}</p>
+                            <p class='episode-rating'><img class= "icon" src='{{ url_for('static', filename='images/star.png') }}' width="15" height= "15">${rating}</p>
+                        </div>
+                        <div>
+                            <p class='episode-desc'><b>Common Review Topics:</b> ${topics}</p>
+                            <p class='similarity-desc'><b>Similarity Score:</b> ${similarity}</p>
+                        </div>
                     </div>
+                    
                     <div class='answer-button-display'>
-                        <button onclick='query_id("${appId}")' class='button'>Info</button>
-                        <label class="switch"'>
+                            <button onclick='query_id("${appId}")' class='button'>Info</button>
+                            <label class="switch"'>
                             <input type="checkbox" onchange='rel_toggle(this,"${appId}")' checked>
                             <span class="relevant-slider round"></span>
                             </label>
-                        <p class='relevant-options' style='color:black'>RELEVANT</p>
+                            <p class='relevant-options' style='color:black'>RELEVANT</p>
                     </div>
                 </div>
             </div>`
@@ -221,6 +226,7 @@
                     <canvas id="${appId}-ratings"></canvas>
                 </div>
                 <div class='advanced-info'>
+                    <h2><b>Description</b></h2>
                     <p class='desc-html'>${descriptionHTML}</p>
                     <p class='app-installs'>${installs} installs!</p>
                 </div>
