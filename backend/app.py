@@ -301,6 +301,8 @@ def cosine_similarity(query, desc_idx, desc_idf, desc_doc_norms, rev_dict):
             "price",
             "offersIAP",
             "score",
+            "genreId",
+            "genre",
         ]
     ]
 
@@ -326,9 +328,12 @@ def cosine_similarity(query, desc_idx, desc_idf, desc_doc_norms, rev_dict):
 # apply filter
 # though honestly, I think it's smarter to just do this on the frontend and not bother
 # with this in the backend
-def apply_filter(results, price, iap, score):
+def apply_filter(results, price, iap, score, cats):
+    empty = False
+    if not cats:
+        empty = True
     filtered_results = results.query(
-        "price <= @price & (offersIAP | @iap) & score >= @score"
+        "price <= @price & (offersIAP | @iap) & score >= @score & (@empty | genreId == @cats)"
     )
     return filtered_results
 
@@ -342,7 +347,7 @@ def json_search(text, price, iap, score, cats):
     ranks = cosine_similarity(
         text, desc_inv_idx, desc_idf_dict, desc_norms, rev_dict={}
     )
-    filtered_ranks = apply_filter(ranks, price, iap, score)
+    filtered_ranks = apply_filter(ranks, price, iap, score, cats)
     return filtered_ranks.to_json(orient="records")
 
 
@@ -429,9 +434,17 @@ def query_improvement():
 
     iteration_num = int(request.args.get("iter"))
     print(f"ROCCHIO ITERATION: {iteration_num}")
-    rels = json.loads(request.args.get("rel"))[0]
+    imported_rels = json.loads(request.args.get("rel"))
+    rels = []
+    for row in imported_rels:
+        rels.extend(row)
+    rels = list(set(rels))
     print(f"RELEVANT: {rels}")
-    irrels = json.loads(request.args.get("irrel"))[0]
+    imported_irrels = json.loads(request.args.get("irrel"))
+    irrels = []
+    for row in imported_irrels:
+        irrels.extend(row)
+    irrels = list(set(irrels))
     print(f"IRRELEVANT: {irrels}")
 
     score = 0
@@ -499,9 +512,10 @@ def query_improvement():
         # else:
         # n_query[token] = 0
 
-    return cosine_similarity(
+    ranking_roc = cosine_similarity(
         n_query, desc_inv_idx, desc_idf_dict, desc_norms, rev_df
-    ).to_json(orient="records")
+    )
+    return apply_filter(ranking_roc, price, iap, score, cats).to_json(orient="records")
 
 
 if "DB_NAME" not in os.environ:

@@ -88,6 +88,13 @@
         <div id="answer-box">
 
         </div>
+
+        <div class="top-text">
+            <div id="no-results" style="display: flex; justify-content: center;">
+
+            </div>
+        </div>
+
     </div>
 
     <script>
@@ -135,28 +142,29 @@
                 { id: 9, title: 'Education' },
                 { id: 10, title: 'Entertainment' },
                 { id: 11, title: 'Events' },
-                { id: 12, title: 'Finance' },
-                { id: 13, title: 'Food and Drink' },
-                { id: 14, title: 'Health and Fitness' },
-                { id: 15, title: 'House and Home' },
-                { id: 16, title: 'Libraries and Demo' },
-                { id: 17, title: 'Maps and Navigation' },
-                { id: 18, title: 'Medical' },
-                { id: 19, title: 'Music and Audio' },
-                { id: 20, title: 'News and Magazines' },
-                { id: 21, title: 'Parenting' },
-                { id: 22, title: 'Personalization' },
-                { id: 23, title: 'Photography' },
-                { id: 24, title: 'Productivity' },
-                { id: 25, title: 'Shopping' },
-                { id: 26, title: 'Social' },
-                { id: 27, title: 'Sports' },
-                { id: 28, title: 'Tools' },
-                { id: 29, title: 'Travel and Local' },
-                { id: 30, title: 'Video Players' },
-                { id: 31, title: 'Weather' },
-                { id: 32, title: 'Game' },
-                { id: 33, title: 'Family' },
+                { id: 12, title: 'Family' },
+                { id: 13, title: 'Finance' },
+                { id: 14, title: 'Food and Drink' },
+                { id: 15, title: 'Game' },
+                { id: 16, title: 'Health and Fitness' },
+                { id: 17, title: 'House and Home' },
+                { id: 18, title: 'Libraries and Demo' },
+                { id: 19, title: 'Lifestyle' },
+                { id: 20, title: 'Maps and Navigation' },
+                { id: 21, title: 'Medical' },
+                { id: 22, title: 'Music and Audio' },
+                { id: 23, title: 'News and Magazines' },
+                { id: 24, title: 'Parenting' },
+                { id: 25, title: 'Personalization' },
+                { id: 26, title: 'Photography' },
+                { id: 27, title: 'Productivity' },
+                { id: 28, title: 'Shopping' },
+                { id: 29, title: 'Social' },
+                { id: 30, title: 'Sports' },
+                { id: 31, title: 'Tools' },
+                { id: 32, title: 'Travel and Local' },
+                { id: 33, title: 'Video Players' },
+                { id: 34, title: 'Weather' },
             ],
             create: false
         });
@@ -182,8 +190,8 @@
         const rel_color = "#75ba88";
         const irrel_color = "#b06e68";
 
-        function answerTemplate(appId, title, titleDesc, rating, icon, url, topics, similarity) {
-            return `<div id='${appId}' style='flex-direction:column'>
+        function answerTemplate(appId, title, titleDesc, rating, icon, url, topics, similarity, genre) {
+            return `<div id='${appId}' class='answer-option' style='flex-direction:column'>
                 <div class='answer-wrapper'>
                     <div>
                         <div class='answer-txt'>
@@ -194,6 +202,7 @@
                             <p class='episode-rating'><img class= "icon" src='{{ url_for('static', filename='images/star.png') }}' width="15" height= "15">${rating}</p>
                         </div>
                         <div>
+                            <p class='episode-desc'><b>Genre:</b> ${genre}</p>
                             <p class='episode-desc'><b>Common Review Topics:</b> ${topics}</p>
                             <p class='similarity-desc'><b>Similarity Score:</b> ${similarity}</p>
                         </div>
@@ -255,7 +264,7 @@
                 type: 'bar',
                 data: {
                     datasets: [{
-                        label: 'Frequency',
+                        label: 'Count',
                         data: data,
                         backgroundColor: backgroundColor,
                         borderColor: borderColor,
@@ -281,20 +290,12 @@
                                 stepSize: 1
                             },
                             title: {
-                                display: true,
-                                text: 'Stars',
-                                font: {
-                                    size: 14
-                                }
+                                display: false,
                             }
                         },
                         y: {
                             title: {
-                                display: true,
-                                text: 'Frequency',
-                                font: {
-                                    size: 14
-                                }
+                                display: false,
                             },
                             grid: {
                                 display: false
@@ -367,13 +368,34 @@
             console.log("Irrelevant: " + irrel[iteration].toString());
         }
 
+        function no_results() {
+            if (!document.getElementById("answer-box").hasChildNodes()) {
+                console.log("Search resulted with no results!");
+                document.getElementById("no-results").innerHTML = `
+                <p class="instructions">
+                    Hey! <br>
+                    That's weird, no results popped up. <br><br>
+                    You might want to consider modifying the filters a little bit, and check for <br>
+                    spelling mistakes in your search! <br>
+                    </p>
+                `;
+            }
+            else {
+                document.getElementById("no-results").innerHTML = "";
+            }
+        }
+
         function filterText() {
+            document.getElementById("answer-box").innerHTML = "";
+            setTimeout(no_results(), 2000);
+            console.log("Searching: " + document.getElementById("filter-text-val").value + "...");
+
             iteration = 0;
             rel = [[]];
             rankings = [[]];
             irrel = [[]];
 
-            categories_list = ['APPLICATION', 'ART_AND_DESIGN', 'AUTO_AND_VEHICLES', 'BEAUTY', 'BOOKS_AND_REFERENCE', 'BUSINESS', 'COMICS', 'COMMUNICATION', 'DATING', 'EDUCATION', 'ENTERTAINMENT', 'EVENTS', 'FINANCE', 'FOOD_AND_DRINK', 'HEALTH_AND_FITNESS', 'HOUSE_AND_HOME', 'LIBRARIES_AND_DEMO', 'LIFESTYLE', 'MAPS_AND_NAVIGATION', 'MEDICAL', 'MUSIC_AND_AUDIO', 'NEWS_AND_MAGAZINES', 'PARENTING', 'PERSONALIZATION', 'PHOTOGRAPHY', 'PRODUCTIVITY', 'SHOPPING', 'SOCIAL', 'SPORTS', 'TOOLS', 'TRAVEL_AND_LOCAL', 'VIDEO_PLAYERS', 'WEATHER', 'GAME', 'FAMILY']
+            categories_list = ['APPLICATION', 'ART_AND_DESIGN', 'AUTO_AND_VEHICLES', 'BEAUTY', 'BOOKS_AND_REFERENCE', 'BUSINESS', 'COMICS', 'COMMUNICATION', 'DATING', 'EDUCATION', 'ENTERTAINMENT', 'EVENTS', 'FAMILY', 'FINANCE', 'FOOD_AND_DRINK', 'GAME', 'HEALTH_AND_FITNESS', 'HOUSE_AND_HOME', 'LIBRARIES_AND_DEMO', 'LIFESTYLE', 'MAPS_AND_NAVIGATION', 'MEDICAL', 'MUSIC_AND_AUDIO', 'NEWS_AND_MAGAZINES', 'PARENTING', 'PERSONALIZATION', 'PHOTOGRAPHY', 'PRODUCTIVITY', 'SHOPPING', 'SOCIAL', 'SPORTS', 'TOOLS', 'TRAVEL_AND_LOCAL', 'VIDEO_PLAYERS', 'WEATHER']
             selected_cats = []
             if (catArr.length == 0) { selected_cats = categories_list }
             else {
@@ -390,9 +412,6 @@
             if (document.getElementById("star3").checked) { minimum_rating = 3 }
             if (document.getElementById("star4").checked) { minimum_rating = 4 }
             if (document.getElementById("star5").checked) { minimum_rating = 5 }
-
-            document.getElementById("answer-box").innerHTML = "";
-            console.log("Searching: " + document.getElementById("filter-text-val").value + "...");
             fetch("/apps?" + new URLSearchParams({
                 title: document.getElementById("filter-text-val").value
                 , min_rating: minimum_rating
@@ -402,6 +421,7 @@
             }).toString())
                 .then((response) => response.json())
                 .then((data) => data.forEach(row => {
+                    no_results();
                     let tempDiv = document.createElement("div");
                     // tempDiv.innerHTML = answerBoxTemplate(row.title, row.descr, row.imdb_rating)
                     rankings[iteration].push(row.appId);
@@ -409,14 +429,26 @@
                     if (len <= show_top_x) {
                         rel[iteration].push(row.appId);
                         //console.log(rel[iteration][len - 1]);
+                        sum_str = row.summary
+                        if (words(row.summary) <= 3) {
+                            sum_str = '[No summary provided.]'
+                        }
 
-                        tempDiv.innerHTML = answerTemplate(row.appId, row.title, row.summary, row.scoreText, row.icon, row.url, row.topics, row.weighted_score);
+                        tempDiv.innerHTML = answerTemplate(row.appId, row.title, sum_str, row.scoreText, row.icon, row.url, row.topics, row.weighted_score, row.genre);
                         document.getElementById("answer-box").appendChild(tempDiv);
                     }
-                }));
+                    return true;
+                }))
+        }
+
+        function words(str) {
+            return str.split(" ").length;
         }
 
         function rocchio() {
+            document.getElementById("answer-box").innerHTML = '';
+            setTimeout(no_results(), 2000);
+
             categories_list = ['APPLICATION', 'ART_AND_DESIGN', 'AUTO_AND_VEHICLES', 'BEAUTY', 'BOOKS_AND_REFERENCE', 'BUSINESS', 'COMICS', 'COMMUNICATION', 'DATING', 'EDUCATION', 'ENTERTAINMENT', 'EVENTS', 'FINANCE', 'FOOD_AND_DRINK', 'HEALTH_AND_FITNESS', 'HOUSE_AND_HOME', 'LIBRARIES_AND_DEMO', 'LIFESTYLE', 'MAPS_AND_NAVIGATION', 'MEDICAL', 'MUSIC_AND_AUDIO', 'NEWS_AND_MAGAZINES', 'PARENTING', 'PERSONALIZATION', 'PHOTOGRAPHY', 'PRODUCTIVITY', 'SHOPPING', 'SOCIAL', 'SPORTS', 'TOOLS', 'TRAVEL_AND_LOCAL', 'VIDEO_PLAYERS', 'WEATHER', 'GAME', 'FAMILY']
             selected_cats = []
             if (catArr.length == 0) { selected_cats = categories_list }
@@ -442,7 +474,6 @@
             rel_json = JSON.stringify(rel)
             console.log(rel_json);
             console.log(typeof (rel_json));
-            document.getElementById("answer-box").innerHTML = ''
             fetch("/rel-feed?" + new URLSearchParams({
                 title: document.getElementById("filter-text-val").value,
                 rel: JSON.stringify(rel),
@@ -467,10 +498,15 @@
                     if (len <= show_top_x) {
                         rel[iteration].push(row.appId);
                         //console.log(rel[iteration][len - 1]);
+                        sum_str = row.summary
+                        if (words(row.summary) <= 3) {
+                            sum_str = '[No summary provided.]'
+                        }
 
-                        tempDiv.innerHTML = answerTemplate(row.appId, row.title, row.summary, row.scoreText, row.icon, row.url, row.topics, row.weighted_score);
+                        tempDiv.innerHTML = answerTemplate(row.appId, row.title, sum_str, row.scoreText, row.icon, row.url, row.topics, row.weighted_score, row.genre);
                         document.getElementById("answer-box").appendChild(tempDiv);
                     }
+                    no_results();
                 }));
         }
 
