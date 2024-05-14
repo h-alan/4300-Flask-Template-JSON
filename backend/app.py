@@ -332,8 +332,9 @@ def apply_filter(results, price, iap, score, cats):
     empty = False
     if not cats:
         empty = True
+    results.loc[results['genreId'].str.contains('game', case=False), 'genreId'] = 'GAME'
     filtered_results = results.query(
-        "price <= @price & (offersIAP | @iap) & score >= @score & (@empty | genreId == @cats)"
+        "price <= @price & (offersIAP | @iap) & score >= @score & (@empty | genreId in @cats)"
     )
     return filtered_results
 
